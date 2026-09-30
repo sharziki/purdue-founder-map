@@ -7,16 +7,16 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 ## What is here
 
 - Six-stage visual founder roadmap and a chaptered [field guide](https://purdue-founder-map.vercel.app/guide) from first builder meetup to launch, funding, and growth.
-- [People directory](https://purdue-founder-map.vercel.app/people) with 19 source-backed public contacts, including program leads, capital, alumni, and Kostas Grigoriou.
+- [People directory](https://purdue-founder-map.vercel.app/people) with 41 source-backed public contacts, including program leads, capital, alumni, and Kostas Grigoriou.
 - Official organization logo cards for the most useful campus and Indiana entry points.
-- 48 reviewed campus, alumni, Indiana, and national resources, plus 101 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
+- 49 reviewed campus, alumni, Indiana, and national resources, plus 101 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
 - Search and filters by stage, type, and region; a browser-local saved list.
 - Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), and [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php).
 - One SQLite database at `data/founders.sqlite3` containing resources and public contacts; static JSON exports in `public/` make the site cheap to host and easy to reuse.
 
 No registration or tracking is required. Saved links stay in your browser.
 
-The visual design uses three original generated, conceptual images. It takes broad composition cues from SpaceX.com while depicting founder work instead of aerospace. The CTA and search interactions adapt MIT-licensed components from the [21st.dev Kokonut UI library](https://21st.dev/@kokonutd/library/kokonut-ui); provenance and source masters are in [`docs/design/ASSET-LEDGER.md`](docs/design/ASSET-LEDGER.md).
+The visual design uses three original generated, conceptual images. It takes broad composition cues from SpaceX.com while depicting founder work instead of aerospace. The CTA, search, loader, filter, and spotlight interactions adapt MIT-licensed components from the [21st.dev Kokonut UI library](https://21st.dev/@kokonutd/library/kokonut-ui); provenance and source masters are in [`docs/design/ASSET-LEDGER.md`](docs/design/ASSET-LEDGER.md).
 
 ## Run locally
 
@@ -43,7 +43,7 @@ Resource entries use a durable program page rather than a deadline or an `apply`
 
 ## Contribute
 
-Open an issue or pull request with the resource name, official URL, who it serves, and a source that confirms the description. For events, send the organizer's calendar or event page. We do not list private contacts, scrape gated member directories, or invent application dates.
+Use the [contribution page](https://purdue-founder-map.vercel.app/contribute) to suggest a resource, nominate a public contact, or report a correction. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the data format and verification steps.
 
 ## License
 

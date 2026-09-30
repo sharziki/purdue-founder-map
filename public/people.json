@@ -1,15 +1,17 @@
 {
-  "checked_at": "2026-09-30",
+  "generated_at": "2026-09-30",
   "people": [
     {
       "id": "kostas-grigoriou",
       "name": "Kostas Grigoriou",
-      "role": "Director, Springer Business Initiative \u00b7 Clinical Assistant Professor",
+      "role": "Director, Springer Business Initiative · Clinical Assistant Professor",
       "organization": "Purdue Engineering + Daniels School",
       "lane": "Start",
       "helps": "Venture X, Burton D. Morgan competition, student venture education, buildpurdue advising",
       "url": "https://business.purdue.edu/faculty/home.php?username=kgrigori",
-      "image": "/assets/people/kostas-grigoriou.webp"
+      "image": "/assets/people/kostas-grigoriou.webp",
+      "verified_at": "2026-09-30",
+      "email": "kgrigori@purdue.edu"
     },
     {
       "id": "jessica-jud",
@@ -18,7 +20,9 @@
       "organization": "Purdue HIVE",
       "lane": "Start",
       "helps": "Finding engineering startup space, programs, and collaborators",
-      "url": "https://engineering.purdue.edu/HIVE/people"
+      "url": "https://engineering.purdue.edu/HIVE/people",
+      "verified_at": "2026-09-30",
+      "email": "jljud@purdue.edu"
     },
     {
       "id": "christopher-brinton",
@@ -27,7 +31,9 @@
       "organization": "Purdue HIVE",
       "lane": "Start",
       "helps": "Engineering venture education and HIVE faculty direction",
-      "url": "https://engineering.purdue.edu/HIVE/people"
+      "url": "https://engineering.purdue.edu/HIVE/people",
+      "verified_at": "2026-09-30",
+      "email": "cgb@purdue.edu"
     },
     {
       "id": "justin-renfrow",
@@ -37,7 +43,9 @@
       "lane": "Programs",
       "helps": "Incubator programs and getting a venture off the ground",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/justin-renfrow.webp"
+      "image": "/assets/people/justin-renfrow.webp",
+      "email": "jdrenfrow@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "doug-applegate",
@@ -47,7 +55,9 @@
       "lane": "Programs",
       "helps": "Founder programs, market validation, and incubator routing",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/doug-applegate.webp"
+      "image": "/assets/people/doug-applegate.webp",
+      "email": "drapplegate@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "moe-simmons",
@@ -57,7 +67,9 @@
       "lane": "Programs",
       "helps": "Incubator programming and participation",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/moe-simmons.webp"
+      "image": "/assets/people/moe-simmons.webp",
+      "email": "mlsimmons@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "max-frischman",
@@ -67,7 +79,9 @@
       "lane": "Programs",
       "helps": "Accelerator programming for teams ready to grow",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/max-frischman.webp"
+      "image": "/assets/people/max-frischman.webp",
+      "email": "mhfrischman@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "nathalie-duval-couetil",
@@ -76,7 +90,9 @@
       "organization": "Purdue University",
       "lane": "Start",
       "helps": "Entrepreneurship courses and education pathways",
-      "url": "https://polytechnic.purdue.edu/profile/natduval"
+      "url": "https://polytechnic.purdue.edu/profile/natduval",
+      "verified_at": "2026-09-30",
+      "email": "natduval@purdue.edu"
     },
     {
       "id": "abhijit-karve",
@@ -86,7 +102,9 @@
       "lane": "Research & IP",
       "helps": "Commercializing and licensing Purdue research",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/abhijit-karve.webp"
+      "image": "/assets/people/abhijit-karve.webp",
+      "email": "aakarve@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "richard-sikora",
@@ -95,7 +113,10 @@
       "organization": "Daniels School + Purdue Innovates",
       "lane": "Research & IP",
       "helps": "Innovation and commercialization guidance",
-      "url": "https://purdueinnovates.org/our-team/"
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "rgsikora@prf.org",
+      "image": "/assets/people/richard-sikora.webp",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "brooke-beier",
@@ -105,7 +126,9 @@
       "lane": "Research & IP",
       "helps": "Purdue Innovates leadership and ecosystem direction",
       "url": "https://purdueinnovates.org/our-team/",
-      "image": "/assets/people/brooke-beier.webp"
+      "image": "/assets/people/brooke-beier.webp",
+      "email": "blbeier@prf.org",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "danielle-salters",
@@ -115,7 +138,8 @@
       "lane": "Capital",
       "helps": "Purdue venture investment and fund fit",
       "url": "https://ventures.prf.org/",
-      "image": "/assets/people/danielle-salters.webp"
+      "image": "/assets/people/danielle-salters.webp",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "makenzie-norris",
@@ -125,7 +149,8 @@
       "lane": "Capital",
       "helps": "Purdue venture investment team",
       "url": "https://ventures.prf.org/",
-      "image": "/assets/people/makenzie-norris.webp"
+      "image": "/assets/people/makenzie-norris.webp",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "david-broecker",
@@ -134,7 +159,8 @@
       "organization": "Purdue Innovates Ventures",
       "lane": "Capital",
       "helps": "Strategic ventures and innovation partnerships",
-      "url": "https://ventures.prf.org/"
+      "url": "https://ventures.prf.org/",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "matt-dressler",
@@ -143,7 +169,10 @@
       "organization": "Purdue Innovates",
       "lane": "Capital",
       "helps": "Incubator funding programs",
-      "url": "https://purdueinnovates.org/our-team/"
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "mrdressler@prf.org",
+      "image": "/assets/people/matt-dressler.webp",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "abhinav-dukkipati",
@@ -152,7 +181,8 @@
       "organization": "The Anvil",
       "lane": "Community",
       "helps": "Student founder community and Anvil programs",
-      "url": "https://www.anvilstartups.com/join"
+      "url": "https://www.anvilstartups.com/join",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "arnav-basu",
@@ -161,16 +191,18 @@
       "organization": "The Anvil",
       "lane": "Community",
       "helps": "BoilerLaunch and student founder events",
-      "url": "https://www.anvilstartups.com/join"
+      "url": "https://www.anvilstartups.com/join",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "vitoria-didone",
-      "name": "Vit\u00f3ria Didone",
+      "name": "Vitória Didone",
       "role": "Head of Marketing",
       "organization": "The Anvil",
       "lane": "Community",
       "helps": "Anvil community and communications",
-      "url": "https://www.anvilstartups.com/join"
+      "url": "https://www.anvilstartups.com/join",
+      "verified_at": "2026-09-30"
     },
     {
       "id": "maria-whipple",
@@ -179,7 +211,265 @@
       "organization": "Purdue for Life Foundation",
       "lane": "Alumni",
       "helps": "Purdue Alumni Entrepreneurship Network and alumni connections",
-      "url": "https://www.purdueforlife.org/affinity-networks/paen/contact-us/"
+      "url": "https://www.purdueforlife.org/affinity-networks/paen/contact-us/",
+      "verified_at": "2026-09-30",
+      "email": "mlwhipple@purdueforlife.org"
+    },
+    {
+      "id": "charlie-pruitt",
+      "name": "Charlie Pruitt",
+      "role": "Corporate Counsel",
+      "organization": "Purdue Innovates",
+      "lane": "Research & IP",
+      "helps": "Purdue Innovates legal agreements and corporate counsel",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "clpruitt@prf.org",
+      "image": "/assets/people/charlie-pruitt.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "ken-waite",
+      "name": "Ken Waite",
+      "role": "Chief Patent Counsel and Director of Intellectual Property",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Patent protection for Purdue inventions",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "kjwaite@prf.org",
+      "image": "/assets/people/ken-waite.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "dhr-sarma",
+      "name": "DHR Sarma",
+      "role": "Director of IP Protection Process",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Intellectual property protection process",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "dhrsarma@prf.org",
+      "image": "/assets/people/dhr-sarma.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "matt-halladay",
+      "name": "Matt Halladay",
+      "role": "Director of Operations",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Purdue Innovates operations and routing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "mrhalladay@prf.org",
+      "image": "/assets/people/matt-halladay.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "umesh-patel",
+      "name": "Umesh Patel",
+      "role": "Special Advisor",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Purdue Innovates advisory leadership",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "uhpatel@prf.org",
+      "image": "/assets/people/umesh-patel.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "patrick-finnerty",
+      "name": "Patrick Finnerty",
+      "role": "Assistant Director, Business Development and Licensing · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences licensing and commercialization",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "pwfinnerty@prf.org",
+      "image": "/assets/people/patrick-finnerty.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "william-buchanan",
+      "name": "William Buchanan",
+      "role": "Assistant Director, Business Development and Licensing · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences licensing and commercialization",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "wdbuchanan@prf.org",
+      "image": "/assets/people/william-buchanan.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "joe-kasper",
+      "name": "Joe Kasper",
+      "role": "Assistant Director, Business Development and Licensing · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences licensing and commercialization",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "jrkasper@prf.org",
+      "image": "/assets/people/joe-kasper.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "dipak-narula",
+      "name": "Dipak Narula",
+      "role": "Lead Technology Development Liaison · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences technology development and licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "dnarula@prf.org",
+      "image": "/assets/people/dipak-narula.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "parag-vasekar",
+      "name": "Parag Vasekar",
+      "role": "Business Development and Licensing Manager",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Technology licensing and business development",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "psvasekar@prf.org",
+      "image": "/assets/people/parag-vasekar.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "raquel-peron",
+      "name": "Raquel Peron",
+      "role": "Senior Licensing Associate · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "rperon@prf.org",
+      "image": "/assets/people/raquel-peron.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "aaron-taggart",
+      "name": "Aaron Taggart",
+      "role": "Business Development and Licensing Manager · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "adtaggart@prf.org",
+      "image": "/assets/people/aaron-taggart.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "mark-chao",
+      "name": "Mark Chao",
+      "role": "Senior Patent Counsel · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences patent questions",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "mchao@prf.org",
+      "image": "/assets/people/mark-chao.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "carol-larcher",
+      "name": "Carol Larcher",
+      "role": "Assistant Director of Intellectual Property · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences intellectual property",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "calarcher@prf.org",
+      "image": "/assets/people/carol-larcher.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "andrew-umlauf",
+      "name": "Andrew Umlauf",
+      "role": "Assistant Director of Intellectual Property · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences intellectual property",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "awumlauf@prf.org",
+      "image": "/assets/people/andrew-umlauf.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "nathan-smith",
+      "name": "Nathan Smith",
+      "role": "Business Development and Licensing Manager · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "nesmith@prf.org",
+      "image": "/assets/people/nathan-smith.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "joy-wu",
+      "name": "Joy Wu",
+      "role": "Licensing Associate · Life Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Life sciences licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "jwu@prf.org",
+      "image": "/assets/people/joy-wu.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "gabrielle-fraire",
+      "name": "Gabrielle Fraire",
+      "role": "Licensing Associate · Physical Sciences",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Physical sciences licensing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "email": "gafraire@prf.org",
+      "image": "/assets/people/gabrielle-fraire.webp",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "madison-sowards",
+      "name": "Madison Sowards",
+      "role": "Community Manager",
+      "organization": "Purdue Innovates Ventures",
+      "lane": "Community",
+      "helps": "Venture community and events",
+      "url": "https://ventures.prf.org/",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "gavin-wernert",
+      "name": "Gavin Wernert",
+      "role": "Head of Finance",
+      "organization": "The Anvil",
+      "lane": "Community",
+      "helps": "Anvil finance and student organization operations",
+      "url": "https://www.anvilstartups.com/join",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "allan-gray",
+      "name": "Allan Gray",
+      "role": "Executive Director, DIAL Ventures",
+      "organization": "Purdue DIAL Ventures",
+      "lane": "Capital",
+      "helps": "Agrifood venture studio and industry-linked company creation",
+      "url": "https://www.dialventures.com/",
+      "verified_at": "2026-09-30"
+    },
+    {
+      "id": "jarrod-sutton",
+      "name": "Jarrod Sutton",
+      "role": "Managing Director",
+      "organization": "Purdue DIAL Ventures",
+      "lane": "Capital",
+      "helps": "Agrifood venture studio and corporate partnerships",
+      "url": "https://www.dialventures.com/",
+      "verified_at": "2026-09-30"
     }
   ]
 }

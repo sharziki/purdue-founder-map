@@ -1,0 +1,30 @@
+name: Nominate a public contact
+description: Suggest a publicly listed person who helps Purdue founders.
+title: "Person: "
+labels: [person]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Public role and organization
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official profile or team page
+      description: Do not submit private contact details.
+    validations:
+      required: true
+  - type: textarea
+    id: helps
+    attributes:
+      label: How can this person help a founder?
+    validations:
+      required: true

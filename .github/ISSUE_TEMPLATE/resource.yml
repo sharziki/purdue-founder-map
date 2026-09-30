@@ -1,0 +1,31 @@
+name: Suggest a resource
+description: Add a club, program, grant, fund, competition, event feed, or other founder resource.
+title: "Resource: "
+labels: [resource]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official URL
+      description: Link to the organization or program page.
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is it for, and what should a founder do next?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source for key claims
+      description: Official page that confirms eligibility, funding amount, or application path.
+    validations:
+      required: true

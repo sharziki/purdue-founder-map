@@ -1,7 +1,7 @@
 const stages = [
   {name:'Explore',number:'01',prompt:'I want to build something.',action:'Show up to an open founder night. Meet builders. Write down problems you understand.',ids:['buildpurdue','anvil','startup-school']},
   {name:'Validate',number:'02',prompt:'I have a problem or idea.',action:'Talk to five potential users. Test demand before polishing a pitch.',ids:['buildpurdue-cohort','moonshot','firestarter']},
-  {name:'Build',number:'03',prompt:'I’m making the first version.',action:'Find peers, workspace, mentors, and any IP help you need.',ids:['hive','jmec','otc-disclosure']},
+  {name:'Build',number:'03',prompt:'I’m making the first version.',action:'Find peers, workspace, small grants, and any IP help you need.',ids:['hive','purdue-hackers-microgrants','otc-disclosure']},
   {name:'Launch',number:'04',prompt:'I need real users.',action:'Ship something small. Ask for a pilot, payment, or repeat use.',ids:['nvc','boilerlaunch','talent-connect']},
   {name:'Fund',number:'05',prompt:'I can show evidence.',action:'Choose revenue, grants, local capital, or a national accelerator.',ids:['ventures','yc','a16z-speedrun']},
   {name:'Scale',number:'06',prompt:'This works. Now grow.',action:'Strengthen distribution, hiring, operations, and your investor network.',ids:['innovates-accelerator','techpoint','research-park']}

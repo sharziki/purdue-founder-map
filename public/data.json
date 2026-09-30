@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-09-30",
-  "reviewed_count": 48,
+  "reviewed_count": 49,
   "resources": [
     {
       "id": "innovates",
@@ -577,6 +577,18 @@
       "next_step": "Find the next event.",
       "url": "https://www.purduehackers.com/",
       "source": "https://www.purduehackers.com/"
+    },
+    {
+      "id": "purdue-hackers-microgrants",
+      "name": "Purdue Hackers \u00b5grants",
+      "category": "Non-dilutive",
+      "stage": "Build",
+      "audience": "Purdue students building ambitious projects or artworks",
+      "geography": "Purdue",
+      "summary": "Purdue Hackers grants of up to $1,000 to kickstart student projects or artworks. Their page says Fall 2026 applications are under review.",
+      "next_step": "Read the current criteria and open the intake form from the grants page.",
+      "url": "https://grants.purduehackers.com/",
+      "source": "https://grants.purduehackers.com/"
     },
     {
       "id": "navigator-PEN-0065",

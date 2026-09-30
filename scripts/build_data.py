@@ -77,17 +77,17 @@ with sqlite3.connect(DB) as db:
       CREATE TABLE people (
         id TEXT PRIMARY KEY, name TEXT NOT NULL, role TEXT NOT NULL,
         organization TEXT NOT NULL, lane TEXT NOT NULL, helps TEXT NOT NULL,
-        url TEXT NOT NULL, image TEXT, checked_at TEXT NOT NULL
+        url TEXT NOT NULL, image TEXT, email TEXT, verified_at TEXT NOT NULL
       );
       CREATE INDEX idx_people_lane ON people(lane);
     """)
-    db.executemany("INSERT INTO people VALUES (?,?,?,?,?,?,?,?,?)", [
+    db.executemany("INSERT INTO people VALUES (?,?,?,?,?,?,?,?,?,?)", [
         (p["id"], p["name"], p["role"], p["organization"], p["lane"],
-         p["helps"], p["url"], p.get("image"), checked)
+         p["helps"], p["url"], p.get("image"), p.get("email"), p["verified_at"])
         for p in people
     ])
     db.commit()
 OUT.write_text(json.dumps({"checked_at": checked, "reviewed_count": reviewed_count, "resources": rows}, indent=2) + "\n")
-PEOPLE_OUT.write_text(json.dumps({"checked_at": checked, "people": people}, indent=2) + "\n")
+PEOPLE_OUT.write_text(json.dumps({"generated_at": checked, "people": people}, ensure_ascii=False, indent=2) + "\n")
 print(f"Built {len(rows)} resources ({reviewed_count} reviewed, {len(rows)-reviewed_count} Navigator) → {DB} and {OUT}")
 print(f"Built {len(people)} public professional profiles → {DB} and {PEOPLE_OUT}")
