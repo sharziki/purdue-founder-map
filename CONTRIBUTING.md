@@ -12,12 +12,14 @@ Do not submit private contact information, member-only directories, unverifiable
 
 ## Edit the data
 
-Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Alumni profiles live in `data/alumni.json` and source-backed Bay Area connections in `data/bay-area-connections.json`. Indiana expansion lives in `data/indiana-expansion.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
+Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Alumni profiles live in `data/alumni.json` and source-backed Bay Area connections in `data/bay-area-connections.json`. Indiana expansion lives in `data/indiana-expansion.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. For alumni, include a public `source_url`, name, Purdue connection, role, organization, and `role_as_of` year when the source describes a historical role. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
 
 Run:
 
 ```bash
 python3 scripts/build_data.py
+python3 scripts/build_alumni.py
+python3 scripts/build_catalog.py
 node --check public/app.js
 node --check public/people.js
 ```
@@ -26,4 +28,4 @@ Commit the source JSON, rebuilt `data/founders.sqlite3`, and `public/data.json` 
 
 ## Review standard
 
-We check source URLs, current roles and eligibility, duplicate records, useful next steps, and mobile readability. Corrections to outdated records are welcome even when you do not have a replacement listing.
+We check source URLs, role dates and eligibility, duplicate records, useful next steps, and mobile readability. A historical role must carry `role_as_of`; do not present it as a current appointment. Corrections to outdated records are welcome even when you do not have a replacement listing.

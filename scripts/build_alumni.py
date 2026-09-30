@@ -2,6 +2,7 @@
 """Validate the hand-reviewed public alumni directory. No speculative scraping."""
 
 import json
+import re
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -31,6 +32,8 @@ def validate() -> list[dict]:
             raise ValueError(f"record {n}: source must use HTTPS")
         if "email" in record and ("@" not in record["email"] or not record.get("email_source_url")):
             raise ValueError(f"record {n}: email requires a source")
+        if "role_as_of" in record and not re.fullmatch(r"\d{4}", record["role_as_of"]):
+            raise ValueError(f"record {n}: role_as_of must be a four-digit source year")
     return records
 
 
