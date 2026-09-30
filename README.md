@@ -14,6 +14,8 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 
 No registration or tracking is required. Saved links stay in your browser.
 
+The visual design uses three original generated, conceptual images. It takes broad composition cues from SpaceX.com while depicting founder work instead of aerospace. The CTA and search interactions adapt MIT-licensed components from the [21st.dev Kokonut UI library](https://21st.dev/@kokonutd/library/kokonut-ui); provenance and source masters are in [`docs/design/ASSET-LEDGER.md`](docs/design/ASSET-LEDGER.md).
+
 ## Run locally
 
 ```bash

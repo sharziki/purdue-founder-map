@@ -24,6 +24,7 @@ function renderCategories(){
 }
 function renderResources(){
   const q=$('#search').value.trim().toLowerCase(), stage=$('#stage-filter').value, geo=$('#geo-filter').value;
+  $('#clear-search').hidden=!q;
   const filtered=resources.filter(r=>(!q||[r.name,r.category,r.summary,r.audience,r.geography].join(' ').toLowerCase().includes(q))&&(!stage||r.stage===stage)&&(!geo||r.geography===geo)&&(category==='All'||r.category===category)&&(!savedOnly||saved.has(r.id)));
   $('#results-label').textContent=`${filtered.length} of ${resources.length} resources`;
   $('#saved-count').textContent=saved.size;
@@ -42,7 +43,8 @@ async function boot(){
   catch(e){$('#events-list').innerHTML='<div class="empty">Event feed unavailable. Use the organizer calendars.</div>';console.error(e)}
 }
 $('#search').addEventListener('input',renderResources);$('#stage-filter').addEventListener('change',renderResources);$('#geo-filter').addEventListener('change',renderResources);
+$('#clear-search').addEventListener('click',()=>{$('#search').value='';renderResources();$('#search').focus()});
 $('#saved-toggle').addEventListener('click',()=>{savedOnly=!savedOnly;renderResources()});
-document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('#search').focus()}});
+document.addEventListener('keydown',e=>{if((e.key==='/'||((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'))&&!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)){e.preventDefault();$('#search').focus()}else if(e.key==='Escape'&&document.activeElement===$('#search')){$('#search').value='';renderResources();$('#search').blur()}});
 document.querySelectorAll('[data-filter-category]').forEach(a=>a.addEventListener('click',()=>{category=a.dataset.filterCategory;renderCategories();renderResources()}));
 boot();
