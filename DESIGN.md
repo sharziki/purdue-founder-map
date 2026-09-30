@@ -1,27 +1,29 @@
 # Purdue Founder Map design
 
-Audience: Purdue students, alumni, and research founders seeking one useful next action. Independent, open source, and source-backed.
+Audience: Purdue students, alumni, and research founders who need one useful next action. This is an independent, open source, source backed guide.
 
-## Route map
+## Routes
 
-- `/`: short triage, six scannable roadmap rows, four current application paths, people bridge, expandable resource index, and upcoming events.
-- `/guide.html`: deeper six-chapter editorial guide with sticky chapter navigation.
-- `/people.html`: public professional contact directory, search, kind-of-help filters, and pagination.
-- `/alumni.html`: sourced Purdue founder/investor/operator profiles; role and geography filters, expandable provenance.
-- `/contribute.html`: issue-form paths for resources, public contacts, alumni, and corrections.
+- `/`: orientation, six step roadmap, application examples, people, searchable resource index, and upcoming events.
+- `/guide.html`: six chapter field guide with chapter navigation and concrete next moves.
+- `/people.html`: public professional contact directory with search and filters.
+- `/alumni.html`: sourced founders, investors, and operators with geography and role filters.
+- `/contribute.html`: issue forms for additions and corrections.
 
 ## Visual system
 
-Newsreader for editorial headlines and explanations; DM Sans for actions and UI; DM Mono for precise labels. Warm paper, dark olive ink, restrained old gold. The conceptual workshop and corridor images are contained and labeled; sourced staff portraits appear only where useful. The homepage leads with one sentence and three entry doors. Depth lives in the guide and directories.
+The September 2026 revision takes its cues from [Founders, Inc.](https://f.inc/): a white canvas, direct navigation, an unambiguous headline, real people imagery, restrained controls, and content that becomes more detailed as the reader moves down the page. It uses an original Purdue guide layout and its own content and assets. No Founders, Inc. source, imagery, or brand assets are copied.
 
-GSAP 3.14.2 and ScrollTrigger add small entrance motion to visible content. Content starts visible in HTML/CSS; reduced-motion and blocked scripts preserve it. The loader is a short monogram and progress line with a CSS exit. Native anchors, details, search, and buttons remain keyboard reachable.
+Libre Baskerville is reserved for major headings. DM Sans carries navigation, body text, controls, and directory rows. Ink and white dominate; Purdue gold marks provenance and the current step. The homepage portraits and alumni features use sourced public images. Decorative conceptual graphics have been removed from the active layout. A shared `/professional.css` keeps all routes consistent.
 
-21st.dev's MIT Kokonut UI library supplies interaction patterns: slide-text CTA, moving nav/filter pills, pointer spotlight, search affordance, roadmap focus, and loader pacing. Direct sources and license: `docs/design/ASSET-LEDGER.md`. The project adapts those primitives into one editorial system. Supplied references Optimizing Purdue CS and Grug informed navigation and reading rhythm; no code or media from those sites was copied.
+The first screen gives one guide action and a direct directory path. The six step roadmap and application examples remain brief. Search and filters expose depth only when needed. The final invitation is a compact actionable panel.
 
-## QA gates
+GSAP 3.14.2 and ScrollTrigger add light entrance motion. Essential content is visible without scripts. Reduced motion disables the transitions. The opening mark appears only on the first page of a session; subsequent navigation is immediate. Native links, details, search, and buttons remain keyboard reachable.
 
-- No page-level overflow at 320, 390, or desktop widths.
-- Search, filters, pagination, links, native details, and chapter anchors work by keyboard and pointer.
-- Every public person and alumni record has a source link and date. Location claims are qualified.
-- Event and resource failure states are visible.
-- Generated imagery is never presented as an actual campus building.
+## Quality gates
+
+- No page overflow at 320, 390, or 1280 pixels.
+- Search, filters, pagination, links, chapter anchors, and native details work by keyboard and pointer.
+- Every public person and alumni record has source information; professional location is qualified where necessary.
+- Event and resource failure states remain visible.
+- Organization marks and portraits identify their subjects and do not imply endorsement.
