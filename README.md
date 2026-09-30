@@ -8,7 +8,7 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 
 - Six-stage scan-friendly roadmap and a chaptered [field guide](https://purdue-founder-map.vercel.app/guide) from first builder meetup to launch, funding, and growth.
 - [People directory](https://purdue-founder-map.vercel.app/people) with 41 source-backed public contacts, including program leads, capital, alumni, and Kostas Grigoriou.
-- [Alumni directory](https://purdue-founder-map.vercel.app/alumni) with 103 deduplicated, source-backed public founder, investor, and operator profiles. Where a source is older, `role_as_of` records its year; check the linked profile for a current role.
+- [Alumni directory](https://purdue-founder-map.vercel.app/alumni) with 134 deduplicated, source-backed public founder, investor, and operator profiles. Where a source is older, `role_as_of` records its year; check the linked profile for a current role.
 - First-party club imagery for useful campus entry points, with direct organization links.
 - 49 core reviewed resources, 28 new Indiana and Bay Area resources, plus 100 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
 - Search and filters by resource type; alumni filters by role and geography. The homepage shows eight results at first and expands on demand.
