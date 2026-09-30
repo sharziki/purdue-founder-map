@@ -2,12 +2,12 @@
 
 Independent, open-source directory and practical roadmap for Purdue founders. The site is not affiliated with or endorsed by Purdue University.
 
-**Live site:** added after deployment.
+**Live site:** https://purdue-founder-map.vercel.app
 
 ## What is here
 
 - Six-stage founder roadmap, from first builder meetup to launch, funding, and growth.
-- 48 reviewed campus, alumni, Indiana, and national resources, each with an original source.
+- 48 reviewed campus, alumni, Indiana, and national resources, plus 101 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
 - Search and filters by stage, type, and region; a browser-local saved list.
 - Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), and [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php).
 - One SQLite database at `data/founders.sqlite3`; static JSON exports in `public/` make the site cheap to host and easy to reuse.
@@ -27,12 +27,13 @@ Open `http://localhost:4173`.
 Edit reviewed records in `data/resources.json`, then run:
 
 ```bash
-python3 scripts/build_data.py
 python3 -m pip install requests beautifulsoup4
+python3 scripts/scrape_navigator.py
+python3 scripts/build_data.py
 python3 scripts/refresh_events.py
 ```
 
-`build_data.py` rebuilds the resource table and public JSON. `refresh_events.py` updates upcoming events in both SQLite and public JSON. A daily GitHub Action refreshes events. If all event sources fail, the script preserves the last good export and exits with an error.
+`scrape_navigator.py` caches Purdue Innovates' public directory. `build_data.py` combines that index with the reviewed list, then rebuilds the resource table and public JSON. `refresh_events.py` updates upcoming events in both SQLite and public JSON. A daily GitHub Action refreshes the directory and events. If all event sources fail, the script preserves the last good export and exits with an error.
 
 Resource entries use a durable program page rather than a deadline or an `apply` form when applications open and close by cohort. Check each linked page for current eligibility and dates. Event times display in Purdue's Eastern time zone.
 

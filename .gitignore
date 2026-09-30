@@ -4,3 +4,5 @@ node_modules/
 *.pyc
 desktop.png
 mobile.png
+.vercel
+.env*

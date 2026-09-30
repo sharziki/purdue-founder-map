@@ -1,0 +1,1949 @@
+{
+  "source": "https://purdueinnovates.org/navigator/",
+  "resources": [
+    {
+      "uid": "PEN-0065",
+      "name": "Boilermaker Innovation Northeast Group (BING)",
+      "description": "Networking space for entrepreneurial Purdue University alumni located in the Northeast (New England, Boston, New York).",
+      "url": "https://www.linkedin.com/groups/14939116/",
+      "type": "Alumni Network",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": false,
+        "alum": true,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0070",
+      "name": "Purdue Alumni Entrepreneurship Network",
+      "description": "The Purdue Alumni Entrepreneurship Network aims to be a resource for entrepreneurs to network and benefit from the experience, connections, and expertise of the Purdue community.\n\nPAEN is open to alumni from any Purdue degree program who own a business/startup or manage one; are considering entrepreneurial opportunities outside their current occupation; or are graduates of the Purdue\u2019s Certificate in Entrepreneurship and Innovation program.",
+      "url": "https://www.purdueforlife.org/affinity-networks/paen/",
+      "type": "Alumni Network",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": false,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Define",
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0050",
+      "name": "Innovation & Entrepreneurship Fellows (I&E Fellows)",
+      "description": "Faculty fellows program focused on supporting faculty entrepreneurs and those commercializing their intellectual property.",
+      "url": "https://www.purdue.edu/research/oevprp/about/people/index.php?id=23",
+      "type": "Coaching & Mentorship",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine"
+      ]
+    },
+    {
+      "uid": "PEN-0001",
+      "name": "AGEC 49800 \u2013 Agribusiness Entrepreneurship",
+      "description": "Open primarily to qualified seniors who want to study special problems in agricultural economics, such as entrepreneurship, not covered in regular work. Permission of instructor required.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0005",
+      "name": "Alloy Partners",
+      "description": "Venture studio and advisory firm supporting founders with capital, strategy, and growth resources.",
+      "url": "https://www.alloypartners.com/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0003",
+      "name": "Anchor & Accelerate Pitch Competiton",
+      "description": "A pitch competition for first-year students in Purdue\u2019s Daniels School of Business, focused on developing elevator pitches for sample startups.",
+      "url": "https://business.purdue.edu/centers/bwcenter/",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0009",
+      "name": "Bechtel Innovation Design Center",
+      "description": "The Bechtel Innovation Design Center is a makerspace that is free for all Purdue students to use. With a variety of labs and capabilities, your next project is just one small step away.",
+      "url": "https://www.purdue.edu/bidc/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch"
+      ]
+    },
+    {
+      "uid": "PEN-0157",
+      "name": "BoilerLink",
+      "description": "Discovery point for recognized Purdue student organizations and events",
+      "url": "https://boilerlink.purdue.edu/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0011",
+      "name": "BuildPurdue",
+      "description": "buildpurdue is Purdue University's startup club for students who want to start a startup in college. We run two programs: an exclusive cohort that works like a student accelerator for teams building real ventures, and Nightshift, an open coworking space for anyone who wants to build.",
+      "url": "https://www.buildpurdue.org/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0014",
+      "name": "Burton D. Morgan Business Concept Competition",
+      "description": "The Burton D. Morgan Venture Concept Competition is an active learning journey designed to help you take the first step toward developing a business concept. It will guide you through answering the critical question: Is there something here? You'll gain the confidence to decide whether to move forward. You'll consider designing a prototype and testing for traction.\n\nParticipants will start by submitting basic information about the problem or opportunity they've identified.\n\nOver the course of a couple of months, you will:\n\nFrame and validate customer problems\nAssess market potential\nIdentify opportunities for differentiation\nEnvision solutions that resonate with customers\nThe ultimate goal? To confidently answer the question: \"Do people want this?\"",
+      "url": "https://business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch"
+      ]
+    },
+    {
+      "uid": "PEN-0007",
+      "name": "ABE/TLI 62600 \u2013 Technology Entrepreneurship & Research Translation",
+      "description": "Understand how to navigate the intellectual, financial, leadership, and management processes associated with translating research into tangible products that have an impact on society. We will cover topics such as intellectual property, investment, publishing versus patenting, conflicts of interest, personal and professional rewards, and timing.",
+      "url": "2025-Fall-Grad-Tech-Commercialization-Course-Flyer.pdf",
+      "type": "Programming",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch"
+      ]
+    },
+    {
+      "uid": "PEN-0158",
+      "name": "Business school clubs and organizations",
+      "description": "With over 35 student-led organizations within the Daniels School and more than 1,000 across Purdue, there\u2019s a place for you to get involved and make an impact. Whether you're looking to lead, collaborate or explore a new interest, student clubs offer valuable experiences beyond the classroom.",
+      "url": "https://business.purdue.edu/undergraduate/student-experience/student-clubs/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0016",
+      "name": "CCE 59601 - Entrepreneurship And Business Strategy In Engineering",
+      "description": "This course offers students the opportunity to learn and apply the core skills required to build and grow engineering- and technology-based businesses through lecture, case discussions, and weekly activities tied to a semester-long team project. Course content includes market analysis techniques to link technology attributes to opportunity and vice versa, combinatorial business design and planning methods, strategic innovation theories, competitive analysis, methods of emergent strategy and risk mitigation, as well as examination of team building, firm influence and navigation, and organizational design principles. Emphasis throughout is placed on the implications of research and development uncertainty, long-lifecycle economics, and the management of subcontracts and multi-disciplinary teams often encountered when developing and delivering complex engineering outputs. Case studies are used to contrast the challenges faced when creating new businesses (entrepreneurial) with those encountered in attempts to grow an existing enterprise (intrapreneurial). Coursework and project activities also facilitate development of business acumen, and skill building in conceptual thinking, synthesis, and persuasive communication. This course is particularly relevant for engineering students intending to progress into managerial roles in technology or R&D driven organizations. This course can be counted toward the College of Engineering Minor in Innovation and Transformational Change and the Burton D. Morgan Center for Entrepreneurship (BDMCE) Certificate in Entrepreneurship and Innovation.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0017",
+      "name": "Center for Business Communications",
+      "description": "The Center for Business Communication at the Daniels School of Business partners with leading companies, organizations, and student groups to create transformative learning experiences through case competitions and workshops.\n\nCase competitions serve as more than academic exercises \u2014 they are immersive opportunities where students confront real-world business challenges, sharpen their analytical and strategic thinking, and collaborate in high-performance teams. Guided by research, logic, and creativity, participants craft innovative solutions and deliver persuasive recommendations to panels of industry leaders and sponsors, bridging the gap between classroom learning and professional impact.",
+      "url": "https://business.purdue.edu/centers/communication-center/",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0160",
+      "name": "Certificate in Entrepreneurship and Innovation clubs and organizations",
+      "description": "Purdue's entrepreneurship student organizations provide opportunities to build ventures, develop leadership skills, and connect with founders, mentors, and investors. Through startup-focused projects, events, and communities, students gain practical experience and become active participants in Purdue's innovation ecosystem.",
+      "url": "https://www.purdue.edu/entr/opportunities/student-organizations/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0018",
+      "name": "Coffee at Convergence",
+      "description": "Speaker series featuring startup leaders and branding experts.",
+      "url": "",
+      "type": "Event Series",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0019",
+      "name": "COM 44400 - Introduction To Communication And Social Entrepreneurship",
+      "description": "This class introduces students to the roles that communication and innovation play in social entrepreneurship. It explores activities of entrepreneurs, ethics and skill development at the individual and organizational levels, and communication functions in not-for-profit and social venture space.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0122",
+      "name": "Concentration in Innovation Management",
+      "description": "Managing innovation in new and established organizations",
+      "url": "https://business.purdue.edu/undergraduate/academics/concentrations.php",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0118",
+      "name": "SBIR/STTR - Dept of War - Dual Use",
+      "description": "The DoW SBIR and STTR programs encompass participation from 14 DoW Services and Components, with an annual combined approximately $2 billion budget.\n\nDual-use potential\nMany SBIR/STTR topics\u2014especially in defense R&D\u2014have dual-use applications: technologies developed for military purposes can also benefit civilian industries, healthcare, energy, and other sectors. For example, advances in materials science, AI, or cybersecurity can serve both defense and commercial markets navysbir.us+1. This dual-use aspect is a key driver for federal investment, as it leverages defense funding to accelerate innovation across the economy.",
+      "url": "https://www.defensesbirsttr.mil/SBIR-STTR/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Define",
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0021",
+      "name": "Design & Innovation Learning Community",
+      "description": "Enjoy innovative ideas and people?  \n\nWant to design and make something tangible and meaningful while in college?  \n\nInterested in using Purdue\u2019s resources to grow your ideas into something real? \n\nThe Design & Innovation Learning Community is for you! \n\nOur learning community centers on a Mission, Meaning, Making (M3) philosophy. Impactful innovation does not happen in single academic disciplines/majors. Instead, it requires a cross-disciplinary approach to: \n\nunderstand the meaning behind the problems people face,  \nthe mission for solving these problems, and\nmaking solutions with the people they impact in mind.",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/technology/designandinnovation.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0128",
+      "name": "Design and Innovation",
+      "description": "Cross-disciplinary problem framing, design, prototyping, and innovation",
+      "url": "https://polytechnic.purdue.edu/academics/design-and-innovation-minor",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0148",
+      "name": "Design and Innovation",
+      "description": "Workshops, design methods, user research, prototyping, testing, and business development",
+      "url": "https://boilerlink.purdue.edu/organization/designandinnovation",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0132",
+      "name": "Digital Enterprise Certificate: PLM, MBD & TDP",
+      "description": "Digital product development, product lifecycle management, and technical data",
+      "url": "https://polytechnic.purdue.edu/digital-enterprise-center/digital-enterprise-certificate-plm-mbd-tdp",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0023",
+      "name": "Elevate Ventures",
+      "description": "We are the #1 most active early-stage VC in the Great Lakes Region and top 10 in the United States. We invest in high-potential, cross-sector innovation companies.",
+      "url": "https://elevateventures.com/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0159",
+      "name": "Engineering clubs and organizations",
+      "description": "Purdue Engineering's 70+ student organizations give aspiring innovators opportunities to build technologies, lead teams, solve real-world problems, and expand their networks. From robotics and aerospace projects to professional societies and competition teams, these organizations help students develop the technical, leadership, and collaborative skills that often serve as a foundation for entrepreneurship and innovation.",
+      "url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/student-organizations/student-orgs",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0024",
+      "name": "ENTR 20000 \u2013 Intro to Entrepreneurship & Innovation",
+      "description": "ENTR 20000 introduces students to the process of turning ideas, inventions, and innovations into new business ventures. It covers foundational entrepreneurial concepts and practices, as well as the leadership, teamwork, and communication skills required of individuals who choose to become entrepreneurs or to act entrepreneurially in established organizations. It serves as the first required core course for the Certificate in Entrepreneurship and Innovation.",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0038",
+      "name": "ENTR 59000 \u2013 Graduate Level Special Topics In Entrepreneurship And Innovation",
+      "description": "The requested course will provide the opportunity for graduate students to participate in entrepreneurship courses focused on the skills and knowledge necessary to launch and lead new business ventures, the examination of the feasibility and market potential of new technologies, and/or the development of business plans.  \nLearning Outcomes\n1. Acquisition of the skills and knowledge necessary to launch and lead new ventures.\n2. Examination of the feasibility and market potential of new products or technologies.\n3. The development of business plans for new ventures.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0025",
+      "name": "ENTR 31000 \u2013 Marketing & Management for New Ventures",
+      "description": "ENTR 31000 builds on the foundational skills developed in ENTR 20000 (prerequisite course) to bring students through the process of launching a new venture. Students work in teams to develop and validate business models for potential startups. This occurs through experiential activities including gathering feedback from potential customers, creating forecasts, developing a go-to-market strategy, and pitching to investors. Students can choose ENTR 31000, ENTR 31500, or ENTR 32500 to serve as the second required core course for the Certificate in Entrepreneurship and Innovation.",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0026",
+      "name": "ENTR 31500 \u2013 Business Planning for Social Entrepreneurship",
+      "description": "ENTR 31500 builds on entrepreneurship concepts and skills developed in ENTR 20000 (prerequisite course) to understand the differences, benefits, and opportunities associated with social impact business models. Students work in teams on experiential activities including gathering customer feedback, creating forecasts, developing a strategy, and pitching to stakeholders and investors. Students can choose ENTR 31000, ENTR 31500, or ENTR 32500 to serve as\nthe second required core course for the Certificate in Entrepreneurship and Innovation.",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0027",
+      "name": "ENTR 32500 \u2013 Global Entrepreneurship & Innovation",
+      "description": "ENTR 32500 builds on the foundational skills developed in ENTR 20000 (prerequisite course), to provide\nstudents with a comprehensive understanding of entrepreneurship in a global context. It explores the\ndifferences, challenges, and opportunities associated with developing international ventures and\nexpanding into overseas markets. Through topic lectures, case studies, and experiential team projects,\nstudents will gain insight into global trends, cultural nuances, business models, strategies, and pitching to\nstakeholders and investors. Students can choose ENTR 31000, ENTR 31500, or ENTR 32500 to serve as\nthe second required core course for the Certificate in Entrepreneurship and Innovation.",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0028",
+      "name": "ENTR 39000 \u2013 Special Topics In Entrepreneurship And Innovation",
+      "description": "The requested course will provide the opportunity to develop courses which fulfill the \u201coption\u201d course requirement for the Certificate in Entrepreneurship and Innovation Program. Option courses are designed to provide depth in certain disciplines related to entrepreneurship and innovation, and/or entrepreneurship and innovation in relation to specific industries or markets.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0029",
+      "name": "ENTR 39699 (Interns for Indiana Experience) \u2013 Internship & Research Experiences",
+      "description": "Internship work experience through Interns for Indiana Program with cooperation of participating employers. Students submit a summary report and company evaluation. Through a mutual selection process, students may be placed as interns with entrepreneurial companies. Placements are determined through a screening process based upon students\u2019 skills and experiences gained through their major fields of study. Fulfills a capstone requirement for the Certificate in Entrepreneurship and Innovation Program. Permission of instructor required.",
+      "url": "https://www.opp.purdue.edu/our-programs/Interns-For-Indiana",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0030",
+      "name": "ENTR 46000 \u2013 Internship & Career Prep Seminar",
+      "description": "This online course helps students develop a self-awareness and an entrepreneurial mindset to set them apart from other job seekers. Through self-assessment and reflection, they evaluate their talents, skills, and goals to enhance career preparedness. They develop a professional brand through enhancements to their LinkedIn profile, resume, interviewing skills, networking, and an e-portfolio. ENTR 46000 serves as an option course for the Certificate in Entrepreneurship and Innovation.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0031",
+      "name": "ENTR 47000A / WGSS 39000 \u2013 Gender, Diversity & Leadership",
+      "description": "This course serves as an option course for the Certificate in Entrepreneurship and Innovation. It provides a social and historical perspective of gender and diversity in leadership and entrepreneurship, as well as practical skills students can use to develop their own leadership abilities. This highly interactive course provides the opportunity for students to meet with diverse leaders from a variety of organizations. Topics of social, political, and economic interest are covered, as are discussions of current issues and research relevant to leadership success.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0032",
+      "name": "ENTR 48000 \u2013 Entrepreneurial Leadership & Careers",
+      "description": "ENTR 48000 prepares students for entrepreneurial careers by requiring them to apply the knowledge and skills learned in prerequisite entrepreneurship courses to the development of their professional goals and networks. Students explore how they can use their entrepreneurial talents, skills, and interests in a variety of ways, including launching startups, joining family businesses, or being intrapreneurs in established organizations. The course serves as a capstone requirement for the Certificate in Entrepreneurship and Innovation.",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/capstone-courses/",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0033",
+      "name": "ENTR 48100 \u2013 Consulting for Emerging Enterprises",
+      "description": "In this course, students are put into student teams and conduct an actual consulting engagement with a local entrepreneurial firm or non-profit for the semester. The course enables students to develop skills in consulting as well as to reinforce and hone their knowledge in entrepreneurship. The consulting engagement utilizes a three-stage model intended to guide teams as they contract, gather data, and ultimately create value for the entrepreneurial enterprise through a set of recommendations. Classroom time is focused on learning key consulting skills which are then applied directly in the consulting engagement. Permission of Instructor required.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0034",
+      "name": "ENTR 48200 \u2013 Venture Planning Capstone",
+      "description": "This course serves as a capstone experience where students apply the knowledge and skills used in previous entrepreneurship courses to the business planning process required for new venture development. Students learn how to critique business plans and use practical research tools and appropriate analytical approaches to work through components of plans of their own. The goals of and audiences for business plans are examined. Throughout the semester, student teams present ideas to both peers and experts from the community who provide feedback and insight into what it takes start a successful business.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0035",
+      "name": "ENTR 49000 \u2013 Senior Level Special Topics In Entrepreneurship And Innovation",
+      "description": "The requested course will provide the opportunity to develop capstone courses for the Certificate in Entrepreneurship and Innovation Program. Capstone courses are designed to provide students with the opportunity to apply the knowledge acquired in Certificate Program \u201ccore\u201d and \u201coption\u201d courses to hands-on, real world activities related to entrepreneurship and innovation.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0076",
+      "name": "Purdue Innovates Commercialization Fellowships",
+      "description": "Led by Purdue Innovates with support from Purdue University colleges, the Commercialization Fellowship provides recent PhD graduates and postdoctoral researchers an opportunity to advance commercialization of Purdue-owned intellectual property through startups or licensing to industry.",
+      "url": "https://purdueinnovates.org/commercialization-fellowship/",
+      "type": "De-Risking Support",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0036",
+      "name": "ENTR 50000 \u2013 Seminar In Technology Realization Topics",
+      "description": "This course is a seminar that focuses on topics related to technology realization, commercialization, and entrepreneurship. Topics pertaining to these areas are covered through readings, class discussion, and presentations by invited speakers.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0037",
+      "name": "ENTR 50100 \u2013 Technology Realization Workshop",
+      "description": "This course introduces a variety of cross-disciplinary topics to develop the skills needed to realize technology. Each week, students learn specific methodologies and techniques and apply these through case studies and class projects.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0039",
+      "name": "Entrepreneurship & Innovations Club at Purdue",
+      "description": "The Entrepreneurship and Innovations Club is established for the expressed purpose of assisting Purdue University undergraduate students pursuing careers in either the entrepreneurial sector or venture capital industry. We are also committed to provide education and aid to students creating their own businesses.",
+      "url": "https://boilerlink.purdue.edu/organization/entrepreneurs",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0139",
+      "name": "Entrepreneurship and Innovation Learning Community",
+      "description": "First-year entrepreneurship community connected with ENTR 20000",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/University-wide%20LCs/entrepreneurship.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0040",
+      "name": "Entrepreneurship Society",
+      "description": "Provides a supportive environment where members engage in teamwork, exchange ideas, and drive innovation forward. They bridge aspiring entrepreneurs with industry leaders, mentors, and investors. Through strategic connections and collaboration, we empower our members to seize entrepreneurial opportunities.",
+      "url": "https://boilerlink.purdue.edu/organization/entrepreneurshipsociety",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0041",
+      "name": "EPICS",
+      "description": "EPICS is a service-learning design program in which teams of students partner with local and global community organizations to address human, community, and environmental needs. The program, Engineering Projects in Community Service, was founded at Purdue University in fall 1995. EPICS is unique in that undergraduate student teams design, build, and deploy real systems that solve engineering-based problems for community service and education organizations. Since its founding at Purdue, the program has expanded to a diverse group of universities across the United States and internationally, as well as to a number of K\u201312 programs.",
+      "url": "https://engineering.purdue.edu/EPICS",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0042",
+      "name": "Espressos & Entrepreneurs",
+      "description": "Espressos & Entrepreneurs is the Office of Research\u2019s monthly networking opportunity to meet like-minded entrepreneurial storytellers you can relate to.  For a prosperous future empowered by use-inspired research commercialization, we aim high by exploring the building of comprehensive teams and partnerships, joining academic forces from across and beyond the Purdue system, to create enterprises around stakeholder challenges.",
+      "url": "",
+      "type": "Event Series",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0043",
+      "name": "Foundry Investment Fund",
+      "description": "Launched in 2014, the Foundry Investment Fund invests in Purdue-connected startups with a life science focus spanning human, plant, and animal health. The Foundry Investment Fund is currently closed to new investments.",
+      "url": "https://ventures.prf.org/funds/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0120",
+      "name": "Hacking for Defense",
+      "description": "The Daniels School of Business is putting students on the front lines of national security innovation with its new Hacking for Defense course, a hands-on learning opportunity that pairs entrepreneurship training with real problems from the U.S. defense and intelligence communities. Cross-listed with several Purdue colleges and schools, the course launched this spring with 17 students from engineering, business, computer science and cybersecurity working together in interdisciplinary teams.\n\nHacking for Defense, or H4D, was first developed and taught at Stanford University and has proven successful with a broad array of learners, from experienced scientists and MBAs to undergraduate STEM students. It is essentially a hands-on lab where most learning happens outside the classroom as students interview stakeholders and iterate solutions.",
+      "url": "https://business.purdue.edu/news/features/2026/hacking-for-defense.php",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0045",
+      "name": "High Alpha",
+      "description": "Prior to starting High Alpha in 2015, our team had co-founded dozens of venture-backed startups, raised hundreds of millions of dollars from investors, created thousands of high-wage jobs, and created billions of dollars of enterprise value.\n\nSince then, we\u2019ve launched 40+ new companies, backed 100+ founders, and are transforming the venture-building industry.\n\nHigh Alpha was born with a vision to serve and support entrepreneurs on their own journeys. We partner with founders and the companies they lead to go faster and further, together.",
+      "url": "https://www.highalpha.com/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0123",
+      "name": "Innovation and Technology Commercialization",
+      "description": "Technology commercialization and innovation management",
+      "url": "https://business.purdue.edu/academics/strategic-management/programs.php",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": false,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0131",
+      "name": "Innovation and Transformational Change",
+      "description": "The Minor in Innovation and Transformational Change will teach you world-class methods and techniques to transform challenges into opportunities to make a significant impact.  Innovation science provides insight into ways of thinking, planning, and acting that can be applied across a broad range of domains to drive impact. We can innovate business models, human behavior, and complex systems like cities and schools. Innovation is both an art and a science. It\u2019s both creativity and pattern recognition. The Minor in Innovation and Transformational Change will equip you with the mindsets, behaviors, attributes, tools, and methods you need to obtain leadership roles and make large-scale, positive impact wherever you may go in your career.",
+      "url": "https://engineering.purdue.edu/Innovation/InnovationStudies/students/minor",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0049",
+      "name": "Innovation Methods for Purdue Advanced Collaboration Team (IMPACT)",
+      "description": "IMPACT is a student-run organization that works to help organizations on- and off-campus employ the best practices of innovation science to address their key challenges.",
+      "url": "https://engineering.purdue.edu/Innovation/InnovationStudies/students/impact",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0147",
+      "name": "Innovation Pad Purdue",
+      "description": "Residential invention, design experimentation, and collaborative innovation",
+      "url": "https://boilerlink.purdue.edu/organization/innovationpad",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0134",
+      "name": "Interns for Indiana",
+      "description": "Paid undergraduate experience with Indiana startups and early-stage companies",
+      "url": "https://www.opp.purdue.edu/our-programs/Interns-For-Indiana",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0054",
+      "name": "Launch",
+      "description": "Launch has a mission to create a platform for high-achieving Purdue students to express their interest in consulting and the entrepreneurial space. By working with emerging startups, Launch Consulting aims to advance students\u2019 practical skills while offering an opportunity to collaborate with unique and innovative professionals.",
+      "url": "https://boilerlink.purdue.edu/organization/launch",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0055",
+      "name": "MatchBOX",
+      "description": "MatchBOX is currently owned by Lafayette Urban Enterprise Association, a 501c3 organization. The cost of the experiences we provide our members is roughly three times the amount we charge. Our many partners make up the difference to keep MatchBOX accessible to as many people as possible. In addition to shared work space, MatchBOX offers workshops, acceleration courses, a makerspace, and active programming and partnerships to support its 300+ members and partners, and the community at large.\n\nMBX exists to support a better future for our region that is vibrant, innovative, and optimistic. Our mission is to encourage a creative approach to business that engages everyone, challenges the status quo, and coalesces a community of change.\n\nThe studio was conceived as a way to bring the concept of coworking, which was fairly new at the time, to Greater Lafayette. The goal was to attract and retain entrepreneurs and generally encourage other creative forms of business.",
+      "url": "https://mbx.studio/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0056",
+      "name": "ME 55400 \u2013 Intellectual Property for Engineers",
+      "description": "Survey of the law of patents, trade secrets, trademarks, and copyrights, with special emphasis on the process of defining inventions broadly and diversely. Obtaining, registering, licensing, and litigation of intellectual property.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0057",
+      "name": "MGMT 41350 \u2013 Venture Capital & Entrepreneurial Finance",
+      "description": "This course includes descriptions of markets for start-up businesses, venture capital financial structures, valuation of start-ups, role of venture capital in economic development and business growth strategies.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0116",
+      "name": "NSF Translation to Practice (TTP)",
+      "description": "The journey from innovative research to real-world impact can be challenging, but for graduates of the NSF I-Corps program, the NSF Translation to Practice (TTP) initiative represents a natural and highly valuable next step. Designed to bridge the gap between foundational research and societal application, TTP offers targeted funding and a structured pathway for researchers ready to take their ideas further.\n\nWhat is the NSF TTP Program?\nThe Translation to Practice (TTP) program is a new $30 million initiative from the U.S. National Science Foundation aimed at accelerating research discoveries from the lab to the marketplace. Its mission is to bridge the gap between groundbreaking research and real-world applications.\n\nFunding Pathways and Eligibility\nTTP provides three main pathways, each designed to support projects at different stages of translation:\n\nTTP-Explore (TTP-E)\nPurpose: Pilot for early exploration, extending existing NSF awards to investigate high-risk, use-inspired research and preliminary translational activities.\nFunding: Up to $600,000 per award\nDuration: Up to 24 months\nEligibility: Requires an active, eligible NSF research award with at least one year remaining. Although I-Corps training is not required, completion of a local or regional I-Corps program is recommended.\nTTP-Translation (TTP-T)\nPurpose: Matures use-inspired ideas by developing solutions, reducing barriers, and facilitating lab-to-practice transitions.\nFunding: Up to $1,200,000 per award\nDuration: Up to 36 months\nEligibility: NSF I-Corps Teams training is mandatory. Proposals may be based upon federally funded research; however, prior federal funding is not a requirement for submission.\nTTP-Partnerships (TTP-P)\nPurpose: Supports complex efforts that require strategic collaborations with partners beyond academia (such as industry, government, and nonprofits).\nFunding: Up to $2,000,000 per award\nDuration: Up to 36 months\nEligibility: Requires a co-PI or senior personnel from an NSF-catalyzed partner (non-academic partner) and NSF I-Corps Teams training. Proposals may be based upon federally funded research; however, prior federal funding is not a requirement for submission.",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0058",
+      "name": "MGMT 42300 \u2013 New Product Development",
+      "description": "Provides an overview of the new product development process. Detailed insights are provided in the \u201cfuzzy front end\u201d of this process. Targeting positioning, and product decisions are also covered. The second half of the course completes the marketing mix and covers various market testing and product launch issues.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0093",
+      "name": "Purdue Innovates Trask",
+      "description": "The Trask Innovation Fund supports short-term projects that will enhance the commercial value of Purdue University\u2019s intellectual property assets. Purdue Innovates has awarded around $3 million to more than 80 Purdue University innovators since 2013.\n\nAll Purdue researchers, faculty and staff at all campuses are eligible to apply for the Trask Innovation Fund.\n\nDepending upon the technology domain and commercialization opportunities, applicants must choose between one of the following three tracks.\n\nInnovation Sparks (Life Science and Medical Devices)\nInnovation Sparks (Physical Sciences)\nCommercialization Partner Sparks\n\nPlease consult with your Business Development Manager (BDM) to best understand the appropriate track for your technology.",
+      "url": "https://purdueinnovates.org/incubator/trask-innovation-fund/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0059",
+      "name": "MGMT 48400 \u2013 Management of Entrepreneurial Ventures",
+      "description": "This course teaches skills required to become an entrepreneur, succeed in a start-up venture, work in venture capital, join a family business, or develop a franchise operation. Students will learn about how to identify and shape emerging market opportunities, innovate new business models, prepare and evaluate business plans, raise capital, build a skilled founding team, network for resources, and grow an initial market.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0060",
+      "name": "MGMT 51010 \u2013 Student Managed Venture Fund",
+      "description": "The Student Managed Venture Fund (SMVF) is an experiential learning course that covers the nuances of venture investing through interaction with firms and investors engaged in venture capital with the opportunity to co-invest with the partner.\n\nIn the course, you will meet with early-stage investors (Angels and VCs), perform due diligence on potential, real investment opportunities, present your findings to a panel of experts, and select a company for the SMVF to invest in.\n\nThe course runs each spring semester. It is a requirement for Master of Finance (MSF) students in the corporate finance and wealth and asset management tracks, and a recommended elective for MSF students in the general or financial analytics track.\n\nNon-finance graduate students and senior undergraduate students from across campus who are interested in venture investing, entrepreneurship, or developing and launching new products are encouraged to apply to participate. Select junior undergraduate students will also be considered.",
+      "url": "https://business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0061",
+      "name": "MGMT 590 \u2013 Student Managed Venture Fund",
+      "description": "The Student Managed Venture Fund (SMVF) is an experiential learning course that covers the nuances of venture investing through interaction with firms and investors engaged in venture capital with the opportunity to co-invest with the partner.\n\nIn the course, you will meet with early-stage investors (Angels and VCs), perform due diligence on potential, real investment opportunities, present your findings to a panel of experts, and select a company for the SMVF to invest in.\n\nThe course runs each spring semester. It is a requirement for Master of Finance (MSF) students in the corporate finance and wealth and asset management tracks, and a recommended elective for MSF students in the general or financial analytics track.\n\nNon-finance graduate students and senior undergraduate students from across campus who are interested in venture investing, entrepreneurship, or developing and launching new products are encouraged to apply to participate. Select junior undergraduate students will also be considered.",
+      "url": "https://business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0062",
+      "name": "Midwest Entrepreneurship Case Competition",
+      "description": "The Midwest Entrepreneurship Case Competition will allow teams of three to four students from universities located in the Midwest to engage in real-world business research with a case provided by Sage Business Cases. This research and analysis will encourage students to use relevant data sources, including additional resources provided by Sage Business.",
+      "url": "https://sites.google.com/view/mwentrecc/home",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0063",
+      "name": "ML@Purdue",
+      "description": "ML@Purdue is Purdue University's premier student organization for machine learning and artificial intelligence. Founded in Fall 2010 and rebranded from ACM SIG AI in January 2023, we've built a thriving community where students explore, learn, and build at the cutting edge of AI/ML.\n\nWe support three pathways to success: Industry, Research, and Entrepreneurship. Whether you're aiming for a role at a top tech company, pursuing graduate research, or launching your own AI-powered venture, ML@Purdue provides the mentorship, hands-on experience, and community to help you get there.",
+      "url": "https://mlpurdue.com/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0064",
+      "name": "MSE 57400 - Sports Engineering And Entrepreneurship",
+      "description": "This course provides an introduction at the graduate level to sports engineering and entrepreneurship. Students will be immersed in the state-of-the-art of industry and interact with renown experts in the field. This course is a comprehensive exploration of the key areas of sports engineering (digitalization, equipment and apparel, fan experience, data, etc.) with an emphasis on the future of the industry. The course includes the development of a business plan for a start-up in sports engineering, encouraging students to critically think about where they see opportunities for innovation based on knowledge gained in the course. This is not only for students looking to start their own business, but for any student interested in working in sports engineering field. Permission of instructor required.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0129",
+      "name": "Product Lifecycle Management",
+      "description": "Product data, documentation, manufacturing, and lifecycle support",
+      "url": "https://polytechnic.purdue.edu/academics/product-lifecycle-management-minor",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0020",
+      "name": "Convergence Center for Innovation and Collaboration",
+      "description": "The Convergence Center for Innovation and Collaboration offers direct proximity to a world-class research university. Convergence is a LEED Silver Certified, Class-A office development equipped to handle all your business needs.",
+      "url": "https://discoveryparkdistrict.com/workspaces/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0022",
+      "name": "Discovery Park District",
+      "description": "Steps from Purdue, this intentionally crafted ecosystem is where companies of all sizes can access the resources to solve their most pressing problems and where families can find community and tech city quality of life without a tech city cost of living.\n\nThe district is a more than a $1 billion long-term project to transform the west side of the university campus, creating a preeminent environment for intellectual discourse and high-tech commercial enterprise.",
+      "url": "https://discoveryparkdistrict.com/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0052",
+      "name": "Lab 2 Life",
+      "description": "L2L is an innovation platform of Purdue University (PU) and the Purdue Research Foundation (PRF).  Lab To Life represents a series of test-bed environments curated specifically for enabling the application of novel and breakthrough technology in real-world contexts with actual end-users and use cases.\n\nL2L is a \u201cplace in the middle\u201d that bridges the gap between basic scientific research and commercialization. By bridging this gap, Lab to Life helps advance and accelerate technology readiness from discovery through development, validation, and demonstration for broad-based commercialization. We refer to this continuum as going from one to ten to a million.  Purdue is a leading research university that is an engine for scientific discovery \u2013 the discovery being one; Lab to Life helps advance and accelerate technology through development and demonstration \u2013 the ten; and start-ups and commercial collaborators bring this innovation to the local community and the world ultimately helping to improve the lives of millions of people globally.\n\nIn the L2L environments, academic researchers and corporate partners can collaborate and advance solutions based on better understanding end user needs and issues, business model viability and strategy, and technology challenges and limitations that often may not be well characterized or understood with in a controlled lab environment.\n\nL2L\u2019s real-world environments are curated to rapidly test and evaluate next generation innovation by providing advanced technology infrastructure, an open innovation platform that supports partner engagement and collaboration, project management, community (end-user) engagement, and in some situations policy and governance authority. L2L environments can also foster eco-systems of partners from across an industry value chain who come together to collaborate with each other in addition to Purdue\u2019s faculty and students.\n\nThe L2L environments include The Discovery Park District, The Purdue University Airport, and the Indiana Manufacturing Competitiveness Center, with additional environments being planned for agricultural and autonomous aerial (UAS) innovation. The projects being executed in the L2L environments typically utilize one or more technologies that increasingly require significant bandwidth and computing power. These technologies include advanced connectivity solutions, big data analytics, machine learning, artificial intelligence, digital twin, block chain, edge and cloud compute, various types of sensor arrays, and high performance computing.",
+      "url": "https://lab2life.org/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Scale",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0170",
+      "name": "Purdue HIVE",
+      "description": "Community and workspace for students actively developing technology- or engineering-driven startups",
+      "url": "https://engineering.purdue.edu/HIVE",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0073",
+      "name": "Purdue Indy Student Startup Club",
+      "description": "Club for students working on local startup ventures in Indianapolis.",
+      "url": "https://www.instagram.com/purdue_startup_indy/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0074",
+      "name": "Purdue Innovates",
+      "description": "Purdue Innovates is a unified network at Purdue Research Foundation to assist Purdue faculty, staff, students and alumni in either IP commercialization or startup creation. As a conduit to technology commercialization, intellectual property protection and licensing, startup creation and funding, Purdue Innovates serves as the front door to translate new ideas into world-changing impact.",
+      "url": "https://purdueinnovates.org/",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0075",
+      "name": "Purdue Innovates Accelerator",
+      "description": "Over the course of three months, participants will gain tailored strategic support and access to a powerful network of world-class mentors, corporate partners, investors, and alumni, empowering them to reach key business milestones and scale their companies. The program will consist of three phases:\n\n1. Foundation and Structure Analysis\n2. Go To Market and Execution\n3. Mentorship and Investor Readiness",
+      "url": "https://purdueinnovates.org/incubator/accelerator/",
+      "type": "Programming",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0117",
+      "name": "Purdue Innovates Capstone Plus & Fusion Point",
+      "description": "Through sponsoring Fusion Point\u00ae and Capstone Plus\u00ae projects, companies have the opportunity to assess Purdue patented technologies. In partnership with Purdue Polytechnic, Purdue Northwest, and Purdue Innovates Office of Technology Commercialization and Incubator, student teams design, build and test prototypes as part of their senior design projects.",
+      "url": "https://purdueinnovates.org/capstone/",
+      "type": "De-Risking Support",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch"
+      ]
+    },
+    {
+      "uid": "PEN-0046",
+      "name": "I-Corps",
+      "description": "Purdue I-Corps: Discovery will help you explore the commercial viability of your deep tech innovation idea/IP. We teach the Lean LaunchPad approach, a process to help you systematically test key assumptions about your technology and the customer problems it might be able to solve better than current alternatives. This \u201ctechnology-problem fit\u201d assessment is the critical first step toward commercial success for any technology venture. These courses are for researchers and students with deep-tech IP and a strong interest in commercializing their technology. Researchers from other Midwest universities are welcome to apply.",
+      "url": "https://greatlakesicorps.org/programs/regional-icorps/purdue/",
+      "type": "Programming",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0165",
+      "name": "Purdue Innovates Event Calendar",
+      "description": "Find upcoming Purdue Innovates and PRF ecosystem events, workshops, networking opportunities, and commercialization-related programming.",
+      "url": "https://purdueinnovates.org/events/",
+      "type": "Event Series",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0077",
+      "name": "Firestarter",
+      "description": "Firestarter is a seven-week cohort-based program for founders looking to start a company in the next 3-9 months.\nThe program will help you develop the critical elements of your business model including value proposition, revenue modeling, and pitch preparation. You\u2019ll also receive real-time feedback from mentors and fellow cohort members.\n\nWhat will you learn during Firestarter?\nBy the end of this program, participants will:\n\nFind your product market fit.\nLearn to communicate ideas effectively to customers.\nExplore ways to de-risk your startup.\n\nAll teams will leave the program with a finalized pitch deck and extensive feedback.",
+      "url": "https://purdueinnovates.org/incubator/firestarter/",
+      "type": "Programming",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0078",
+      "name": "Purdue Innovates Incubator",
+      "description": "Purdue Innovates Incubator is the front door to the rich ecosystem of programs and services designed to help early-stage startups take their next step. Programs provide settings for cohort work and one-on-one consultations. Content includes clarifying problems from the customer\u2019s perspective, developing a business model, conducting customer discovery interviews, team building, determining regulatory pathways and legal structures, and more. Purdue alumni and community members interested in becoming mentors are invited to contact the Incubator team.",
+      "url": "https://purdueinnovates.org/incubator/",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0172",
+      "name": "Purdue Innovates Investor Network",
+      "description": "The Purdue Innovates Investor Network is a highly curated resource that connects a select group of promising Boilermaker startups\u2014led by Purdue students, faculty, and alumni\u2014with investors and Purdue-connected investment opportunities.\n\nAccess is not automatic. Purdue Innovates carefully vets and selects startups that show exceptional promise and align with the strategic innovation priorities of Purdue University before making introductions to the investor community. If your startup is ready for capital and investor conversations, connect with us to be considered.",
+      "url": "https://purdueinnovates.org/contact/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0081",
+      "name": "Market Readiness",
+      "description": "Purdue Innovates presents Market Readiness, a comprehensive five-week program designed to help founders develop and walk away with a stronger pitch deck.\n\nFigure out where you\u2019re going and how in the next 6-12 months.\n\nBy the end of this program, participants will:\n\nDevelop a clearly defined product, customer, and value proposition.\nBuild out financial projections and milestones.\nConduct weekly customer discovery interviews.\n\nAll teams will leave the program with a finalized executive summary and pitch deck.",
+      "url": "https://purdueinnovates.org/incubator/market-readiness/",
+      "type": "Programming",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0173",
+      "name": "Purdue Innovates Mentor Network",
+      "description": "The Purdue Innovates Mentor Network is a curated resource that thoughtfully matches founders and entrepreneurs with experienced volunteer mentors who bring relevant, real-world expertise.\n\nThis is not open, self-serve access to a directory. Complete the form to tell us where you are in your journey and what support you need, and the Purdue Innovates team will carefully evaluate your needs and connect you with the right mentor for your goals.",
+      "url": "https://purdueinnovates.org/contact/",
+      "type": "Coaching & Mentorship",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define",
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0083",
+      "name": "Moonshot",
+      "description": "Moonshot Pitch Challenge is an ideation-focused pitch challenge that asks students to think big.\nWe\u2019re asking students to think beyond the classroom and pitch an idea that solves a real-world problem in 2 minutes or less. Finalists compete for a prize pool of $5,500 during a pitch competition in front of judges and a live audience.\n\nYou do not need to have every technical aspect of the product/technology figured out \u2013 nor do you need to have a business model fully developed.",
+      "url": "https://purdueinnovates.org/incubator/moonshot-pitch-challenge/",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0084",
+      "name": "New Venture Challenge",
+      "description": "Take your startup to the next level and compete for $50,000 in cash prizes!\nThe New Venture Challenge (NVC) helps prepare Purdue student startups for market entry and fundraising. At the end of the six-workshop series, participants will pitch to a room of investors at the annual Purdue Innovates Startup and Technology Expo.\n\nWhat happens during NVC?\nA six-workshop series, NVC helps student startups look more compelling to investors. By the end of NVC, participants will:\n\nCraft a solid value proposition.\nDevelop their go-to-market strategy.\nBuild out a finance model compelling to investors.\n\nAll teams will leave the program with a finalized pitch deck, executive summary, and a chance to pitch for cash prizes.",
+      "url": "https://purdueinnovates.org/incubator/new-venture-challenge/",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define",
+        "Refine"
+      ]
+    },
+    {
+      "uid": "PEN-0085",
+      "name": "Office of Technology Commercialization",
+      "description": "The Purdue Research Foundation\u2019s Office of Technology Commercialization (OTC) operates one of the most comprehensive technology transfer programs among leading research universities in the U.S. Services provided by this office support the economic development initiatives of Purdue University and benefit the university\u2019s academic activities through commercializing, licensing and protecting Purdue intellectual property. The OTC is located in the Convergence Center for Innovation and Collaboration in Discovery Park District, adjacent to the Purdue campus.\n\nOTC is managed by the Purdue Research Foundation, which received the 2019 Innovation and Economic Prosperity Universities Award for Place from the Association of Public and Land-grant Universities. The Purdue Research Foundation is a private, nonprofit foundation created to advance the mission of Purdue University.",
+      "url": "https://purdueinnovates.org/otc/",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine"
+      ]
+    },
+    {
+      "uid": "PEN-0088",
+      "name": "Purdue Innovates Prototyping Fund",
+      "description": "Resources to build prototypes of Purdue innovations.",
+      "url": "",
+      "type": "De-Risking Support",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Define",
+        "Refine"
+      ]
+    },
+    {
+      "uid": "PEN-0089",
+      "name": "SBIR/STTR Support",
+      "description": "Proposal and funding support for federal innovation grants.",
+      "url": "",
+      "type": "De-Risking Support",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Define",
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0090",
+      "name": "Purdue Innovates Startup and Technology Expo",
+      "description": "A multi-day event showcasing Purdue\u2019s innovators including students, faculty, and startups. Includes pitches, networking, and sessions on entrepreneurship and IP.",
+      "url": "https://purdueinnovates.org/startup-expo/",
+      "type": "Event Series",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0092",
+      "name": "Purdue Innovates Summer Sprint",
+      "description": "A quickfire mashup of our Firestarter and Market Readiness, join us for this exclusive sprint. Catch your breath at the finish line. By the end of the program, participants will:\n\nFind your product market fit.\nLearn to communicate ideas effectively to customers.\nExplore ways to de-risk your startup.\n\nParticipants will leave the program with a finalized pitch deck, executive summary, and 5-20 customer interviews to help build a runway in the right direction.\n\nWhether you\u2019re a current student or alum, we welcome all Boilermakers to apply for this exclusive summer sprint. Apply now if you\u2019re ready to take your giant leap \u2014 spots are limited.",
+      "url": "https://purdueinnovates.org/incubator/summer-sprint/",
+      "type": "Programming",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0094",
+      "name": "Purdue Innovates Wet Lab Incubator Space",
+      "description": "Specialized lab facilities for biotech and life sciences startups.",
+      "url": "",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0096",
+      "name": "Purdue Research Park",
+      "description": "As home to the largest cluster of technology-based companies in the state of Indiana, Purdue Research Park offers a dynamic environment for startups and established companies alike. Spanning 725 acres just minutes from Purdue University\u2019s West Lafayette campus, the park is purposefully designed to foster collaboration and spark innovation.",
+      "url": "https://purdueresearchpark.com/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0119",
+      "name": "Certificate in Entrepreneurship and Innovation",
+      "description": "Open to all majors, the Certificate in Entrepreneurship and Innovation empowers students to transform their innovative ideas into real-world impact \u2013 either through launching new ventures, creating value within existing organizations, or positively impacting society.\n\nTo participate, complete a series of five courses or entrepreneurship-related experiences, some of which may overlap with requirements in your major. There is no application required. Simply enroll in ENTR 20000 Introduction to Entrepreneurship and Innovation to begin.",
+      "url": "https://www.purdue.edu/entr/",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0099",
+      "name": "Purdue Venture Consulting",
+      "description": "Purdue Venture Consulting is a student organization that helps motivated students develop strategic thinking skills and connect with the startup ecosystem.\n\nOur mission is to bridge the gap between academic excellence and real-world venture creation. We provide our members with unparalleled access to startup consulting opportunities, venture capital mentorship, and a network that extends far beyond campus.",
+      "url": "https://theventureconsultingatpurdue.com/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0102",
+      "name": "Railyard",
+      "description": "The Purdue Railyard is one of the largest single coworking spaces in the U.S. It is a place where Purdue and community members can create, collaborate, and learn. This space provides the entrepreneurial energy to network, hold events and meetings, and use conference space.",
+      "url": "https://purdueresearchpark.com/railyard/",
+      "type": "Office/Lab Space",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0103",
+      "name": "RICE National Business Plan Competition",
+      "description": "The Rice Business Plan Competition gives collegiate entrepreneurs real-world experience to pitch their startups, enhance their business strategy and learn what it takes to launch a successful company. 2026 marks our 26th year of the Rice Business Plan Competition (RBPC), presented by Rice Business. Rice Business, in its 51st year, is the home to the No. 1 Graduate Entrepreneurship Program and shares our mission to empower the next generation of entrepreneurial leaders. Hosted by the Rice Alliance for Technology and Entrepreneurship, the RBPC has grown to become the world\u2019s largest and richest student start-up competition, with 42 teams competing for more than $1 million in cash, investments and prizes.",
+      "url": "https://rbpc.rice.edu/",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Sketch",
+        "Define",
+        "Refine"
+      ]
+    },
+    {
+      "uid": "PEN-0130",
+      "name": "Smart Manufacturing Enterprise",
+      "description": "Technologies and methods used to design, build, and deliver products",
+      "url": "https://polytechnic.purdue.edu/academics/smart-manufacturing-enterprise-minor",
+      "type": "Majors, Minors, Certificates",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore"
+      ]
+    },
+    {
+      "uid": "PEN-0106",
+      "name": "Soybean Innovation Competiton",
+      "description": "The purpose of the Soybean Innovation Competitions is to encourage Purdue University students to exercise their knowledge and skills in creating new industrial products from soybeans. The use of natural renewable resources for creation of industrial products is a critical factor for future economic growth, given dwindling petroleum resources and increased emphasis on industrial environmental stewardship.",
+      "url": "https://engineering.purdue.edu/ABE/academics/competitions",
+      "type": "Competitions",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Sketch"
+      ]
+    },
+    {
+      "uid": "PEN-0164",
+      "name": "Startup Company Formation",
+      "description": "Guidance for Purdue innovators preparing to form an independent startup around a Purdue-connected idea or technology. Purdue Innovates can help clarify commercialization path, licensing readiness, founder considerations, and COI boundaries, but does not directly create, own, manage, or provide legal representation for a third-party company. Founders should use independent counsel or appropriate third-party support for entity formation and legal documents.",
+      "url": "https://purdueinnovates.org/incubator/",
+      "type": "Transactional Support",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0107",
+      "name": "SVBIG",
+      "description": "SVBIG is the Silicon Valley Boiler Innovation Group, dedicated to mentoring Purdue entrepreneurs from their earliest ideas to venture-scale success. Our name reflects our mission: \"SV\" draws from the spirit of Silicon Valley innovation, and \"BIG\" aligns with Purdue's Boilermaker Innovation Group \u2014 and reminds us to always think BIG.",
+      "url": "https://www.svbig.org/",
+      "type": "Coaching & Mentorship",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0108",
+      "name": "TECH 34000 / TLI 46000 / MGMT 39100 \u2013 Prototyping Tech / Strategic Thinking & Decision Making",
+      "description": "This course builds on the student competencies developed in prerequisite courses.  Students will apply rapid prototyping and other fabrication technologies to create the solutions specified in either the TECH 12000 or 22000 courses. Students will learn the safe use and operation of tools and equipment required and apply their understanding of materials selection. Students will consider operations process flow chart planning and logistics of lab management. Prototypes will be tested in real situations and data gathered on performances. Designs will be revised to reflect a deepening understanding of manufacturing and use being sensitive to structure function and behavior from a systems level perspective. Intellectual property, marketing and infrastructure will be discussed. In conjunction with prototypes development, students will learn strategies toward a successful startup and develop a prototype of a business plan and a pitch deck.",
+      "url": "",
+      "type": "Coursework",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0109",
+      "name": "Tech Point",
+      "description": "TechPoint is the industry-led growth initiative for Indiana\u2019s digital innovation economy and overall tech ecosystem. The team is focused on working with public, private and industry partners to expand tech talent pipeline, enhance resource connectivity for enterprise organizations and startups alike, and elevate the industry by activating the community and amplifying stories of success.",
+      "url": "https://techpoint.org/",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": [
+        "Refine",
+        "Launch",
+        "Scale"
+      ]
+    },
+    {
+      "uid": "PEN-0006",
+      "name": "The Anvil",
+      "description": "A longstanding student organization geared towards students looking for a community and taking action in entrepreneurship, innovation, and start-ups. The Anvil supports students interested in entrepreneurship and connects them to funding, mentorship, and talent & is active in the Purdue Entrepreneurial Ecosystem. Members come from all majors including some students that participate the certificate program.",
+      "url": "https://various-windows-489781-de8bd8574.framer.app/",
+      "type": "Student organization",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0110",
+      "name": "The Data Mine",
+      "description": "The Data Mine is a living, learning and research-based community created to introduce students to data science concepts and equip them to create solutions to real-world problems. Members of The Data Mine will be part of a team, living, studying and ultimately, performing data-driven research together. The Data Mine is part of Purdue University\u2019s Office of the Provost, which is designed to train students across all majors with the data literacy needed to succeed in a data-driven world.",
+      "url": "https://datamine.purdue.edu/about/",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0111",
+      "name": "The Mix",
+      "description": "Monthly social mixer for Purdue entrepreneurs and ecosystem partners to network and collaborate.",
+      "url": "https://alliances.prf.org/community/",
+      "type": "Event Series",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": true
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0133",
+      "name": "Undergraduate Co-op Program",
+      "description": "Multiple full-time work sessions related to a student's field; transcript-recorded experience and certificate",
+      "url": "https://www.opp.purdue.edu/our-programs/undergrad-co-op",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0112",
+      "name": "Venture X",
+      "description": "The world's most pressing problems don't come with instruction manuals. They reward people who know how to find the right question, assemble the right insights & team, and move with confidence through uncertainty. Venture X is where you learn to do exactly that \u2014 by actually doing it.\n\nAnd you won't do it alone. You will have access to proven tools. Throughout the journey, you'll meet and engage with accomplished founders, operators, investors, and domain experts \u2014 people actively building companies and backing ideas \u2014 who will push your thinking, open doors, and show you what it really looks like to create something from nothing.\n\nBy the end, you won't just have worked on a venture concept. You'll have earned a new level of confidence in your ability to tackle any complex problem \u2014 as a founder, an innovator inside a company, or a leader who creates value wherever they go.",
+      "url": "https://business.purdue.edu/faculty/kostasg/venture-x.php",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define",
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0113",
+      "name": "Vertically Integrated Projects (VIP)",
+      "description": "The Vertically Integrated Projects (VIP) Program provides an opportunity for undergraduate students to earn academic credit while engaging in authentic and extended research and design projects related to active research areas of Purdue faculty members and national, international and industry-sponsored design challenges. Students can participate on interdisciplinary and vertically integrated teams (first year through seniors) with faculty and graduate student mentors for multiple semesters to address these real-world research and design challenges.",
+      "url": "https://engineering.purdue.edu/VIP",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0141",
+      "name": "Vertically Integrated Projects Learning Community",
+      "description": "First-year participation in extended research and design teams",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/engineering/vip.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0161",
+      "name": "Disclose, Protect, or Share Purdue IP Safely",
+      "description": "Created something new at Purdue? Purdue employees are required to disclose inventions and other Purdue-created intellectual property. Connect with Purdue Innovates before publishing, presenting, releasing software, talking with companies, or otherwise publicly sharing your work so protection and commercialization options can be evaluated.",
+      "url": "https://purdueinnovates.org/otc/disclosure/",
+      "type": "Transactional Support",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0162",
+      "name": "License or Explore Purdue Technologies",
+      "description": "Explore Purdue technologies available for licensing or start a conversation with OTC about licensing, optioning, or selecting an agreement path for Purdue intellectual property. Use this when a startup, company, entrepreneur, or Purdue innovator wants commercial rights to develop a Purdue technology.",
+      "url": "https://licensing.prf.org/",
+      "type": "Transactional Support",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": false,
+        "alum": true,
+        "industry": true
+      },
+      "stages": [
+        "Define",
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0163",
+      "name": "Purdue Innovator Express Startup License",
+      "description": "A startup license path for Purdue innovators forming their first new venture to develop and commercialize Purdue-owned intellectual property under a standard-form license with preset terms.",
+      "url": "https://purdueinnovates.org/otc/licensing/",
+      "type": "Transactional Support",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": true,
+        "alum": false,
+        "industry": false
+      },
+      "stages": [
+        "Refine",
+        "Launch"
+      ]
+    },
+    {
+      "uid": "PEN-0166",
+      "name": "Partner Challenge Grant",
+      "description": "A partner-driven open call where an external organization articulates a specific problem, unmet need, or challenge and Purdue Innovates helps connect that need with Purdue innovators who may propose solutions. Purdue Innovates may facilitate challenge design, outreach, evaluation, and, where appropriate, risk-share funding or support to advance promising responses.",
+      "url": "https://purdueinnovates.org/contact/",
+      "type": "Funding - Dilutive and Non-Dilutive",
+      "aud": {
+        "undergrad": false,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": true
+      },
+      "stages": [
+        "Explore",
+        "Sketch",
+        "Define"
+      ]
+    },
+    {
+      "uid": "PEN-0168",
+      "name": "Leslie Bottorff Fellowships",
+      "description": "The Leslie Bottorff Fellowship Program (formerly known as the Innovation for Clinical Translation (ICT) Fellowship program) is a prestigious graduate fellowship program that was established to increase the number of Purdue doctoral engineering students focused on technology innovation and clinical translation as a key component of an expanding partnership between the Purdue College of Engineering and Indiana University School of Medicine.",
+      "url": "https://engineering.purdue.edu/EngrMed/Education/Bottorff-Fellowship.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": false,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0167",
+      "name": "AI Forge",
+      "description": "Purdue's AI Forge is both a principle and an initiative aimed at providing Purdue's undergraduate and master's students with advanced skills in state-of-the-art generative AI techniques, taught by internationally recognized AI experts. The key principle of AI Forge is giving students agency, knowledge, and resources to allow them to forge their own path in AI.",
+      "url": "https://www.cs.purdue.edu/academic-programs/ai-forge/aiforge.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0169",
+      "name": "Science Innovation Learning Community",
+      "description": "Science Innovation Learning Community (SILC) is an experiential learning community that introduces first-year Science and Business students to science-driven entrepreneurship, helping them explore how scientific discoveries become viable products, companies, and real-world solutions through interdisciplinary projects, case studies, and industry engagement.",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/science/silc.html",
+      "type": "Experiential Learning",
+      "aud": {
+        "undergrad": true,
+        "grad": false,
+        "faculty": false,
+        "alum": false,
+        "industry": false
+      },
+      "stages": []
+    },
+    {
+      "uid": "PEN-0174",
+      "name": "Third Coast Foundry",
+      "description": "Third Coast Foundry is a physical space in San Francisco for partner university-founded startups and teams traveling to the Bay Area.\n\nDesigned to improve access to venture capital and networks on the West Coast without requiring startups to relocate, it provides opportunities for investors, alumni, and other partners to engage through meetings, events, and programming.",
+      "url": "https://purdueinnovates.org/third-coast-foundry/",
+      "type": "Ecosystem",
+      "aud": {
+        "undergrad": true,
+        "grad": true,
+        "faculty": true,
+        "alum": true,
+        "industry": false
+      },
+      "stages": []
+    }
+  ]
+}
