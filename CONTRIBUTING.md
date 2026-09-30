@@ -12,7 +12,7 @@ Do not submit private contact information, member-only directories, unverifiable
 
 ## Edit the data
 
-Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Alumni profiles live in `data/alumni.json` and source-backed Bay Area connections in `data/bay-area-connections.json`. Indiana expansion lives in `data/indiana-expansion.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. For alumni, include a public `source_url`, name, Purdue connection, role, organization, and `role_as_of` year when the source describes a historical role. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
+Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Alumni profiles live in `data/alumni.json`, the sourced `data/alumni-*-expansion.json` files, `data/alumni-polytechnic-archive.json`, and `data/bay-area-connections.json`. Indiana resource expansion lives in `data/indiana-expansion.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. For alumni, include a public `source_url`, name, Purdue connection, role, organization, and `role_as_of` year when the source describes a historical role. Do not describe an archival role as current. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
 
 Run:
 

@@ -19,7 +19,7 @@ Every guide stage and playbook has a stable `id`. Reading links use `stage_ids` 
 
 `source_ids` point to the guide's `sources` registry. Resource, person, alumni, and event records each include a public source or official page. Reading links have `kind` values such as `discussion`, `guide`, `course`, or `tool`. A Hacker News discussion is a set of personal experiences; it is not an endorsement or verified instruction.
 
-Alumni records include `name`, `connection` to Purdue, sourced `role` and `organization`, `region` when known, `kind`, a short `why_relevant` note, and `source_url`. Newer entries also use `role_as_of` for the year the source described that role. `verified_at` is the date the public source was checked; it does not imply the person still holds an older role. The directory covers publicly documented founder-relevant alumni, not Purdue's private alumni roster.
+Alumni records include `name`, `connection` to Purdue, sourced `role` and `organization`, `region` when known, `kind`, a short `why_relevant` note, and `source_url`. `role_as_of`, when present, records the year of the source's role claim. `verified_at` is the date the public source was checked; it does not imply the person still holds an older role. The directory includes founders, investors, and other publicly documented working alumni. It is not Purdue's private alumni roster or a list of people available for introductions.
 
 ```js
 const { roadmap, reading_links } = await fetch('/guide-data.json').then(r => r.json());

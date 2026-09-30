@@ -8,24 +8,33 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "alumni.json"
+EXPANSIONS = (
+    "alumni-ece-expansion.json", "alumni-awards-expansion.json",
+    "alumni-business-expansion.json", "alumni-polytechnic-expansion.json",
+    "alumni-polytechnic-archive.json", "alumni-science-expansion.json",
+    "alumni-ag-expansion.json",
+)
 REQUIRED = {"id", "name", "connection", "role", "organization", "region", "kind", "why_relevant", "source_url", "verified_at"}
 KINDS = {"Founder", "Investor", "Operator"}
 
 
 def validate() -> list[dict]:
-    records = json.loads(DATA.read_text())
-    if not isinstance(records, list):
-        raise ValueError("alumni.json must contain a list")
-    seen = set()
+    records = []
+    for path in (DATA, *(ROOT / "data" / filename for filename in EXPANSIONS)):
+        batch = json.loads(path.read_text())
+        if not isinstance(batch, list):
+            raise ValueError(f"{path.name} must contain a list")
+        records.extend(batch)
+    seen = {}
     for n, record in enumerate(records, 1):
         missing = REQUIRED - record.keys()
         if missing:
             raise ValueError(f"record {n}: missing {sorted(missing)}")
         if not all(isinstance(record[key], str) and record[key].strip() for key in REQUIRED):
             raise ValueError(f"record {n}: required fields must be nonempty strings")
-        if record["id"] in seen:
+        if record["id"] in seen and seen[record["id"]] != record["name"].casefold():
             raise ValueError(f"record {n}: duplicate id {record['id']}")
-        seen.add(record["id"])
+        seen[record["id"]] = record["name"].casefold()
         if record["kind"] not in KINDS:
             raise ValueError(f"record {n}: unknown kind {record['kind']}")
         if urlparse(record["source_url"]).scheme != "https":

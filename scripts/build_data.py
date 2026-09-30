@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Build the public export and SQLite source of truth from reviewed seed rows."""
 import json
+import re
 import sqlite3
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -13,6 +15,21 @@ OUT = ROOT / "public" / "data.json"
 PEOPLE = ROOT / "data" / "people.json"
 PEOPLE_OUT = ROOT / "public" / "people.json"
 ALUMNI_OUT = ROOT / "public" / "alumni.json"
+ALUMNI_EXPANSIONS = (
+    "alumni-ece-expansion.json",
+    "alumni-awards-expansion.json",
+    "alumni-business-expansion.json",
+    "alumni-polytechnic-expansion.json",
+    "alumni-polytechnic-archive.json",
+    "alumni-science-expansion.json",
+    "alumni-ag-expansion.json",
+)
+
+
+def alumni_name_key(name):
+    plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    words = re.findall(r"[a-z]+", plain)
+    return "".join(word for word in words if len(word) > 1 and word not in {"jr", "sr", "ii", "iii"})
 
 rows = json.loads(SEED.read_text())
 reviewed_count = len(rows)
@@ -107,9 +124,9 @@ with sqlite3.connect(DB) as db:
         for p in people
     ])
     alumni = json.loads((ROOT / "data" / "alumni.json").read_text())
-    known = {person["name"].casefold() for person in alumni}
+    known = {alumni_name_key(person["name"]): index for index, person in enumerate(alumni)}
     for item in bay_data["people"]:
-        if item["name"].casefold() in known:
+        if alumni_name_key(item["name"]) in known:
             continue
         role = item["current_role"].lower()
         kind = "Investor" if any(term in role for term in ("investor", "partner", "golden seeds", "angel")) else "Founder" if any(term in role for term in ("founder", "entrepreneur")) else "Operator"
@@ -120,6 +137,16 @@ with sqlite3.connect(DB) as db:
             "why_relevant": item["founder_relevance"],
             "source_url": item["source_urls"][0],
             "verified_at": bay_data["reviewed_at"], "source_urls": item["source_urls"]})
+        known[alumni_name_key(item["name"])] = len(alumni) - 1
+    protected = set(known)
+    for filename in ALUMNI_EXPANSIONS:
+        for person in json.loads((ROOT / "data" / filename).read_text()):
+            key = alumni_name_key(person["name"])
+            if key not in known:
+                known[key] = len(alumni)
+                alumni.append(person)
+            elif key not in protected and int(person.get("role_as_of") or 0) > int(alumni[known[key]].get("role_as_of") or 0):
+                alumni[known[key]] = person
     extra_portraits = {
             "ashish-toshniwal": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg",
             "akshay-kothari": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
@@ -137,14 +164,14 @@ with sqlite3.connect(DB) as db:
         role TEXT NOT NULL, organization TEXT NOT NULL, region TEXT NOT NULL,
         kind TEXT NOT NULL, why_relevant TEXT NOT NULL,
         source_url TEXT NOT NULL, verified_at TEXT NOT NULL,
-        image TEXT, image_source_url TEXT
+        image TEXT, image_source_url TEXT, role_as_of TEXT
       );
       CREATE INDEX idx_alumni_region ON alumni(region);
     """)
-    db.executemany("INSERT INTO alumni VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", [
+    db.executemany("INSERT INTO alumni VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", [
         (p["id"], p["name"], p["connection"], p["role"], p["organization"],
          p["region"], p["kind"], p["why_relevant"], p["source_url"], p["verified_at"],
-         p.get("image"), p.get("image_source_url"))
+        p.get("image"), p.get("image_source_url"), p.get("role_as_of"))
         for p in alumni
     ])
     db.commit()
