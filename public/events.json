@@ -1,0 +1,123 @@
+{
+  "refreshed_at": "2026-09-30T19:23:47.311432+00:00",
+  "events": [
+    {
+      "id": "executive-forum-2026-10-02",
+      "title": "Executive Forum with Randy Haines, Founder for ScaleBridge LLC, and Matt Vuckov, Chief Executive Officer for TalentCraft",
+      "starts_at": "2026-10-02T15:30:00+00:00",
+      "venue": "Rawls Hall 1086",
+      "host": "Purdue Executive Forum",
+      "url": "https://events.purdue.edu/event/executive-forum-with-randy-haines-founder-for-scalebridge-llc-and-matt-vuckov-chief-executive-officer-for-talentcraft",
+      "source": "https://new.business.purdue.edu/events/exec-forum/home.php"
+    },
+    {
+      "id": "buildpurdue-2780c777-c9ab-4987-b53e-eba35c0f9608",
+      "title": "Nightshift",
+      "starts_at": "2026-10-06T23:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/2780c777-c9ab-4987-b53e-eba35c0f9608",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "executive-forum-2026-10-09",
+      "title": "Executive Forum with Tim Cartwright, Founding Partner for Fifth Avenue Family Office",
+      "starts_at": "2026-10-09T15:30:00+00:00",
+      "venue": "Rawls Hall 1086",
+      "host": "Purdue Executive Forum",
+      "url": "https://events.purdue.edu/event/executive-forum-with-tim-cartwright-founding-partner-for-fifth-avenue-family-office",
+      "source": "https://new.business.purdue.edu/events/exec-forum/home.php"
+    },
+    {
+      "id": "executive-forum-2026-10-16",
+      "title": "Executive Forum with Aaron Lai, Director of Data and Analytics for Manifest MedEx",
+      "starts_at": "2026-10-16T15:30:00+00:00",
+      "venue": "Rawls Hall 1086",
+      "host": "Purdue Executive Forum",
+      "url": "https://events.purdue.edu/event/executive-forum-with-aaron-lai-director-of-data-and-analytics-for-manifest-medex",
+      "source": "https://new.business.purdue.edu/events/exec-forum/home.php"
+    },
+    {
+      "id": "anvil-400c7c09-1f5f-4709-92f2-80919bb29a7a@anvilstartups.com",
+      "title": "Pitch Night",
+      "starts_at": "2026-10-16T22:30:00+00:00",
+      "venue": "See event page",
+      "host": "The Anvil",
+      "url": "https://anvilstartups.com/e/pitch-night-oct",
+      "source": "https://www.anvilstartups.com/calendar.ics"
+    },
+    {
+      "id": "buildpurdue-b2a8c091-7983-4070-9c79-1cb0869f9b3d",
+      "title": "Nightshift",
+      "starts_at": "2026-10-20T23:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/b2a8c091-7983-4070-9c79-1cb0869f9b3d",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-a780eb70-1aff-4ac7-b54c-dd1995f9c88a",
+      "title": "Nightshift",
+      "starts_at": "2026-10-27T23:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/a780eb70-1aff-4ac7-b54c-dd1995f9c88a",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-528690fa-bade-4b8f-bc64-a1bcfed65bea",
+      "title": "Nightshift",
+      "starts_at": "2026-11-04T00:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/528690fa-bade-4b8f-bc64-a1bcfed65bea",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-a8214e31-5b87-4c58-a168-259a81c8ca2c",
+      "title": "Nightshift",
+      "starts_at": "2026-11-11T00:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/a8214e31-5b87-4c58-a168-259a81c8ca2c",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-d7026aa9-13a4-427f-a989-f3e69a598f04",
+      "title": "Nightshift",
+      "starts_at": "2026-11-18T00:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/d7026aa9-13a4-427f-a989-f3e69a598f04",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-04a65a81-32ee-40a6-9782-1f662a67b68e",
+      "title": "Nightshift",
+      "starts_at": "2026-12-02T00:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/04a65a81-32ee-40a6-9782-1f662a67b68e",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "buildpurdue-9fb8e24f-ecd0-41ff-b5f4-19e81b42e5a7",
+      "title": "Nightshift",
+      "starts_at": "2026-12-09T00:00:00+00:00",
+      "venue": "HIVE",
+      "host": "buildpurdue",
+      "url": "https://www.buildpurdue.org/events/9fb8e24f-ecd0-41ff-b5f4-19e81b42e5a7",
+      "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "anvil-de195700-d209-4dc0-846f-14bbfaa28e76@anvilstartups.com",
+      "title": "Startup Roundtable: Career Fair",
+      "starts_at": "2027-01-22T14:00:00+00:00",
+      "venue": "See event page",
+      "host": "The Anvil",
+      "url": "https://anvilstartups.com/e/startup-career-fair",
+      "source": "https://www.anvilstartups.com/calendar.ics"
+    }
+  ],
+  "errors": []
+}

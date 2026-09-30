@@ -1,0 +1,6 @@
+__pycache__/
+.vercel/
+node_modules/
+*.pyc
+desktop.png
+mobile.png
