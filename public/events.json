@@ -1,5 +1,5 @@
 {
-  "refreshed_at": "2026-09-30T19:28:13.662769+00:00",
+  "refreshed_at": "2026-09-30T20:20:03.539459+00:00",
   "events": [
     {
       "id": "executive-forum-2026-10-02",
@@ -54,6 +54,15 @@
       "host": "buildpurdue",
       "url": "https://www.buildpurdue.org/events/b2a8c091-7983-4070-9c79-1cb0869f9b3d",
       "source": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "purdue-sf-founders-forum-2026-10-20",
+      "title": "Boilermaker Founders Forum with Brian Feth",
+      "starts_at": "2026-10-21T00:00:00+00:00",
+      "venue": "Third Coast Foundry, San Francisco",
+      "host": "Purdue Alumni Club of San Francisco",
+      "url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "source": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
     },
     {
       "id": "buildpurdue-a780eb70-1aff-4ac7-b54c-dd1995f9c88a",

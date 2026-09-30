@@ -88,6 +88,23 @@ try:
 except Exception as exc:
     failures.append(f"Executive Forum: {exc}")
 
+try:
+    source = "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+    page = BeautifulSoup(requests.get(source, timeout=25).text, "html.parser")
+    text = page.get_text(" ", strip=True)
+    match = re.search(r"October 20, 2026 - (\d{1,2}:\d{2} [AP]M) Pacific Time", text)
+    if match:
+        start = datetime.strptime("October 20, 2026 " + match.group(1), "%B %d, %Y %I:%M %p").replace(tzinfo=ZoneInfo("America/Los_Angeles"))
+        if start.astimezone(timezone.utc) > now:
+            events.append({"id": "purdue-sf-founders-forum-2026-10-20",
+                "title": "Boilermaker Founders Forum with Brian Feth",
+                "starts_at": start.astimezone(timezone.utc).isoformat(),
+                "venue": "Third Coast Foundry, San Francisco",
+                "host": "Purdue Alumni Club of San Francisco",
+                "url": source, "source": source})
+except Exception as exc:
+    failures.append(f"SF Founders Forum: {exc}")
+
 events.sort(key=lambda item: item["starts_at"])
 if not events:
     raise SystemExit("No upcoming events found; existing export preserved. " + "; ".join(failures))

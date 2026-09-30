@@ -1,0 +1,240 @@
+{
+  "reviewed_at": "2026-09-30",
+  "scope": "Public, source-backed Purdue connections to the San Francisco Bay Area. Location is a public work location unless a source explicitly states residence. A listing is not an invitation to unsolicited contact.",
+  "people": [
+    {
+      "id": "prady-modukuru",
+      "name": "Prady Modukuru",
+      "purdue_connection": "Computer engineering alumnus",
+      "current_role": "Co-founder and CEO",
+      "organization": "sync.",
+      "location": "San Francisco, CA (company location)",
+      "founder_relevance": "YC W24 founder building AI video dubbing; firsthand path from Purdue engineering to a San Francisco startup.",
+      "source_urls": ["https://www.ycombinator.com/companies/sync-2", "https://www.prady.so/prady-modukuru", "https://convocations.purdue.edu/event/tedxpurdue-odyssey/"]
+    },
+    {
+      "id": "brian-feth",
+      "name": "Brian Feth",
+      "purdue_connection": "BS 2003, Molecular Biology and Chemistry",
+      "current_role": "Co-founder and CEO",
+      "organization": "Xcell Biosciences",
+      "location": "San Francisco, CA (company location)",
+      "founder_relevance": "Venture-backed biotech founder; featured speaker at Purdue Alumni of San Francisco's October 2026 Boilermaker Founders Forum.",
+      "source_urls": ["https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"]
+    },
+    {
+      "id": "mamoon-hamid",
+      "name": "Mamoon Hamid",
+      "purdue_connection": "BS Electrical and Computer Engineering 1997",
+      "current_role": "Partner",
+      "organization": "Kleiner Perkins",
+      "location": "San Francisco Bay Area (listed among cities lived by firm)",
+      "founder_relevance": "Purdue alumnus and active venture investor in enterprise AI, healthcare AI, and software; previously co-founded Social Capital.",
+      "source_urls": ["https://www.kleinerperkins.com/people/mamoon-hamid/", "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"]
+    },
+    {
+      "id": "snehal-antani",
+      "name": "Snehal Antani",
+      "purdue_connection": "BS Computer Science 2002",
+      "current_role": "Co-founder and CEO",
+      "organization": "Horizon3.ai",
+      "location": "San Francisco Bay Area (Purdue-reported residence; company headquartered in SF)",
+      "founder_relevance": "Cybersecurity founder and investor; Purdue CS Distinguished Alumnus with experience scaling enterprise security products.",
+      "source_urls": ["https://www.cs.purdue.edu/alumni/2023-alumni-awards.html", "https://horizon3.ai/about-us/"]
+    },
+    {
+      "id": "mario-paniccia",
+      "name": "Mario Paniccia",
+      "purdue_connection": "MS Physics 1990; PhD Physics 1994",
+      "current_role": "Co-founder and CEO",
+      "organization": "ANELLO Photonics",
+      "location": "Santa Clara, CA (company location)",
+      "founder_relevance": "Deep-tech founder commercializing silicon photonics for navigation; former Intel Fellow.",
+      "source_urls": ["https://www.physics.purdue.edu/alumni/distalum/paniccia.html", "https://www.anellophotonics.com/team"]
+    },
+    {
+      "id": "william-elmore",
+      "name": "William B. Elmore",
+      "purdue_connection": "BS Electrical Engineering 1975; MS Electrical Engineering 1976",
+      "current_role": "Venture investor; emeritus partner",
+      "organization": "Foundation Capital",
+      "location": "Near San Francisco, CA (Purdue-reported residence in 2022)",
+      "founder_relevance": "Co-founded Foundation Capital; active Purdue supporter and speaker on early-stage venture funding.",
+      "source_urls": ["https://engineering.purdue.edu/ECE/Wavelinks/2022/alumnus-makes-gift-to-ece", "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"]
+    },
+    {
+      "id": "bruce-schechter",
+      "name": "Bruce Schechter",
+      "purdue_connection": "BS Physics and Mathematics",
+      "current_role": "Startup mentor and angel investor",
+      "organization": "Silicon Valley Boiler Innovation Group",
+      "location": "Palo Alto, CA (Purdue-reported location in 2023)",
+      "founder_relevance": "SVBIG co-founder who mentors Purdue startups on fundraising and scaling; direct alumni bridge to Silicon Valley.",
+      "source_urls": ["https://engineering.purdue.edu/Engr/AboutUs/News/Events/2023/2023-0926-techstartup", "https://www.svbig.org/"]
+    },
+    {
+      "id": "beth-bostwick",
+      "name": "Beth Bostwick",
+      "purdue_connection": "MS Human Resources 1989",
+      "current_role": "Serial entrepreneur and startup mentor",
+      "organization": "Purdue Innovates / Silicon Valley Boiler Innovation Group",
+      "location": "Silicon Valley connection (current residence not independently confirmed)",
+      "founder_relevance": "Founded ReadyTouch; mentors Purdue founders and women entrepreneurs through Purdue Innovates and SVBIG.",
+      "source_urls": ["https://stories.purdue.edu/podcast/beth-bostwick/", "https://marcom.purdue.edu/contentpkg/podcast-episode-112-beth-bostwick/"]
+    },
+    {
+      "id": "akshay-kothari",
+      "name": "Akshay Kothari",
+      "purdue_connection": "BS Electrical and Computer Engineering 2007",
+      "current_role": "Co-founder and COO",
+      "organization": "Notion",
+      "location": "San Francisco Bay Area (public professional profile)",
+      "founder_relevance": "Co-founded Pulse, then helped scale Notion; relevant to consumer product, distribution, and operations.",
+      "source_urls": ["https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html", "https://www.notion.com/blog/first-block-with-parker-conrad", "https://www.linkedin.com/in/akothari"]
+    },
+    {
+      "id": "sumit-mehra",
+      "name": "Sumit Mehra",
+      "purdue_connection": "BS Computer Engineering 2004",
+      "current_role": "Co-founder; product engineering leader",
+      "organization": "Y Media Labs",
+      "location": "San Francisco Bay Area (Purdue-reported residence in 2021)",
+      "founder_relevance": "Built a digital product agency serving startups and major companies; useful for product design and engineering strategy.",
+      "source_urls": ["https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra", "https://yml.co/adage-recognizes-yml-as-standout-agency-of-2021"]
+    },
+    {
+      "id": "ashish-toshniwal",
+      "name": "Ashish Toshniwal",
+      "purdue_connection": "BS Electrical Engineering 2005",
+      "current_role": "Founder",
+      "organization": "Hey Noah",
+      "location": "Palo Alto, CA (current company location); Los Altos, CA (self-reported residence)",
+      "founder_relevance": "Founded Y Media Labs and now builds an AI executive assistant; experienced in bootstrapping and angel investing.",
+      "source_urls": ["https://engineering.purdue.edu/ECE/Alums/OECE/2021/Ashish-Toshniwal", "https://www.heynoah.io/careers", "https://www.ashishtoshniwal.com/"]
+    },
+    {
+      "id": "winston-crawford",
+      "name": "Winston Crawford",
+      "purdue_connection": "MBA, Marketing",
+      "current_role": "Senior Director of Global Ad Sales",
+      "organization": "Apple Ads",
+      "location": "Cupertino, CA (work); Silicon Valley (Purdue-reported residence)",
+      "founder_relevance": "Operator in advertising and go-to-market; previously COO of Drawbridge through acquisition.",
+      "source_urls": ["https://www.business.purdue.edu/events/exec-forum/speakers.php"]
+    },
+    {
+      "id": "aaron-lai",
+      "name": "Aaron Lai",
+      "purdue_connection": "MBA alumnus; Senior Fellow at Purdue Krenicki Center",
+      "current_role": "Senior Fellow; data and AI strategy leader",
+      "organization": "Purdue Krenicki Center for Business Analytics & Machine Learning",
+      "location": "Emeryville, CA (listed speaker location)",
+      "founder_relevance": "Bay Area data and healthcare analytics operator; relevant to founders building in health and responsible AI.",
+      "source_urls": ["https://www.business.purdue.edu/events/exec-forum/speakers.php"]
+    },
+    {
+      "id": "patti-poppe",
+      "name": "Patti Poppe",
+      "purdue_connection": "BS and MS Industrial Engineering",
+      "current_role": "CEO",
+      "organization": "PG&E Corporation",
+      "location": "San Francisco, CA (company headquarters)",
+      "founder_relevance": "Energy infrastructure operator and Purdue Engineering Advisory Council member; relevant to climate and grid startups seeking industry context.",
+      "source_urls": ["https://www.pgecorp.com/about/officers/corporation-officers/patricia-poppe.html", "https://collections.lib.purdue.edu/timelines/engineering"]
+    },
+    {
+      "id": "tolen-schreid",
+      "name": "Tolen Schreid",
+      "purdue_connection": "Purdue engineering student (not alumnus)",
+      "current_role": "Co-founder",
+      "organization": "Caseflood.ai",
+      "location": "San Francisco, CA (Purdue-reported company stay in 2025; current residence unverified)",
+      "founder_relevance": "Purdue student founder accepted into Y Combinator; example of a direct campus-to-SF founder path.",
+      "source_urls": ["https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup"]
+    },
+    {
+      "id": "jackie-magno",
+      "name": "Jackie Magno",
+      "purdue_connection": "BS Chemistry and MSM Business",
+      "current_role": "Managing Director, Golden Seeds Silicon Valley; SVBIG co-chair",
+      "organization": "Golden Seeds / Silicon Valley Boiler Innovation Group",
+      "location": "Silicon Valley, CA (work region)",
+      "founder_relevance": "Angel investor and Purdue mentor focused on early-stage companies and women entrepreneurs; Purdue Executive in Residence in Fall 2026.",
+      "source_urls": ["https://housing.purdue.edu/campus-living/residential-learning/rai/eir/upcoming-eir.html"]
+    }
+  ],
+  "organizations": [
+    {
+      "id": "third-coast-foundry",
+      "name": "Third Coast Foundry",
+      "type": "Founder workspace and investor bridge",
+      "location": "625 2nd Street, San Francisco, CA",
+      "why_it_matters": "Purdue-affiliated founders can request Bay Area meeting and event space, meet investors and partners, and build a coastal network without relocating.",
+      "url": "https://purdueinnovates.org/third-coast-foundry/",
+      "source_urls": ["https://purdueinnovates.org/third-coast-foundry/", "https://stories.prf.org/purdue-third-coast-foundry-grand-opening/"]
+    },
+    {
+      "id": "svbig",
+      "name": "Silicon Valley Boiler Innovation Group",
+      "type": "Purdue alumni startup mentorship",
+      "location": "Silicon Valley, CA",
+      "why_it_matters": "Purdue-affiliated teams can seek practical mentorship on go-to-market, leadership, and venture finance from Silicon Valley alumni.",
+      "url": "https://www.svbig.org/",
+      "source_urls": ["https://www.svbig.org/", "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"]
+    },
+    {
+      "id": "purdue-alumni-sf",
+      "name": "Purdue Alumni Club of San Francisco",
+      "type": "Regional alumni community",
+      "location": "San Francisco Bay Area, CA",
+      "why_it_matters": "Local Purdue network for events, introductions, and community; open to alumni, friends, and fans.",
+      "url": "https://www.purdueforlife.org/clubs/san-francisco/",
+      "source_urls": ["https://www.purdueforlife.org/clubs/san-francisco/"]
+    },
+    {
+      "id": "jmec-palo-alto",
+      "name": "John Martinson Entrepreneurial Center — Palo Alto",
+      "type": "Purdue founder support",
+      "location": "Palo Alto, CA",
+      "why_it_matters": "Purdue's Bay Area office supports student, faculty, and alumni startups and runs founder mentoring and pitch events.",
+      "url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+      "source_urls": ["https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"]
+    },
+    {
+      "id": "boilermaker-founders-forum",
+      "name": "Boilermaker Founders Forum",
+      "type": "Purdue founder speaker series",
+      "location": "San Francisco, CA",
+      "why_it_matters": "Purdue alumni, founders, investors, and executives meet around founder conversations. Next listed event: Brian Feth, October 20, 2026.",
+      "url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "source_urls": ["https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"]
+    },
+    {
+      "id": "engr-10301-silicon-valley",
+      "name": "ENGR 10301 Silicon Valley and the Tech Industry",
+      "type": "Purdue course and Bay Area visit",
+      "location": "Purdue + San Francisco Bay Area",
+      "why_it_matters": "One-credit Purdue course with spring-break visits and networking with Bay Area employers and alumni; current course page lists eligibility and costs.",
+      "url": "https://engineering.purdue.edu/OPP/programs/courses",
+      "source_urls": ["https://engineering.purdue.edu/OPP/programs/courses"]
+    },
+    {
+      "id": "a16z-speedrun-alpha-2026",
+      "name": "a16z Speedrun Alpha Fellowship",
+      "type": "External founder fellowship",
+      "location": "San Francisco, CA",
+      "why_it_matters": "Purdue CS advertises the 2026 founder and talent tracks; founder track can invest up to $250K. Posted application deadline: October 11, 2026. Confirm terms at the application page before applying.",
+      "url": "https://speedrun.a16z.com/",
+      "source_urls": ["https://cs.purdue.edu/corporate/employment/a16zfellow10.11.html", "https://speedrun.a16z.com/"]
+    },
+    {
+      "id": "bdm-sf-trip-2026",
+      "name": "Burton D. Morgan Competition — San Francisco trip",
+      "type": "Purdue founder competition benefit",
+      "location": "Purdue + San Francisco, CA",
+      "why_it_matters": "The 2026 competition advertises a paid San Francisco trip for winners to use Third Coast Foundry. The preliminary submission deadline was September 27, 2026; track the competition page for future cycles.",
+      "url": "https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php",
+      "source_urls": ["https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php"]
+    }
+  ]
+}

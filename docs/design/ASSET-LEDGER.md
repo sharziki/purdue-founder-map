@@ -25,3 +25,13 @@ Staff images in `public/assets/people/` were sourced from publicly accessible of
 Purdue Hackers mark in `public/assets/orgs/purdue-hackers.svg` comes from the official [Purdue Hackers site](https://purduehackers.com/); the µgrants listing links to their [official grants page](https://grants.purduehackers.com/). The mark remains Purdue Hackers' trademark.
 
 Additional staff portraits (including licensing, IP, and legal contacts) come from the [Purdue Innovates team page](https://purdueinnovates.org/our-team/) and were resized to 480px WebP. The exact public profile and work email source for each person is represented by their `url` in `data/people.json`. `scripts/scrape_people.py` collects candidate public records for manual review.
+
+## Calmer homepage and motion (2026-09-30)
+
+The contained workshop and corridor images are the existing generated conceptual assets listed above. They are labeled in the UI. The new home layout uses typography and real sourced data as its main visual evidence; no new stock photography or marketplace imagery was added.
+
+Component ports from the [MIT-licensed Kokonut UI source](https://github.com/kokonut-labs/kokonutui/tree/83eec6d/components/kokonutui) indexed by 21st.dev: `SlideTextButton` (main CTAs), `MorphicNavbar` (active navigation pill), `SpotlightCards` (pointer light on entry cards), `ActionSearchBar` (keyboard search), `SmoothTab` (resource, people, and alumni filters), `ScrollText` (current roadmap row via intersection observer), and `Loader` (brief branded opening line/monogram rather than its circular spinner). These are native adaptations to the static site, not pasted demo code or marketplace media. License copy: [`KOKONUT-MIT.txt`](KOKONUT-MIT.txt).
+
+GSAP 3.14.2 and ScrollTrigger are vendored in `public/vendor/` from official npm distribution via jsDelivr. [GSAP standard license](https://gsap.com/standard-license/) governs these files. They animate only entrance transforms and opacity after load; source content is visible without JS and `prefers-reduced-motion` skips the timelines. The opening mark exits with CSS even if GSAP fails.
+
+Five alumni portraits in `public/assets/alumni/` come from the official Purdue pages linked by `image_source_url` in `data/alumni.json` and `public/alumni.json`: John Gedmark (Purdue AAE), Don Thompson (Purdue ECE), Kendra Bracken-Ferguson (Purdue CLA), Akshay Kothari (Purdue ECE), and Ashish Toshniwal (Purdue ECE). Files were downloaded on 2026-09-30 and resized/encoded as WebP; four appear in the alumni feature and available portraits appear in directory rows. These portraits remain their owners' content and identify the linked person only.

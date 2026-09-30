@@ -6,17 +6,18 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 
 ## What is here
 
-- Six-stage visual founder roadmap and a chaptered [field guide](https://purdue-founder-map.vercel.app/guide) from first builder meetup to launch, funding, and growth.
+- Six-stage scan-friendly roadmap and a chaptered [field guide](https://purdue-founder-map.vercel.app/guide) from first builder meetup to launch, funding, and growth.
 - [People directory](https://purdue-founder-map.vercel.app/people) with 41 source-backed public contacts, including program leads, capital, alumni, and Kostas Grigoriou.
-- Official organization logo cards for the most useful campus and Indiana entry points.
-- 49 reviewed campus, alumni, Indiana, and national resources, plus 101 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
-- Search and filters by stage, type, and region; a browser-local saved list.
-- Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), and [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php).
-- One SQLite database at `data/founders.sqlite3` containing resources and public contacts; static JSON exports in `public/` make the site cheap to host and easy to reuse.
+- [Alumni directory](https://purdue-founder-map.vercel.app/alumni) with 41 deduplicated, source-backed public founder, investor, and operator profiles.
+- First-party club imagery for useful campus entry points, with direct organization links.
+- 49 core reviewed resources, 28 new Indiana and Bay Area resources, plus 100 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
+- Search and filters by resource type; alumni filters by role and geography. The homepage shows eight results at first and expands on demand.
+- Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php), and the [San Francisco Boilermaker Founders Forum](https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html).
+- One SQLite database at `data/founders.sqlite3` containing resources, public contacts, and alumni; static JSON exports in `public/` make the site cheap to host and easy to reuse.
 
-No registration or tracking is required. Saved links stay in your browser.
+No registration or tracking is required.
 
-The visual design uses three original generated, conceptual images. It takes broad composition cues from SpaceX.com while depicting founder work instead of aerospace. The CTA, search, loader, filter, and spotlight interactions adapt MIT-licensed components from the [21st.dev Kokonut UI library](https://21st.dev/@kokonutd/library/kokonut-ui); provenance and source masters are in [`docs/design/ASSET-LEDGER.md`](docs/design/ASSET-LEDGER.md).
+The visual design uses three original generated, conceptual images. The homepage now uses an editorial paper-and-ink system with optional GSAP motion. The CTA, search, loader, filter, and spotlight interactions adapt MIT-licensed components from the [21st.dev Kokonut UI library](https://21st.dev/@kokonutd/library/kokonut-ui); provenance and source masters are in [`docs/design/ASSET-LEDGER.md`](docs/design/ASSET-LEDGER.md).
 
 ## Run locally
 
@@ -28,11 +29,12 @@ Open `http://localhost:4173`.
 
 ## Data updates
 
-Edit reviewed records in `data/resources.json` or public contacts in `data/people.json`, then run:
+Edit reviewed records in `data/resources.json`, public contacts in `data/people.json`, alumni in `data/alumni.json`, or the sourced Indiana and Bay Area expansion files, then run:
 
 ```bash
 python3 -m pip install requests beautifulsoup4
 python3 scripts/scrape_navigator.py
+python3 scripts/build_alumni.py
 python3 scripts/build_data.py
 python3 scripts/refresh_events.py
 ```
@@ -43,7 +45,7 @@ Resource entries use a durable program page rather than a deadline or an `apply`
 
 ## Contribute
 
-Use the [contribution page](https://purdue-founder-map.vercel.app/contribute) to suggest a resource, nominate a public contact, or report a correction. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the data format and verification steps.
+Use the [contribution page](https://purdue-founder-map.vercel.app/contribute) to suggest a resource, nominate a public contact or alumnus, or report a correction. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the data format and verification steps.
 
 ## License
 

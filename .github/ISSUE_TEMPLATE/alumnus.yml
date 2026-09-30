@@ -1,0 +1,37 @@
+name: Suggest a Purdue alumnus
+description: Nominate a public founder, investor, or operator with a sourced Purdue connection.
+title: "Alumnus: "
+labels: [alumni]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: connection
+    attributes:
+      label: Purdue connection
+      description: Degree, program, or verified affiliation.
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Current role and organization
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      description: University or organization profile that confirms the claims. Do not include private contact details.
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why useful to a Purdue founder?
+    validations:
+      required: true

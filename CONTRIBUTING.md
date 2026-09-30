@@ -1,6 +1,6 @@
 # Contributing to Purdue Founder Map
 
-Thanks for helping make the guide accurate and useful. You can [suggest a resource](https://github.com/sharziki/purdue-founder-map/issues/new?template=resource.yml), [nominate a public contact](https://github.com/sharziki/purdue-founder-map/issues/new?template=person.yml), or [report a correction](https://github.com/sharziki/purdue-founder-map/issues/new?template=correction.yml). A pull request works too.
+Thanks for helping make the guide accurate and useful. You can [suggest a resource](https://github.com/sharziki/purdue-founder-map/issues/new?template=resource.yml), [nominate a public contact](https://github.com/sharziki/purdue-founder-map/issues/new?template=person.yml), [suggest an alumnus](https://github.com/sharziki/purdue-founder-map/issues/new?template=alumnus.yml), or [report a correction](https://github.com/sharziki/purdue-founder-map/issues/new?template=correction.yml). A pull request works too.
 
 ## What belongs here
 
@@ -12,7 +12,7 @@ Do not submit private contact information, member-only directories, unverifiable
 
 ## Edit the data
 
-Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
+Reviewed resources live in `data/resources.json`; public contacts live in `data/people.json`. Alumni profiles live in `data/alumni.json` and source-backed Bay Area connections in `data/bay-area-connections.json`. Indiana expansion lives in `data/indiana-expansion.json`. Reuse the fields and categories in nearby entries. Include a `source` URL for resources and an official `url` and `verified_at` date for people. Asset files belong in `public/assets/`; record first-party source and ownership in `docs/design/ASSET-LEDGER.md`.
 
 Run:
 
