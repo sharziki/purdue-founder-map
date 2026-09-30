@@ -10,6 +10,8 @@ SEED = ROOT / "data" / "resources.json"
 NAVIGATOR = ROOT / "data" / "navigator.json"
 DB = ROOT / "data" / "founders.sqlite3"
 OUT = ROOT / "public" / "data.json"
+PEOPLE = ROOT / "data" / "people.json"
+PEOPLE_OUT = ROOT / "public" / "people.json"
 
 rows = json.loads(SEED.read_text())
 reviewed_count = len(rows)
@@ -67,6 +69,25 @@ with sqlite3.connect(DB) as db:
          r["geography"], r["summary"], r["next_step"], r["url"], r["source"], checked)
         for r in rows
     ])
+    people = json.loads(PEOPLE.read_text())
+    assert len({person["id"] for person in people}) == len(people), "duplicate person id"
+    assert all(person["url"].startswith("https://") for person in people)
+    db.executescript("""
+      DROP TABLE IF EXISTS people;
+      CREATE TABLE people (
+        id TEXT PRIMARY KEY, name TEXT NOT NULL, role TEXT NOT NULL,
+        organization TEXT NOT NULL, lane TEXT NOT NULL, helps TEXT NOT NULL,
+        url TEXT NOT NULL, image TEXT, checked_at TEXT NOT NULL
+      );
+      CREATE INDEX idx_people_lane ON people(lane);
+    """)
+    db.executemany("INSERT INTO people VALUES (?,?,?,?,?,?,?,?,?)", [
+        (p["id"], p["name"], p["role"], p["organization"], p["lane"],
+         p["helps"], p["url"], p.get("image"), checked)
+        for p in people
+    ])
     db.commit()
 OUT.write_text(json.dumps({"checked_at": checked, "reviewed_count": reviewed_count, "resources": rows}, indent=2) + "\n")
+PEOPLE_OUT.write_text(json.dumps({"checked_at": checked, "people": people}, indent=2) + "\n")
 print(f"Built {len(rows)} resources ({reviewed_count} reviewed, {len(rows)-reviewed_count} Navigator) → {DB} and {OUT}")
+print(f"Built {len(people)} public professional profiles → {DB} and {PEOPLE_OUT}")

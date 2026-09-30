@@ -14,6 +14,8 @@ const byId = id => resources.find(r => r.id===id);
 const external = (url,label) => `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`;
 
 function renderStages(){
+  $('#route-map').innerHTML=stages.map((s,i)=>`<button class="route-stop" type="button" data-route-stage="${s.name}" aria-label="Filter ${s.name} resources"><span class="route-node">${s.number}</span><span class="route-name">${s.name}</span><small>${['Meet builders','Find a real problem','Make a first test','Win first users','Choose capital','Grow repeatably'][i]}</small></button>`).join('');
+  document.querySelectorAll('[data-route-stage]').forEach(button=>button.addEventListener('click',()=>{$('#stage-filter').value=button.dataset.routeStage;renderResources();$('#directory').scrollIntoView({behavior:'smooth'})}));
   $('#stage-grid').innerHTML=stages.map(s=>`<article class="stage-card"><div class="stage-head"><span>${s.number} / 06</span><span class="stage-arrow">↗</span></div><h3>${s.prompt}</h3><p>${s.action}</p><div class="stage-door">${s.ids.map(id=>{const r=byId(id);return r?external(r.url,esc(r.name)+' ↗'):''}).join('')}</div><button type="button" data-stage="${s.name}">See ${s.name.toLowerCase()} resources <span>→</span></button></article>`).join('');
   document.querySelectorAll('[data-stage]').forEach(button=>button.addEventListener('click',()=>{ $('#stage-filter').value=button.dataset.stage;renderResources();$('#directory').scrollIntoView({behavior:'smooth'}); }));
 }

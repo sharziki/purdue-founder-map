@@ -1,0 +1,185 @@
+{
+  "checked_at": "2026-09-30",
+  "people": [
+    {
+      "id": "kostas-grigoriou",
+      "name": "Kostas Grigoriou",
+      "role": "Director, Springer Business Initiative \u00b7 Clinical Assistant Professor",
+      "organization": "Purdue Engineering + Daniels School",
+      "lane": "Start",
+      "helps": "Venture X, Burton D. Morgan competition, student venture education, buildpurdue advising",
+      "url": "https://business.purdue.edu/faculty/home.php?username=kgrigori",
+      "image": "/assets/people/kostas-grigoriou.webp"
+    },
+    {
+      "id": "jessica-jud",
+      "name": "Jessica Jud",
+      "role": "Managing Director, HIVE",
+      "organization": "Purdue HIVE",
+      "lane": "Start",
+      "helps": "Finding engineering startup space, programs, and collaborators",
+      "url": "https://engineering.purdue.edu/HIVE/people"
+    },
+    {
+      "id": "christopher-brinton",
+      "name": "Christopher G. Brinton",
+      "role": "Faculty Director, HIVE",
+      "organization": "Purdue HIVE",
+      "lane": "Start",
+      "helps": "Engineering venture education and HIVE faculty direction",
+      "url": "https://engineering.purdue.edu/HIVE/people"
+    },
+    {
+      "id": "justin-renfrow",
+      "name": "Justin Renfrow",
+      "role": "Director, Incubator",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Incubator programs and getting a venture off the ground",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/justin-renfrow.webp"
+    },
+    {
+      "id": "doug-applegate",
+      "name": "Doug Applegate",
+      "role": "Associate Director, Incubator",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Founder programs, market validation, and incubator routing",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/doug-applegate.webp"
+    },
+    {
+      "id": "moe-simmons",
+      "name": "Moe Simmons",
+      "role": "Program Manager, Incubator",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Incubator programming and participation",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/moe-simmons.webp"
+    },
+    {
+      "id": "max-frischman",
+      "name": "Max Frischman",
+      "role": "Accelerator Program Manager",
+      "organization": "Purdue Innovates",
+      "lane": "Programs",
+      "helps": "Accelerator programming for teams ready to grow",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/max-frischman.webp"
+    },
+    {
+      "id": "nathalie-duval-couetil",
+      "name": "Nathalie Duval-Couetil",
+      "role": "Director, University Entrepreneurship Education Initiatives",
+      "organization": "Purdue University",
+      "lane": "Start",
+      "helps": "Entrepreneurship courses and education pathways",
+      "url": "https://polytechnic.purdue.edu/profile/natduval"
+    },
+    {
+      "id": "abhijit-karve",
+      "name": "Abhijit Karve",
+      "role": "Director, Business Development and Licensing",
+      "organization": "Purdue Innovates OTC",
+      "lane": "Research & IP",
+      "helps": "Commercializing and licensing Purdue research",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/abhijit-karve.webp"
+    },
+    {
+      "id": "richard-sikora",
+      "name": "Richard G. Sikora",
+      "role": "Executive Advisor for Innovation and Entrepreneurship",
+      "organization": "Daniels School + Purdue Innovates",
+      "lane": "Research & IP",
+      "helps": "Innovation and commercialization guidance",
+      "url": "https://purdueinnovates.org/our-team/"
+    },
+    {
+      "id": "brooke-beier",
+      "name": "Brooke Beier",
+      "role": "Senior Vice President",
+      "organization": "Purdue Innovates",
+      "lane": "Research & IP",
+      "helps": "Purdue Innovates leadership and ecosystem direction",
+      "url": "https://purdueinnovates.org/our-team/",
+      "image": "/assets/people/brooke-beier.webp"
+    },
+    {
+      "id": "danielle-salters",
+      "name": "Danielle Salters",
+      "role": "Managing Director",
+      "organization": "Purdue Innovates Ventures",
+      "lane": "Capital",
+      "helps": "Purdue venture investment and fund fit",
+      "url": "https://ventures.prf.org/",
+      "image": "/assets/people/danielle-salters.webp"
+    },
+    {
+      "id": "makenzie-norris",
+      "name": "Makenzie Norris",
+      "role": "Associate",
+      "organization": "Purdue Innovates Ventures",
+      "lane": "Capital",
+      "helps": "Purdue venture investment team",
+      "url": "https://ventures.prf.org/",
+      "image": "/assets/people/makenzie-norris.webp"
+    },
+    {
+      "id": "david-broecker",
+      "name": "David Broecker",
+      "role": "Chief Innovation and Collaboration Officer",
+      "organization": "Purdue Innovates Ventures",
+      "lane": "Capital",
+      "helps": "Strategic ventures and innovation partnerships",
+      "url": "https://ventures.prf.org/"
+    },
+    {
+      "id": "matt-dressler",
+      "name": "Matt Dressler",
+      "role": "Funds Manager, Incubator",
+      "organization": "Purdue Innovates",
+      "lane": "Capital",
+      "helps": "Incubator funding programs",
+      "url": "https://purdueinnovates.org/our-team/"
+    },
+    {
+      "id": "abhinav-dukkipati",
+      "name": "Abhinav Dukkipati",
+      "role": "Vice President",
+      "organization": "The Anvil",
+      "lane": "Community",
+      "helps": "Student founder community and Anvil programs",
+      "url": "https://www.anvilstartups.com/join"
+    },
+    {
+      "id": "arnav-basu",
+      "name": "Arnav Basu",
+      "role": "Head of BoilerLaunch",
+      "organization": "The Anvil",
+      "lane": "Community",
+      "helps": "BoilerLaunch and student founder events",
+      "url": "https://www.anvilstartups.com/join"
+    },
+    {
+      "id": "vitoria-didone",
+      "name": "Vit\u00f3ria Didone",
+      "role": "Head of Marketing",
+      "organization": "The Anvil",
+      "lane": "Community",
+      "helps": "Anvil community and communications",
+      "url": "https://www.anvilstartups.com/join"
+    },
+    {
+      "id": "maria-whipple",
+      "name": "Maria L. Whipple",
+      "role": "Senior Director, Affinity Networks",
+      "organization": "Purdue for Life Foundation",
+      "lane": "Alumni",
+      "helps": "Purdue Alumni Entrepreneurship Network and alumni connections",
+      "url": "https://www.purdueforlife.org/affinity-networks/paen/contact-us/"
+    }
+  ]
+}

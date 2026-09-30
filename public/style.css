@@ -129,3 +129,41 @@ footer strong{color:#fff}footer a:not(.brand):hover{color:#fff}footer p{color:#9
 @media(max-width:700px){.hero{flex-direction:row;align-items:flex-end}.hero .hero-copy{margin:0 5% 108px}}
 .visually-hidden{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .clear-search{border:0;background:transparent;color:#aaa;font-size:22px;line-height:1;padding:2px 5px}.clear-search:hover{color:#fff}.clear-search[hidden]{display:none}
+
+/* Founder navigation, visual route, and official organization gallery */
+.hero{height:88svh;min-height:660px}
+.start-here{background:#e9ddc4;color:#221b12;padding:82px clamp(24px,7.2vw,122px) 90px;border-bottom:1px solid #bdaa85}
+.start-intro{display:grid;grid-template-columns:1fr 310px;align-items:end;gap:25px;margin-bottom:38px}
+.start-intro .kicker{grid-column:1/-1;color:#755419}
+.start-intro h2{font:700 clamp(48px,5.5vw,86px)/.91 'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;margin:0;letter-spacing:-.01em}
+.start-intro>p:last-child{font-size:14px;line-height:1.6;margin:0;color:#554b3e}
+.start-options{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.start-options a{display:flex;flex-direction:column;min-height:257px;padding:26px;background:#f9f4e9;border:1px solid #cbbf9e;transition:transform .2s,background .2s}
+.start-options a:hover,.start-options a:focus-visible{transform:translateY(-4px);background:#fff}
+.start-options span,.org-card>span{font:700 10px 'DM Sans',sans-serif;letter-spacing:.14em;color:#8b6320}
+.start-options strong{font:700 35px/.95 'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;max-width:260px;margin:34px 0 10px}
+.start-options small{font-size:12px;line-height:1.5;color:#6c6353;max-width:260px}
+.start-options b{margin-top:auto;padding-top:26px;font:700 11px 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.05em}
+.route-map{display:grid;grid-template-columns:repeat(6,1fr);position:relative;gap:0;margin:8px 0 35px;padding:0 8px}
+.route-map:before{content:"";height:2px;background:#8f7441;position:absolute;top:34px;left:7%;right:7%}
+.route-stop{border:0;background:none;color:#fff;text-align:left;position:relative;z-index:1;padding:0 10px 20px;min-height:142px;display:flex;flex-direction:column;align-items:flex-start}
+.route-node{display:grid;place-items:center;width:69px;height:69px;border-radius:50%;background:#171612;border:2px solid var(--gold);color:var(--gold);font:700 24px 'Barlow Condensed',sans-serif;transition:background .2s,transform .2s}
+.route-stop:hover .route-node,.route-stop:focus-visible .route-node{background:var(--gold);color:#17120a;transform:scale(1.07)}
+.route-name{font:700 20px 'Barlow Condensed',sans-serif;text-transform:uppercase;margin-top:14px}
+.route-stop small{color:#9c9a93;font-size:10px;line-height:1.35}
+.org-section{background:#11100d}
+.org-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.org-card{display:flex;flex-direction:column;padding:17px 17px 23px;background:#1d1b16;border:1px solid #544a35;min-height:340px;transition:transform .2s,border-color .2s}
+.org-card:hover,.org-card:focus-visible{transform:translateY(-4px);border-color:#d2b46d}
+.org-art{height:138px;background:#2a271f;display:grid;place-items:center;overflow:hidden;margin-bottom:23px;padding:15px}
+.org-art img{max-width:100%;max-height:108px;width:auto;height:auto;object-fit:contain}
+.org-card h3{font:700 31px/.95 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:9px 0 8px}
+.org-card p{font-size:12px;color:#aaa89e;line-height:1.5;margin:0;max-width:350px}
+.org-card b{font:700 11px 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.04em;color:var(--gold);margin-top:auto;padding-top:20px}
+.org-note{margin-top:20px;font-size:12px;color:#aaa}.org-note a{color:var(--gold);text-decoration:underline;text-underline-offset:3px}
+.people-teaser{display:grid;grid-template-columns:1fr .65fr;gap:40px;padding:85px clamp(24px,7.2vw,122px);background:#cbb16b;color:#17130d;align-items:center}
+.people-teaser .kicker{color:#5a4016}.people-teaser h2{font:700 clamp(54px,6vw,95px)/.9 'Barlow Condensed',sans-serif;text-transform:uppercase;margin:18px 0}.people-teaser p:not(.kicker){max-width:570px;font-size:14px;line-height:1.6}.people-teaser .button.primary{color:#17130d;border-color:#17130d;margin-top:16px}.people-teaser .button.primary:hover{background:#17130d;color:#e6d5a2}
+.teaser-faces{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;align-items:end}.teaser-faces img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:grayscale(.8);border:1px solid #17130d}.teaser-faces img:nth-child(2){transform:translateY(28px)}.teaser-faces span{grid-column:1/-1;text-align:right;font:700 12px 'DM Sans',sans-serif;text-transform:uppercase;letter-spacing:.08em;margin-top:38px}
+@media(max-width:1100px){.topbar nav{gap:13px}.topbar nav a{font-size:9px}.top-action{display:none}.org-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.topbar{height:105px;align-content:center;align-items:center;flex-wrap:wrap;gap:3px;padding:9px 5%}.topbar nav{display:flex;order:3;width:100%;margin:0;overflow:auto;white-space:nowrap;gap:20px;padding:5px 0 2px;scrollbar-width:none}.topbar nav::-webkit-scrollbar{display:none}.topbar nav a{font-size:9px}.hero{height:92svh;min-height:680px}.hero .hero-copy{margin-bottom:100px}.start-here{padding:55px 5% 63px}.start-intro{display:block}.start-intro h2{font-size:58px;margin:18px 0 10px}.start-options{grid-template-columns:1fr}.start-options a{min-height:190px}.start-options strong{font-size:31px;margin:21px 0 7px}.route-map{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:0 -5vw 22px;padding:8px 5vw 0;scrollbar-width:thin}.route-map:before{display:none}.route-stop{flex:0 0 132px;scroll-snap-align:start}.route-node{width:58px;height:58px}.org-grid{grid-template-columns:1fr}.org-card{min-height:295px}.people-teaser{grid-template-columns:1fr;padding:60px 5%}.people-teaser h2{font-size:68px}.teaser-faces{max-width:450px}.section-heading h2{font-size:clamp(54px,13vw,75px)}}
+@media(prefers-reduced-motion:reduce){.start-options a,.org-card,.route-node{transition:none}}
