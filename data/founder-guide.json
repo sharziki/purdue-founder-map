@@ -1,0 +1,833 @@
+{
+  "schema_version": "1.0.0",
+  "updated_at": "2026-09-30",
+  "title": "Purdue Founder Field Guide",
+  "scope": "Practical starting guidance for Purdue students, researchers, and alumni; verify program eligibility and dates at the linked source.",
+  "sources": {
+    "yc_student": {
+      "title": "From Student Side Project to Startup",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/from-student-side-project-to-startup"
+    },
+    "yc_essential": {
+      "title": "YC's Essential Startup Advice",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/ycs-essential-startup-advice/"
+    },
+    "yc_school": {
+      "title": "Startup School talks",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/startup-school-videos"
+    },
+    "yc_do_things": {
+      "title": "Do things that don't scale",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/library/96-do-things-that-don-t-scale"
+    },
+    "yc_safe": {
+      "title": "The SAFE",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/safe"
+    },
+    "yc_apply": {
+      "title": "Apply to Y Combinator",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/apply"
+    },
+    "stripe_links": {
+      "title": "Stripe Payment Links",
+      "publisher": "Stripe",
+      "url": "https://stripe.com/payments/payment-links"
+    },
+    "stripe_metrics": {
+      "title": "Essential SaaS metrics",
+      "publisher": "Stripe",
+      "url": "https://stripe.com/resources/more/essential-saas-metrics"
+    },
+    "mailchimp_permission": {
+      "title": "Examples of compliant and non-compliant lists",
+      "publisher": "Mailchimp",
+      "url": "https://mailchimp.com/help/examples-of-compliant-and-non-compliant-lists/"
+    },
+    "mailchimp_segments": {
+      "title": "All the segmenting options",
+      "publisher": "Mailchimp",
+      "url": "https://mailchimp.com/help/all-the-segmenting-options/"
+    },
+    "purdue_hive": {
+      "title": "Purdue HIVE",
+      "publisher": "Purdue University",
+      "url": "https://engineering.purdue.edu/HIVE"
+    },
+    "purdue_microgrants": {
+      "title": "Purdue Hackers µgrants",
+      "publisher": "Purdue Hackers",
+      "url": "https://grants.purduehackers.com/"
+    },
+    "purdue_ventures": {
+      "title": "Purdue Ventures funds",
+      "publisher": "Purdue Research Foundation",
+      "url": "https://ventures.prf.org/funds/"
+    },
+    "nsf_seed": {
+      "title": "NSF Seed Fund",
+      "publisher": "National Science Foundation",
+      "url": "https://seedfund.nsf.gov/"
+    }
+  },
+  "roadmap": [
+    {
+      "id": "explore",
+      "order": 1,
+      "title": "Find a room and a problem",
+      "question": "Where do people already build, and what keeps them stuck?",
+      "actions": [
+        "Attend one public builder event or club meeting.",
+        "Talk to three people about work they already do; record problems, not solution ideas.",
+        "Choose one audience you can reach again next week."
+      ],
+      "exit_signal": "One specific audience and three documented pain points.",
+      "playbook_ids": [
+        "customer-discovery"
+      ],
+      "tool_ids": [
+        "purdue-people",
+        "purdue-events",
+        "yc-startup-school"
+      ],
+      "source_ids": [
+        "yc_student",
+        "purdue_hive"
+      ],
+      "resource_ids": [
+        "innovates",
+        "anvil",
+        "buildpurdue",
+        "boilermaker-founders-forum"
+      ]
+    },
+    {
+      "id": "validate",
+      "order": 2,
+      "title": "Check whether the pain is real",
+      "question": "How often does the problem happen, what does it cost, and what do people do now?",
+      "actions": [
+        "Interview ten people in the same audience; ask about the last time the problem happened.",
+        "Write down their current workaround, who owns the budget, and what a fix would change.",
+        "Look for repeated behavior, not compliments about an idea."
+      ],
+      "exit_signal": "Several people describe the same costly problem without prompting.",
+      "playbook_ids": [
+        "customer-discovery",
+        "cold-outreach"
+      ],
+      "tool_ids": [
+        "purdue-alumni",
+        "google-sheets"
+      ],
+      "source_ids": [
+        "yc_school",
+        "yc_essential"
+      ],
+      "resource_ids": [
+        "venture-x",
+        "buildpurdue-cohort"
+      ]
+    },
+    {
+      "id": "build",
+      "order": 3,
+      "title": "Make the smallest useful test",
+      "question": "Can one person get a result before a full product exists?",
+      "actions": [
+        "Sketch the promised outcome in one sentence.",
+        "Deliver a manual, spreadsheet, prototype, or concierge version to one tester.",
+        "Watch the tester use it and log where they hesitate."
+      ],
+      "exit_signal": "At least one user gets the promised result and asks to use it again.",
+      "playbook_ids": [
+        "customer-discovery"
+      ],
+      "tool_ids": [
+        "google-sheets",
+        "yc-startup-school"
+      ],
+      "source_ids": [
+        "yc_essential",
+        "yc_do_things"
+      ],
+      "resource_ids": [
+        "purdue-hackers-microgrants",
+        "anvil-boiler"
+      ]
+    },
+    {
+      "id": "launch",
+      "order": 4,
+      "title": "Find users and earn the first dollar",
+      "question": "Will a buyer commit time or money for the result?",
+      "actions": [
+        "Write a narrow pilot offer with outcome, price, and delivery date.",
+        "Send relevant one-to-one outreach and ask for a short conversation.",
+        "Ask a qualified buyer to pay for a small pilot; deliver it and measure the result."
+      ],
+      "exit_signal": "A completed paid transaction or signed paid pilot, with the buyer's reason for purchasing recorded.",
+      "playbook_ids": [
+        "cold-outreach",
+        "first-dollar",
+        "email-marketing"
+      ],
+      "tool_ids": [
+        "purdue-alumni",
+        "calendly",
+        "stripe-payment-links"
+      ],
+      "source_ids": [
+        "yc_student",
+        "yc_essential",
+        "stripe_links"
+      ],
+      "resource_ids": [
+        "boilerlaunch"
+      ]
+    },
+    {
+      "id": "fund",
+      "order": 5,
+      "title": "Choose capital for the milestone",
+      "question": "What will funding prove that customer revenue cannot yet finance?",
+      "actions": [
+        "Write the next milestone, amount needed, and evidence already collected.",
+        "Compare a grant, customer prepayment, campus program, and equity before applying.",
+        "Use the official application and current eligibility page for each program."
+      ],
+      "exit_signal": "A specific use of funds and a shortlist of programs matched to stage and eligibility.",
+      "playbook_ids": [
+        "first-dollar"
+      ],
+      "tool_ids": [
+        "purdue-microgrants",
+        "purdue-ventures",
+        "yc-apply",
+        "nsf-seed"
+      ],
+      "source_ids": [
+        "purdue_microgrants",
+        "purdue_ventures",
+        "yc_apply",
+        "nsf_seed"
+      ],
+      "resource_ids": [
+        "ventures",
+        "foundry-fund",
+        "yc",
+        "nsf-seed"
+      ]
+    },
+    {
+      "id": "scale",
+      "order": 6,
+      "title": "Make the result repeatable",
+      "question": "Can another buyer get the result with less founder effort?",
+      "actions": [
+        "Track repeat use, retention, and gross margin rather than only signups.",
+        "Document the delivery steps that worked for early customers.",
+        "Automate a step only after its manual version has worked repeatedly."
+      ],
+      "exit_signal": "Repeat purchases or sustained use in one customer segment.",
+      "playbook_ids": [
+        "email-marketing"
+      ],
+      "tool_ids": [
+        "google-sheets",
+        "mailchimp"
+      ],
+      "source_ids": [
+        "yc_essential",
+        "stripe_metrics"
+      ],
+      "resource_ids": [
+        "innovates"
+      ]
+    }
+  ],
+  "playbooks": [
+    {
+      "id": "customer-discovery",
+      "title": "Interview people before pitching",
+      "stage_ids": [
+        "explore",
+        "validate",
+        "build"
+      ],
+      "timebox": "One week",
+      "goal": "Learn what people already do, what breaks, and whether the pain is worth solving.",
+      "steps": [
+        {
+          "order": 1,
+          "action": "Pick one job title or user group; write a one-sentence hypothesis about a recurring problem.",
+          "output": "Audience and problem hypothesis."
+        },
+        {
+          "order": 2,
+          "action": "Recruit ten conversations through classmates, campus events, public Purdue contacts, and relevant alumni. Ask for 15 minutes, not a product verdict.",
+          "output": "Interview list with source and status."
+        },
+        {
+          "order": 3,
+          "action": "Ask: When did this last happen? What did you do? What did it cost in time or money? Who decides to buy a fix?",
+          "output": "Notes on concrete past behavior."
+        },
+        {
+          "order": 4,
+          "action": "Compare answers. Keep the problem only if multiple people independently describe the same friction and a plausible budget owner exists.",
+          "output": "Problem evidence and next test."
+        }
+      ],
+      "avoid": [
+        "Leading questions such as 'Would you use my app?'",
+        "Counting praise as evidence of demand."
+      ],
+      "tool_ids": [
+        "purdue-people",
+        "purdue-events",
+        "google-sheets"
+      ],
+      "source_ids": [
+        "yc_school",
+        "yc_essential",
+        "yc_student"
+      ]
+    },
+    {
+      "id": "cold-outreach",
+      "title": "Reach out to Purdue alumni and potential buyers",
+      "stage_ids": [
+        "validate",
+        "launch"
+      ],
+      "timebox": "Two weeks",
+      "goal": "Start enough relevant conversations to learn which audience responds and why.",
+      "steps": [
+        {
+          "order": 1,
+          "action": "Define a narrow recipient: role, company type, problem, and why this person is relevant. Start with public Purdue alumni and program contacts, then expand to buyers outside Purdue.",
+          "output": "A prospect description."
+        },
+        {
+          "order": 2,
+          "action": "Build a 30-person research list. Record each person's public source, reason to contact, date sent, reply, follow-up, and outcome. Do not treat the alumni directory as consent for a bulk mailing list.",
+          "output": "Source-backed outreach tracker."
+        },
+        {
+          "order": 3,
+          "action": "Send a short personal note with one real reason for contacting that person and one small ask. Test two audience segments over 25–50 individually relevant messages; treat that volume as an experiment target, not a universal benchmark.",
+          "output": "Sent messages and segment labels."
+        },
+        {
+          "order": 4,
+          "action": "Follow up once after several business days with a useful observation or a clear close-out. Stop when asked. Record replies, booked calls, and confirmed problems rather than open rates.",
+          "output": "Reply and conversation rates by segment."
+        },
+        {
+          "order": 5,
+          "action": "After each conversation, ask who else has the problem and request an introduction only when there is a good fit.",
+          "output": "Warm introductions and updated audience hypothesis."
+        }
+      ],
+      "templates": [
+        {
+          "id": "alumni-interview",
+          "use": "Learning from a relevant alumnus",
+          "subject": "Purdue student researching [specific problem]",
+          "body": "Hi [Name], I'm a Purdue [student/researcher/alum] speaking with [specific audience] about [problem]. I saw your work on [specific public project or role]. Could I ask you two questions in a 15-minute call next week? I'm trying to understand how people handle this today, not pitch a product. Thanks, [Name]"
+        },
+        {
+          "id": "buyer-pilot",
+          "use": "Offering a narrow paid pilot",
+          "subject": "Idea for [specific outcome] at [company]",
+          "body": "Hi [Name], I noticed [specific public signal]. Teams like yours often spend [time or cost] on [problem]. I can help [specific result] in a [duration] pilot for [price], with [deliverable]. Worth a 15-minute look? If this is off target, no need to reply. [Name]"
+        },
+        {
+          "id": "follow-up",
+          "use": "One respectful follow-up",
+          "subject": "Re: [original subject]",
+          "body": "Hi [Name], one more thought: [useful observation or example relevant to their work]. If [problem] is on your list this quarter, I can share what I learned from similar teams. If not, I'll close the loop here. [Name]"
+        }
+      ],
+      "metrics": [
+        "Relevant messages sent",
+        "Replies",
+        "Conversations booked",
+        "Repeated problem confirmations",
+        "Paid pilot asks"
+      ],
+      "avoid": [
+        "Generic mass mail to every listed alumnus",
+        "Inventing a connection",
+        "Automated follow-up after an opt-out",
+        "Treating volume alone as progress"
+      ],
+      "tool_ids": [
+        "purdue-alumni",
+        "google-sheets",
+        "calendly"
+      ],
+      "source_ids": [
+        "yc_student",
+        "yc_do_things",
+        "yc_school"
+      ]
+    },
+    {
+      "id": "first-dollar",
+      "title": "Earn the first dollar",
+      "stage_ids": [
+        "launch",
+        "fund"
+      ],
+      "timebox": "Two to four weeks",
+      "goal": "Get a buyer to pay for a specific outcome, even if delivery is manual.",
+      "steps": [
+        {
+          "order": 1,
+          "action": "Choose one buyer with a problem already observed in interviews. State the before-and-after result in plain language.",
+          "output": "One-sentence offer."
+        },
+        {
+          "order": 2,
+          "action": "Make a small pilot: fixed scope, delivery date, success measure, and price. For research or hardware, a paid feasibility study can be the first offer.",
+          "output": "One-page pilot proposal."
+        },
+        {
+          "order": 3,
+          "action": "Show the offer to five qualified buyers. Ask directly: 'Would you pay [price] for [result] by [date]?' Record objections without arguing.",
+          "output": "Buyer objections and willingness-to-pay evidence."
+        },
+        {
+          "order": 4,
+          "action": "For a yes, use an invoice or a payment link, state the terms clearly, and collect payment or a deposit before expanding scope.",
+          "output": "Paid order or signed paid pilot."
+        },
+        {
+          "order": 5,
+          "action": "Deliver manually if needed, measure the result, and ask what the buyer would purchase again. Use that evidence before seeking a larger grant or investor check.",
+          "output": "Outcome report and next offer."
+        }
+      ],
+      "sample_offer": "I will reduce [specific task] from [current effort] to [target] for [buyer] in 14 days. Pilot price: [amount]. Includes [three deliverables]. Success means [observable result].",
+      "metrics": [
+        "Qualified buyer conversations",
+        "Priced offers made",
+        "Paid pilots",
+        "Delivery cost",
+        "Repeat purchase intent"
+      ],
+      "avoid": [
+        "Calling a free trial revenue",
+        "Building the entire platform before asking a buyer to pay",
+        "Changing price or scope after agreement without consent"
+      ],
+      "tool_ids": [
+        "stripe-payment-links",
+        "google-sheets",
+        "purdue-microgrants"
+      ],
+      "source_ids": [
+        "yc_essential",
+        "yc_do_things",
+        "stripe_links"
+      ]
+    },
+    {
+      "id": "email-marketing",
+      "title": "Start a permission-based email channel",
+      "stage_ids": [
+        "launch",
+        "scale"
+      ],
+      "timebox": "One week to set up; review monthly",
+      "goal": "Keep interested people informed without mixing a newsletter with one-to-one research outreach.",
+      "steps": [
+        {
+          "order": 1,
+          "action": "Decide who the update is for and what they will get, such as a monthly product note or founder event digest. Put that promise beside an opt-in form.",
+          "output": "Audience promise and signup form."
+        },
+        {
+          "order": 2,
+          "action": "Record how and when each subscriber opted in. Do not import public alumni contacts or cold prospects into a marketing audience without permission.",
+          "output": "Permission record for each subscriber."
+        },
+        {
+          "order": 3,
+          "action": "Send a welcome note with the promised topic, frequency, and a reply question. Include a working unsubscribe path in each campaign.",
+          "output": "Welcome message and first update."
+        },
+        {
+          "order": 4,
+          "action": "Send a useful update on a consistent cadence: one finding, one example, one next step. Segment only when interests actually differ.",
+          "output": "Small, relevant campaign."
+        },
+        {
+          "order": 5,
+          "action": "Review replies, signups, unsubscribes, and purchases. Stop sending content people did not ask for.",
+          "output": "Monthly channel review."
+        }
+      ],
+      "templates": [
+        {
+          "id": "welcome",
+          "use": "First email after opt-in",
+          "subject": "You're on the [topic] list",
+          "body": "Thanks for joining. Every [frequency], I'll send [specific useful content]. This week: [one concrete finding]. What is the hardest part of [problem] for you right now? Reply with one line. You can unsubscribe any time using the link below."
+        }
+      ],
+      "metrics": [
+        "New opted-in subscribers",
+        "Replies",
+        "Unsubscribes",
+        "Purchases or meeting requests"
+      ],
+      "avoid": [
+        "Treating a public email address as newsletter consent",
+        "Buying or scraping a marketing list",
+        "Optimizing only for open rate"
+      ],
+      "tool_ids": [
+        "mailchimp",
+        "google-sheets"
+      ],
+      "source_ids": [
+        "mailchimp_permission",
+        "mailchimp_segments"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "purdue-people",
+      "name": "Purdue Founder Map people directory",
+      "kind": "directory",
+      "url": "/people.json",
+      "use": "Find public program and ecosystem contacts; verify each current role at its source."
+    },
+    {
+      "id": "purdue-alumni",
+      "name": "Purdue Founder Map alumni directory",
+      "kind": "directory",
+      "url": "/alumni.json",
+      "use": "Research Purdue-connected founders and operators by role or region; use public profiles for context, not bulk mail."
+    },
+    {
+      "id": "purdue-events",
+      "name": "Purdue Founder Events",
+      "kind": "calendar",
+      "url": "/events.json",
+      "use": "Find dated founder talks and meetups; use /founder-events.ics for calendar import."
+    },
+    {
+      "id": "yc-startup-school",
+      "name": "YC Startup School",
+      "kind": "learning",
+      "url": "https://www.ycombinator.com/startupschool",
+      "use": "Free founder lessons on ideas, users, MVPs, pricing, and fundraising.",
+      "source_ids": [
+        "yc_school"
+      ]
+    },
+    {
+      "id": "google-sheets",
+      "name": "Google Sheets",
+      "kind": "operations",
+      "url": "https://sheets.google.com/",
+      "use": "Track interview notes, outreach status, pilot commitments, and follow-ups."
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "kind": "operations",
+      "url": "https://calendly.com/",
+      "use": "Offer a short booking link after someone agrees to talk."
+    },
+    {
+      "id": "stripe-payment-links",
+      "name": "Stripe Payment Links",
+      "kind": "payments",
+      "url": "https://stripe.com/payments/payment-links",
+      "use": "Collect payment for a scoped pilot without building checkout software.",
+      "source_ids": [
+        "stripe_links"
+      ]
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp",
+      "kind": "email",
+      "url": "https://mailchimp.com/",
+      "use": "Manage an opted-in email audience, signup form, and unsubscribe process.",
+      "source_ids": [
+        "mailchimp_permission"
+      ]
+    },
+    {
+      "id": "purdue-microgrants",
+      "name": "Purdue Hackers µgrants",
+      "kind": "funding",
+      "url": "https://grants.purduehackers.com/",
+      "use": "Check current criteria for early student projects.",
+      "source_ids": [
+        "purdue_microgrants"
+      ]
+    },
+    {
+      "id": "purdue-ventures",
+      "name": "Purdue Ventures",
+      "kind": "funding",
+      "url": "https://ventures.prf.org/funds/",
+      "use": "Explore university-connected venture funds and fit.",
+      "source_ids": [
+        "purdue_ventures"
+      ]
+    },
+    {
+      "id": "yc-apply",
+      "name": "Y Combinator application",
+      "kind": "accelerator",
+      "url": "https://www.ycombinator.com/apply",
+      "use": "Apply when the team can commit to building and can explain users and progress.",
+      "source_ids": [
+        "yc_apply"
+      ]
+    },
+    {
+      "id": "a16z-speedrun",
+      "name": "a16z speedrun",
+      "kind": "accelerator",
+      "url": "https://speedrun.a16z.com/",
+      "use": "Review current cohort scope, eligibility, and application dates."
+    },
+    {
+      "id": "nsf-seed",
+      "name": "NSF Seed Fund",
+      "kind": "research-funding",
+      "url": "https://seedfund.nsf.gov/",
+      "use": "Investigate SBIR/STTR fit for technical R&D with commercial potential.",
+      "source_ids": [
+        "nsf_seed"
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "id": "accelerator",
+      "term": "Accelerator",
+      "definition": "A time-bound program that helps a startup make progress through mentorship, peers, and sometimes capital.",
+      "example": "A cohort can be useful after you know the customer problem you are testing.",
+      "source_ids": [
+        "yc_apply"
+      ]
+    },
+    {
+      "id": "angel-investor",
+      "term": "Angel investor",
+      "definition": "An individual investing personal money in a company, often at an early stage.",
+      "example": "An angel check may fund a specific next milestone; terms still matter.",
+      "source_ids": [
+        "yc_safe"
+      ]
+    },
+    {
+      "id": "arr",
+      "term": "ARR",
+      "definition": "Annual recurring revenue: the annualized value of active recurring subscriptions. One-time sales are excluded.",
+      "example": "$1,000 in stable monthly subscriptions corresponds to $12,000 ARR.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "burn-rate",
+      "term": "Burn rate",
+      "definition": "How much cash a company spends net of cash it brings in over a period, commonly per month.",
+      "example": "If cash falls by $5,000 in a month, net burn was $5,000.",
+      "source_ids": [
+        "yc_essential"
+      ]
+    },
+    {
+      "id": "cac",
+      "term": "CAC",
+      "definition": "Customer acquisition cost: sales and marketing cost divided by the number of new customers acquired in the same period.",
+      "example": "$500 spent to acquire five paying customers gives $100 CAC.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "churn",
+      "term": "Churn",
+      "definition": "Customers or recurring revenue lost during a period. State which one you mean.",
+      "example": "Two of 20 subscribers leaving in a month is 10% customer churn.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "cold-outreach",
+      "term": "Cold outreach",
+      "definition": "A direct message to someone who has not previously agreed to speak with you, sent because their work is relevant to a specific question or offer.",
+      "example": "Ask an alumnus about a problem they publicly work on; do not add them to a newsletter.",
+      "source_ids": [
+        "yc_student",
+        "mailchimp_permission"
+      ]
+    },
+    {
+      "id": "concierge-mvp",
+      "term": "Concierge MVP",
+      "definition": "A manually delivered version of a service used to test the promised result before automation.",
+      "example": "Create the weekly report by hand for one paying buyer before building a dashboard.",
+      "source_ids": [
+        "yc_do_things"
+      ]
+    },
+    {
+      "id": "conversion-rate",
+      "term": "Conversion rate",
+      "definition": "The share of people at one step who complete the next action you measure.",
+      "example": "Five paid pilots from 50 qualified conversations is a 10% conversation-to-pilot rate.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "dilution",
+      "term": "Dilution",
+      "definition": "A founder's ownership percentage falls when new shares are issued to investors or employees.",
+      "example": "Raising equity can lower each existing holder's percentage even as company value changes.",
+      "source_ids": [
+        "yc_safe"
+      ]
+    },
+    {
+      "id": "discovery-interview",
+      "term": "Discovery interview",
+      "definition": "A conversation about a person's past behavior, current workflow, and costly problem before pitching a solution.",
+      "example": "Ask 'What happened the last time?' instead of 'Would you buy this?'.",
+      "source_ids": [
+        "yc_school"
+      ]
+    },
+    {
+      "id": "gross-margin",
+      "term": "Gross margin",
+      "definition": "Revenue remaining after direct costs of delivering the product or service, expressed as a percentage of revenue.",
+      "example": "$100 revenue minus $30 direct cost gives 70% gross margin.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "icp",
+      "term": "ICP",
+      "definition": "Ideal customer profile: a narrow description of the organization or person most likely to benefit from and pay for a product.",
+      "example": "Independent machine shops with 5–20 employees and frequent quote delays is more useful than 'manufacturers'.",
+      "source_ids": [
+        "yc_school"
+      ]
+    },
+    {
+      "id": "lifetime-value",
+      "term": "LTV",
+      "definition": "Estimated total value a customer generates over the relationship; early estimates are uncertain.",
+      "example": "A $50 monthly customer retained for 12 months yields $600 in revenue before costs.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "mrr",
+      "term": "MRR",
+      "definition": "Monthly recurring revenue: predictable monthly revenue from active subscriptions, excluding one-time fees.",
+      "example": "Ten $20 monthly subscriptions yield $200 MRR.",
+      "source_ids": [
+        "stripe_metrics"
+      ]
+    },
+    {
+      "id": "mvp",
+      "term": "MVP",
+      "definition": "Minimum viable product: the smallest version that lets a real user experience the core value and gives the team evidence.",
+      "example": "A working form plus manual fulfillment may test demand before a full app.",
+      "source_ids": [
+        "yc_school",
+        "yc_essential"
+      ]
+    },
+    {
+      "id": "paid-pilot",
+      "term": "Paid pilot",
+      "definition": "A limited, paid engagement to test a promised outcome with a real buyer.",
+      "example": "A two-week trial with a defined deliverable and price is a paid pilot.",
+      "source_ids": [
+        "yc_essential",
+        "stripe_links"
+      ]
+    },
+    {
+      "id": "pmf",
+      "term": "Product-market fit",
+      "definition": "Strong evidence that a specific market repeatedly wants and uses a product; there is no single universal numeric threshold.",
+      "example": "Customers return, refer peers, and pay again without constant persuasion.",
+      "source_ids": [
+        "yc_essential"
+      ]
+    },
+    {
+      "id": "runway",
+      "term": "Runway",
+      "definition": "An estimate of how long existing cash lasts at the current net burn rate.",
+      "example": "$30,000 cash divided by $5,000 monthly net burn gives about six months of runway.",
+      "source_ids": [
+        "yc_essential"
+      ]
+    },
+    {
+      "id": "safe",
+      "term": "SAFE",
+      "definition": "Simple Agreement for Future Equity: an investor funds a company now for the right to shares later under agreed terms; it is not a loan.",
+      "example": "A SAFE may convert when the company raises a priced equity round.",
+      "source_ids": [
+        "yc_safe"
+      ]
+    },
+    {
+      "id": "sbir-sttr",
+      "term": "SBIR/STTR",
+      "definition": "Federal small-business research programs supporting eligible R&D with commercial potential; STTR involves a research institution partner.",
+      "example": "A deep-tech team might assess NSF SBIR/STTR before selling equity.",
+      "source_ids": [
+        "nsf_seed"
+      ]
+    },
+    {
+      "id": "traction",
+      "term": "Traction",
+      "definition": "Observed progress showing people want the solution, such as active use, repeat purchases, or paid pilots.",
+      "example": "Three buyers paying for the same outcome is stronger evidence than three verbal compliments.",
+      "source_ids": [
+        "yc_essential"
+      ]
+    },
+    {
+      "id": "valuation-cap",
+      "term": "Valuation cap",
+      "definition": "The maximum valuation used when a capped SAFE converts to shares in a later priced round.",
+      "example": "The cap changes how much ownership an early investor receives at conversion.",
+      "source_ids": [
+        "yc_safe"
+      ]
+    }
+  ]
+}

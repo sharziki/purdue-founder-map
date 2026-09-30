@@ -17,8 +17,9 @@ jobs:
       - run: python scripts/scrape_navigator.py
       - run: python scripts/build_data.py
       - run: python scripts/refresh_events.py
+      - run: python scripts/build_catalog.py
       - run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/navigator.json data/founders.sqlite3 public/data.json public/alumni.json public/events.json
+          git add data/navigator.json data/founders.sqlite3 public/data.json public/alumni.json public/events.json public/founder-events.ics public/guide-data.json public/links.json public/catalog.json
           git diff --cached --quiet || (git commit -m 'Refresh founder events' && git push)

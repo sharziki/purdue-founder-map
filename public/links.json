@@ -1,0 +1,2510 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-09-30T20:59:53+00:00",
+  "links": [
+    {
+      "id": "hn-company-interviews",
+      "title": "Ask HN: How do you get companies to talk to you about their problems?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=35000694",
+      "kind": "discussion",
+      "why_read": "Concrete approaches to finding industry interviewees, including a reply from an Airbyte co-founder.",
+      "stage_ids": [
+        "explore",
+        "validate"
+      ],
+      "playbook_ids": [
+        "customer-discovery",
+        "cold-outreach"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-first-ten",
+      "title": "Ask HN: How did you find your first 10 customers?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=11247715",
+      "kind": "discussion",
+      "why_read": "Short first-customer stories across direct outreach, existing relationships, and niche communities.",
+      "stage_ids": [
+        "validate",
+        "launch"
+      ],
+      "playbook_ids": [
+        "cold-outreach",
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-first-paying",
+      "title": "Ask HN: How did you get your first paying customers?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=15074001",
+      "kind": "discussion",
+      "why_read": "Examples of turning prior relationships and narrow offers into paid work.",
+      "stage_ids": [
+        "launch"
+      ],
+      "playbook_ids": [
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-first-hundred",
+      "title": "Ask HN: What did you do to get your first 100 users?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=7248829",
+      "kind": "discussion",
+      "why_read": "Founder stories about finding early users through an existing community and direct distribution.",
+      "stage_ids": [
+        "launch",
+        "scale"
+      ],
+      "playbook_ids": [
+        "cold-outreach",
+        "email-marketing"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-nobody-came",
+      "title": "Ask HN: I built it, nobody came, now what?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=26734079",
+      "kind": "discussion",
+      "why_read": "A useful reality check when a launch has attention but few users or buyers.",
+      "stage_ids": [
+        "build",
+        "launch"
+      ],
+      "playbook_ids": [
+        "customer-discovery",
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-pricing",
+      "title": "Ask HN: How do you set prices?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=13840282",
+      "kind": "discussion",
+      "why_read": "Practical debate about initial pricing, customer segments, and testing willingness to pay.",
+      "stage_ids": [
+        "launch",
+        "scale"
+      ],
+      "playbook_ids": [
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-sourcing-channels",
+      "title": "Ask HN: What sourced your first 100 users?",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=41862332",
+      "kind": "discussion",
+      "why_read": "Compares early acquisition channels and when founder-led outreach stops fitting the economics.",
+      "stage_ids": [
+        "launch",
+        "scale"
+      ],
+      "playbook_ids": [
+        "cold-outreach",
+        "email-marketing"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "hn-investor-email",
+      "title": "How to Cold Email Investors",
+      "publisher": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=21061043",
+      "kind": "discussion",
+      "why_read": "Community discussion of concise investor emails; relevant after you can show progress.",
+      "stage_ids": [
+        "fund"
+      ],
+      "playbook_ids": [
+        "cold-outreach"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "yc-student-startup",
+      "title": "From Student Side Project to Startup",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/from-student-side-project-to-startup",
+      "kind": "guide",
+      "why_read": "A student founder starting point, including how to use school and alumni networks.",
+      "stage_ids": [
+        "explore",
+        "validate"
+      ],
+      "playbook_ids": [
+        "customer-discovery",
+        "cold-outreach"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "yc-essential",
+      "title": "YC's Essential Startup Advice",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/ycs-essential-startup-advice/",
+      "kind": "guide",
+      "why_read": "Concise original guidance on building, talking to users, and measuring progress.",
+      "stage_ids": [
+        "explore",
+        "validate",
+        "build",
+        "launch"
+      ],
+      "playbook_ids": [
+        "customer-discovery",
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "yc-do-things",
+      "title": "Do Things That Don't Scale",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/library/96-do-things-that-don-t-scale",
+      "kind": "guide",
+      "why_read": "Why manual recruiting and close attention to early users can be useful.",
+      "stage_ids": [
+        "validate",
+        "launch"
+      ],
+      "playbook_ids": [
+        "cold-outreach",
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "yc-startup-school",
+      "title": "Startup School talks",
+      "publisher": "Y Combinator",
+      "url": "https://www.ycombinator.com/blog/startup-school-videos",
+      "kind": "course",
+      "why_read": "Free talks organized around the first stages of building a startup.",
+      "stage_ids": [
+        "explore",
+        "validate",
+        "build",
+        "launch"
+      ],
+      "playbook_ids": [
+        "customer-discovery"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "stripe-payment-links",
+      "title": "Stripe Payment Links",
+      "publisher": "Stripe",
+      "url": "https://stripe.com/payments/payment-links",
+      "kind": "tool",
+      "why_read": "A direct way to collect a first payment without building checkout.",
+      "stage_ids": [
+        "launch"
+      ],
+      "playbook_ids": [
+        "first-dollar"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "mailchimp-permission",
+      "title": "Compliant and Non-Compliant Lists",
+      "publisher": "Mailchimp",
+      "url": "https://mailchimp.com/help/examples-of-compliant-and-non-compliant-lists/",
+      "kind": "guide",
+      "why_read": "Examples of who should and should not be added to a marketing list.",
+      "stage_ids": [
+        "launch",
+        "scale"
+      ],
+      "playbook_ids": [
+        "email-marketing"
+      ],
+      "record_type": "reading"
+    },
+    {
+      "id": "resource:innovates",
+      "record_type": "resource",
+      "title": "Purdue Innovates",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Campus support",
+      "stage": "Explore",
+      "stage_ids": [
+        "explore",
+        "scale"
+      ],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:hive",
+      "record_type": "resource",
+      "title": "Purdue HIVE",
+      "url": "https://engineering.purdue.edu/HIVE",
+      "kind": "Workspace",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://engineering.purdue.edu/HIVE"
+    },
+    {
+      "id": "resource:buildpurdue",
+      "record_type": "resource",
+      "title": "buildpurdue Nightshift",
+      "url": "https://www.buildpurdue.org/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [
+        "explore"
+      ],
+      "region": "Purdue",
+      "source_url": "https://www.buildpurdue.org/faq"
+    },
+    {
+      "id": "resource:buildpurdue-cohort",
+      "record_type": "resource",
+      "title": "buildpurdue Cohort",
+      "url": "https://www.buildpurdue.org/apply",
+      "kind": "Program",
+      "stage": "Validate",
+      "stage_ids": [
+        "validate"
+      ],
+      "region": "Purdue",
+      "source_url": "https://www.buildpurdue.org/apply"
+    },
+    {
+      "id": "resource:anvil",
+      "record_type": "resource",
+      "title": "The Anvil",
+      "url": "https://www.anvilstartups.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [
+        "explore"
+      ],
+      "region": "Purdue",
+      "source_url": "https://www.anvilstartups.com/"
+    },
+    {
+      "id": "resource:forge",
+      "record_type": "resource",
+      "title": "The Forge speaker series",
+      "url": "https://www.anvilstartups.com/events",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://www.anvilstartups.com/programs"
+    },
+    {
+      "id": "resource:boilerlaunch",
+      "record_type": "resource",
+      "title": "BoilerLaunch",
+      "url": "https://www.anvilstartups.com/programs",
+      "kind": "Competition",
+      "stage": "Launch",
+      "stage_ids": [
+        "launch"
+      ],
+      "region": "Purdue",
+      "source_url": "https://www.anvilstartups.com/programs"
+    },
+    {
+      "id": "resource:anvil-boiler",
+      "record_type": "resource",
+      "title": "The Boiler",
+      "url": "https://www.anvilstartups.com/programs",
+      "kind": "Program",
+      "stage": "Build",
+      "stage_ids": [
+        "build"
+      ],
+      "region": "Purdue",
+      "source_url": "https://www.anvilstartups.com/programs"
+    },
+    {
+      "id": "resource:moonshot",
+      "record_type": "resource",
+      "title": "Moonshot Pitch Challenge",
+      "url": "https://purdueinnovates.org/incubator/moonshot-pitch-challenge/",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/"
+    },
+    {
+      "id": "resource:nvc",
+      "record_type": "resource",
+      "title": "New Venture Challenge",
+      "url": "https://purdueinnovates.org/incubator/new-venture-challenge/",
+      "kind": "Competition",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/"
+    },
+    {
+      "id": "resource:firestarter",
+      "record_type": "resource",
+      "title": "Firestarter",
+      "url": "https://purdueinnovates.org/incubator/",
+      "kind": "Program",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/"
+    },
+    {
+      "id": "resource:market-readiness",
+      "record_type": "resource",
+      "title": "Market Readiness",
+      "url": "https://purdueinnovates.org/incubator/",
+      "kind": "Program",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/"
+    },
+    {
+      "id": "resource:innovates-accelerator",
+      "record_type": "resource",
+      "title": "Purdue Innovates Accelerator",
+      "url": "https://purdueinnovates.org/incubator/accelerator/",
+      "kind": "Program",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/"
+    },
+    {
+      "id": "resource:venture-x",
+      "record_type": "resource",
+      "title": "Venture X",
+      "url": "https://business.purdue.edu/faculty/kostasg/venture-x.php",
+      "kind": "Program",
+      "stage": "Validate",
+      "stage_ids": [
+        "validate"
+      ],
+      "region": "Purdue",
+      "source_url": "https://engineering.purdue.edu/HIVE"
+    },
+    {
+      "id": "resource:morgan",
+      "record_type": "resource",
+      "title": "Burton D. Morgan Venture Concept Competition",
+      "url": "https://business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php",
+      "kind": "Competition",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://engineering.purdue.edu/HIVE"
+    },
+    {
+      "id": "resource:entr",
+      "record_type": "resource",
+      "title": "Certificate in Entrepreneurship and Innovation",
+      "url": "https://www.purdue.edu/entr/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://www.purdue.edu/entr/"
+    },
+    {
+      "id": "resource:jmec",
+      "record_type": "resource",
+      "title": "John Martinson Entrepreneurial Center",
+      "url": "https://engineering.purdue.edu/Engr/Academics/Graduate-dev/ProfessionalDevelopment/entrepreneurship-resources",
+      "kind": "Campus support",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:otc-disclosure",
+      "record_type": "resource",
+      "title": "Office of Technology Commercialization: disclosure",
+      "url": "https://purdueinnovates.org/otc/disclosure/",
+      "kind": "IP & legal",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:otc-license",
+      "record_type": "resource",
+      "title": "Office of Technology Commercialization: licensing",
+      "url": "https://purdueinnovates.org/otc/licensing/",
+      "kind": "IP & legal",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:trask",
+      "record_type": "resource",
+      "title": "Trask Innovation Fund",
+      "url": "https://purdueinnovates.org/incubator/trask-innovation-fund/",
+      "kind": "Funding",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/incubator/trask-innovation-fund/"
+    },
+    {
+      "id": "resource:ventures",
+      "record_type": "resource",
+      "title": "Purdue Innovates Ventures",
+      "url": "https://ventures.prf.org/funds/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [
+        "fund"
+      ],
+      "region": "Purdue",
+      "source_url": "https://ventures.prf.org/funds/"
+    },
+    {
+      "id": "resource:black-gold",
+      "record_type": "resource",
+      "title": "Black and Gold Fund",
+      "url": "https://ventures.prf.org/funds/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://ventures.prf.org/funds/"
+    },
+    {
+      "id": "resource:foundry-fund",
+      "record_type": "resource",
+      "title": "Foundry Investment Fund",
+      "url": "https://ventures.prf.org/funds/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [
+        "fund"
+      ],
+      "region": "Purdue",
+      "source_url": "https://ventures.prf.org/funds/"
+    },
+    {
+      "id": "resource:ag-celerator",
+      "record_type": "resource",
+      "title": "Ag-Celerator Fund",
+      "url": "https://ventures.prf.org/funds/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://ventures.prf.org/funds/"
+    },
+    {
+      "id": "resource:purdue-startup-fund",
+      "record_type": "resource",
+      "title": "Purdue Startup Fund",
+      "url": "https://ventures.prf.org/funds/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://ventures.prf.org/funds/"
+    },
+    {
+      "id": "resource:paen",
+      "record_type": "resource",
+      "title": "Purdue Alumni Entrepreneurship Network",
+      "url": "https://www.purdueforlife.org/affinity-networks/paen/",
+      "kind": "Alumni",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://www.purdueforlife.org/affinity-networks/paen/"
+    },
+    {
+      "id": "resource:svbig",
+      "record_type": "resource",
+      "title": "Silicon Valley Boilermaker Innovation Group",
+      "url": "https://engineering.purdue.edu/HIVE",
+      "kind": "Alumni",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Features/2026/2026-0622-purdue-hive-student-entrepreneurship-center"
+    },
+    {
+      "id": "resource:vcpurdue",
+      "record_type": "resource",
+      "title": "Venture Capital Club at Purdue",
+      "url": "https://vcpurdue.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://vcpurdue.com/"
+    },
+    {
+      "id": "resource:smvf",
+      "record_type": "resource",
+      "title": "Student Managed Venture Fund course",
+      "url": "https://new.business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://new.business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php"
+    },
+    {
+      "id": "resource:elevate",
+      "record_type": "resource",
+      "title": "Elevate Ventures",
+      "url": "https://apply.elevateventures.com/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:high-alpha",
+      "record_type": "resource",
+      "title": "High Alpha",
+      "url": "https://highalpha.com/",
+      "kind": "Investor",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:dial",
+      "record_type": "resource",
+      "title": "DIAL Ventures",
+      "url": "https://www.dialventures.com/",
+      "kind": "Investor",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:techpoint",
+      "record_type": "resource",
+      "title": "TechPoint",
+      "url": "https://techpoint.org/",
+      "kind": "Community",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:roll-tack",
+      "record_type": "resource",
+      "title": "Roll Tack Ventures",
+      "url": "https://rolltackventures.com/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://www.buildpurdue.org/kickoff"
+    },
+    {
+      "id": "resource:visiontech",
+      "record_type": "resource",
+      "title": "VisionTech Angels",
+      "url": "https://visiontech-partners.com/",
+      "kind": "Investor",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://visiontech-partners.com/"
+    },
+    {
+      "id": "resource:research-park",
+      "record_type": "resource",
+      "title": "Purdue Research Park",
+      "url": "https://www.prf.org/researchpark/locations/west-lafayette/index.html",
+      "kind": "Workspace",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:licensing-search",
+      "record_type": "resource",
+      "title": "Purdue technology licensing catalog",
+      "url": "https://licensing.prf.org/",
+      "kind": "IP & legal",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:talent-connect",
+      "record_type": "resource",
+      "title": "Purdue Innovates Talent Connect",
+      "url": "https://purdueinnovates.org/build-my-startup/",
+      "kind": "Talent",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/build-my-startup/"
+    },
+    {
+      "id": "resource:yc",
+      "record_type": "resource",
+      "title": "Y Combinator",
+      "url": "https://www.ycombinator.com/apply",
+      "kind": "Accelerator",
+      "stage": "Fund",
+      "stage_ids": [
+        "fund"
+      ],
+      "region": "National",
+      "source_url": "https://www.ycombinator.com/apply"
+    },
+    {
+      "id": "resource:a16z-speedrun",
+      "record_type": "resource",
+      "title": "a16z speedrun",
+      "url": "https://speedrun.a16z.com/",
+      "kind": "Accelerator",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://speedrun.a16z.com/faq"
+    },
+    {
+      "id": "resource:a16z-alpha",
+      "record_type": "resource",
+      "title": "a16z speedrun alpha",
+      "url": "https://speedrun.a16z.com/alpha/apply",
+      "kind": "Accelerator",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://speedrun.a16z.com/alpha/apply"
+    },
+    {
+      "id": "resource:techstars",
+      "record_type": "resource",
+      "title": "Techstars accelerators",
+      "url": "https://www.techstars.com/accelerators",
+      "kind": "Accelerator",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://www.techstars.com/accelerators"
+    },
+    {
+      "id": "resource:pearx",
+      "record_type": "resource",
+      "title": "PearX",
+      "url": "https://pear.vc/pearx-application/",
+      "kind": "Accelerator",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://pear.vc/pearx/"
+    },
+    {
+      "id": "resource:500",
+      "record_type": "resource",
+      "title": "500 Global accelerators",
+      "url": "https://500.co/apply-for-an-accelerator",
+      "kind": "Accelerator",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://500.co/apply-for-an-accelerator"
+    },
+    {
+      "id": "resource:nsf-seed",
+      "record_type": "resource",
+      "title": "NSF SBIR/STTR",
+      "url": "https://seedfund.nsf.gov/",
+      "kind": "Non-dilutive",
+      "stage": "Fund",
+      "stage_ids": [
+        "fund"
+      ],
+      "region": "National",
+      "source_url": "https://seedfund.nsf.gov/"
+    },
+    {
+      "id": "resource:sba-sbir",
+      "record_type": "resource",
+      "title": "SBIR/STTR program",
+      "url": "https://www.sbir.gov/",
+      "kind": "Non-dilutive",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://www.sbir.gov/"
+    },
+    {
+      "id": "resource:startup-school",
+      "record_type": "resource",
+      "title": "YC Startup School",
+      "url": "https://www.startupschool.org/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "National",
+      "source_url": "https://www.startupschool.org/"
+    },
+    {
+      "id": "resource:purdue-hackers",
+      "record_type": "resource",
+      "title": "Purdue Hackers",
+      "url": "https://www.purduehackers.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://www.purduehackers.com/"
+    },
+    {
+      "id": "resource:purdue-hackers-microgrants",
+      "record_type": "resource",
+      "title": "Purdue Hackers µgrants",
+      "url": "https://grants.purduehackers.com/",
+      "kind": "Non-dilutive",
+      "stage": "Build",
+      "stage_ids": [
+        "build"
+      ],
+      "region": "Purdue",
+      "source_url": "https://grants.purduehackers.com/"
+    },
+    {
+      "id": "resource:connectind",
+      "record_type": "resource",
+      "title": "ConnectIND",
+      "url": "https://connectind.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://connectind.com/"
+    },
+    {
+      "id": "resource:indiana-sbdc",
+      "record_type": "resource",
+      "title": "Indiana Small Business Development Center",
+      "url": "https://www.isbdc.org/",
+      "kind": "Program",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://www.isbdc.org/programs/"
+    },
+    {
+      "id": "resource:indiana-fast",
+      "record_type": "resource",
+      "title": "Indiana FAST SBIR/STTR support",
+      "url": "https://iedc.in.gov/entrepreneurship/fast-program",
+      "kind": "Non-dilutive",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://iedc.in.gov/entrepreneurship/fast-program"
+    },
+    {
+      "id": "resource:indiana-intap",
+      "record_type": "resource",
+      "title": "Indiana Technical Assistance Program (INTAP)",
+      "url": "https://www.isbdc.org/programs/INTAP/",
+      "kind": "Non-dilutive",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://www.isbdc.org/programs/INTAP/"
+    },
+    {
+      "id": "resource:indiana-innovation-voucher",
+      "record_type": "resource",
+      "title": "Indiana Innovation Voucher",
+      "url": "https://pathfinder.theari.us/innovationvoucher/home",
+      "kind": "Non-dilutive",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://pathfinder.theari.us/innovationvoucher/home"
+    },
+    {
+      "id": "resource:indiana-manufacturing-readiness",
+      "record_type": "resource",
+      "title": "Manufacturing Readiness Grants",
+      "url": "https://conexusindiana.com/drive-industry-success/manufacturing-readiness-grants-mrg/",
+      "kind": "Non-dilutive",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://conexusindiana.com/drive-industry-success/manufacturing-readiness-grants-mrg/"
+    },
+    {
+      "id": "resource:indiana-in-step",
+      "record_type": "resource",
+      "title": "Indiana IN-STEP export grant",
+      "url": "https://iedc.in.gov/program/in-step/overview",
+      "kind": "Non-dilutive",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://iedc.in.gov/program/in-step/overview"
+    },
+    {
+      "id": "resource:indiana-capital-access",
+      "record_type": "resource",
+      "title": "Indiana Capital Access Program",
+      "url": "https://iedc.in.gov/program/capital-access-program/overview",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://iedc.in.gov/program/capital-access-program/overview"
+    },
+    {
+      "id": "resource:indiana-apex",
+      "record_type": "resource",
+      "title": "Indiana APEX Accelerator",
+      "url": "https://inapex.org/about/",
+      "kind": "Program",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://inapex.org/about/"
+    },
+    {
+      "id": "resource:gbeta-indiana",
+      "record_type": "resource",
+      "title": "gBETA Indiana",
+      "url": "https://www.gener8tor.com/gbeta/indiana",
+      "kind": "Accelerator",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://www.gener8tor.com/gbeta/indiana"
+    },
+    {
+      "id": "resource:16tech-ignition",
+      "record_type": "resource",
+      "title": "16 Tech Ignition",
+      "url": "https://16tech.com/program/ignition/",
+      "kind": "Accelerator",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://16tech.com/program/ignition/"
+    },
+    {
+      "id": "resource:16tech-momentum",
+      "record_type": "resource",
+      "title": "16 Tech Momentum",
+      "url": "https://16tech.com/program/momentum-2/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Indianapolis, Indiana",
+      "source_url": "https://16tech.com/program/momentum-2/"
+    },
+    {
+      "id": "resource:16tech-machyne",
+      "record_type": "resource",
+      "title": "Machyne Makerspace at 16 Tech",
+      "url": "https://16tech.com/membership/",
+      "kind": "Workspace",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Indianapolis, Indiana",
+      "source_url": "https://16tech.com/membership/"
+    },
+    {
+      "id": "resource:indiana-founders-network",
+      "record_type": "resource",
+      "title": "Indiana Founders Network",
+      "url": "https://techpoint.org/indiana-founders-network",
+      "kind": "Community",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://techpoint.org/indiana-founders-network"
+    },
+    {
+      "id": "resource:amplify-mill",
+      "record_type": "resource",
+      "title": "The Mill at Amplify Bloomington",
+      "url": "https://amplifybloomington.org/the-mill/",
+      "kind": "Workspace",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Bloomington, Indiana",
+      "source_url": "https://amplifybloomington.org/the-mill/"
+    },
+    {
+      "id": "resource:amplify-crossroads",
+      "record_type": "resource",
+      "title": "Crossroads Connections",
+      "url": "https://amplifybloomington.org/crossroads/",
+      "kind": "Competition",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://amplifybloomington.org/crossroads/"
+    },
+    {
+      "id": "resource:amplify-startup-summer",
+      "record_type": "resource",
+      "title": "Startup Summer",
+      "url": "https://amplifybloomington.org/startup-summer/",
+      "kind": "Accelerator",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Bloomington, Indiana",
+      "source_url": "https://amplifybloomington.org/entrepreneurs/programs/"
+    },
+    {
+      "id": "resource:amplify-90-days",
+      "record_type": "resource",
+      "title": "90 Days to Scale",
+      "url": "https://amplifybloomington.org/90days/",
+      "kind": "Accelerator",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Bloomington, Indiana",
+      "source_url": "https://amplifybloomington.org/90days/"
+    },
+    {
+      "id": "resource:amplify-amp-monthly",
+      "record_type": "resource",
+      "title": "AMP Monthly",
+      "url": "https://amplifybloomington.org/amp/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Bloomington, Indiana",
+      "source_url": "https://amplifybloomington.org/amp/"
+    },
+    {
+      "id": "resource:agrinovus-velocity",
+      "record_type": "resource",
+      "title": "AgriNovus Velocity",
+      "url": "https://agrinovusindiana.com/velocity/",
+      "kind": "Accelerator",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Indiana",
+      "source_url": "https://agrinovusindiana.com/velocity/"
+    },
+    {
+      "id": "resource:niic",
+      "record_type": "resource",
+      "title": "Northeast Indiana Innovation Community",
+      "url": "https://niic.net/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Fort Wayne, Indiana",
+      "source_url": "https://niic.net/"
+    },
+    {
+      "id": "resource:tie-indianapolis",
+      "record_type": "resource",
+      "title": "TiE Indianapolis",
+      "url": "https://indianapolis.tie.org/",
+      "kind": "Community",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Indianapolis, Indiana",
+      "source_url": "https://indianapolis.tie.org/"
+    },
+    {
+      "id": "resource:startup-ladies",
+      "record_type": "resource",
+      "title": "The Startup Ladies",
+      "url": "https://www.thestartupladies.org/",
+      "kind": "Community",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Indianapolis, Indiana",
+      "source_url": "https://www.thestartupladies.org/press"
+    },
+    {
+      "id": "resource:third-coast-foundry",
+      "record_type": "resource",
+      "title": "Third Coast Foundry",
+      "url": "https://purdueinnovates.org/third-coast-foundry/",
+      "kind": "Workspace",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Bay Area",
+      "source_url": "https://purdueinnovates.org/third-coast-foundry/"
+    },
+    {
+      "id": "resource:purdue-alumni-sf",
+      "record_type": "resource",
+      "title": "Purdue Alumni Club of San Francisco",
+      "url": "https://www.purdueforlife.org/clubs/san-francisco/",
+      "kind": "Alumni",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Bay Area",
+      "source_url": "https://www.purdueforlife.org/clubs/san-francisco/"
+    },
+    {
+      "id": "resource:jmec-palo-alto",
+      "record_type": "resource",
+      "title": "John Martinson Entrepreneurial Center — Palo Alto",
+      "url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+      "kind": "Campus support",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Bay Area",
+      "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+    },
+    {
+      "id": "resource:boilermaker-founders-forum",
+      "record_type": "resource",
+      "title": "Boilermaker Founders Forum",
+      "url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [
+        "explore"
+      ],
+      "region": "Bay Area",
+      "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+    },
+    {
+      "id": "resource:engr-10301-silicon-valley",
+      "record_type": "resource",
+      "title": "ENGR 10301 Silicon Valley and the Tech Industry",
+      "url": "https://engineering.purdue.edu/OPP/programs/courses",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Bay Area",
+      "source_url": "https://engineering.purdue.edu/OPP/programs/courses"
+    },
+    {
+      "id": "resource:navigator-PEN-0065",
+      "record_type": "resource",
+      "title": "Boilermaker Innovation Northeast Group (BING)",
+      "url": "https://www.linkedin.com/groups/14939116/",
+      "kind": "Alumni",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0050",
+      "record_type": "resource",
+      "title": "Innovation & Entrepreneurship Fellows (I&E Fellows)",
+      "url": "https://www.purdue.edu/research/oevprp/about/people/index.php?id=23",
+      "kind": "Mentorship",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0001",
+      "record_type": "resource",
+      "title": "AGEC 49800 – Agribusiness Entrepreneurship",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0005",
+      "record_type": "resource",
+      "title": "Alloy Partners",
+      "url": "https://www.alloypartners.com/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0003",
+      "record_type": "resource",
+      "title": "Anchor & Accelerate Pitch Competiton",
+      "url": "https://business.purdue.edu/centers/bwcenter/",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0009",
+      "record_type": "resource",
+      "title": "Bechtel Innovation Design Center",
+      "url": "https://www.purdue.edu/bidc/",
+      "kind": "Workspace",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0157",
+      "record_type": "resource",
+      "title": "BoilerLink",
+      "url": "https://boilerlink.purdue.edu/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0011",
+      "record_type": "resource",
+      "title": "BuildPurdue",
+      "url": "https://www.buildpurdue.org/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0014",
+      "record_type": "resource",
+      "title": "Burton D. Morgan Business Concept Competition",
+      "url": "https://business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0007",
+      "record_type": "resource",
+      "title": "ABE/TLI 62600 – Technology Entrepreneurship & Research Translation",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Program",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0158",
+      "record_type": "resource",
+      "title": "Business school clubs and organizations",
+      "url": "https://business.purdue.edu/undergraduate/student-experience/student-clubs/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0016",
+      "record_type": "resource",
+      "title": "CCE 59601 - Entrepreneurship And Business Strategy In Engineering",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0017",
+      "record_type": "resource",
+      "title": "Center for Business Communications",
+      "url": "https://business.purdue.edu/centers/communication-center/",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0160",
+      "record_type": "resource",
+      "title": "Certificate in Entrepreneurship and Innovation clubs and organizations",
+      "url": "https://www.purdue.edu/entr/opportunities/student-organizations/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0018",
+      "record_type": "resource",
+      "title": "Coffee at Convergence",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0019",
+      "record_type": "resource",
+      "title": "COM 44400 - Introduction To Communication And Social Entrepreneurship",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0122",
+      "record_type": "resource",
+      "title": "Concentration in Innovation Management",
+      "url": "https://business.purdue.edu/undergraduate/academics/concentrations.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0118",
+      "record_type": "resource",
+      "title": "SBIR/STTR - Dept of War - Dual Use",
+      "url": "https://www.defensesbirsttr.mil/SBIR-STTR/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0021",
+      "record_type": "resource",
+      "title": "Design & Innovation Learning Community",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/technology/designandinnovation.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0128",
+      "record_type": "resource",
+      "title": "Design and Innovation",
+      "url": "https://polytechnic.purdue.edu/academics/design-and-innovation-minor",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0132",
+      "record_type": "resource",
+      "title": "Digital Enterprise Certificate: PLM, MBD & TDP",
+      "url": "https://polytechnic.purdue.edu/digital-enterprise-center/digital-enterprise-certificate-plm-mbd-tdp",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0159",
+      "record_type": "resource",
+      "title": "Engineering clubs and organizations",
+      "url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/student-organizations/student-orgs",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0024",
+      "record_type": "resource",
+      "title": "ENTR 20000 – Intro to Entrepreneurship & Innovation",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0038",
+      "record_type": "resource",
+      "title": "ENTR 59000 – Graduate Level Special Topics In Entrepreneurship And Innovation",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0025",
+      "record_type": "resource",
+      "title": "ENTR 31000 – Marketing & Management for New Ventures",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0026",
+      "record_type": "resource",
+      "title": "ENTR 31500 – Business Planning for Social Entrepreneurship",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0027",
+      "record_type": "resource",
+      "title": "ENTR 32500 – Global Entrepreneurship & Innovation",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/intro-core-courses/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0028",
+      "record_type": "resource",
+      "title": "ENTR 39000 – Special Topics In Entrepreneurship And Innovation",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0029",
+      "record_type": "resource",
+      "title": "ENTR 39699 (Interns for Indiana Experience) – Internship & Research Experiences",
+      "url": "https://www.opp.purdue.edu/our-programs/Interns-For-Indiana",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0030",
+      "record_type": "resource",
+      "title": "ENTR 46000 – Internship & Career Prep Seminar",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0031",
+      "record_type": "resource",
+      "title": "ENTR 47000A / WGSS 39000 – Gender, Diversity & Leadership",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0032",
+      "record_type": "resource",
+      "title": "ENTR 48000 – Entrepreneurial Leadership & Careers",
+      "url": "https://www.purdue.edu/entr/student-success/entr-courses-offered/capstone-courses/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0033",
+      "record_type": "resource",
+      "title": "ENTR 48100 – Consulting for Emerging Enterprises",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0034",
+      "record_type": "resource",
+      "title": "ENTR 48200 – Venture Planning Capstone",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0035",
+      "record_type": "resource",
+      "title": "ENTR 49000 – Senior Level Special Topics In Entrepreneurship And Innovation",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0076",
+      "record_type": "resource",
+      "title": "Purdue Innovates Commercialization Fellowships",
+      "url": "https://purdueinnovates.org/commercialization-fellowship/",
+      "kind": "Campus support",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0036",
+      "record_type": "resource",
+      "title": "ENTR 50000 – Seminar In Technology Realization Topics",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0037",
+      "record_type": "resource",
+      "title": "ENTR 50100 – Technology Realization Workshop",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0039",
+      "record_type": "resource",
+      "title": "Entrepreneurship & Innovations Club at Purdue",
+      "url": "https://boilerlink.purdue.edu/organization/entrepreneurs",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0139",
+      "record_type": "resource",
+      "title": "Entrepreneurship and Innovation Learning Community",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/University-wide%20LCs/entrepreneurship.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0040",
+      "record_type": "resource",
+      "title": "Entrepreneurship Society",
+      "url": "https://boilerlink.purdue.edu/organization/entrepreneurshipsociety",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0041",
+      "record_type": "resource",
+      "title": "EPICS",
+      "url": "https://engineering.purdue.edu/EPICS",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0042",
+      "record_type": "resource",
+      "title": "Espressos & Entrepreneurs",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0120",
+      "record_type": "resource",
+      "title": "Hacking for Defense",
+      "url": "https://business.purdue.edu/news/features/2026/hacking-for-defense.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0123",
+      "record_type": "resource",
+      "title": "Innovation and Technology Commercialization",
+      "url": "https://business.purdue.edu/academics/strategic-management/programs.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0131",
+      "record_type": "resource",
+      "title": "Innovation and Transformational Change",
+      "url": "https://engineering.purdue.edu/Innovation/InnovationStudies/students/minor",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0049",
+      "record_type": "resource",
+      "title": "Innovation Methods for Purdue Advanced Collaboration Team (IMPACT)",
+      "url": "https://engineering.purdue.edu/Innovation/InnovationStudies/students/impact",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0147",
+      "record_type": "resource",
+      "title": "Innovation Pad Purdue",
+      "url": "https://boilerlink.purdue.edu/organization/innovationpad",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0134",
+      "record_type": "resource",
+      "title": "Interns for Indiana",
+      "url": "https://www.opp.purdue.edu/our-programs/Interns-For-Indiana",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0054",
+      "record_type": "resource",
+      "title": "Launch",
+      "url": "https://boilerlink.purdue.edu/organization/launch",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0055",
+      "record_type": "resource",
+      "title": "MatchBOX",
+      "url": "https://mbx.studio/",
+      "kind": "Workspace",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0056",
+      "record_type": "resource",
+      "title": "ME 55400 – Intellectual Property for Engineers",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0057",
+      "record_type": "resource",
+      "title": "MGMT 41350 – Venture Capital & Entrepreneurial Finance",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0116",
+      "record_type": "resource",
+      "title": "NSF Translation to Practice (TTP)",
+      "url": "https://www.nsf.gov/funding/opportunities/nsf-ttp-national-science-foundation-translation-practice",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0058",
+      "record_type": "resource",
+      "title": "MGMT 42300 – New Product Development",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0093",
+      "record_type": "resource",
+      "title": "Purdue Innovates Trask",
+      "url": "https://purdueinnovates.org/incubator/trask-innovation-fund/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0059",
+      "record_type": "resource",
+      "title": "MGMT 48400 – Management of Entrepreneurial Ventures",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0060",
+      "record_type": "resource",
+      "title": "MGMT 51010 – Student Managed Venture Fund",
+      "url": "https://business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0061",
+      "record_type": "resource",
+      "title": "MGMT 590 – Student Managed Venture Fund",
+      "url": "https://business.purdue.edu/masters/programs/ms-finance/student-experience/student-managed-venture-fund.php",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0062",
+      "record_type": "resource",
+      "title": "Midwest Entrepreneurship Case Competition",
+      "url": "https://sites.google.com/view/mwentrecc/home",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0063",
+      "record_type": "resource",
+      "title": "ML@Purdue",
+      "url": "https://mlpurdue.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0064",
+      "record_type": "resource",
+      "title": "MSE 57400 - Sports Engineering And Entrepreneurship",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0129",
+      "record_type": "resource",
+      "title": "Product Lifecycle Management",
+      "url": "https://polytechnic.purdue.edu/academics/product-lifecycle-management-minor",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0020",
+      "record_type": "resource",
+      "title": "Convergence Center for Innovation and Collaboration",
+      "url": "https://discoveryparkdistrict.com/workspaces/",
+      "kind": "Workspace",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0022",
+      "record_type": "resource",
+      "title": "Discovery Park District",
+      "url": "https://discoveryparkdistrict.com/",
+      "kind": "Workspace",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0052",
+      "record_type": "resource",
+      "title": "Lab 2 Life",
+      "url": "https://lab2life.org/",
+      "kind": "Workspace",
+      "stage": "Scale",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0073",
+      "record_type": "resource",
+      "title": "Purdue Indy Student Startup Club",
+      "url": "https://www.instagram.com/purdue_startup_indy/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0117",
+      "record_type": "resource",
+      "title": "Purdue Innovates Capstone Plus & Fusion Point",
+      "url": "https://purdueinnovates.org/capstone/",
+      "kind": "Campus support",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0046",
+      "record_type": "resource",
+      "title": "I-Corps",
+      "url": "https://greatlakesicorps.org/programs/regional-icorps/purdue/",
+      "kind": "Program",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0165",
+      "record_type": "resource",
+      "title": "Purdue Innovates Event Calendar",
+      "url": "https://purdueinnovates.org/events/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0078",
+      "record_type": "resource",
+      "title": "Purdue Innovates Incubator",
+      "url": "https://purdueinnovates.org/incubator/",
+      "kind": "Campus support",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0172",
+      "record_type": "resource",
+      "title": "Purdue Innovates Investor Network",
+      "url": "https://purdueinnovates.org/contact/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0173",
+      "record_type": "resource",
+      "title": "Purdue Innovates Mentor Network",
+      "url": "https://purdueinnovates.org/contact/",
+      "kind": "Mentorship",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0083",
+      "record_type": "resource",
+      "title": "Moonshot",
+      "url": "https://purdueinnovates.org/incubator/moonshot-pitch-challenge/",
+      "kind": "Competition",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0085",
+      "record_type": "resource",
+      "title": "Office of Technology Commercialization",
+      "url": "https://purdueinnovates.org/otc/",
+      "kind": "Campus support",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0088",
+      "record_type": "resource",
+      "title": "Purdue Innovates Prototyping Fund",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Campus support",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0089",
+      "record_type": "resource",
+      "title": "SBIR/STTR Support",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Campus support",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0090",
+      "record_type": "resource",
+      "title": "Purdue Innovates Startup and Technology Expo",
+      "url": "https://purdueinnovates.org/startup-expo/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0092",
+      "record_type": "resource",
+      "title": "Purdue Innovates Summer Sprint",
+      "url": "https://purdueinnovates.org/incubator/summer-sprint/",
+      "kind": "Program",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0094",
+      "record_type": "resource",
+      "title": "Purdue Innovates Wet Lab Incubator Space",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Workspace",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0099",
+      "record_type": "resource",
+      "title": "Purdue Venture Consulting",
+      "url": "https://theventureconsultingatpurdue.com/",
+      "kind": "Community",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0102",
+      "record_type": "resource",
+      "title": "Railyard",
+      "url": "https://purdueresearchpark.com/railyard/",
+      "kind": "Workspace",
+      "stage": "Launch",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0103",
+      "record_type": "resource",
+      "title": "RICE National Business Plan Competition",
+      "url": "https://rbpc.rice.edu/",
+      "kind": "Competition",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0130",
+      "record_type": "resource",
+      "title": "Smart Manufacturing Enterprise",
+      "url": "https://polytechnic.purdue.edu/academics/smart-manufacturing-enterprise-minor",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0106",
+      "record_type": "resource",
+      "title": "Soybean Innovation Competiton",
+      "url": "https://engineering.purdue.edu/ABE/academics/competitions",
+      "kind": "Competition",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0164",
+      "record_type": "resource",
+      "title": "Startup Company Formation",
+      "url": "https://purdueinnovates.org/incubator/",
+      "kind": "IP & legal",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0107",
+      "record_type": "resource",
+      "title": "SVBIG",
+      "url": "https://www.svbig.org/",
+      "kind": "Mentorship",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0108",
+      "record_type": "resource",
+      "title": "TECH 34000 / TLI 46000 / MGMT 39100 – Prototyping Tech / Strategic Thinking & Decision Making",
+      "url": "https://purdueinnovates.org/navigator/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0110",
+      "record_type": "resource",
+      "title": "The Data Mine",
+      "url": "https://datamine.purdue.edu/about/",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0111",
+      "record_type": "resource",
+      "title": "The Mix",
+      "url": "https://alliances.prf.org/community/",
+      "kind": "Events",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0133",
+      "record_type": "resource",
+      "title": "Undergraduate Co-op Program",
+      "url": "https://www.opp.purdue.edu/our-programs/undergrad-co-op",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0113",
+      "record_type": "resource",
+      "title": "Vertically Integrated Projects (VIP)",
+      "url": "https://engineering.purdue.edu/VIP",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0141",
+      "record_type": "resource",
+      "title": "Vertically Integrated Projects Learning Community",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/engineering/vip.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0161",
+      "record_type": "resource",
+      "title": "Disclose, Protect, or Share Purdue IP Safely",
+      "url": "https://purdueinnovates.org/otc/disclosure/",
+      "kind": "IP & legal",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0162",
+      "record_type": "resource",
+      "title": "License or Explore Purdue Technologies",
+      "url": "https://licensing.prf.org/",
+      "kind": "IP & legal",
+      "stage": "Validate",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0163",
+      "record_type": "resource",
+      "title": "Purdue Innovator Express Startup License",
+      "url": "https://purdueinnovates.org/otc/licensing/",
+      "kind": "IP & legal",
+      "stage": "Build",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0166",
+      "record_type": "resource",
+      "title": "Partner Challenge Grant",
+      "url": "https://purdueinnovates.org/contact/",
+      "kind": "Funding",
+      "stage": "Fund",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0168",
+      "record_type": "resource",
+      "title": "Leslie Bottorff Fellowships",
+      "url": "https://engineering.purdue.edu/EngrMed/Education/Bottorff-Fellowship.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0167",
+      "record_type": "resource",
+      "title": "AI Forge",
+      "url": "https://www.cs.purdue.edu/academic-programs/ai-forge/aiforge.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "resource:navigator-PEN-0169",
+      "record_type": "resource",
+      "title": "Science Innovation Learning Community",
+      "url": "https://www.purdue.edu/learningcommunities/profiles/science/silc.html",
+      "kind": "Education",
+      "stage": "Explore",
+      "stage_ids": [],
+      "region": "Purdue",
+      "source_url": "https://purdueinnovates.org/navigator/"
+    },
+    {
+      "id": "event:purdue-53667446527959",
+      "record_type": "event",
+      "title": "Executive Forum with Randy Haines, Founder for ScaleBridge LLC, and Matt Vuckov, Chief Executive Officer for TalentCraft",
+      "url": "https://events.purdue.edu/event/executive-forum-with-randy-haines-founder-for-scalebridge-llc-and-matt-vuckov-chief-executive-officer-for-talentcraft",
+      "starts_at": "2026-10-02T15:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-2780c777-c9ab-4987-b53e-eba35c0f9608",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/2780c777-c9ab-4987-b53e-eba35c0f9608",
+      "starts_at": "2026-10-06T23:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355230064",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-10-07T14:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53690661560308",
+      "record_type": "event",
+      "title": "RealTalk with Bo Dietrick",
+      "url": "https://events.purdue.edu/event/realtalk-with-bo-dietrick",
+      "starts_at": "2026-10-07T17:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667481364771",
+      "record_type": "event",
+      "title": "Executive Forum with Tim Cartwright, Founding Partner for Fifth Avenue Family Office",
+      "url": "https://events.purdue.edu/event/executive-forum-with-tim-cartwright-founding-partner-for-fifth-avenue-family-office",
+      "starts_at": "2026-10-09T15:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-54037317607775",
+      "record_type": "event",
+      "title": "Coffee at Convergence with Dr. Christopher Brinton and Jessica Jud",
+      "url": "https://events.purdue.edu/event/coffee-at-convergence-with-dr-christopher-brinton-and-jessica-jud",
+      "starts_at": "2026-10-16T12:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667504802047",
+      "record_type": "event",
+      "title": "Executive Forum with Aaron Lai, Director of Data and Analytics for Manifest MedEx",
+      "url": "https://events.purdue.edu/event/executive-forum-with-aaron-lai-director-of-data-and-analytics-for-manifest-medex",
+      "starts_at": "2026-10-16T15:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:anvil-400c7c09-1f5f-4709-92f2-80919bb29a7a@anvilstartups.com",
+      "record_type": "event",
+      "title": "Pitch Night",
+      "url": "https://anvilstartups.com/e/pitch-night-oct",
+      "starts_at": "2026-10-16T22:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.anvilstartups.com/calendar.ics"
+    },
+    {
+      "id": "event:purdue-53603398045809",
+      "record_type": "event",
+      "title": "Write Winning Grants Workshop",
+      "url": "https://events.purdue.edu/event/write-winning-grants",
+      "starts_at": "2026-10-20T12:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-b2a8c091-7983-4070-9c79-1cb0869f9b3d",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/b2a8c091-7983-4070-9c79-1cb0869f9b3d",
+      "starts_at": "2026-10-20T23:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-sf-founders-forum-2026-10-20",
+      "record_type": "event",
+      "title": "Boilermaker Founders Forum with Brian Feth",
+      "url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "starts_at": "2026-10-21T00:00:00+00:00",
+      "region": "Beyond campus",
+      "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+    },
+    {
+      "id": "event:purdue-53877355231089",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-10-21T14:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53690845405918",
+      "record_type": "event",
+      "title": "RealTalk with Darye Henry",
+      "url": "https://events.purdue.edu/event/realtalk-with-tbd-7976",
+      "starts_at": "2026-10-21T17:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53878981965132",
+      "record_type": "event",
+      "title": "Principled Leadership Insights featuring Rupal Thanawala",
+      "url": "https://events.purdue.edu/event/principled-leadership-insights-featuring-rupal-thanawala",
+      "starts_at": "2026-10-21T22:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667540682712",
+      "record_type": "event",
+      "title": "Executive Forum with Heath Billingsley, Vice President, Supply Chain Operations NA for Syngenta",
+      "url": "https://events.purdue.edu/event/executive-forum-with-heath-billingsley-vice-president-supply-chain-operations-na-for-syngenta",
+      "starts_at": "2026-10-23T15:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-a780eb70-1aff-4ac7-b54c-dd1995f9c88a",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/a780eb70-1aff-4ac7-b54c-dd1995f9c88a",
+      "starts_at": "2026-10-27T23:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355232114",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-10-28T14:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667563609253",
+      "record_type": "event",
+      "title": "Executive Forum with Vivek Chakrabortty, Chief Executive Officer for The Kavi Group LLC",
+      "url": "https://events.purdue.edu/event/executive-forum-with-vivek-chakrabortty-chief-executive-officer-for-the-kavi-group-llc",
+      "starts_at": "2026-10-30T15:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-528690fa-bade-4b8f-bc64-a1bcfed65bea",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/528690fa-bade-4b8f-bc64-a1bcfed65bea",
+      "starts_at": "2026-11-04T00:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355232115",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-11-04T15:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53690860201186",
+      "record_type": "event",
+      "title": "RealTalk with Adam Scott",
+      "url": "https://events.purdue.edu/event/realtalk-with-tbd-5744",
+      "starts_at": "2026-11-04T18:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667602970807",
+      "record_type": "event",
+      "title": "Executive Forum with Jeff Swartz, Chief Executive Officer for Seaman Corporation",
+      "url": "https://events.purdue.edu/event/executive-forum-with-jeff-swartz-chief-executive-officer-for-seaman-corporation",
+      "starts_at": "2026-11-06T16:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-a8214e31-5b87-4c58-a168-259a81c8ca2c",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/a8214e31-5b87-4c58-a168-259a81c8ca2c",
+      "starts_at": "2026-11-11T00:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355233140",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-11-11T15:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667637089200",
+      "record_type": "event",
+      "title": "Executive Forum with Korie Nash, Senior Vice President Human Resources for Eaton Corporation",
+      "url": "https://events.purdue.edu/event/executive-forum-with-korie-nash-senior-vice-president-human-resources-for-eaton-corporation",
+      "starts_at": "2026-11-13T16:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-d7026aa9-13a4-427f-a989-f3e69a598f04",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/d7026aa9-13a4-427f-a989-f3e69a598f04",
+      "starts_at": "2026-11-18T00:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355234165",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-11-18T15:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667659515160",
+      "record_type": "event",
+      "title": "Executive Forum with Winston Crawford, Senior Director of Global Ad Sales for Apple Ads",
+      "url": "https://events.purdue.edu/event/executive-forum-with-winston-crawford-senior-director-of-global-ad-sales-for-apple-ads",
+      "starts_at": "2026-11-20T16:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-04a65a81-32ee-40a6-9782-1f662a67b68e",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/04a65a81-32ee-40a6-9782-1f662a67b68e",
+      "starts_at": "2026-12-02T00:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:purdue-53877355235190",
+      "record_type": "event",
+      "title": "The Founder's Table",
+      "url": "https://events.purdue.edu/event/the-founders-table",
+      "starts_at": "2026-12-02T15:00:00+00:00",
+      "region": "Indianapolis",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:purdue-53667681244502",
+      "record_type": "event",
+      "title": "Executive Forum with Jennifer Richter, Vice President Supply Chain - Cleaning for The Clorox Company",
+      "url": "https://events.purdue.edu/event/executive-forum-with-jennifer-richter-vice-president-supply-chain-cleaning-for-the-clorox-company",
+      "starts_at": "2026-12-04T16:30:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://events.purdue.edu/api/2/events"
+    },
+    {
+      "id": "event:buildpurdue-9fb8e24f-ecd0-41ff-b5f4-19e81b42e5a7",
+      "record_type": "event",
+      "title": "Nightshift",
+      "url": "https://www.buildpurdue.org/events/9fb8e24f-ecd0-41ff-b5f4-19e81b42e5a7",
+      "starts_at": "2026-12-09T00:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.buildpurdue.org/events"
+    },
+    {
+      "id": "event:anvil-de195700-d209-4dc0-846f-14bbfaa28e76@anvilstartups.com",
+      "record_type": "event",
+      "title": "Startup Roundtable: Career Fair",
+      "url": "https://anvilstartups.com/e/startup-career-fair",
+      "starts_at": "2027-01-22T14:00:00+00:00",
+      "region": "West Lafayette",
+      "source_url": "https://www.anvilstartups.com/calendar.ics"
+    }
+  ]
+}

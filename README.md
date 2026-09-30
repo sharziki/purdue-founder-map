@@ -14,6 +14,7 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 - Search and filters by resource type; alumni filters by role and geography. The homepage shows eight results at first and expands on demand.
 - Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php), and the [San Francisco Boilermaker Founders Forum](https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html).
 - One SQLite database at `data/founders.sqlite3` containing resources, public contacts, and alumni; static JSON exports in `public/` make the site cheap to host and easy to reuse.
+- A reusable [data catalog](https://purdue-founder-map.vercel.app/catalog.json), [link-only feed](https://purdue-founder-map.vercel.app/links.json), and [structured founder guide](https://purdue-founder-map.vercel.app/guide-data.json) connect the roadmap to programs, tools, and curated Hacker News discussions.
 
 No registration or tracking is required.
 
@@ -37,9 +38,12 @@ python3 scripts/scrape_navigator.py
 python3 scripts/build_alumni.py
 python3 scripts/build_data.py
 python3 scripts/refresh_events.py
+python3 scripts/build_catalog.py
 ```
 
 `scrape_navigator.py` caches Purdue Innovates' public directory. `build_data.py` combines that index with the reviewed list, then rebuilds the resource table and public JSON. `refresh_events.py` updates upcoming events in both SQLite and public JSON. A daily GitHub Action refreshes the directory and events. If all event sources fail, the script preserves the last good export and exits with an error.
+
+The static endpoints and link relationships are documented in [DATA-API.md](docs/DATA-API.md). Edit `data/founder-guide.json` for roadmap, playbook, tool, and glossary records; edit `data/reading-links.json` for curated reading. Rebuild the catalog after either change.
 
 Resource entries use a durable program page rather than a deadline or an `apply` form when applications open and close by cohort. Check each linked page for current eligibility and dates. Event times display in Purdue's Eastern time zone.
 
