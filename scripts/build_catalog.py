@@ -36,11 +36,12 @@ def main():
     people = read("public/people.json")["people"]
     alumni = read("public/alumni.json")["alumni"]
     events = read("public/events.json")["events"]
+    opportunities = read("public/opportunities.json")["opportunities"]
     guide = read("data/founder-guide.json")
     reading = read("data/reading-links.json")["links"]
 
     resource_ids = require_unique(resources, "resource")
-    for label, records in (("person", people), ("alumnus", alumni), ("event", events), ("reading", reading)):
+    for label, records in (("person", people), ("alumnus", alumni), ("event", events), ("opportunity", opportunities), ("reading", reading)):
         require_unique(records, label)
 
     stages = require_unique(guide["roadmap"], "roadmap stage")
@@ -99,6 +100,21 @@ def main():
             "region": item.get("region"),
             "source_url": item.get("source", item["url"]),
         })
+    for item in opportunities:
+        require_url(item["apply_url"], item["id"])
+        require_url(item["source_url"], item["id"])
+        links.append({
+            "id": f"opportunity:{item['id']}",
+            "record_type": "opportunity",
+            "title": item["name"],
+            "url": item["apply_url"],
+            "kind": item["type"],
+            "stage": item["stage"],
+            "region": item["scope"],
+            "status": item["status"],
+            "deadline": item.get("deadline"),
+            "source_url": item["source_url"],
+        })
 
     generated_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
     write("guide-data.json", guide)
@@ -106,14 +122,15 @@ def main():
     write("catalog.json", {
         "schema_version": "1.0",
         "generated_at": generated_at,
-        "counts": {"resources": len(resources), "people": len(people), "alumni": len(alumni), "events": len(events), "reading_links": len(reading)},
+        "counts": {"resources": len(resources), "people": len(people), "alumni": len(alumni), "events": len(events), "opportunities": len(opportunities), "reading_links": len(reading)},
         "resources": resources,
         "people": people,
         "alumni": alumni,
         "events": events,
+        "opportunities": opportunities,
         "guide": guide,
     })
-    print(f"Published {len(resources)} resources, {len(people)} people, {len(alumni)} alumni, {len(events)} events, {len(reading)} reading links")
+    print(f"Published {len(resources)} resources, {len(people)} people, {len(alumni)} alumni, {len(events)} events, {len(opportunities)} opportunities, {len(reading)} reading links")
 
 
 if __name__ == "__main__":

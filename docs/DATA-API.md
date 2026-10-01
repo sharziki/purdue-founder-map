@@ -4,12 +4,13 @@ All endpoints are public JSON files at `https://purdue-founder-map.vercel.app`. 
 
 | Path | Contents |
 | --- | --- |
-| [`/catalog.json`](https://purdue-founder-map.vercel.app/catalog.json) | Combined resources, people, alumni, events, roadmap, playbooks, tools, glossary, and reading links |
-| [`/links.json`](https://purdue-founder-map.vercel.app/links.json) | Lightweight link feed: curated reading, resource pages, and upcoming event pages |
+| [`/catalog.json`](https://purdue-founder-map.vercel.app/catalog.json) | Combined resources, people, alumni, opportunities, events, roadmap, playbooks, tools, glossary, and reading links |
+| [`/links.json`](https://purdue-founder-map.vercel.app/links.json) | Lightweight link feed: curated reading, resources, opportunities, and upcoming events |
 | [`/guide-data.json`](https://purdue-founder-map.vercel.app/guide-data.json) | Founder stages, actionable playbooks, templates, tools, glossary, and reading links |
 | [`/data.json`](https://purdue-founder-map.vercel.app/data.json) | Searchable program, funding, club, and service resources |
 | [`/people.json`](https://purdue-founder-map.vercel.app/people.json) | Public Purdue ecosystem contacts |
 | [`/alumni.json`](https://purdue-founder-map.vercel.app/alumni.json) | Public Purdue-connected founder, investor, and operator profiles |
+| [`/opportunities.json`](https://purdue-founder-map.vercel.app/opportunities.json) | Application-oriented Purdue, Indiana, and broader founder opportunities |
 | [`/notable-alumni.json`](https://purdue-founder-map.vercel.app/notable-alumni.json) | Editorial selection of alumni with individually sourced milestones; full profile records and selection note |
 | [`/events.json`](https://purdue-founder-map.vercel.app/events.json) | Upcoming founder-relevant events from public event feeds |
 | [`/founder-events.ics`](https://purdue-founder-map.vercel.app/founder-events.ics) | Importable iCalendar event snapshot |
@@ -42,13 +43,22 @@ WHERE e.graduation_year = '2019';
 
 Run `python3 scripts/check_alumni_db.py` after a build to confirm the SQLite rows match the JSON export and contain no orphan facts.
 
+Opportunities live in their own indexed SQLite `opportunities` table. Each has `type`, `scope`, `stage`, `audience`, `benefit`, `eligibility`, `apply_url`, `source_url`, `application_cycle`, and `verified_at`. An amount or deadline has its own source URL. `status` is derived from a sourced deadline or a rolling cycle; `check_source` means no current deadline was asserted. The JSON export contains the same records under `opportunities`.
+
+```sql
+SELECT name, organizer, benefit, deadline, apply_url
+FROM opportunities
+WHERE scope = 'Purdue' AND stage = 'Fund'
+ORDER BY deadline IS NULL, deadline, name;
+```
+
 ```js
 const { roadmap, reading_links } = await fetch('/guide-data.json').then(r => r.json());
 const current = roadmap.find(stage => stage.id === 'launch');
 const recommended = reading_links.filter(link => current.reading_link_ids.includes(link.id));
 ```
 
-`/links.json` adds `record_type` to each link: `reading`, `resource`, or `event`. It includes original event dates and resource categories, making it suitable for a simple link directory. `/catalog.json` is the full export when a consumer needs all record fields.
+`/links.json` adds `record_type` to each link: `reading`, `resource`, `opportunity`, or `event`. It includes original event dates and opportunity status, making it suitable for a simple link directory. `/catalog.json` is the full export when a consumer needs all record fields.
 
 ## Update and reuse
 

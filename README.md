@@ -12,9 +12,10 @@ Independent, open-source directory and practical roadmap for Purdue founders. Th
 - The database has 1,906 sourced education entries across 1,622 people, 395 dated company and investor affiliations across 118 people, and 89 structured startup profiles. Further enrichment includes company funding for 46 profiles, 62 capital and exit milestones, 63 company locations, 20 directly stated personal locations, 65 verified LinkedIn profiles, 4 X profiles, and 612 source-linked tag rows. Missing social links open a labeled search rather than a guessed account.
 - First-party club imagery for useful campus entry points, with direct organization links.
 - 49 core reviewed resources, 28 new Indiana and Bay Area resources, plus 100 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
+- A separate [opportunity directory](https://purdue-founder-map.vercel.app/opportunities) with 142 source-linked programs: 30 Purdue, 48 Indiana and Midwest, and 64 national or global. It records audience, eligibility, benefit, application page, cycle, and sourced amounts or deadlines where available.
 - Search and filters by resource type; alumni filters by role, geography, source-linked tag, and organization, with organization sorting. The homepage shows eight results at first and expands on demand.
 - Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php), and the [San Francisco Boilermaker Founders Forum](https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html).
-- One SQLite database at `data/founders.sqlite3` containing resources, public contacts, and alumni; static JSON exports in `public/` make the site cheap to host and easy to reuse.
+- One SQLite database at `data/founders.sqlite3` containing resources, public contacts, alumni, and a separate indexed `opportunities` table; static JSON exports in `public/` make the site cheap to host and easy to reuse.
 - A reusable [data catalog](https://purdue-founder-map.vercel.app/catalog.json), [link-only feed](https://purdue-founder-map.vercel.app/links.json), and [structured founder guide](https://purdue-founder-map.vercel.app/guide-data.json) connect the roadmap to programs, tools, and curated Hacker News discussions.
 
 No registration or tracking is required.
@@ -42,12 +43,15 @@ python3 scripts/scrape_science_alumni.py
 python3 scripts/scrape_ag_awards.py
 python3 scripts/build_alumni.py
 python3 scripts/build_data.py
+python3 scripts/build_opportunities.py
 python3 scripts/check_alumni_db.py
 python3 scripts/refresh_events.py
 python3 scripts/build_catalog.py
 ```
 
 `scrape_navigator.py` caches Purdue Innovates' public directory. `build_data.py` combines that index with the reviewed list, then rebuilds the resource table and public JSON. `refresh_events.py` updates upcoming events in both SQLite and public JSON. A daily GitHub Action refreshes the directory and events. If all event sources fail, the script preserves the last good export and exits with an error.
+
+Opportunity source records live in `data/opportunities-{purdue,indiana,national}.json`. `build_opportunities.py` validates and publishes the separate SQLite table and `/opportunities.json`; `build_catalog.py` adds them to the combined exports. A date appears only when supported by the linked organizer page. The derived status is recalculated on each build; check the program page for current terms.
 
 Alumni coverage combines curated profiles with public Purdue Engineering, Business, Polytechnic, Science, Statistics, Agriculture, and Pharmacy sources. The university's private alumni roster is not included. Purdue-connected former students can appear when the connection is documented; attendance is not treated as a degree. Many award and archive biographies describe past roles; `role_as_of` records the source year when known, while undated profile rows carry an explicit verification note. The source URL is the evidence; `verified_at` means the page loaded on that date, not that its job title is current. Optional sourced enrichment lives in `data/alumni-*-enrichment.json`. The normalized education, affiliation, and startup facts are queryable in `data/founders.sqlite3` and exported in `/alumni.json`. Funding belongs to the named company and is not a claim about a person's net worth; company location is separate from personal location. Highlights are an editorial starting point backed by public milestones, not a ranking.
 
