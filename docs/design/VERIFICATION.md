@@ -22,4 +22,12 @@ The redesign preserves the existing datasets: 2,130 alumni, 41 campus contacts, 
 
 Two MIT Kokonut UI controls were adapted from inspected canonical source. 21st CLI discovery returned HTTP 401; no React components were installed. Sources, licenses, and original asset masters are preserved in the asset ledger.
 
-Production verification is recorded below after deployment.
+## Production verification
+
+Published UI revision `b0fcab3` to https://purdue-founder-map.vercel.app through the existing GitHub → Vercel production integration. GitHub deployment `6795330285` reports success. The latest daily data refresh was rebased before publishing.
+
+- All 19 public page routes plus seven required assets/data files return HTTP 200 and match the local bytes exactly (26 checks). Evidence: `redesign/production-results.json`.
+- Live desktop and mobile browser passes: home, three primary destinations, 2,130-profile search, sourced funding dialog, Escape, mobile event agenda and calendar disclosure. No runtime errors or horizontal overflow.
+- Hosted screenshots: `redesign/live-home-desktop.png`, `live-home-mobile.png`, `live-events-mobile.png`. Result record: `redesign/live-results.json`.
+- Direct Vercel CLI authorization failed because the CLI session belongs to another account. The existing repository integration successfully deployed the intended project; no account or DNS configuration was changed.
+

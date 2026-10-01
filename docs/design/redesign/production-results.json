@@ -1,0 +1,158 @@
+[
+  {
+    "path": "alumni.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "contribute.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "events.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "glossary.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "opportunities.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "people.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "resources.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/build.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/explore.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/fund.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/launch.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/scale.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "guide/validate.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "playbooks/cold-outreach.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "playbooks/customer-discovery.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "playbooks/email-marketing.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "playbooks/first-dollar.html",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "map.css",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "map.js",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "landing-motion.js",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "assets/bell-tower-dither.webp",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "fonts/instrument-sans.woff2",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "alumni.json",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  },
+  {
+    "path": "opportunities.json",
+    "status": 200,
+    "server": "Vercel",
+    "matches_local": true
+  }
+]
