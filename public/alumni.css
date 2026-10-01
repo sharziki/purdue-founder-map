@@ -12,3 +12,4 @@
 
 .alumni-initial{overflow:hidden}.alumni-initial img{width:100%;height:100%;object-fit:cover;border-radius:50%}
 .swipe-note{display:none}@media(max-width:600px){.swipe-note{display:block;font:500 9px var(--mono);letter-spacing:.08em;color:#8d754d;margin-top:10px}}
+.alumni-facts{margin:12px 0 14px;padding:11px 14px;background:#f5f0e8;border-left:2px solid #a88953}.alumni-facts p{margin:3px 0 8px}.alumni-facts b{font-weight:700;color:#343029;margin-right:6px}.alumni-facts a{margin-left:6px}.alumni-facts small{display:inline;margin:0 0 0 4px}.alumni-flags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}.alumni-flags a{padding:4px 7px;margin:0;border:1px solid #d9ccb5;color:#765c34;font:500 9px var(--mono);text-transform:capitalize;text-decoration:none}

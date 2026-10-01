@@ -1,0 +1,606 @@
+{
+  "adam-scott": {
+    "company": "Compact Medical Inc.",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "$3.1 million",
+        "round": "Outside funding",
+        "date": "2026",
+        "source_url": "https://events.purdue.edu/event/realtalk-with-tbd-5744"
+      }
+    ]
+  },
+  "akash-raju": {
+    "company": "Glimpse",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$35 million",
+        "round": "Series A",
+        "date": "2026-03-25",
+        "source_url": "https://www.tryglimpse.com/post/seriesa"
+      }
+    ]
+  },
+  "akshay-kothari": {
+    "company": "Notion",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$275 million",
+        "round": "Fundraise",
+        "date": "2021-10",
+        "source_url": "https://www.globenewswire.com/fr/news-release/2021/10/12/2313042/0/en/Notion-Expands-Its-International-Reach-Launching-a-Localized-Japanese-Product-to-Help-More-Businesses-Grow.html"
+      }
+    ]
+  },
+  "andrew-ulmer": {
+    "company": "Oqullo",
+    "funding": [
+      {
+        "type": "grant",
+        "amount": "$219,000",
+        "round": "NSF SBIR Phase I",
+        "date": "2020-04-08",
+        "source_url": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html"
+      }
+    ]
+  },
+  "angik-sarkar": {
+    "company": "Ixana",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$3 million",
+        "round": "Seed",
+        "date": "2023-05-15",
+        "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana"
+      }
+    ],
+    "company_location": {
+      "location": "West Lafayette, Indiana",
+      "source_url": "https://ixana.ai/news-events/ixana-mira-startup-year-techpoint"
+    }
+  },
+  "anuj-mehta": {
+    "company": "Glimpse",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$35 million",
+        "round": "Series A",
+        "date": "2026-03-25",
+        "source_url": "https://www.tryglimpse.com/post/seriesa"
+      }
+    ]
+  },
+  "apeksha-kumavat": {
+    "company": "Gatik AI",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$200 million",
+        "round": "Series D",
+        "date": "2026-08-25",
+        "source_url": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/"
+      }
+    ],
+    "company_location": {
+      "location": "Santa Clara, California",
+      "source_url": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/"
+    }
+  },
+  "arjun-narang": {
+    "company": "Gatik AI",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$200 million",
+        "round": "Series D",
+        "date": "2026-08-25",
+        "source_url": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/"
+      }
+    ],
+    "company_location": {
+      "location": "Santa Clara, California",
+      "source_url": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/"
+    }
+  },
+  "austin-link": {
+    "company": "Starfish Space",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "More than $100 million",
+        "round": "Series B",
+        "date": "2026-04-07",
+        "source_url": "https://www.starfishspace.com/press-release/starfish-space-raises-over-100-million-series-b/"
+      }
+    ],
+    "company_location": {
+      "location": "Seattle, Washington",
+      "source_url": "https://www.starfishspace.com/press-release/starfish-space-raises-over-100-million-series-b/"
+    }
+  },
+  "brian-feth": {
+    "company": "Xcell Biosciences",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "More than $50 million",
+        "round": "Venture financing",
+        "date": "2026",
+        "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+      }
+    ],
+    "company_location": {
+      "location": "San Francisco, California",
+      "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+    }
+  },
+  "candice-xie": {
+    "company": "Veo",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$16 million",
+        "round": "Series A",
+        "date": "2021-08",
+        "source_url": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+      }
+    ],
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+    }
+  },
+  "cody-waldecker": {
+    "company": "Stellerian",
+    "funding": [
+      {
+        "type": "accelerator_funding",
+        "amount": "$220,000",
+        "round": "Techstars Space Accelerator funding",
+        "date": "2026-04-24",
+        "source_url": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup"
+      }
+    ]
+  },
+  "colton-voege": {
+    "company": "Mimir",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "$2.5 million",
+        "round": "Venture funding before acquisition",
+        "date": "2019-12-17",
+        "source_url": "https://www.edsurge.com/news/2019-12-17-hackerrank-acquires-mimir-to-better-match-cs-talent-in-classrooms-with-jobs"
+      }
+    ],
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://www.ycombinator.com/companies/mimir"
+    }
+  },
+  "dhruv-garg": {
+    "company": "Kangaroo",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "More than $10 million",
+        "round": "Capital previously raised",
+        "date": "2020",
+        "source_url": "https://republic.com/kangaroo"
+      }
+    ]
+  },
+  "edwin-tan": {
+    "company": "Veo",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$16 million",
+        "round": "Series A",
+        "date": "2021-08",
+        "source_url": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+      }
+    ],
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+    }
+  },
+  "ivan-ball": {
+    "company": "anu",
+    "funding": [
+      {
+        "type": "grant",
+        "amount": "$200,000",
+        "round": "Indiana Manufacturing Readiness Grant",
+        "date": "2023",
+        "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumni-create-smart-garden-home-appliance-supported-indiana"
+      }
+    ]
+  },
+  "jacobi-petrucciani": {
+    "company": "Mimir",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "$2.5 million",
+        "round": "Venture funding before acquisition",
+        "date": "2019-12-17",
+        "source_url": "https://www.edsurge.com/news/2019-12-17-hackerrank-acquires-mimir-to-better-match-cs-talent-in-classrooms-with-jobs"
+      }
+    ],
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://www.ycombinator.com/companies/mimir"
+    }
+  },
+  "jessica-traver": {
+    "company": "IntuiTap Medical",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$5.5 million",
+        "round": "Series A",
+        "date": "2021-07-13",
+        "source_url": "https://www.prnewswire.com/news-releases/intuitap-medicals-disruptive-spinal-tap-technology-enters-clinical-trials-as-they-close-successful-5-5m-series-a-round-of-funding-led-by-the-pink-ceiling-and-curate-capital-301332657.html"
+      }
+    ],
+    "company_location": {
+      "location": "Houston, Texas",
+      "source_url": "https://www.prnewswire.com/news-releases/intuitap-medicals-disruptive-spinal-tap-technology-enters-clinical-trials-as-they-close-successful-5-5m-series-a-round-of-funding-led-by-the-pink-ceiling-and-curate-capital-301332657.html"
+    }
+  },
+  "jie-weng": {
+    "company": "Chowbus",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$81 million",
+        "round": "Series E",
+        "date": "2026-03-11",
+        "source_url": "https://www.chowbus.com/news/chowbus-raises-81m-series-e"
+      }
+    ],
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://www.chowbus.com/news/chowbus-raises-81m-series-e"
+    }
+  },
+  "john-gedmark": {
+    "company": "Astranis",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "More than $750 million",
+        "round": "Funding",
+        "date": "2025",
+        "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+      }
+    ]
+  },
+  "jonathan-holt": {
+    "company": "Brightlamp",
+    "funding": [
+      {
+        "type": "investment",
+        "amount": "$80,000",
+        "round": "Elevate Purdue Foundry Fund Gold Award",
+        "date": "2018-05-15",
+        "source_url": "https://www.purdue.edu/newsroom/releases/2018/Q2/elevate-purdue-foundry-fund-invests-more-than-500%2C000-to-11-startups-to-help-advance-companies.html"
+      }
+    ]
+  },
+  "katherine-clayton": {
+    "company": "OmniVis",
+    "funding": [
+      {
+        "type": "investment",
+        "amount": "$100,000",
+        "round": "Purdue Ag-Celerator award",
+        "date": "2023-02-01",
+        "source_url": "https://www.purdue.edu/newsroom/2023/Q1/purdue-ag-celerator-fund-invests-100,000-in-pathogen-detection-company/"
+      }
+    ]
+  },
+  "kurtis-sluss": {
+    "company": "Brightlamp",
+    "funding": [
+      {
+        "type": "investment",
+        "amount": "$80,000",
+        "round": "Elevate Purdue Foundry Fund Gold Award",
+        "date": "2018-05-15",
+        "source_url": "https://www.purdue.edu/newsroom/releases/2018/Q2/elevate-purdue-foundry-fund-invests-more-than-500%2C000-to-11-startups-to-help-advance-companies.html"
+      }
+    ]
+  },
+  "kushal-negi": {
+    "company": "Glimpse",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$35 million",
+        "round": "Series A",
+        "date": "2026-03-25",
+        "source_url": "https://www.tryglimpse.com/post/seriesa"
+      }
+    ]
+  },
+  "kyle-mohler": {
+    "company": "Insignum AgTech",
+    "funding": [
+      {
+        "type": "investment",
+        "amount": "$100,000",
+        "round": "Purdue Ag-Celerator investment",
+        "date": "2022-01-13",
+        "source_url": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html"
+      }
+    ]
+  },
+  "liane-hart": {
+    "company": "Verility Inc.",
+    "funding": [
+      {
+        "type": "investment",
+        "amount": "$100,000",
+        "round": "Purdue Ag-Celerator investment",
+        "date": "2022-01-13",
+        "source_url": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html"
+      }
+    ]
+  },
+  "madison-long": {
+    "company": "Clutch",
+    "funding": [
+      {
+        "type": "institutional_funding",
+        "amount": "$200,000",
+        "round": "Purdue Innovates investment",
+        "date": "2022",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    ]
+  },
+  "max-bogue": {
+    "company": "WobbleWorks / 3Doodler",
+    "funding": [
+      {
+        "type": "crowdfunding",
+        "amount": "$2,344,134",
+        "round": "3Doodler Kickstarter pledges",
+        "date": "2013-03-25",
+        "source_url": "https://www.kickstarter.com/projects/chefdoodler/3doodler-the-worlds-first-3d-printing-pen/description"
+      }
+    ],
+    "company_location": {
+      "location": "Boston, Massachusetts",
+      "source_url": "https://www.kickstarter.com/projects/chefdoodler/3doodler-the-worlds-first-3d-printing-pen/description"
+    }
+  },
+  "nobu-okada": {
+    "company": "Astroscale",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "$383 million",
+        "round": "Capital raised through Series G",
+        "date": "2023-10-06",
+        "source_url": "https://www.astroscale.com/en/news/astroscale-closes-series-g-funding-round-with-an-additional-u-s-7-5-million-bringing-total-capital-raised-to-u-s-383-million"
+      }
+    ],
+    "company_location": {
+      "location": "Tokyo, Japan",
+      "source_url": "https://www.astroscale.com/en/news/astroscale-closes-series-g-funding-round-with-an-additional-u-s-7-5-million-bringing-total-capital-raised-to-u-s-383-million"
+    }
+  },
+  "prahasith-veluvolu": {
+    "company": "Mimir",
+    "funding": [
+      {
+        "type": "total_raised",
+        "amount": "$2.5 million",
+        "round": "Venture funding before acquisition",
+        "date": "2019-12-17",
+        "source_url": "https://www.edsurge.com/news/2019-12-17-hackerrank-acquires-mimir-to-better-match-cs-talent-in-classrooms-with-jobs"
+      }
+    ],
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://www.ycombinator.com/companies/mimir"
+    }
+  },
+  "ram-palaniappan": {
+    "company": "EarnIn",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$125 million",
+        "round": "Series C",
+        "date": "2018-12-20",
+        "source_url": "https://www.earnin.com/press"
+      }
+    ]
+  },
+  "rashid-bashir": {
+    "company": "Prenosis",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$20 million",
+        "round": "Private financing",
+        "date": "2026",
+        "source_url": "https://prenosis.com/news/prenosis-announces-barda-contract-series-a-financing-round/"
+      }
+    ]
+  },
+  "rehan-jalil": {
+    "company": "Securiti",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$75 million",
+        "round": "Series C",
+        "date": "2022-10-04",
+        "source_url": "https://securiti.ai/press-release/securiti-unveils-worlds-first-data-controls-cloud/"
+      }
+    ],
+    "company_location": {
+      "location": "San Jose, California",
+      "source_url": "https://securiti.ai/press-release/securiti-unveils-worlds-first-data-controls-cloud/"
+    }
+  },
+  "rodrigo-schmitt": {
+    "company": "Stellerian",
+    "funding": [
+      {
+        "type": "accelerator_funding",
+        "amount": "$220,000",
+        "round": "Techstars Space Accelerator funding",
+        "date": "2026-04-24",
+        "source_url": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup"
+      }
+    ]
+  },
+  "scott-massey": {
+    "company": "anu",
+    "funding": [
+      {
+        "type": "grant",
+        "amount": "$200,000",
+        "round": "Indiana Manufacturing Readiness Grant",
+        "date": "2023",
+        "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumni-create-smart-garden-home-appliance-supported-indiana"
+      }
+    ]
+  },
+  "scott-wilson": {
+    "company": "QA Wolf",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$36 million",
+        "round": "Series B",
+        "date": "2024-07-23",
+        "source_url": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist"
+      }
+    ],
+    "company_location": {
+      "location": "Seattle, Washington",
+      "source_url": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist"
+    }
+  },
+  "shovan-maity": {
+    "company": "Ixana",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$3 million",
+        "round": "Seed",
+        "date": "2023-05-15",
+        "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana"
+      }
+    ],
+    "company_location": {
+      "location": "West Lafayette, Indiana",
+      "source_url": "https://ixana.ai/news-events/ixana-mira-startup-year-techpoint"
+    }
+  },
+  "sid-sheth": {
+    "company": "d-Matrix",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$275 million",
+        "round": "Series C",
+        "date": "2025-11-12",
+        "source_url": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/"
+      }
+    ],
+    "company_location": {
+      "location": "Santa Clara, California",
+      "source_url": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/"
+    }
+  },
+  "simone-may": {
+    "company": "Clutch",
+    "funding": [
+      {
+        "type": "institutional_funding",
+        "amount": "$200,000",
+        "round": "Purdue Innovates investment",
+        "date": "2022",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    ]
+  },
+  "snehal-antani": {
+    "company": "Horizon3.ai",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$100 million",
+        "round": "Series D",
+        "date": "2025-06-10",
+        "source_url": "https://horizon3.ai/news/press-release/horizon3-ai-raises-100m-to-cement-leadership-in-autonomous-security/"
+      }
+    ],
+    "company_location": {
+      "location": "San Francisco, California",
+      "source_url": "https://horizon3.ai/news/press-release/horizon3-appoints-chief-marketing-officer/"
+    }
+  },
+  "stephanie-bonk": {
+    "company": "Overland AI",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$32 million",
+        "round": "Series A",
+        "date": "2025-01-22",
+        "source_url": "https://www.overland.ai/news/overland-ai-raises-32m-in-series-a-to-transform-ground-operations-for-defense"
+      }
+    ]
+  },
+  "tolen-schreid": {
+    "company": "Caseflood.ai",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$500,000",
+        "round": "Pre-seed (YC W25)",
+        "date": "2025",
+        "source_url": "https://www.linkedin.com/posts/ethan-hilton_im-extremely-excited-to-announce-that-casefloodai-activity-7283127895772803074-cMW4"
+      }
+    ]
+  },
+  "tom-feldman": {
+    "company": "Stoke Space Technologies",
+    "funding": [
+      {
+        "type": "round",
+        "amount": "$260 million",
+        "round": "Series C",
+        "date": "2025-01-15",
+        "source_url": "https://www.stokespace.com/news/stoke-space-announces-260-million-in-new-investment"
+      }
+    ]
+  },
+  "zohar-kapach": {
+    "company": "Oqullo",
+    "funding": [
+      {
+        "type": "grant",
+        "amount": "$219,000",
+        "round": "NSF SBIR Phase I",
+        "date": "2020-04-08",
+        "source_url": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html"
+      }
+    ]
+  }
+}

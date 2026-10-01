@@ -4,6 +4,7 @@ import json
 import re
 import sqlite3
 import unicodedata
+from urllib.parse import urlparse
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -24,6 +25,17 @@ ALUMNI_EXPANSIONS = (
     "alumni-science-expansion.json",
     "alumni-ag-expansion.json",
 )
+ALUMNI_ENRICHMENTS = (
+    "alumni-funding-enrichment.json",
+    "alumni-social-enrichment.json",
+    "alumni-location-enrichment.json",
+)
+ENRICHMENT_FIELDS = {
+    "funding", "company", "company_location", "linkedin", "linkedin_source_url",
+    "x", "x_source_url", "flags", "flag_sources", "flag_notes", "location_city",
+    "location_region", "location_country", "location_source_url",
+    "location_as_of", "location_note",
+}
 
 
 def alumni_name_key(name):
@@ -147,6 +159,40 @@ with sqlite3.connect(DB) as db:
                 alumni.append(person)
             elif key not in protected and int(person.get("role_as_of") or 0) > int(alumni[known[key]].get("role_as_of") or 0):
                 alumni[known[key]] = person
+    by_id = {person["id"]: person for person in alumni}
+    for filename in ALUMNI_ENRICHMENTS:
+        path = ROOT / "data" / filename
+        if not path.exists():
+            continue
+        for person_id, details in json.loads(path.read_text()).items():
+            if person_id not in by_id:
+                raise ValueError(f"{filename}: unknown alumni id {person_id}")
+            unknown = set(details) - ENRICHMENT_FIELDS
+            if unknown:
+                raise ValueError(f"{filename}: unsupported fields {sorted(unknown)}")
+            if "funding" in details:
+                assert isinstance(details["funding"], list)
+                assert all(claim.get("source_url", "").startswith("https://") and claim.get("amount") for claim in details["funding"])
+            for field in ("linkedin", "linkedin_source_url", "x", "x_source_url", "location_source_url"):
+                if details.get(field) and not details[field].startswith("https://"):
+                    raise ValueError(f"{filename}: {person_id} has invalid {field}")
+            if details.get("linkedin"):
+                url = urlparse(details["linkedin"])
+                if url.hostname not in {"linkedin.com", "www.linkedin.com"} or not url.path.startswith(("/in/", "/pub/")) or not details.get("linkedin_source_url"):
+                    raise ValueError(f"{filename}: {person_id} has unverified LinkedIn profile")
+            if details.get("x"):
+                url = urlparse(details["x"])
+                if url.hostname not in {"x.com", "www.x.com", "twitter.com", "www.twitter.com"} or url.path.startswith(("/intent", "/Purdue")) or not details.get("x_source_url"):
+                    raise ValueError(f"{filename}: {person_id} has unverified X profile")
+            if "flags" in details:
+                allowed_flags = {"historical-role", "purdue-founder", "investor", "indiana", "bay-area", "mentor"}
+                if not isinstance(details["flags"], list) or any(flag not in allowed_flags or not details.get("flag_sources", {}).get(flag, "").startswith("https://") for flag in details["flags"]):
+                    raise ValueError(f"{filename}: {person_id} has unsourced flags")
+            if any(details.get(field) for field in ("location_city", "location_region", "location_country")) and not details.get("location_source_url"):
+                raise ValueError(f"{filename}: {person_id} has unsourced personal location")
+            if details.get("company_location") and not details["company_location"].get("source_url", "").startswith("https://"):
+                raise ValueError(f"{filename}: {person_id} has unsourced company location")
+            by_id[person_id].update(details)
     extra_portraits = {
             "ashish-toshniwal": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg",
             "akshay-kothari": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
@@ -164,14 +210,15 @@ with sqlite3.connect(DB) as db:
         role TEXT NOT NULL, organization TEXT NOT NULL, region TEXT NOT NULL,
         kind TEXT NOT NULL, why_relevant TEXT NOT NULL,
         source_url TEXT NOT NULL, verified_at TEXT NOT NULL,
-        image TEXT, image_source_url TEXT, role_as_of TEXT
+        image TEXT, image_source_url TEXT, role_as_of TEXT, enrichment_json TEXT NOT NULL
       );
       CREATE INDEX idx_alumni_region ON alumni(region);
     """)
-    db.executemany("INSERT INTO alumni VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)", [
+    db.executemany("INSERT INTO alumni VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)", [
         (p["id"], p["name"], p["connection"], p["role"], p["organization"],
          p["region"], p["kind"], p["why_relevant"], p["source_url"], p["verified_at"],
-        p.get("image"), p.get("image_source_url"), p.get("role_as_of"))
+        p.get("image"), p.get("image_source_url"), p.get("role_as_of"),
+        json.dumps({key: p[key] for key in ENRICHMENT_FIELDS if key in p}, ensure_ascii=False))
         for p in alumni
     ])
     db.commit()

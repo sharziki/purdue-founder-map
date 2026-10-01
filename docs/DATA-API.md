@@ -21,6 +21,8 @@ Every guide stage and playbook has a stable `id`. Reading links use `stage_ids` 
 
 Alumni records include `name`, `connection` to Purdue, sourced `role` and `organization`, `region` when known, `kind`, a short `why_relevant` note, and `source_url`. `role_as_of`, when present, records the year of the source's role claim. `verified_at` is the date the public source was checked; it does not imply the person still holds an older role. The directory includes founders, investors, and other publicly documented working alumni. It is not Purdue's private alumni roster or a list of people available for introductions.
 
+Some alumni also have `funding` claims (`type`, `amount`, `round`, `date`, `source_url`) tied to the `company` field; `company_location` is the company's stated base. Personal `location_city`, `location_region`, and `location_country` are separate and require `location_source_url`. Verified public `linkedin` and `x` profile URLs include their own source URL. `flags` are sourced through the `flag_sources` map. Missing fields mean the public evidence did not support that claim; they are not empty values to fill by guessing. The optional fields are mirrored in SQLite's `alumni.enrichment_json` column.
+
 ```js
 const { roadmap, reading_links } = await fetch('/guide-data.json').then(r => r.json());
 const current = roadmap.find(stage => stage.id === 'launch');
