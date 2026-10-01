@@ -18,3 +18,8 @@ Interior pages begin with compact literal headings. Search and filters sit immed
 ## Design review
 
 An independent critic requested compact database headings, readable metadata, a mobile date disclosure, closer guide columns, and SVG arrow icons. All were implemented. Reference rationale and product truth: `REDESIGN-2026.md`. License and asset details: `ASSET-LEDGER.md`.
+
+
+## Asset-led refinement
+
+User requested more imagery and less copy. Homepage main copy reduced from 317 to 144 words. Keep the Bell Tower as the place anchor; add an original exploded prototype illustration beside a six-stop clickable path. Program discovery uses large first-party organization marks in an asymmetric composition. Larger alumni crops carry the network section. Detailed facts remain in profiles and guide chapters. Charcoal fields support the original bright campus marks; no new animation runtime.

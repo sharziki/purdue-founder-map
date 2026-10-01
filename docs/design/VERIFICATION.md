@@ -31,3 +31,10 @@ Published UI revision `b0fcab3` to https://purdue-founder-map.vercel.app through
 - Hosted screenshots: `redesign/live-home-desktop.png`, `live-home-mobile.png`, `live-events-mobile.png`. Result record: `redesign/live-results.json`.
 - Direct Vercel CLI authorization failed because the CLI session belongs to another account. The existing repository integration successfully deployed the intended project; no account or DNS configuration was changed.
 
+
+
+## Asset-led refinement checks
+
+Homepage copy reduced by more than half; detailed database and guide content retained. Original prototype illustration and first-party YC mark added; no new runtime dependencies. Independent review requested consistent portrait crops and wider mobile program labels; both fixed.
+
+Camoufox checks at 1440, 390, and 320px: no overflow, broken images, or runtime errors. Program detail deep links, six roadmap links, reduced-motion behavior, real no-JavaScript context, and blocked core bundle preserve the intended content. Evidence and exact final screenshots: `asset-pass/checks.json`, `asset-pass/home-1440.png`, `asset-pass/home-390.png`, and `asset-pass/home-320.png`.

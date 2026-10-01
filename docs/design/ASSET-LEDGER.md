@@ -53,3 +53,10 @@ The initial interface adapted native HTML/CSS versions of MIT-licensed Kokonut U
 GSAP 3.14.2 and ScrollTrigger are vendored in `public/vendor/` from official npm distribution via jsDelivr. [GSAP standard license](https://gsap.com/standard-license/) governs these files. They animate only entrance transforms and opacity after load; source content is visible without JS and `prefers-reduced-motion` skips the timelines. The opening mark exits with CSS even if GSAP fails.
 
 Five alumni portraits in `public/assets/alumni/` come from the official Purdue pages linked by `image_source_url` in `data/alumni.json` and `public/alumni.json`: John Gedmark (Purdue AAE), Don Thompson (Purdue ECE), Kendra Bracken-Ferguson (Purdue CLA), Akshay Kothari (Purdue ECE), and Ashish Toshniwal (Purdue ECE). Files were downloaded on 2026-09-30 and resized/encoded as WebP; four appear in the alumni feature and available portraits appear in directory rows. These portraits remain their owners' content and identify the linked person only.
+
+
+## Asset-led refinement · October 2026
+
+- Original imagined student CubeSat prototype: built-in image generation, transparent 1536×1024 master at `masters/prototype-dither.png`, optimized 1200×800 WebP at `public/assets/prototype-dither.webp` (~155KB). Concept illustration label is visible beside the roadmap; no real company product claim. Exact prompt in `asset-pass/PROTOTYPE-PROMPT.txt`.
+- Y Combinator mark: first-party 256px favicon linked by https://www.ycombinator.com/ ; downloaded from https://bookface-static.ycombinator.com/assets/ycdc/favicon-c8a914eeeba9fe6f7a863b35608b55aeedd7c1ff409c97b9ecb96b7a6c278d70.ico . Original ICO retained; PNG delivery in `public/assets/orgs/y-combinator.png`. Used solely to identify the linked program, with no endorsement claim.
+- Existing Purdue Hackers, Purdue Innovates, buildpurdue, and Anvil marks reused from the documented first-party assets. Bright marks sit on charcoal to preserve legibility.

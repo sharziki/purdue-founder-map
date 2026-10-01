@@ -1,0 +1,24 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "broken_images": 0
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "broken_images": 0
+    }
+  ],
+  "errors": [],
+  "program_details": "passed",
+  "reduced_motion": "passed",
+  "no_js": "passed",
+  "bundle_failure": "passed"
+}
