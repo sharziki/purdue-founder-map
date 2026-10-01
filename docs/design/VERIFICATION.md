@@ -38,3 +38,5 @@ Published UI revision `b0fcab3` to https://purdue-founder-map.vercel.app through
 Homepage copy reduced by more than half; detailed database and guide content retained. Original prototype illustration and first-party YC mark added; no new runtime dependencies. Independent review requested consistent portrait crops and wider mobile program labels; both fixed.
 
 Camoufox checks at 1440, 390, and 320px: no overflow, broken images, or runtime errors. Program detail deep links, six roadmap links, reduced-motion behavior, real no-JavaScript context, and blocked core bundle preserve the intended content. Evidence and exact final screenshots: `asset-pass/checks.json`, `asset-pass/home-1440.png`, `asset-pass/home-390.png`, and `asset-pass/home-320.png`.
+
+Asset-led release `17f9eeb` verified on the production alias: homepage, shared CSS, guide, and both new assets match local bytes. Live desktop/mobile render and the microgrant detail link pass. Screenshots: `asset-pass/live-desktop.png` and `asset-pass/live-mobile.png`.
