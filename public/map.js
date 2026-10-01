@@ -81,8 +81,8 @@
       if(page==='alumni')result.sort(sort?.value==='organization'?(a,b)=>a.organization.localeCompare(b.organization):sort?.value==='name'?(a,b)=>a.name.localeCompare(b.name):(a,b)=>(a.highlights?.length?0:1)-(b.highlights?.length?0:1)||(a.highlight_order||999)-(b.highlight_order||999)||a.name.localeCompare(b.name));
       if(page==='opportunities')result.sort((a,b)=>(a.scope==='Purdue'?0:1)-(b.scope==='Purdue'?0:1)||a.name.localeCompare(b.name));
       const renderer={alumni:peopleRow,people:campusRow,opportunities:opRow,resources:resourceRow}[page];
-      $('#directory-results').innerHTML=result.length?result.slice(0,page==='people'?100:shown).map(renderer).join(''):'<p class="empty-state">No matches yet. Try a broader search or reset your filters.</p>';
-      $('#result-count').textContent=`${result.length.toLocaleString()} ${page==='alumni'?'profiles':page==='people'?'contacts':page} · showing ${Math.min(result.length,page==='people'?100:shown)}`;
+      $('#directory-results').innerHTML=result.length?result.slice(0,['people','alumni'].includes(page)?result.length:shown).map(renderer).join(''):'<p class="empty-state">No matches yet. Try a broader search or reset your filters.</p>';
+      $('#result-count').textContent=`${result.length.toLocaleString()} ${page==='alumni'?'profiles':page==='people'?'contacts':page}${['people','alumni'].includes(page)?'':' · showing '+Math.min(result.length,shown)}`;
       if($('#load-more'))$('#load-more').hidden=shown>=result.length;
       $('#reset-filters').hidden=!controls.some(c=>c.value && c.id!=='sort-filter');
       document.querySelectorAll('[data-quick]').forEach(b=>b.classList.toggle('active',b.dataset.quick===''?!kind?.value&&!region?.value:(kind?.value===b.dataset.quick||region?.value===b.dataset.quick)));
@@ -91,7 +91,7 @@
     $('#reset-filters').addEventListener('click',()=>{controls.forEach(c=>c.value='');shown=24;render();input.focus();});
     $('#load-more')?.addEventListener('click',()=>{shown+=24;render();});
     document.querySelectorAll('[data-quick]').forEach(b=>b.addEventListener('click',()=>{kind.value='';region.value='';if(b.dataset.quick==='Purdue')region.value='Purdue';else kind.value=b.dataset.quick;shown=24;render();}));
-    load(page).then(data=>{rows=data.map(p=>({...p,_search:JSON.stringify(p).toLowerCase()}));render();const id=params.get('person')||params.get('program');if(id)openProfile(id,page);}).catch(()=>{$('#result-count').textContent='Live search unavailable. Showing the saved selection.';if($('#load-more'))$('#load-more').hidden=true;});
+    load(page).then(data=>{rows=data.map(p=>({...p,_search:JSON.stringify(p).toLowerCase()}));render();const id=params.get('person')||params.get('program');if(id)openProfile(id,page);}).catch(()=>{$('#result-count').textContent='Live search unavailable. Showing the saved directory.';if($('#load-more'))$('#load-more').hidden=true;});
   }
 
   // The global search is lazy: no directory downloads until it is opened.
