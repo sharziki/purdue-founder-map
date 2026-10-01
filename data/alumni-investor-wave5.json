@@ -1,0 +1,126 @@
+[
+  {
+    "id": "markell-baldwin",
+    "name": "Markell Baldwin",
+    "connection": "BSEE 2014",
+    "role": "Co-founder",
+    "role_as_of": "2026",
+    "organization": "Unbane",
+    "region": "Columbus, Ohio",
+    "kind": "Founder",
+    "why_relevant": "Former Tesla engineer and Drive Capital partner now building a voice-first construction reporting startup.",
+    "source_url": "https://www.unbane.com/about",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/markell-baldwin",
+      "https://www.unbane.com/about"
+    ]
+  },
+  {
+    "id": "guru-chahal",
+    "name": "Guru Chahal",
+    "connection": "MSEE 2000",
+    "role": "Partner",
+    "role_as_of": "2026",
+    "organization": "Lightspeed Venture Partners",
+    "region": "United States",
+    "kind": "Investor",
+    "why_relevant": "Lightspeed partner investing in enterprise technology and cybersecurity.",
+    "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+      "https://lsvp.com/lightspeed-team/"
+    ]
+  },
+  {
+    "id": "eric-zimits",
+    "name": "Eric Zimits",
+    "connection": "Purdue graduate",
+    "role": "Managing Director (documented 2007)",
+    "role_as_of": "2007",
+    "organization": "Granite Ventures",
+    "region": "San Francisco Bay Area",
+    "kind": "Investor",
+    "why_relevant": "Invested in early stage communications and components companies through Granite Ventures.",
+    "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "tracy-marshbanks",
+    "name": "Tracy Marshbanks",
+    "connection": "PhD chemical engineering, Purdue University",
+    "role": "Managing Director",
+    "role_as_of": "2026",
+    "organization": "First Analysis",
+    "region": "Chicago / Midwest",
+    "kind": "Investor",
+    "why_relevant": "Works with chemical, medical, and environmental technology founders as a venture investor.",
+    "source_url": "https://www.firstanalysis.com/about-us/",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://www.firstanalysis.com/about-us/",
+      "https://www.firstanalysis.com/contact-us/"
+    ]
+  },
+  {
+    "id": "tim-fahler",
+    "name": "Tim Fahler",
+    "connection": "BSME 2002",
+    "role": "Manager",
+    "role_as_of": "2026",
+    "organization": "Tango Foxtrot",
+    "region": "Oklahoma City",
+    "kind": "Investor",
+    "why_relevant": "Runs a family office investing in energy, defense, and deep technology after founding Novo Oil & Gas.",
+    "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "james-tompkins-ventures",
+    "name": "James Tompkins",
+    "connection": "BSIE 1969, MSIE 1970, PhD 1972",
+    "role": "Chairman and Founder",
+    "role_as_of": "2026",
+    "organization": "Tompkins Ventures",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Started 15 businesses with more than $2 billion in cumulative worldwide revenue according to Purdue.",
+    "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "alvin-ang",
+    "name": "Alvin Ang",
+    "connection": "Purdue Engineering, Chemical Engineering",
+    "role": "Partner, Go-to-Market",
+    "role_as_of": "2026",
+    "organization": "Turn/River Capital",
+    "region": "San Francisco Bay Area firm",
+    "kind": "Operator",
+    "why_relevant": "Helps Turn/River portfolio companies build go-to-market and revenue systems after working on the investment side.",
+    "source_url": "https://turnriver.com/team/alvin-ang/",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=alvin-ang",
+      "https://turnriver.com/team/alvin-ang/"
+    ]
+  },
+  {
+    "id": "seth-corder",
+    "name": "Seth Corder",
+    "connection": "Purdue Krannert School of Management graduate",
+    "role": "Former Partner, High Alpha Capital",
+    "role_as_of": "2025",
+    "organization": "High Alpha Capital",
+    "region": "Not listed",
+    "kind": "Investor",
+    "why_relevant": "Led early stage B2B SaaS investing at High Alpha; publicly announced his departure after six years in 2025.",
+    "source_url": "https://www.linkedin.com/posts/sethcorder_after-six-incredible-years-im-sharing-some-activity-7308476590986797056-5jzn",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://www.highalpha.com/news/high-alpha-promotes-seth-corder-to-principal",
+      "https://www.linkedin.com/posts/sethcorder_after-six-incredible-years-im-sharing-some-activity-7308476590986797056-5jzn"
+    ]
+  }
+]

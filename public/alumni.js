@@ -3,18 +3,23 @@ const search = document.querySelector('#alumni-search');
 const filters = document.querySelector('#alumni-filters');
 const count = document.querySelector('#alumni-count');
 const more = document.querySelector('#alumni-more');
+const tagSelect = document.querySelector('#alumni-tag');
+const orgInput = document.querySelector('#alumni-org');
+const orgOptions = document.querySelector('#alumni-org-options');
+const sortSelect = document.querySelector('#alumni-sort');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-const kinds = ['All', 'Highlights', 'Founder', 'Investor', 'Operator', 'Bay Area', 'Indiana'];
+const kinds = ['All', 'Highlights', 'Founder', 'Investor', 'Operator', 'Bay Area', 'NYC', 'Indiana'];
 let people = [], filter = 'Highlights', shown = 12;
 
 function basedIn(person) {
   return [person.location_city, person.location_region, person.location_country].filter(Boolean).join(', ');
 }
-function regionMatch(person) {
+function regionMatch(person, activeFilter) {
   const place = [person.region, basedIn(person)].join(' ');
-  return filter === 'All' || (filter === 'Highlights' && person.highlights?.length) || filter === person.kind ||
-    (filter === 'Bay Area' && /Bay Area|San Francisco|Palo Alto|Silicon Valley/i.test(place)) ||
-    (filter === 'Indiana' && /Indiana/i.test(place));
+  return activeFilter === 'All' || (activeFilter === 'Highlights' && person.highlights?.length) || activeFilter === person.kind ||
+    (activeFilter === 'Bay Area' && person.tags?.includes('Bay Area')) ||
+    (activeFilter === 'NYC' && person.tags?.includes('NYC')) ||
+    (activeFilter === 'Indiana' && /Indiana/i.test(place));
 }
 function positionPill() {
   const active = filters.querySelector('button[aria-pressed=true]');
@@ -49,7 +54,7 @@ function extraFacts(person) {
   if (!person.linkedin) links.push(sourceLink(`https://www.google.com/search?q=${encodeURIComponent(`site:linkedin.com/in/ "${person.name}" Purdue`)}`, 'Search LinkedIn'));
   if (!person.x) links.push(sourceLink(`https://www.google.com/search?q=${encodeURIComponent(`site:x.com/ "${person.name}" "${person.organization}"`)}`, 'Search X'));
   facts.push(`<p><b>Profiles</b> ${links.join(' ')}</p>`);
-  if (person.flags?.length) facts.push(`<div class="alumni-flags">${person.flags.map(flag => `<a href="${esc(person.flag_sources[flag])}" target="_blank" rel="noopener noreferrer"${person.flag_notes?.[flag] ? ` title="${esc(person.flag_notes[flag])}"` : ''}>${esc(flag.replaceAll('-', ' '))} ↗</a>`).join('')}</div>`);
+  if (person.tags?.length) facts.push(`<div class="alumni-flags">${person.tags.map(tag => `<a href="${esc(person.tag_sources[tag])}" target="_blank" rel="noopener noreferrer">${esc(tag)} ↗</a>`).join('')}</div>`);
   return facts.length ? `<div class="alumni-facts">${facts.join('')}</div>` : '';
 }
 function renderRow(person) {
@@ -72,8 +77,17 @@ function renderRow(person) {
 }
 function render() {
   const query = search.value.trim().toLowerCase();
-  const matches = people.filter(person => regionMatch(person) && (!query || [person.name, person.connection, person.role, person.organization, person.region, person.why_relevant, basedIn(person), person.company_location?.location, person.company_sector, person.company_product, ...(person.flags || []), ...(person.notable_lanes || []), ...(person.highlights || []).map(item => item.claim)].join(' ').toLowerCase().includes(query)));
-  if (filter === 'Highlights' && !query) matches.sort((a, b) => (a.highlight_order ?? 999) - (b.highlight_order ?? 999) || a.name.localeCompare(b.name));
+  const organization = orgInput.value.trim().toLowerCase();
+  const tag = tagSelect.value;
+  const matches = people.filter(person => regionMatch(person, filter) &&
+    (!organization || person.organization.toLowerCase().includes(organization) || person.affiliations?.some(item => item.organization.toLowerCase().includes(organization))) &&
+    (!tag || person.tags?.includes(tag)) &&
+    (!query || [person.name, person.connection, person.role, person.organization, person.region, person.why_relevant, basedIn(person), person.company_location?.location, person.company_sector, person.company_product, ...(person.tags || []), ...(person.notable_lanes || []), ...(person.highlights || []).map(item => item.claim)].join(' ').toLowerCase().includes(query)));
+  if (sortSelect.value === 'organization' || sortSelect.value === 'organization-desc') {
+    const direction = sortSelect.value === 'organization' ? 1 : -1;
+    matches.sort((a, b) => direction * a.organization.localeCompare(b.organization) || a.name.localeCompare(b.name));
+  } else if (sortSelect.value === 'name') matches.sort((a, b) => a.name.localeCompare(b.name));
+  else if (filter === 'Highlights' && !query && !organization && !tag) matches.sort((a, b) => (a.highlight_order ?? 999) - (b.highlight_order ?? 999) || a.name.localeCompare(b.name));
   filters.innerHTML = '<span class="tab-pill" aria-hidden="true"></span>' + kinds.map(kind => `<button type="button" data-filter="${esc(kind)}" aria-pressed="${kind === filter}">${esc(kind)}</button>`).join('');
   filters.querySelectorAll('button').forEach(button => button.addEventListener('click', () => { filter = button.dataset.filter; shown = 12; render(); }));
   requestAnimationFrame(positionPill);
@@ -81,7 +95,8 @@ function render() {
   root.innerHTML = matches.slice(0, shown).map(renderRow).join('') || '<p class="resource-empty">No match. Try a broader search.</p>';
   more.hidden = shown >= matches.length;
 }
-search.addEventListener('input', () => { shown = 12; render(); });
+search.addEventListener('input', () => { if (search.value && filter === 'Highlights') filter = 'All'; shown = 12; render(); });
+for (const control of [tagSelect, orgInput, sortSelect]) control.addEventListener(control === orgInput ? 'input' : 'change', () => { if (control.value && control !== sortSelect && filter === 'Highlights') filter = 'All'; shown = 12; render(); });
 more.addEventListener('click', () => { shown += 12; render(); });
 window.addEventListener('resize', positionPill);
 document.addEventListener('keydown', event => {
@@ -94,6 +109,10 @@ fetch('/alumni.json').then(response => {
   return response.json();
 }).then(data => {
   people = data.alumni;
+  const tagCounts = new Map();
+  for (const person of people) for (const tag of person.tags || []) tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+  tagSelect.innerHTML += [...tagCounts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([tag, total]) => `<option value="${esc(tag)}">${esc(tag)} (${total})</option>`).join('');
+  orgOptions.innerHTML = [...new Set(people.flatMap(person => [person.organization, ...(person.affiliations || []).map(item => item.organization)]))].sort((a, b) => a.localeCompare(b)).map(org => `<option value="${esc(org)}"></option>`).join('');
   document.querySelector('#alumni-summary').textContent = `${people.length} SOURCED PROFILES · FOUNDERS / INVESTORS / OPERATORS`;
   render();
 }).catch(() => {

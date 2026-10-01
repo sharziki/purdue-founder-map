@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-01",
   "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
-  "count": 59,
+  "count": 64,
   "alumni": [
     {
       "id": "keith-j-krach",
@@ -108,6 +108,12 @@
           "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
         }
       ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+      },
       "highlight_order": 0
     },
     {
@@ -154,6 +160,12 @@
         "startup-founder"
       ],
       "notable_source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+      },
       "highlight_order": 1
     },
     {
@@ -200,6 +212,12 @@
         "industry-builder"
       ],
       "notable_source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+      },
       "highlight_order": 2
     },
     {
@@ -223,10 +241,14 @@
       "x": "https://x.com/mamoonha",
       "x_source_url": "https://www.delphi.ai/mamoonhamid",
       "flags": [
-        "investor"
+        "investor",
+        "vc-investor",
+        "bay-area"
       ],
       "flag_sources": {
-        "investor": "https://www.kleinerperkins.com/people/mamoon-hamid/"
+        "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+        "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+        "bay-area": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
       },
       "company_website": "https://www.kleinerperkins.com/",
       "company_website_source_url": "https://www.kleinerperkins.com/",
@@ -293,6 +315,26 @@
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
         }
       ],
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1997,
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+        "VC investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+        "Bay Area": "https://www.kleinerperkins.com/people/mamoon-hamid/"
+      },
       "highlight_order": 3
     },
     {
@@ -400,6 +442,18 @@
           "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2021/Awardees/kothari"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html",
+        "Funded startup": "https://www.globenewswire.com/fr/news-release/2021/10/12/2313042/0/en/Notion-Expands-Its-International-Reach-Launching-a-Localized-Japanese-Product-to-Help-More-Businesses-Grow.html",
+        "Bay Area": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html",
+        "Tech": "https://www.notion.com/"
+      },
       "image": "/assets/alumni/akshay-kothari.webp",
       "image_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
       "highlight_order": 4
@@ -498,6 +552,18 @@
           "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark",
+        "Funded startup": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark",
+        "Y Combinator": "https://www.ycombinator.com/companies/astranis",
+        "Bay Area": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+      },
       "highlight_order": 5
     },
     {
@@ -619,6 +685,18 @@
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
         }
       ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil",
+        "Funded startup": "https://securiti.ai/press-release/securiti-unveils-worlds-first-data-controls-cloud/",
+        "Venture-backed": "https://securiti.ai/press-release/securiti-unveils-worlds-first-data-controls-cloud/",
+        "Tech": "https://securiti.ai/about/"
+      },
       "highlight_order": 6
     },
     {
@@ -706,6 +784,18 @@
           "completion_status": "attended_status_unknown"
         }
       ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
+        "Funded startup": "https://www.stokespace.com/news/stoke-space-series-e",
+        "Venture-backed": "https://www.stokespace.com/news/stoke-space-series-e",
+        "Y Combinator": "https://www.ycombinator.com/companies/stoke-space"
+      },
       "highlight_order": 7
     },
     {
@@ -772,6 +862,14 @@
           "source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "Bay Area": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+      },
       "highlight_order": 8
     },
     {
@@ -789,11 +887,13 @@
       "image_source_url": "https://www.cla.purdue.edu/news/college/2026/images/kendra-bracken-ferguson.jpg",
       "flags": [
         "purdue-founder",
-        "investor"
+        "investor",
+        "vc-investor"
       ],
       "flag_sources": {
         "purdue-founder": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
-        "investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        "investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+        "vc-investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
       },
       "capital_events": [
         {
@@ -875,6 +975,18 @@
           "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
         }
       ],
+      "company_sector": "Founder community / beauty and wellness",
+      "company_sector_source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+      "company_product": "BrainTrust Founders Studio provides community, education, and mentorship for beauty and wellness founders.",
+      "company_product_source_url": "https://www.braintrustfoundersstudio.com/memberships",
+      "tags": [
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+        "VC investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+      },
       "highlight_order": 9
     },
     {
@@ -893,10 +1005,12 @@
       "linkedin": "https://www.linkedin.com/in/don-thompson-67212916a",
       "linkedin_source_url": "https://www.linkedin.com/in/don-thompson-67212916a",
       "flags": [
-        "purdue-founder"
+        "purdue-founder",
+        "vc-investor"
       ],
       "flag_sources": {
-        "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
+        "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
+        "vc-investor": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
       },
       "company_website": "https://www.clevelandavenue.com/",
       "company_website_source_url": "https://www.clevelandavenue.com/",
@@ -959,6 +1073,14 @@
           "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
         }
       ],
+      "tags": [
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
+        "VC investor": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
+      },
       "highlight_order": 10
     },
     {
@@ -1067,6 +1189,20 @@
           "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html",
+        "Funded startup": "https://horizon3.ai/news/press-release/horizon3-ai-raises-100m-to-cement-leadership-in-autonomous-security/",
+        "Venture-backed": "https://horizon3.ai/news/press-release/horizon3-ai-raises-100m-to-cement-leadership-in-autonomous-security/",
+        "Bay Area": "https://horizon3.ai/news/press-release/horizon3-appoints-chief-marketing-officer/",
+        "Tech": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/"
+      },
       "highlight_order": 11
     },
     {
@@ -1173,6 +1309,20 @@
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth",
+        "Funded startup": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/",
+        "Venture-backed": "https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/",
+        "Bay Area": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth",
+        "Tech": "https://www.d-matrix.ai/wp-content/uploads/2024/11/d-Matrix-WhitePaper-Technical-FINAL.pdf"
+      },
       "highlight_order": 12
     },
     {
@@ -1224,6 +1374,12 @@
           "completion_status": "attended_status_unknown"
         }
       ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.purdue.edu/hhs/life360/documents/archive/2015-fall.pdf"
+      },
       "highlight_order": 13
     },
     {
@@ -1240,12 +1396,16 @@
       "flags": [
         "purdue-founder",
         "investor",
-        "mentor"
+        "mentor",
+        "vc-investor",
+        "bay-area"
       ],
       "flag_sources": {
-        "purdue-founder": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+        "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-honors-alumnus-bill-elmore-for-transformational-gift-to-name-ece",
         "investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
-        "mentor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+        "mentor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Elmore",
+        "vc-investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+        "bay-area": "https://engineering.purdue.edu/ECE/News/2021/purdue-honors-alumnus-bill-elmore-for-transformational-gift-to-name-ece"
       },
       "company_website": "https://www.foundationcapital.com/",
       "company_website_source_url": "https://www.foundationcapital.com/",
@@ -1315,6 +1475,16 @@
           "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
         }
       ],
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+        "VC investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+        "Bay Area": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+      },
       "highlight_order": 14
     },
     {
@@ -1413,6 +1583,14 @@
           "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
         }
       ],
+      "tags": [
+        "Founder",
+        "Funded startup"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php",
+        "Funded startup": "https://www.astroscale.com/en/news/astroscale-closes-series-g-funding-round-with-an-additional-u-s-7-5-million-bringing-total-capital-raised-to-u-s-383-million"
+      },
       "highlight_order": 15
     },
     {
@@ -1510,6 +1688,12 @@
         "founded_year": "1994",
         "exit_status": "Sony acquired a substantial majority stake in 2017"
       },
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html"
+      },
       "highlight_order": 16
     },
     {
@@ -1582,6 +1766,12 @@
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
         }
       ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+      },
       "highlight_order": 17
     },
     {
@@ -1653,6 +1843,14 @@
           "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
         }
       ],
+      "tags": [
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+        "Tech": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+      },
       "highlight_order": 18
     },
     {
@@ -1712,6 +1910,14 @@
           "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
         }
       ],
+      "tags": [
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+        "Tech": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+      },
       "highlight_order": 19
     },
     {
@@ -1769,6 +1975,14 @@
           "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
         }
       ],
+      "tags": [
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+        "Tech": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+      },
       "highlight_order": 20
     },
     {
@@ -1842,6 +2056,38 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
         }
       ],
+      "flags": [
+        "investor",
+        "vc-investor",
+        "bay-area",
+        "mentor"
+      ],
+      "flag_sources": {
+        "investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+        "vc-investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+        "bay-area": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+        "mentor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters"
+      },
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "Ibex Investors",
+          "date": "2021",
+          "amount": "$113 million",
+          "description": "Peters launched and led a $113 million early-stage industrials, logistics and mobility VC fund at Ibex Investors.",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+        "VC investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+        "Bay Area": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+      },
       "highlight_order": 21
     },
     {
@@ -1924,6 +2170,12 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
         }
       ],
+      "tags": [
+        "Investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+      },
       "highlight_order": 22
     },
     {
@@ -1991,6 +2243,18 @@
           "completion_status": "degree_completed"
         }
       ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php",
+        "Funded startup": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist",
+        "Venture-backed": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist",
+        "Tech": "https://www.qawolf.com/"
+      },
       "highlight_order": 23
     },
     {
@@ -2131,6 +2395,12 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
         }
       ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett"
+      },
       "highlight_order": 24
     },
     {
@@ -2204,6 +2474,12 @@
         "product_summary": "Provided microgrid energy-control systems and resilience solutions.",
         "sector": "Energy technology",
         "exit_status": "Acquired by Saft in 2019"
+      },
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner"
       },
       "highlight_order": 25
     },
@@ -2296,6 +2572,12 @@
           "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
         }
       ],
+      "tags": [
+        "Investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+      },
       "highlight_order": 26
     },
     {
@@ -2386,6 +2668,12 @@
           "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
         }
       ],
+      "tags": [
+        "Investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+      },
       "highlight_order": 27
     },
     {
@@ -2466,6 +2754,18 @@
         "sector": "Retail operations / AI",
         "founded_year": "2020",
         "company_url": "https://tryglimpse.com/"
+      },
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+        "Funded startup": "https://www.tryglimpse.com/post/seriesa",
+        "Venture-backed": "https://www.tryglimpse.com/post/seriesa",
+        "Y Combinator": "https://www.ycombinator.com/companies/glimpse-2"
       }
     },
     {
@@ -2532,7 +2832,19 @@
           "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
+        "Funded startup": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
+        "Venture-backed": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
+        "Tech": "https://ixana.ai/"
+      }
     },
     {
       "id": "anuj-mehta",
@@ -2615,6 +2927,18 @@
         "sector": "Retail operations / AI",
         "founded_year": "2020",
         "company_url": "https://tryglimpse.com/"
+      },
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+        "Funded startup": "https://www.tryglimpse.com/post/seriesa",
+        "Venture-backed": "https://www.tryglimpse.com/post/seriesa",
+        "Y Combinator": "https://www.ycombinator.com/companies/glimpse-2"
       }
     },
     {
@@ -2684,7 +3008,19 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=apeksha-kumavat"
         }
-      ]
+      ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat",
+        "Funded startup": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/",
+        "Venture-backed": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/",
+        "Bay Area": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat"
+      }
     },
     {
       "id": "arjun-narang",
@@ -2754,7 +3090,19 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
         }
-      ]
+      ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang",
+        "Funded startup": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/",
+        "Venture-backed": "https://archive.gatik.ai/news/coverage/gatik-raises-200-million-series-d-led-by-qia-and-kdt-as-demand-for-driverless-commercial-freight-accelerates/",
+        "Bay Area": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
+      }
     },
     {
       "id": "arvind-sundaram",
@@ -2805,7 +3153,13 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      "notable_source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      }
     },
     {
       "id": "brian-feth",
@@ -2835,10 +3189,14 @@
       "linkedin": "https://www.linkedin.com/in/brianfeth",
       "linkedin_source_url": "https://www.linkedin.com/in/brianfeth",
       "flags": [
-        "purdue-founder"
+        "purdue-founder",
+        "vc-backed",
+        "bay-area"
       ],
       "flag_sources": {
-        "purdue-founder": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+        "purdue-founder": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+        "vc-backed": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+        "bay-area": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
       },
       "company_website": "https://www.xcellbio.com/",
       "company_website_source_url": "https://www.xcellbio.com/",
@@ -2866,7 +3224,19 @@
           "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+        "Venture-backed": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+        "Funded startup": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+        "Bay Area": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+      }
     },
     {
       "id": "candice-xie",
@@ -2937,7 +3307,17 @@
           "source_url": "https://business.purdue.edu/journal/25/s/home.php",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://business.purdue.edu/journal/25/s/home.php",
+        "Funded startup": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/",
+        "Venture-backed": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+      }
     },
     {
       "id": "ece-david-a-stamm",
@@ -3023,7 +3403,13 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_1999/stamm"
         }
-      ]
+      ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html"
+      }
     },
     {
       "id": "edmund-o-schweitzer-iii",
@@ -3112,6 +3498,12 @@
         },
         "product_summary": "Develops equipment and software for electric-power protection and control.",
         "sector": "Energy / industrial technology"
+      },
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
       }
     },
     {
@@ -3180,7 +3572,17 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
+        "Funded startup": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/",
+        "Venture-backed": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
+      }
     },
     {
       "id": "ece-frank-s-greene-jr",
@@ -3196,11 +3598,13 @@
       "verified_at": "2026-09-30",
       "flags": [
         "purdue-founder",
-        "historical-role"
+        "historical-role",
+        "vc-investor"
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
-        "historical-role": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
+        "historical-role": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+        "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
       },
       "flag_notes": {
         "historical-role": "Role reported as of 1999; current status unverified."
@@ -3267,7 +3671,86 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+        "VC investor": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
+      }
+    },
+    {
+      "id": "guru-chahal",
+      "name": "Guru Chahal",
+      "connection": "MSEE 2000",
+      "role": "Partner",
+      "role_as_of": "2026",
+      "organization": "Lightspeed Venture Partners",
+      "region": "United States",
+      "kind": "Investor",
+      "why_relevant": "Lightspeed partner investing in enterprise technology and cybersecurity.",
+      "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+      "verified_at": "2026-09-30",
+      "source_urls": [
+        "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+        "https://lsvp.com/lightspeed-team/"
+      ],
+      "flags": [
+        "vc-investor"
+      ],
+      "flag_sources": {
+        "vc-investor": "https://lsvp.com/lightspeed-team/"
+      },
+      "affiliations": [
+        {
+          "organization": "Lightspeed Venture Partners",
+          "role": "Partner",
+          "relationship": "investor",
+          "status": "current_as_of_source",
+          "as_of": "2026",
+          "source_url": "https://lsvp.com/lightspeed-team/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Lightspeed lists Chahal as a partner; its portfolio pages identify him on investments including Chainguard and Nominal.",
+          "date": "2026",
+          "source_url": "https://lsvp.com/lightspeed-team/"
+        }
+      ],
+      "company_location": {
+        "location": "Menlo Park / San Francisco / New York offices",
+        "source_url": "https://lsvp.com/global-presence/lightspeed-united-states/"
+      },
+      "linkedin": "https://www.linkedin.com/in/guruchahal",
+      "linkedin_source_url": "https://www.linkedin.com/in/guruchahal",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical and Computer Engineering",
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+          "degree": "MS",
+          "graduation_year": "2000"
+        }
+      ],
+      "location_region": "San Francisco Bay Area",
+      "location_country": "United States",
+      "location_source_url": "https://www.linkedin.com/in/guruchahal",
+      "location_as_of": "2026",
+      "location_note": "Public LinkedIn profile location; no city claimed.",
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+        "VC investor": "https://lsvp.com/lightspeed-team/",
+        "Bay Area": "https://lsvp.com/global-presence/lightspeed-united-states/"
+      }
     },
     {
       "id": "ivan-ball",
@@ -3320,7 +3803,164 @@
           "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
           "completion_status": "attended_status_unknown"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+        "Funded startup": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumni-create-smart-garden-home-appliance-supported-indiana",
+        "Tech": "https://www.growanu.com/about"
+      }
+    },
+    {
+      "id": "james-c-anderson-legacy-venture",
+      "name": "James C. Anderson",
+      "connection": "BSEE and MSEE 1972",
+      "role": "Founder of Legacy Venture; retired venture investor and mentor",
+      "organization": "Legacy Venture / Next Legacy",
+      "region": "Bay Area connection",
+      "kind": "Investor",
+      "why_relevant": "Co-founded Foundation Capital and founded Legacy Venture; Next Legacy lists him as a retired mentor and early-stage environmental investor. Historical firm roles are not presented as current.",
+      "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html",
+      "role_as_of": "2026",
+      "verified_at": "2026-09-30",
+      "source_urls": [
+        "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html",
+        "https://www.nextlegacy.com/team"
+      ],
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1972,
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1972,
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+        }
+      ],
+      "flags": [
+        "vc-investor",
+        "historical-role",
+        "bay-area"
+      ],
+      "flag_sources": {
+        "vc-investor": "https://www.nextlegacy.com/team",
+        "historical-role": "https://www.nextlegacy.com/team",
+        "bay-area": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+      },
+      "affiliations": [
+        {
+          "organization": "Foundation Capital",
+          "role": "Founding partner",
+          "relationship": "co-founder",
+          "status": "historical",
+          "source_url": "https://www.nextlegacy.com/team"
+        },
+        {
+          "organization": "Legacy Venture",
+          "role": "Founder",
+          "relationship": "founder",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+        },
+        {
+          "organization": "Next Legacy",
+          "role": "Mentor and informal advisor",
+          "relationship": "advisor",
+          "status": "current_as_of_source",
+          "as_of": "2026",
+          "source_url": "https://www.nextlegacy.com/team"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founding partner in Foundation Capital and founder of Legacy Venture; continues to mentor Next Legacy after retirement.",
+          "source_url": "https://www.nextlegacy.com/team"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html",
+        "VC investor": "https://www.nextlegacy.com/team",
+        "Bay Area": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+      }
+    },
+    {
+      "id": "james-tompkins-ventures",
+      "name": "James Tompkins",
+      "connection": "BSIE 1969, MSIE 1970, PhD 1972",
+      "role": "Chairman and Founder",
+      "role_as_of": "2026",
+      "organization": "Tompkins Ventures",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Started 15 businesses with more than $2 billion in cumulative worldwide revenue according to Purdue.",
+      "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Purdue reports Tompkins started 15 businesses with over $2 billion in worldwide revenue across his career.",
+          "date": "2026",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Tompkins Ventures",
+          "role": "Founder and Chairman",
+          "relationship": "founder",
+          "status": "current_as_of_source",
+          "as_of": "2026",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+        }
+      ],
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Industrial Engineering",
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+          "degree": "BS",
+          "graduation_year": "1969"
+        },
+        {
+          "institution": "Purdue University",
+          "field": "Industrial Engineering",
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+          "degree": "MS",
+          "graduation_year": "1970"
+        },
+        {
+          "institution": "Purdue University",
+          "field": "Industrial Engineering",
+          "completion_status": "degree_completed",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+          "degree": "PhD",
+          "graduation_year": "1972"
+        }
+      ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+      }
     },
     {
       "id": "jane-brock-wilson",
@@ -3404,7 +4044,13 @@
           "status": "historical",
           "source_url": "https://www.business.purdue.edu/centers/bwcenter/about-us/jane-brock-wilson.php"
         }
-      ]
+      ],
+      "tags": [
+        "Investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php"
+      }
     },
     {
       "id": "jessica-traver",
@@ -3464,7 +4110,73 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
           "completion_status": "attended_status_unknown"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
+        "Funded startup": "https://www.prnewswire.com/news-releases/intuitap-medicals-disruptive-spinal-tap-technology-enters-clinical-trials-as-they-close-successful-5-5m-series-a-round-of-funding-led-by-the-pink-ceiling-and-curate-capital-301332657.html",
+        "Venture-backed": "https://www.prnewswire.com/news-releases/intuitap-medicals-disruptive-spinal-tap-technology-enters-clinical-trials-as-they-close-successful-5-5m-series-a-round-of-funding-led-by-the-pink-ceiling-and-curate-capital-301332657.html"
+      }
+    },
+    {
+      "id": "john-krenicki-jr",
+      "name": "John Krenicki Jr.",
+      "connection": "MS Management, 1991",
+      "role": "Vice chairman and operating partner",
+      "organization": "Clayton, Dubilier & Rice",
+      "region": "New York / London investment firm",
+      "kind": "Investor",
+      "why_relevant": "Purdue management alumnus who moved from running GE Energy to operating leadership at a major private equity firm; useful connection for later-stage industrial company builders.",
+      "source_url": "https://www.cdr.com/team/john-krenicki-jr",
+      "source_urls": [
+        "https://www.cdr.com/team/john-krenicki-jr",
+        "https://new.business.purdue.edu/alumni/awards.php",
+        "https://www.purdue.edu/bot/meetings/past-meetings/2019/03.%20june/stated/508_john%20and%20donna%20krenicki%20center.pdf"
+      ],
+      "role_as_of": "2026",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS Management",
+          "graduation_year": 1991,
+          "completion_status": "degree_completed",
+          "source_url": "https://www.purdue.edu/bot/meetings/past-meetings/2019/03.%20june/stated/508_john%20and%20donna%20krenicki%20center.pdf"
+        }
+      ],
+      "flags": [
+        "investor"
+      ],
+      "flag_sources": {
+        "investor": "https://www.cdr.com/team/john-krenicki-jr"
+      },
+      "company_website": "https://www.cdr.com/",
+      "company_website_source_url": "https://www.cdr.com/team/john-krenicki-jr",
+      "company_sector": "Private equity / industrials",
+      "company_sector_source_url": "https://www.cdr.com/team/john-krenicki-jr",
+      "company_location": {
+        "location": "New York and London",
+        "source_url": "https://www.cdr.com/news/cd-and-r-expands-climate-leadership-program-to-europe-with-imperial-business-school-and-extends-columbia-university-partnership-in-the-u-s-for-second-year"
+      },
+      "highlights": [
+        {
+          "claim": "Former vice chairman of GE and president and CEO of GE Energy before joining CD&R in 2013.",
+          "date": "2013",
+          "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+        }
+      ],
+      "tags": [
+        "Investor",
+        "NYC"
+      ],
+      "tag_sources": {
+        "Investor": "https://www.cdr.com/team/john-krenicki-jr",
+        "NYC": "https://www.cdr.com/news/cd-and-r-expands-climate-leadership-program-to-europe-with-imperial-business-school-and-extends-columbia-university-partnership-in-the-u-s-for-second-year"
+      }
     },
     {
       "id": "joseph-p-schoendorf",
@@ -3479,10 +4191,12 @@
       "role_as_of": "2007",
       "verified_at": "2026-09-30",
       "flags": [
-        "historical-role"
+        "historical-role",
+        "vc-investor"
       ],
       "flag_sources": {
-        "historical-role": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        "historical-role": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf",
+        "vc-investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2007; current status unverified."
@@ -3557,7 +4271,15 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
         }
-      ]
+      ],
+      "tags": [
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf",
+        "VC investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+      }
     },
     {
       "id": "ece-lila-ibrahim-liebat",
@@ -3621,7 +4343,87 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
         }
-      ]
+      ],
+      "tags": [
+        "Investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+      }
+    },
+    {
+      "id": "mary-jane-mj-elmore",
+      "name": "Mary Jane Elmore",
+      "connection": "BS Mathematics 1976",
+      "role": "IVP venture partner and advisor; private angel investor (as reported in 2019)",
+      "organization": "Institutional Venture Partners / Broadway Angels",
+      "region": "Bay Area connection",
+      "kind": "Investor",
+      "why_relevant": "One of the first women venture capital partners on the West Coast. Purdue reported her IVP general partner and Broadway Angels investment work; role date retained because current status is not verified.",
+      "source_url": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+      "source_urls": [
+        "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+        "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"
+      ],
+      "role_as_of": "2019",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Mathematics",
+          "graduation_year": 1976,
+          "completion_status": "degree_completed",
+          "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"
+        }
+      ],
+      "linkedin": "https://www.linkedin.com/in/mary-jane-elmore-a7525817",
+      "linkedin_source_url": "https://www.linkedin.com/in/mary-jane-elmore-a7525817",
+      "flags": [
+        "vc-investor",
+        "historical-role",
+        "bay-area"
+      ],
+      "flag_sources": {
+        "vc-investor": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+        "historical-role": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf",
+        "bay-area": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html"
+      },
+      "affiliations": [
+        {
+          "organization": "Institutional Venture Partners",
+          "role": "General Partner across eight funds; later advisor",
+          "relationship": "investor",
+          "status": "historical",
+          "as_of": "2019",
+          "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"
+        },
+        {
+          "organization": "Broadway Angels",
+          "role": "Private investor",
+          "relationship": "investor",
+          "status": "current_as_of_source",
+          "as_of": "2019",
+          "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Purdue recognized Elmore as one of the first women venture capital partners on the West Coast; she became an IVP general partner in 1983.",
+          "date": "2016",
+          "source_url": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+        "VC investor": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+        "Bay Area": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html"
+      }
     },
     {
       "id": "max-bogue",
@@ -3687,7 +4489,17 @@
           "source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
+        "Funded startup": "https://www.kickstarter.com/projects/chefdoodler/3doodler-the-worlds-first-3d-printing-pen/description",
+        "Tech": "https://the3doodler.com/"
+      }
     },
     {
       "id": "ece-michael-j-birck",
@@ -3765,7 +4577,13 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-michael-birck"
         }
-      ]
+      ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html"
+      }
     },
     {
       "id": "nathan-gabhart",
@@ -3810,7 +4628,13 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      "notable_source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      }
     },
     {
       "id": "nikhil-bhogal",
@@ -3877,6 +4701,14 @@
         },
         "product_summary": "Built a connected smart oven.",
         "sector": "Consumer hardware"
+      },
+      "tags": [
+        "Bay Area",
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+        "Bay Area": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
       }
     },
     {
@@ -3964,7 +4796,15 @@
           "status": "current_as_of_source",
           "source_url": "https://www.onboardmeetings.com/ai-info/"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html",
+        "Tech": "https://www.onboardmeetings.com/"
+      }
     },
     {
       "id": "paul-stahura",
@@ -4073,7 +4913,13 @@
           "status": "historical",
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
         }
-      ]
+      ],
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+      }
     },
     {
       "id": "prahasith-veluvolu",
@@ -4149,7 +4995,17 @@
           "source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html",
           "completion_status": "attended_status_unknown"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html",
+        "Funded startup": "https://www.edsurge.com/news/2019-12-17-hackerrank-acquires-mimir-to-better-match-cs-talent-in-classrooms-with-jobs",
+        "Y Combinator": "https://www.ycombinator.com/companies/mimir"
+      }
     },
     {
       "id": "ram-palaniappan",
@@ -4211,7 +5067,17 @@
           "source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
           "completion_status": "degree_completed"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
+        "Funded startup": "https://www.earnin.com/press",
+        "Venture-backed": "https://www.earnin.com/press"
+      }
     },
     {
       "id": "robert-j-mcmillen",
@@ -4310,6 +5176,12 @@
         },
         "product_summary": "Developed computing systems for genomic analysis.",
         "sector": "Genomics computing"
+      },
+      "tags": [
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
       }
     },
     {
@@ -4328,11 +5200,15 @@
       "linkedin_source_url": "https://www.linkedin.com/in/rouz-jazayeri-01485346",
       "flags": [
         "purdue-founder",
-        "investor"
+        "investor",
+        "vc-investor",
+        "bay-area"
       ],
       "flag_sources": {
-        "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri",
-        "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+        "investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+        "vc-investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+        "bay-area": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri"
       },
       "company_product": "Provides seed-stage venture capital to startups outside mature technology hubs.",
       "company_product_source_url": "https://www.catapultvc.com/",
@@ -4402,7 +5278,15 @@
           "status": "current_as_of_source",
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
         }
-      ]
+      ],
+      "tags": [
+        "Investor",
+        "VC investor"
+      ],
+      "tag_sources": {
+        "Investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+        "VC investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri"
+      }
     },
     {
       "id": "scott-massey",
@@ -4462,7 +5346,17 @@
           "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
           "completion_status": "attended_status_unknown"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+        "Funded startup": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumni-create-smart-garden-home-appliance-supported-indiana",
+        "Tech": "https://www.growanu.com/about"
+      }
     },
     {
       "id": "stephanie-bonk",
@@ -4568,7 +5462,19 @@
           "status": "current_as_of_source",
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Funded startup",
+        "Tech",
+        "Venture-backed"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk",
+        "Funded startup": "https://www.overland.ai/news/overland-ai-raises-32m-in-series-a-to-transform-ground-operations-for-defense",
+        "Venture-backed": "https://www.overland.ai/news/overland-ai-raises-32m-in-series-a-to-transform-ground-operations-for-defense",
+        "Tech": "https://www.overland.ai/company"
+      }
     },
     {
       "id": "sumit-mehra",
@@ -4663,6 +5569,14 @@
         },
         "product_summary": "Designs and builds digital products for startups and large companies.",
         "sector": "Software / digital product services"
+      },
+      "tags": [
+        "Bay Area",
+        "Founder"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+        "Bay Area": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
       }
     },
     {
@@ -4750,7 +5664,15 @@
           "status": "current_as_of_source",
           "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
         }
-      ]
+      ],
+      "tags": [
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award",
+        "Tech": "https://signeasy.com/"
+      }
     }
   ]
 }

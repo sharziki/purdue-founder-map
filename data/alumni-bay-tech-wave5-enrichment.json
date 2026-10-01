@@ -1,0 +1,127 @@
+{
+  "james-c-anderson-legacy-venture": {
+    "flags": ["vc-investor", "historical-role", "bay-area"],
+    "flag_sources": {
+      "vc-investor": "https://www.nextlegacy.com/team",
+      "historical-role": "https://www.nextlegacy.com/team",
+      "bay-area": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"
+    },
+    "affiliations": [
+      {"organization": "Foundation Capital", "role": "Founding partner", "relationship": "co-founder", "status": "historical", "source_url": "https://www.nextlegacy.com/team"},
+      {"organization": "Legacy Venture", "role": "Founder", "relationship": "founder", "status": "historical", "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"},
+      {"organization": "Next Legacy", "role": "Mentor and informal advisor", "relationship": "advisor", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://www.nextlegacy.com/team"}
+    ],
+    "highlights": [
+      {"claim": "Founding partner in Foundation Capital and founder of Legacy Venture; continues to mentor Next Legacy after retirement.", "source_url": "https://www.nextlegacy.com/team"}
+    ]
+  },
+  "richard-rich-redelfs": {
+    "flags": ["vc-investor", "historical-role", "bay-area"],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16",
+      "historical-role": "https://computerhistory.org/profile/rich-redelfs/",
+      "bay-area": "https://engineering.purdue.edu/IE/news/events/?batch_start=230&past=1"
+    },
+    "affiliations": [
+      {"organization": "Atheros Communications", "role": "President and CEO", "relationship": "executive", "status": "historical", "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16"},
+      {"organization": "Foundation Capital", "role": "General Partner until 2015", "relationship": "investor", "status": "historical", "as_of": "2015", "source_url": "https://computerhistory.org/profile/rich-redelfs/"}
+    ]
+  },
+  "mary-jane-mj-elmore": {
+    "linkedin": "https://www.linkedin.com/in/mary-jane-elmore-a7525817",
+    "linkedin_source_url": "https://www.linkedin.com/in/mary-jane-elmore-a7525817",
+    "flags": ["vc-investor", "historical-role", "bay-area"],
+    "flag_sources": {
+      "vc-investor": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+      "historical-role": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf",
+      "bay-area": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html"
+    },
+    "affiliations": [
+      {"organization": "Institutional Venture Partners", "role": "General Partner across eight funds; later advisor", "relationship": "investor", "status": "historical", "as_of": "2019", "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"},
+      {"organization": "Broadway Angels", "role": "Private investor", "relationship": "investor", "status": "current_as_of_source", "as_of": "2019", "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"}
+    ],
+    "highlights": [
+      {"claim": "Purdue recognized Elmore as one of the first women venture capital partners on the West Coast; she became an IVP general partner in 1983.", "date": "2016", "source_url": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html"}
+    ]
+  },
+  "william-elmore": {
+    "flags": ["purdue-founder", "investor", "mentor", "vc-investor", "bay-area"],
+    "flag_sources": {
+      "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-honors-alumnus-bill-elmore-for-transformational-gift-to-name-ece",
+      "investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+      "mentor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Elmore",
+      "vc-investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+      "bay-area": "https://engineering.purdue.edu/ECE/News/2021/purdue-honors-alumnus-bill-elmore-for-transformational-gift-to-name-ece"
+    }
+  },
+  "mamoon-hamid": {
+    "flags": ["investor", "vc-investor", "bay-area"],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid",
+      "bay-area": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
+    },
+    "education": [
+      {"institution": "Purdue University", "degree": "BS", "field": "Electrical Engineering", "graduation_year": 1997, "completion_status": "degree_completed", "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"}
+    ]
+  },
+  "jeffrey-peters": {
+    "flags": ["investor", "vc-investor", "bay-area", "mentor"],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+      "vc-investor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+      "bay-area": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters",
+      "mentor": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters"
+    },
+    "capital_events": [
+      {"type": "fund_launch", "company": "Ibex Investors", "date": "2021", "amount": "$113 million", "description": "Peters launched and led a $113 million early-stage industrials, logistics and mobility VC fund at Ibex Investors.", "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters"}
+    ]
+  },
+  "rouz-jazayeri": {
+    "flags": ["purdue-founder", "investor", "vc-investor", "bay-area"],
+    "flag_sources": {
+      "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+      "investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri",
+      "bay-area": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri"
+    }
+  },
+  "madison-long": {
+    "flags": ["purdue-founder", "vc-backed"],
+    "flag_sources": {
+      "purdue-founder": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "vc-backed": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+    },
+    "funding": [
+      {"type": "institutional_funding", "amount": "$200,000", "round": "Purdue Innovates investment", "date": "2022", "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"},
+      {"type": "investment", "amount": "$1.2 million", "round": "Precursor Ventures investment", "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"}
+    ]
+  },
+  "simone-may": {
+    "flags": ["purdue-founder", "vc-backed"],
+    "flag_sources": {
+      "purdue-founder": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "vc-backed": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+    },
+    "funding": [
+      {"type": "institutional_funding", "amount": "$200,000", "round": "Purdue Innovates investment", "date": "2022", "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"},
+      {"type": "investment", "amount": "$1.2 million", "round": "Precursor Ventures investment", "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"}
+    ]
+  },
+  "brian-feth": {
+    "flags": ["purdue-founder", "vc-backed", "bay-area"],
+    "flag_sources": {
+      "purdue-founder": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "vc-backed": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "bay-area": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+    }
+  },
+  "tolen-schreid": {
+    "flags": ["purdue-founder", "vc-backed", "bay-area"],
+    "flag_sources": {
+      "purdue-founder": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup",
+      "vc-backed": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup",
+      "bay-area": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup"
+    }
+  }
+}

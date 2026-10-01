@@ -1,0 +1,477 @@
+{
+  "don-thompson": {
+    "flags": [
+      "purdue-founder",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
+      "vc-investor": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
+    }
+  },
+  "pfl-john-martinson": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://www.purdueforlife.org/entrepreneurial-alumni-reunion/"
+    }
+  },
+  "pfl-curtis-mckee": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://www.purdueforlife.org/entrepreneurial-alumni-reunion/"
+    }
+  },
+  "pfl-christopher-toph-day": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://www.purdueforlife.org/entrepreneurial-alumni-reunion/"
+    },
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://elevateventures.com/contact/"
+    }
+  },
+  "me-ome-sven-strohband": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/ME/People/OME/index2024.htm"
+    },
+    "company_location": {
+      "location": "Menlo Park, California",
+      "source_url": "https://jobs.khoslaventures.com/privacy-policy"
+    }
+  },
+  "me-ome-william-moseley": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/ME/People/OME/index2022.htm"
+    }
+  },
+  "dea-allen-salmasi": {
+    "flags": [
+      "historical-role",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "historical-role": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2018/Salmasi",
+      "vc-investor": "https://engineering.purdue.edu/Imprints/fall-2018/dea-recipient-allen-salmasi"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 2018; current status unverified."
+    }
+  },
+  "ece-frank-s-greene-jr": {
+    "flags": [
+      "purdue-founder",
+      "historical-role",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+      "historical-role": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 1999; current status unverified."
+    }
+  },
+  "joseph-p-schoendorf": {
+    "flags": [
+      "historical-role",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "historical-role": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf",
+      "vc-investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 2007; current status unverified."
+    }
+  },
+  "ece-james-a-katzman": {
+    "flags": [
+      "investor",
+      "historical-role",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/1994/katzman.whtml",
+      "historical-role": "https://engineering.purdue.edu/ECE/Alums/OECE/1994/katzman.whtml",
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/1994/katzman.whtml"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 1994; current status unverified."
+    }
+  },
+  "dea-ravi-venkatesan": {
+    "flags": [
+      "investor",
+      "historical-role",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Venkatesan",
+      "historical-role": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Venkatesan",
+      "vc-investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Venkatesan"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 2017; current status unverified."
+    }
+  },
+  "markell-baldwin": {
+    "flags": [
+      "vc-investor",
+      "historical-role",
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/markell-baldwin",
+      "historical-role": "https://www.unbane.com/about",
+      "purdue-founder": "https://www.unbane.com/about"
+    },
+    "flag_notes": {
+      "historical-role": "Drive Capital partner role is historical; Unbane co-founder is current as of 2026."
+    },
+    "affiliations": [
+      {
+        "organization": "Drive Capital",
+        "role": "Partner",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2023",
+        "source_url": "https://www.unbane.com/about"
+      },
+      {
+        "organization": "Unbane",
+        "role": "Co-founder",
+        "relationship": "co-founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.unbane.com/about"
+      }
+    ],
+    "linkedin": "https://www.linkedin.com/in/markellbaldwin",
+    "linkedin_source_url": "https://www.linkedin.com/in/markellbaldwin",
+    "company_location": {
+      "location": "Columbus, Ohio",
+      "source_url": "https://www.linkedin.com/company/unbane"
+    },
+    "location_city": "Columbus",
+    "location_region": "Ohio",
+    "location_country": "United States",
+    "location_source_url": "https://www.linkedin.com/in/markellbaldwin",
+    "location_as_of": "2026",
+    "location_note": "Public LinkedIn profile location; not a street address.",
+    "startup_profile": {
+      "company_name": "Unbane",
+      "company_url": "https://www.unbane.com/",
+      "product_summary": "Voice-first reporting for construction teams, including daily logs, safety observations and quality inspections.",
+      "sector": "Construction technology",
+      "field_sources": {
+        "company_name": "https://www.unbane.com/about",
+        "company_url": "https://www.unbane.com/",
+        "product_summary": "https://www.unbane.com/about",
+        "sector": "https://www.unbane.com/about"
+      }
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Electrical Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/markell-baldwin",
+        "degree": "BS",
+        "graduation_year": "2014"
+      }
+    ]
+  },
+  "guru-chahal": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://lsvp.com/lightspeed-team/"
+    },
+    "affiliations": [
+      {
+        "organization": "Lightspeed Venture Partners",
+        "role": "Partner",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://lsvp.com/lightspeed-team/"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Lightspeed lists Chahal as a partner; its portfolio pages identify him on investments including Chainguard and Nominal.",
+        "date": "2026",
+        "source_url": "https://lsvp.com/lightspeed-team/"
+      }
+    ],
+    "company_location": {
+      "location": "Menlo Park / San Francisco / New York offices",
+      "source_url": "https://lsvp.com/global-presence/lightspeed-united-states/"
+    },
+    "linkedin": "https://www.linkedin.com/in/guruchahal",
+    "linkedin_source_url": "https://www.linkedin.com/in/guruchahal",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Electrical and Computer Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard",
+        "degree": "MS",
+        "graduation_year": "2000"
+      }
+    ],
+    "location_region": "San Francisco Bay Area",
+    "location_country": "United States",
+    "location_source_url": "https://www.linkedin.com/in/guruchahal",
+    "location_as_of": "2026",
+    "location_note": "Public LinkedIn profile location; no city claimed."
+  },
+  "eric-zimits": {
+    "flags": [
+      "vc-investor",
+      "historical-role"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16",
+      "historical-role": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16"
+    },
+    "flag_notes": {
+      "historical-role": "Role reported as of 2007; current status unverified."
+    },
+    "affiliations": [
+      {
+        "organization": "Granite Ventures",
+        "role": "Managing Director",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2007",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16"
+      }
+    ],
+    "linkedin": "https://www.linkedin.com/in/ericzimits",
+    "linkedin_source_url": "https://www.linkedin.com/in/ericzimits"
+  },
+  "tracy-marshbanks": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://www.firstanalysis.com/about-us/"
+    },
+    "affiliations": [
+      {
+        "organization": "First Analysis",
+        "role": "Managing Director",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.firstanalysis.com/about-us/"
+      }
+    ],
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://www.firstanalysis.com/contact-us/"
+    },
+    "linkedin": "https://www.linkedin.com/in/tracy-marshbanks-7121523",
+    "linkedin_source_url": "https://www.linkedin.com/in/tracy-marshbanks-7121523",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Chemical Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.firstanalysis.com/about-us/",
+        "degree": "PhD"
+      }
+    ]
+  },
+  "tim-fahler": {
+    "flags": [
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+    },
+    "affiliations": [
+      {
+        "organization": "Tango Foxtrot",
+        "role": "Manager",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+      }
+    ],
+    "capital_events": [
+      {
+        "type": "exit",
+        "company": "Novo Oil & Gas",
+        "date": "2023",
+        "description": "Purdue says Fahler grew Novo from a startup to a $1.5 billion sale. This is a sale price, not venture funding raised.",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Mechanical Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+        "degree": "BS",
+        "graduation_year": "2002"
+      }
+    ]
+  },
+  "james-tompkins-ventures": {
+    "highlights": [
+      {
+        "claim": "Purdue reports Tompkins started 15 businesses with over $2 billion in worldwide revenue across his career.",
+        "date": "2026",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Tompkins Ventures",
+        "role": "Founder and Chairman",
+        "relationship": "founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Industrial Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+        "degree": "BS",
+        "graduation_year": "1969"
+      },
+      {
+        "institution": "Purdue University",
+        "field": "Industrial Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+        "degree": "MS",
+        "graduation_year": "1970"
+      },
+      {
+        "institution": "Purdue University",
+        "field": "Industrial Engineering",
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Committees/EAC",
+        "degree": "PhD",
+        "graduation_year": "1972"
+      }
+    ]
+  },
+  "alvin-ang": {
+    "company_location": {
+      "location": "San Francisco, California",
+      "source_url": "https://turnriver.com/contact/"
+    },
+    "affiliations": [
+      {
+        "organization": "Bechtel Oil & Gas",
+        "role": "Process Engineer",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "2025",
+        "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=alvin-ang"
+      },
+      {
+        "organization": "Turn/River Capital",
+        "role": "Investment-side team member",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://turnriver.com/team/alvin-ang/"
+      },
+      {
+        "organization": "Turn/River Capital",
+        "role": "Partner, Go-to-Market",
+        "relationship": "executive",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://turnriver.com/team/alvin-ang/"
+      }
+    ]
+  },
+  "tarrus-l-richardson": {
+    "company_location": {
+      "location": "Bethesda, Maryland",
+      "source_url": "https://imbpartners.com/contact/"
+    },
+    "location_city": "Bethesda",
+    "location_region": "Maryland",
+    "location_country": "United States",
+    "location_source_url": "https://imbpartners.com/wp-content/uploads/2025/02/IMB-Partners_2-Pager_Overview_updated-2-3-25.pdf",
+    "location_as_of": "2025",
+    "location_note": "Public business contact location; not a residence."
+  },
+  "kelvin-pennington": {
+    "company_location": {
+      "location": "Bethesda, Maryland",
+      "source_url": "https://imbpartners.com/contact/"
+    },
+    "location_city": "Chicago",
+    "location_region": "Illinois",
+    "location_country": "United States",
+    "location_source_url": "https://imbpartners.com/team-member/kelvin-pennington/",
+    "location_as_of": "2026",
+    "location_note": "Public business location listed by IMB Partners; not a residence."
+  },
+  "seth-corder": {
+    "flags": [
+      "vc-investor",
+      "historical-role"
+    ],
+    "flag_sources": {
+      "vc-investor": "https://www.highalpha.com/news/high-alpha-promotes-seth-corder-to-principal",
+      "historical-role": "https://www.linkedin.com/posts/sethcorder_after-six-incredible-years-im-sharing-some-activity-7308476590986797056-5jzn"
+    },
+    "flag_notes": {
+      "historical-role": "Publicly announced departure from High Alpha in 2025."
+    },
+    "affiliations": [
+      {
+        "organization": "High Alpha Capital",
+        "role": "Principal",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2020",
+        "source_url": "https://www.highalpha.com/news/high-alpha-promotes-seth-corder-to-principal"
+      }
+    ],
+    "linkedin": "https://www.linkedin.com/in/sethcorder",
+    "linkedin_source_url": "https://www.linkedin.com/in/sethcorder"
+  },
+  "jacob-elich": {
+    "company_location": {
+      "location": "New York, New York",
+      "source_url": "https://www.mtspartners.com/contact/"
+    }
+  },
+  "ting-gootee": {
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://elevateventures.com/contact/"
+    }
+  }
+}

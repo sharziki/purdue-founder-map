@@ -1,0 +1,157 @@
+{
+  "lucas-nelson": {
+    "flags": [
+      "investor",
+      "vc-investor",
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "investor": "https://www.lyticalventures.com/lucas-nelson",
+      "vc-investor": "https://www.lyticalventures.com/lucas-nelson",
+      "purdue-founder": "https://www.lyticalventures.com/lucas-nelson"
+    },
+    "company_website": "https://www.lyticalventures.com/",
+    "company_website_source_url": "https://www.lyticalventures.com/",
+    "company_sector": "Venture capital / cybersecurity and AI",
+    "company_sector_source_url": "https://www.lyticalventures.com/lucas-nelson",
+    "company_location": {
+      "location": "New York City",
+      "source_url": "https://www.lyticalventures.com/lucas-nelson"
+    }
+  },
+  "christina-jenkins": {
+    "flags": [
+      "investor",
+      "vc-investor",
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "investor": "https://convergentvc.com/team/",
+      "vc-investor": "https://convergentvc.com/team/",
+      "purdue-founder": "https://convergentvc.com/team/"
+    },
+    "company_website": "https://convergentvc.com/",
+    "company_website_source_url": "https://convergentvc.com/team/",
+    "company_sector": "Venture capital / health and life sciences",
+    "company_sector_source_url": "https://convergentvc.com/team/",
+    "company_location": {
+      "location": "New York City office",
+      "source_url": "https://convergentvc.com/team/"
+    },
+    "location_city": "New York City",
+    "location_region": "New York",
+    "location_country": "United States",
+    "location_source_url": "https://convergentvc.com/team/",
+    "location_as_of": "2026",
+    "location_note": "Firm lists her New York City office; this is a professional location, not a residence."
+  },
+  "john-krenicki-jr": {
+    "flags": [
+      "investor"
+    ],
+    "flag_sources": {
+      "investor": "https://www.cdr.com/team/john-krenicki-jr"
+    },
+    "company_website": "https://www.cdr.com/",
+    "company_website_source_url": "https://www.cdr.com/team/john-krenicki-jr",
+    "company_sector": "Private equity / industrials",
+    "company_sector_source_url": "https://www.cdr.com/team/john-krenicki-jr",
+    "company_location": {
+      "location": "New York and London",
+      "source_url": "https://www.cdr.com/news/cd-and-r-expands-climate-leadership-program-to-europe-with-imperial-business-school-and-extends-columbia-university-partnership-in-the-u-s-for-second-year"
+    },
+    "highlights": [
+      {
+        "claim": "Former vice chairman of GE and president and CEO of GE Energy before joining CD&R in 2013.",
+        "date": "2013",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      }
+    ]
+  },
+  "merle-yoder": {
+    "flags": [
+      "historical-role",
+      "purdue-founder",
+      "investor"
+    ],
+    "flag_sources": {
+      "historical-role": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder",
+      "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder",
+      "investor": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder"
+    },
+    "flag_notes": {
+      "historical-role": "Purdue profile last modified in 2022; current title and location unverified."
+    },
+    "company_product": "Financial compliance software for investment advisers, funds, family offices, and corporations.",
+    "company_product_source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder",
+    "company_sector": "Fintech / compliance software",
+    "company_sector_source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder",
+    "company_location": {
+      "location": "Connecticut (2022 Purdue profile)",
+      "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder"
+    }
+  },
+  "kendra-bracken-ferguson": {
+    "flags": [
+      "purdue-founder",
+      "investor",
+      "vc-investor"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+      "investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+      "vc-investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+    },
+    "company_sector": "Founder community / beauty and wellness",
+    "company_sector_source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+    "company_product": "BrainTrust Founders Studio provides community, education, and mentorship for beauty and wellness founders.",
+    "company_product_source_url": "https://www.braintrustfoundersstudio.com/memberships"
+  },
+  "jane-king": {
+    "company_website": "https://www.lilamaxmedia.com/",
+    "company_website_source_url": "https://www.lilamaxmedia.com/",
+    "company_product": "Produces financial, business, technology, and entrepreneurship reporting for broadcast outlets.",
+    "company_product_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2021/jane-king.html",
+    "company_sector": "Media / business journalism",
+    "company_sector_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2021/jane-king.html",
+    "company_location": {
+      "location": "New York City production",
+      "source_url": "https://www.lilamaxmedia.com/"
+    }
+  },
+  "michael-monte": {
+    "company_sector": "Investment banking / M&A and capital raising",
+    "company_sector_source_url": "https://www.business.purdue.edu/alumni/boards/alumni-board-members.php",
+    "company_location": {
+      "location": "New York City",
+      "source_url": "https://www.business.purdue.edu/alumni/boards/alumni-board-members.php"
+    }
+  },
+  "dea-j-william-uhrig": {
+    "company_sector": "Private equity / family office",
+    "company_sector_source_url": "https://engineering.purdue.edu/AAE/people/alumni/distinguished/oae/2014/Will-Uhrig",
+    "company_location": {
+      "location": "New York City (2014 Purdue profile)",
+      "source_url": "https://engineering.purdue.edu/AAE/people/alumni/distinguished/oae/2014/Will-Uhrig"
+    }
+  },
+  "thomas-christopoul": {
+    "flags": [
+      "historical-role",
+      "investor"
+    ],
+    "flag_sources": {
+      "historical-role": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2012/thomas-christopoul.html",
+      "investor": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2012/thomas-christopoul.html"
+    },
+    "flag_notes": {
+      "historical-role": "Role documented in a 2012 Purdue profile; current investment activity unverified."
+    },
+    "company_sector": "Private equity / middle-market buyouts",
+    "company_sector_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2012/thomas-christopoul.html",
+    "company_location": {
+      "location": "New York City (2012 Purdue profile)",
+      "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2012/thomas-christopoul.html"
+    }
+  }
+}

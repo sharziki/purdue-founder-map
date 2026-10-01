@@ -1,0 +1,63 @@
+[
+  {
+    "id": "james-c-anderson-legacy-venture",
+    "name": "James C. Anderson",
+    "connection": "BSEE and MSEE 1972",
+    "role": "Founder of Legacy Venture; retired venture investor and mentor",
+    "organization": "Legacy Venture / Next Legacy",
+    "region": "Bay Area connection",
+    "kind": "Investor",
+    "why_relevant": "Co-founded Foundation Capital and founded Legacy Venture; Next Legacy lists him as a retired mentor and early-stage environmental investor. Historical firm roles are not presented as current.",
+    "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html",
+    "source_urls": [
+      "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html",
+      "https://www.nextlegacy.com/team"
+    ],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {"institution": "Purdue University", "degree": "BS", "field": "Electrical Engineering", "graduation_year": 1972, "completion_status": "degree_completed", "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"},
+      {"institution": "Purdue University", "degree": "MS", "field": "Electrical Engineering", "graduation_year": 1972, "completion_status": "degree_completed", "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2002/anderson.html"}
+    ]
+  },
+  {
+    "id": "richard-rich-redelfs",
+    "name": "Richard Redelfs",
+    "connection": "BSIE 1980",
+    "role": "Retired general partner, Foundation Capital; former CEO, Atheros Communications",
+    "organization": "Foundation Capital / Atheros Communications",
+    "region": "Bay Area connection",
+    "kind": "Investor",
+    "why_relevant": "Purdue describes his former Foundation Capital general partner and Atheros CEO roles. Computer History Museum says he retired from Foundation Capital in 2015.",
+    "source_url": "https://engineering.purdue.edu/IE/news/2016/2016-industrial-engineering-awards-ceremony",
+    "source_urls": [
+      "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2016-beyond/Symposia/symposia_2007/07_10_16",
+      "https://computerhistory.org/profile/rich-redelfs/"
+    ],
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {"institution": "Purdue University", "degree": "BS", "field": "Industrial Engineering", "graduation_year": 1980, "completion_status": "degree_completed", "source_url": "https://engineering.purdue.edu/IE/news/2016/2016-industrial-engineering-awards-ceremony"}
+    ]
+  },
+  {
+    "id": "mary-jane-mj-elmore",
+    "name": "Mary Jane Elmore",
+    "connection": "BS Mathematics 1976",
+    "role": "IVP venture partner and advisor; private angel investor (as reported in 2019)",
+    "organization": "Institutional Venture Partners / Broadway Angels",
+    "region": "Bay Area connection",
+    "kind": "Investor",
+    "why_relevant": "One of the first women venture capital partners on the West Coast. Purdue reported her IVP general partner and Broadway Angels investment work; role date retained because current status is not verified.",
+    "source_url": "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+    "source_urls": [
+      "https://www.math.purdue.edu/news/2016/2016_Distinguished_Alumna.html",
+      "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"
+    ],
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {"institution": "Purdue University", "degree": "BS", "field": "Mathematics", "graduation_year": 1976, "completion_status": "degree_completed", "source_url": "https://www.purdueforlife.org/app/uploads/Spring-2019.pdf"}
+    ]
+  }
+]

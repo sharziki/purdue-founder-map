@@ -46,6 +46,9 @@ ALUMNI_EXPANSIONS = (
     "alumni-old-masters-early-wave3.json",
     "alumni-vet-wave3.json",
     "alumni-engineering-labs-wave4.json",
+    "alumni-bay-tech-wave5.json",
+    "alumni-nyc-business-wave5.json",
+    "alumni-investor-wave5.json",
 )
 ALUMNI_ENRICHMENTS = (
     "alumni-funding-enrichment.json",
@@ -58,6 +61,9 @@ ALUMNI_ENRICHMENTS = (
     "alumni-education-enrichment.json",
     "alumni-affiliations-enrichment.json",
     "alumni-startup-enrichment.json",
+    "alumni-bay-tech-wave5-enrichment.json",
+    "alumni-nyc-business-wave5-enrichment.json",
+    "alumni-investor-wave5-enrichment.json",
 )
 ENRICHMENT_FIELDS = {
     "funding", "company", "company_location", "linkedin", "linkedin_source_url",
@@ -70,7 +76,51 @@ ENRICHMENT_FIELDS = {
     "capital_events", "highlights", "notable_lanes", "notable_source_url",
     "highlight_order",
     "education", "affiliations", "startup_profile",
+    "tags", "tag_sources",
 }
+
+
+def derived_tags(person):
+    """Expose only labels backed by a claim already present in this record."""
+    sources = {}
+    def add(tag, url):
+        if url and url.startswith("https://"):
+            sources[tag] = url
+
+    if person["kind"] == "Founder":
+        add("Founder", person["source_url"])
+    if person["kind"] == "Investor":
+        add("Investor", person.get("flag_sources", {}).get("investor", person["source_url"]))
+    if "vc-investor" in person.get("flags", []):
+        add("VC investor", person["flag_sources"]["vc-investor"])
+    if "vc-backed" in person.get("flags", []):
+        add("Venture-backed", person["flag_sources"]["vc-backed"])
+    funding = person.get("funding", [])
+    if funding:
+        add("Funded startup", funding[0]["source_url"])
+    venture = next((claim for claim in funding if claim.get("type") in {"round", "seed_round"}
+                    and re.search(r"\b(series [a-z]|pre-seed|seed|venture)\b", claim.get("round", ""), re.I)), None)
+    if venture:
+        add("Venture-backed", venture["source_url"])
+    yc = next((event for event in person.get("capital_events", [])
+               if event.get("type") == "accelerator" and "ycombinator.com" in event["source_url"]), None)
+    if yc:
+        add("Y Combinator", yc["source_url"])
+    places = [
+        (" ".join(str(person.get(field) or "") for field in ("region", "location_city", "location_region")),
+         person.get("location_source_url") or person["source_url"]),
+        (person.get("company_location", {}).get("location", ""),
+         person.get("company_location", {}).get("source_url")),
+    ]
+    for place, source in places:
+        if re.search(r"Bay Area|San Francisco|Palo Alto|Silicon Valley|Mountain View|Menlo Park", place, re.I):
+            add("Bay Area", source)
+        if re.search(r"New York City|New York, NY|New York, New York|New York and London|Brooklyn|Manhattan|Queens|Bronx", place, re.I):
+            add("NYC", source)
+    sector = person.get("company_sector", "")
+    if re.search(r"software|artificial intelligence|\bAI\b|robotics|semiconductor|cybersecurity|deep tech|hardware|SaaS", sector, re.I):
+        add("Tech", person.get("company_sector_source_url"))
+    return sorted(sources), sources
 
 
 ALUMNI_ID_ALIASES = {
@@ -87,6 +137,9 @@ ALUMNI_ID_ALIASES = {
 
 def alumni_name_key(name):
     plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
+    # Separate the two documented Purdue alumni named James Anderson (1972 VC, 1997 semiconductor CEO).
+    if re.fullmatch(r"james c\.? anderson", plain):
+        return "jamescanderson"
     words = re.findall(r"[a-z]+", plain)
     key = "".join(word for word in words if len(word) > 1 and word not in {"jr", "sr", "ii", "iii"})
     return {
@@ -263,7 +316,7 @@ with sqlite3.connect(DB) as db:
                 if url.hostname not in {"x.com", "www.x.com", "twitter.com", "www.twitter.com"} or url.path.startswith(("/intent", "/Purdue")) or not details.get("x_source_url"):
                     raise ValueError(f"{filename}: {person_id} has unverified X profile")
             if "flags" in details:
-                allowed_flags = {"historical-role", "purdue-founder", "investor", "indiana", "bay-area", "mentor"}
+                allowed_flags = {"historical-role", "purdue-founder", "investor", "vc-investor", "vc-backed", "indiana", "bay-area", "mentor"}
                 if not isinstance(details["flags"], list) or any(flag not in allowed_flags or not details.get("flag_sources", {}).get(flag, "").startswith("https://") for flag in details["flags"]):
                     raise ValueError(f"{filename}: {person_id} has unsourced flags")
             if any(details.get(field) for field in ("location_city", "location_region", "location_country")) and not details.get("location_source_url"):
@@ -338,6 +391,7 @@ with sqlite3.connect(DB) as db:
     for person in alumni:
         for education in person.get("education", []):
             education.setdefault("completion_status", "degree_completed" if education.get("degree") or education.get("graduation_year") else "attended_status_unknown")
+        person["tags"], person["tag_sources"] = derived_tags(person)
         if person["id"] in extra_portraits:
             person["image"] = "/assets/alumni/" + person["id"] + ".webp"
             person["image_source_url"] = extra_portraits[person["id"]]
@@ -355,6 +409,7 @@ with sqlite3.connect(DB) as db:
       DROP TABLE IF EXISTS alumni_education;
       DROP TABLE IF EXISTS alumni_affiliations;
       DROP TABLE IF EXISTS alumni_startups;
+      DROP TABLE IF EXISTS alumni_tags;
       DROP TABLE IF EXISTS alumni;
       CREATE TABLE alumni (
         id TEXT PRIMARY KEY, name TEXT NOT NULL, connection TEXT NOT NULL,
@@ -364,6 +419,7 @@ with sqlite3.connect(DB) as db:
         image TEXT, image_source_url TEXT, role_as_of TEXT, enrichment_json TEXT NOT NULL
       );
       CREATE INDEX idx_alumni_region ON alumni(region);
+      CREATE INDEX idx_alumni_organization ON alumni(organization COLLATE NOCASE);
     """)
     db.executemany("INSERT INTO alumni VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)", [
         (p["id"], p["name"], p["connection"], p["role"], p["organization"],
@@ -393,6 +449,11 @@ with sqlite3.connect(DB) as db:
         company_stage_as_of_source TEXT, exit_status TEXT, field_sources_json TEXT NOT NULL
       );
       CREATE INDEX idx_alumni_startups_sector ON alumni_startups(sector);
+      CREATE TABLE alumni_tags (
+        alumni_id TEXT NOT NULL REFERENCES alumni(id), tag TEXT NOT NULL,
+        source_url TEXT NOT NULL, PRIMARY KEY (alumni_id, tag)
+      );
+      CREATE INDEX idx_alumni_tags_tag ON alumni_tags(tag);
     """)
     db.executemany("INSERT INTO alumni_education VALUES (?,?,?,?,?,?,?)", [
         (p["id"], e["institution"], e.get("degree"), e.get("field"),
@@ -409,6 +470,9 @@ with sqlite3.connect(DB) as db:
          s.get("product_summary"), s.get("sector"), s.get("company_stage_as_of_source"),
          s.get("exit_status"), json.dumps(s["field_sources"], ensure_ascii=False))
         for p in alumni if (s := p.get("startup_profile"))
+    ])
+    db.executemany("INSERT INTO alumni_tags VALUES (?,?,?)", [
+        (p["id"], tag, p["tag_sources"][tag]) for p in alumni for tag in p["tags"]
     ])
     db.commit()
 OUT.write_text(json.dumps({"checked_at": checked, "reviewed_count": reviewed_count, "expanded_count": expanded_count, "resources": rows}, indent=2) + "\n")

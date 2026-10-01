@@ -1,0 +1,102 @@
+[
+  {
+    "id": "lucas-nelson",
+    "name": "Lucas Nelson",
+    "connection": "BS Computer Science, 1999",
+    "role": "Founder and managing partner",
+    "organization": "Lytical Ventures",
+    "region": "New York City venture firm",
+    "kind": "Investor",
+    "why_relevant": "Purdue computer science alumnus who co-founded a New York City venture firm investing in cybersecurity, data analytics, and AI. His path runs from security engineering and startup operations to venture investing.",
+    "source_url": "https://www.lyticalventures.com/lucas-nelson",
+    "source_urls": [
+      "https://www.lyticalventures.com/lucas-nelson",
+      "https://www.lyticalventures.com/team"
+    ],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS Computer Science",
+        "graduation_year": 1999,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.nyu.edu/faculty/lucas-nelson"
+      }
+    ]
+  },
+  {
+    "id": "christina-jenkins",
+    "name": "Christina Jenkins",
+    "connection": "BS Industrial Management",
+    "role": "Co-founder and general partner",
+    "organization": "Convergent Ventures",
+    "region": "New York City",
+    "kind": "Investor",
+    "why_relevant": "Purdue business alumna and physician investing in seed and Series A health and life sciences companies; Convergent Ventures lists her in its New York City office.",
+    "source_url": "https://convergentvc.com/team/",
+    "source_urls": [
+      "https://convergentvc.com/team/",
+      "https://www.kauffmanfellows.org/fellows/christina-jenkins"
+    ],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS Industrial Management",
+        "completion_status": "degree_completed",
+        "source_url": "https://convergentvc.com/team/"
+      }
+    ]
+  },
+  {
+    "id": "john-krenicki-jr",
+    "name": "John Krenicki Jr.",
+    "connection": "MS Management, 1991",
+    "role": "Vice chairman and operating partner",
+    "organization": "Clayton, Dubilier & Rice",
+    "region": "New York / London investment firm",
+    "kind": "Investor",
+    "why_relevant": "Purdue management alumnus who moved from running GE Energy to operating leadership at a major private equity firm; useful connection for later-stage industrial company builders.",
+    "source_url": "https://www.cdr.com/team/john-krenicki-jr",
+    "source_urls": [
+      "https://www.cdr.com/team/john-krenicki-jr",
+      "https://new.business.purdue.edu/alumni/awards.php",
+      "https://www.purdue.edu/bot/meetings/past-meetings/2019/03.%20june/stated/508_john%20and%20donna%20krenicki%20center.pdf"
+    ],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS Management",
+        "graduation_year": 1991,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/bot/meetings/past-meetings/2019/03.%20june/stated/508_john%20and%20donna%20krenicki%20center.pdf"
+      }
+    ]
+  },
+  {
+    "id": "merle-yoder",
+    "name": "Merle Yoder",
+    "connection": "BSEE, 1982",
+    "role": "Managing director, equity unit; co-founder of Financial Tracking Technologies",
+    "organization": "Greenwich Investment Management / Financial Tracking Technologies",
+    "region": "Greenwich, Connecticut (2022 source)",
+    "kind": "Founder",
+    "why_relevant": "Purdue engineering alumnus who co-founded financial compliance software and spent decades in the New York financial technology ecosystem. The cited Purdue profile was last modified in 2022, so the listed role is historical.",
+    "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BSEE",
+        "graduation_year": 1982,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/merle-yoder"
+      }
+    ]
+  }
+]
