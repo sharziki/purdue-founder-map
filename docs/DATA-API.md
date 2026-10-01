@@ -26,6 +26,20 @@ Some alumni also have `funding` claims (`type`, `amount`, `round`, `date`, `sour
 
 Deeper profiles may include `company_website`, `company_product`, `company_sector`, and `company_founded_year`, each with a matching `_source_url`; `capital_events` and `highlights` are arrays of dated, source-linked facts. `notable_lanes` groups documented startup founders, venture investors, industry builders, and campus builders. The Highlights filter and `/notable-alumni.json` are editorial discovery aids, not an objective ranking or an offer of contact. The optional `highlight_order` only controls which stories appear first; it is not a score. Historical transactions and positions retain their source dates.
 
+Structured research adds `education[]` (`institution`, optional `degree`, `field`, `graduation_year`, `completion_status`, `source_url`), `affiliations[]` (`organization`, `role`, `relationship`, source-year `as_of`, `status`, `source_url`), and `startup_profile` (`company_name`, optional website, founding year, product, sector, stage, or exit, with a URL for each claim in `field_sources`). `graduation_year` requires an explicit degree or class-year statement; an article or award year does not count. `completion_status: "attended_no_degree"` records verified Purdue attendance without a completed degree. `current_as_of_source` describes what a dated source said, not a live employment check.
+
+The same facts are queryable in `data/founders.sqlite3` through `alumni_education`, `alumni_affiliations`, and `alumni_startups`. Example:
+
+```sql
+SELECT a.name, e.degree, e.field, e.graduation_year, s.company_name, s.sector
+FROM alumni AS a
+JOIN alumni_education AS e ON e.alumni_id = a.id
+LEFT JOIN alumni_startups AS s ON s.alumni_id = a.id
+WHERE e.graduation_year = '2019';
+```
+
+Run `python3 scripts/check_alumni_db.py` after a build to confirm the SQLite rows match the JSON export and contain no orphan facts.
+
 ```js
 const { roadmap, reading_links } = await fetch('/guide-data.json').then(r => r.json());
 const current = roadmap.find(stage => stage.id === 'launch');

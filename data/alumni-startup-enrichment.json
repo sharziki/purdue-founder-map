@@ -1,0 +1,974 @@
+{
+  "sumit-mehra": {
+    "startup_profile": {
+      "company_name": "Y Media Labs",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+      },
+      "product_summary": "Designs and builds digital products for startups and large companies.",
+      "sector": "Software / digital product services"
+    }
+  },
+  "doug-booth": {
+    "startup_profile": {
+      "company_name": "Multiply Technologies",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx",
+        "product_summary": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx",
+        "sector": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx"
+      },
+      "product_summary": "Provides IT asset management services.",
+      "sector": "IT services"
+    }
+  },
+  "koda-witsken": {
+    "startup_profile": {
+      "company_name": "KODA",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx",
+        "product_summary": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx",
+        "sector": "https://www.purdue.edu/senate/documents/meetings/Senate-Entrepreneurship-Slides.docx"
+      },
+      "product_summary": "Creates commissioned murals for companies and communities.",
+      "sector": "Creative services"
+    }
+  },
+  "ibidayo-awosola": {
+    "startup_profile": {
+      "company_name": "TechXtramile",
+      "field_sources": {
+        "company_name": "https://polytechnic.purdue.edu/newsroom/tech-alumni-awards-celebrate-accomplished-graduates-record-giving-and-student-impact"
+      }
+    }
+  },
+  "duncan-mulgrew": {
+    "startup_profile": {
+      "company_name": "Uniform Sierra Aerospace",
+      "field_sources": {
+        "company_name": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "product_summary": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "sector": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "exit_status": "https://www.linkedin.com/posts/purdue-research-foundation_drone-safety-purdue-activity-7282055825815199745-hUhp"
+      },
+      "product_summary": "Developed drones for public-safety operations.",
+      "sector": "Aerospace / public safety",
+      "exit_status": "Acquired by Flock Safety in 2025"
+    }
+  },
+  "trevor-redpath": {
+    "startup_profile": {
+      "company_name": "Uniform Sierra Aerospace",
+      "field_sources": {
+        "company_name": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "product_summary": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "sector": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "exit_status": "https://www.linkedin.com/posts/purdue-research-foundation_drone-safety-purdue-activity-7282055825815199745-hUhp"
+      },
+      "product_summary": "Developed drones for public-safety operations.",
+      "sector": "Aerospace / public safety",
+      "exit_status": "Acquired by Flock Safety in 2025"
+    }
+  },
+  "jeremy-frederick": {
+    "startup_profile": {
+      "company_name": "Uniform Sierra Aerospace",
+      "field_sources": {
+        "company_name": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "product_summary": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "sector": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-alumni-founded-drone-maker-wins-100000-startup-funding-purdue",
+        "exit_status": "https://www.linkedin.com/posts/purdue-research-foundation_drone-safety-purdue-activity-7282055825815199745-hUhp"
+      },
+      "product_summary": "Developed drones for public-safety operations.",
+      "sector": "Aerospace / public safety",
+      "exit_status": "Acquired by Flock Safety in 2025"
+    }
+  },
+  "ken-thieneman": {
+    "startup_profile": {
+      "company_name": "Thieneman Construction",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/CCE/AboutUs/News/Alumni_Features/ken-thieneman-receives-2025-construction-engineering-outstanding-alumni-award",
+        "product_summary": "https://engineering.purdue.edu/CCE/AboutUs/News/Alumni_Features/ken-thieneman-receives-2025-construction-engineering-outstanding-alumni-award",
+        "sector": "https://engineering.purdue.edu/CCE/AboutUs/News/Alumni_Features/ken-thieneman-receives-2025-construction-engineering-outstanding-alumni-award"
+      },
+      "product_summary": "Provides environmental construction services.",
+      "sector": "Construction"
+    }
+  },
+  "yaerid-jacob": {
+    "startup_profile": {
+      "company_name": "Blueprint Projects",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=yaerid-jacob",
+        "product_summary": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=yaerid-jacob",
+        "sector": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=yaerid-jacob"
+      },
+      "product_summary": "Develops data-center projects.",
+      "sector": "Data-center development"
+    }
+  },
+  "juanita-duque": {
+    "startup_profile": {
+      "company_name": "Seccuri,",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=juanita-duque",
+        "product_summary": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=juanita-duque",
+        "sector": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=juanita-duque",
+        "company_url": "https://www.seccuri.com/SeccuriAI"
+      },
+      "product_summary": "Uses AI to map cybersecurity skills and recommend workforce training.",
+      "sector": "Cybersecurity / workforce software",
+      "company_url": "https://www.seccuri.com/"
+    }
+  },
+  "dhruv-garg": {
+    "startup_profile": {
+      "company_name": "Kangaroo",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=dhruv-garg",
+        "product_summary": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=dhruv-garg",
+        "sector": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=dhruv-garg",
+        "company_url": "https://heykangaroo.com/"
+      },
+      "product_summary": "Makes connected home-security devices and coverage.",
+      "sector": "Consumer hardware / home security",
+      "company_url": "https://heykangaroo.com/"
+    }
+  },
+  "tareq-khalifeh": {
+    "startup_profile": {
+      "company_name": "MASE",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tareq-khalifeh"
+      }
+    }
+  },
+  "marcus-lannie": {
+    "startup_profile": {
+      "company_name": "NELP",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=marcus-lannie",
+        "product_summary": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=marcus-lannie",
+        "sector": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=marcus-lannie"
+      },
+      "product_summary": "Builds a platform for nursing leadership.",
+      "sector": "Healthcare / workforce software"
+    }
+  },
+  "anuj-mehta": {
+    "startup_profile": {
+      "company_name": "Glimpse",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+        "product_summary": "https://www.ycombinator.com/companies/glimpse-2",
+        "sector": "https://www.ycombinator.com/companies/glimpse-2",
+        "founded_year": "https://www.ycombinator.com/companies/glimpse-2",
+        "company_url": "https://www.ycombinator.com/companies/glimpse-2"
+      },
+      "product_summary": "Automates deduction management and revenue recovery for consumer brands selling through retailers.",
+      "sector": "Retail operations / AI",
+      "founded_year": "2020",
+      "company_url": "https://tryglimpse.com/"
+    }
+  },
+  "adam-scott": {
+    "startup_profile": {
+      "company_name": "Compact Medical",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=adam-scott",
+        "product_summary": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=adam-scott",
+        "sector": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=adam-scott"
+      },
+      "product_summary": "Develops medical devices.",
+      "sector": "Medical devices"
+    }
+  },
+  "rodrigo-schmitt": {
+    "startup_profile": {
+      "company_name": "Stellerian",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "product_summary": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "sector": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "company_url": "https://www.stellerian.com/"
+      },
+      "product_summary": "Builds satellite navigation and collision-avoidance software.",
+      "sector": "Space / software",
+      "company_url": "https://www.stellerian.com/"
+    }
+  },
+  "cody-waldecker": {
+    "startup_profile": {
+      "company_name": "Stellerian",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "product_summary": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "sector": "https://engineering.purdue.edu/AAE/spotlights/2026/2026-0407-software-first-startup",
+        "company_url": "https://www.stellerian.com/"
+      },
+      "product_summary": "Builds satellite navigation and collision-avoidance software.",
+      "sector": "Space / software",
+      "company_url": "https://www.stellerian.com/"
+    }
+  },
+  "taylor-chamberlain-dilk": {
+    "startup_profile": {
+      "company_name": "Vitality",
+      "field_sources": {
+        "company_name": "https://stories.purdue.edu/activewear-for-every-body/",
+        "product_summary": "https://stories.purdue.edu/activewear-for-every-body/",
+        "sector": "https://stories.purdue.edu/activewear-for-every-body/",
+        "founded_year": "https://stories.purdue.edu/activewear-for-every-body/",
+        "company_url": "https://shopvitality.com/blogs/vitality-blog/behind-the-design-ep-5-the-vitality-color-system"
+      },
+      "product_summary": "Sells direct-to-consumer activewear.",
+      "sector": "Consumer apparel",
+      "founded_year": "2018",
+      "company_url": "https://shopvitality.com/"
+    }
+  },
+  "chloe-chamberlain": {
+    "startup_profile": {
+      "company_name": "Vitality",
+      "field_sources": {
+        "company_name": "https://stories.purdue.edu/activewear-for-every-body/",
+        "product_summary": "https://stories.purdue.edu/activewear-for-every-body/",
+        "sector": "https://stories.purdue.edu/activewear-for-every-body/",
+        "founded_year": "https://stories.purdue.edu/activewear-for-every-body/",
+        "company_url": "https://shopvitality.com/blogs/vitality-blog/behind-the-design-ep-5-the-vitality-color-system"
+      },
+      "product_summary": "Designs and sells direct-to-consumer activewear.",
+      "sector": "Consumer apparel",
+      "founded_year": "2018",
+      "company_url": "https://shopvitality.com/"
+    }
+  },
+  "steve-dilk": {
+    "startup_profile": {
+      "company_name": "Vitality",
+      "field_sources": {
+        "company_name": "https://stories.purdue.edu/activewear-for-every-body/",
+        "product_summary": "https://stories.purdue.edu/activewear-for-every-body/",
+        "sector": "https://stories.purdue.edu/activewear-for-every-body/",
+        "founded_year": "https://stories.purdue.edu/activewear-for-every-body/",
+        "company_url": "https://shopvitality.com/blogs/vitality-blog/behind-the-design-ep-5-the-vitality-color-system"
+      },
+      "product_summary": "Sells direct-to-consumer activewear.",
+      "sector": "Consumer apparel",
+      "founded_year": "2018",
+      "company_url": "https://shopvitality.com/"
+    }
+  },
+  "kurtis-sluss": {
+    "startup_profile": {
+      "company_name": "Brightlamp",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php",
+        "product_summary": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php",
+        "sector": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php"
+      },
+      "product_summary": "Developed software for medical diagnostics.",
+      "sector": "Health technology"
+    }
+  },
+  "jonathan-holt": {
+    "startup_profile": {
+      "company_name": "Brightlamp",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php",
+        "product_summary": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php",
+        "sector": "https://business.purdue.edu/konline/2018s/features/just-getting-started1.php"
+      },
+      "product_summary": "Develops software for medical diagnostics.",
+      "sector": "Health technology"
+    }
+  },
+  "andrew-ulmer": {
+    "startup_profile": {
+      "company_name": "Oqullo",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html"
+      },
+      "product_summary": "Develops software for customer analysis.",
+      "sector": "Customer analytics"
+    }
+  },
+  "zohar-kapach": {
+    "startup_profile": {
+      "company_name": "Oqullo",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2020/Q2/a-more-personalized-approach-to-improving-customer-experiences.html"
+      },
+      "product_summary": "Develops software for customer analysis.",
+      "sector": "Customer analytics"
+    }
+  },
+  "kyle-mohler": {
+    "startup_profile": {
+      "company_name": "Insignum AgTech",
+      "field_sources": {
+        "company_name": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "product_summary": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "sector": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "company_url": "https://www.linkedin.com/company/insignum-agtech"
+      },
+      "product_summary": "Develops technology for monitoring crop health.",
+      "sector": "Agriculture technology",
+      "company_url": "https://www.insignumagtech.com/"
+    }
+  },
+  "liane-hart": {
+    "startup_profile": {
+      "company_name": "Verility",
+      "field_sources": {
+        "company_name": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "product_summary": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "sector": "https://ag.purdue.edu/news/2022/01/ag-celerator-fund-invests-in-two-agriculture-startup-companies.html",
+        "company_url": "https://www.verilityco.com/about-3"
+      },
+      "product_summary": "Develops livestock-fertility analysis technology.",
+      "sector": "Agriculture technology",
+      "company_url": "https://www.verilityco.com/"
+    }
+  },
+  "shahani-markus": {
+    "startup_profile": {
+      "company_name": "Emojot",
+      "field_sources": {
+        "company_name": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
+        "product_summary": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
+        "sector": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html"
+      },
+      "product_summary": "Captures customer perceptions through emojis to improve business interactions.",
+      "sector": "Customer-experience software"
+    }
+  },
+  "hemant-thapar": {
+    "startup_profile": {
+      "company_name": "OmniTier",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2019/hemant-thapar"
+      }
+    }
+  },
+  "nicolaus-radford": {
+    "startup_profile": {
+      "company_name": "Nauticus Robotics",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Wavelinks/2024/articles/oece-class-of-2023",
+        "product_summary": "https://engineering.purdue.edu/ECE/Wavelinks/2024/articles/oece-class-of-2023",
+        "sector": "https://engineering.purdue.edu/ECE/Wavelinks/2024/articles/oece-class-of-2023"
+      },
+      "product_summary": "Develops ocean robotics systems.",
+      "sector": "Maritime robotics"
+    }
+  },
+  "bob-burlas": {
+    "startup_profile": {
+      "company_name": "Guide Leadership Consulting",
+      "field_sources": {
+        "company_name": "https://polytechnic.purdue.edu/newsroom/eight-purdue-polytechnic-students-earn-golden-hammer-awards-indianapolis",
+        "product_summary": "https://polytechnic.purdue.edu/newsroom/eight-purdue-polytechnic-students-earn-golden-hammer-awards-indianapolis",
+        "sector": "https://polytechnic.purdue.edu/newsroom/eight-purdue-polytechnic-students-earn-golden-hammer-awards-indianapolis"
+      },
+      "product_summary": "Provides leadership consulting.",
+      "sector": "Professional services"
+    }
+  },
+  "andrew-tye": {
+    "startup_profile": {
+      "company_name": "Seedproof",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/releases/2018/Q4/growing-ideas-purdue-startup-offers-seeds-of-hope%2C-connections-for-entrepreneurs%2C-product-innovators.html",
+        "product_summary": "https://www.purdue.edu/newsroom/releases/2018/Q4/growing-ideas-purdue-startup-offers-seeds-of-hope%2C-connections-for-entrepreneurs%2C-product-innovators.html",
+        "sector": "https://www.purdue.edu/newsroom/releases/2018/Q4/growing-ideas-purdue-startup-offers-seeds-of-hope%2C-connections-for-entrepreneurs%2C-product-innovators.html"
+      },
+      "product_summary": "Connects product innovators with early supporters.",
+      "sector": "Startup network"
+    }
+  },
+  "yuxin-liu": {
+    "startup_profile": {
+      "company_name": "Visionular",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Yuxin-Liu",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Yuxin-Liu",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Yuxin-Liu"
+      },
+      "product_summary": "Develops AI software for video compression, streaming, and enhancement.",
+      "sector": "Video software / AI"
+    }
+  },
+  "robert-j-mcmillen": {
+    "startup_profile": {
+      "company_name": "Edico Genome",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+      },
+      "product_summary": "Developed computing systems for genomic analysis.",
+      "sector": "Genomics computing"
+    }
+  },
+  "kushal-negi": {
+    "startup_profile": {
+      "company_name": "Glimpse",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+        "product_summary": "https://www.ycombinator.com/companies/glimpse-2",
+        "sector": "https://www.ycombinator.com/companies/glimpse-2",
+        "founded_year": "https://www.ycombinator.com/companies/glimpse-2",
+        "company_url": "https://www.ycombinator.com/companies/glimpse-2"
+      },
+      "product_summary": "Automates deduction management and revenue recovery for consumer brands selling through retailers.",
+      "sector": "Retail operations / AI",
+      "founded_year": "2020",
+      "company_url": "https://tryglimpse.com/"
+    }
+  },
+  "akash-raju": {
+    "startup_profile": {
+      "company_name": "Glimpse",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+        "product_summary": "https://www.ycombinator.com/companies/glimpse-2",
+        "sector": "https://www.ycombinator.com/companies/glimpse-2",
+        "founded_year": "https://www.ycombinator.com/companies/glimpse-2",
+        "company_url": "https://www.ycombinator.com/companies/glimpse-2"
+      },
+      "product_summary": "Automates deduction management and revenue recovery for consumer brands selling through retailers.",
+      "sector": "Retail operations / AI",
+      "founded_year": "2020",
+      "company_url": "https://tryglimpse.com/"
+    }
+  },
+  "vasiliki-keramida": {
+    "startup_profile": {
+      "company_name": "KERAMIDA",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/CCE/Media/Transitions/2024-December/recognizing-outstanding-alumni",
+        "product_summary": "https://engineering.purdue.edu/CCE/Media/Transitions/2024-December/recognizing-outstanding-alumni",
+        "sector": "https://engineering.purdue.edu/CCE/Media/Transitions/2024-December/recognizing-outstanding-alumni"
+      },
+      "product_summary": "Provides environmental and sustainability consulting.",
+      "sector": "Environmental services"
+    }
+  },
+  "michael-r-berghoff": {
+    "startup_profile": {
+      "company_name": "Lenex Steel",
+      "field_sources": {
+        "company_name": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+        "product_summary": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+        "sector": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      "product_summary": "Fabricates structural steel.",
+      "sector": "Construction / manufacturing"
+    }
+  },
+  "nikhil-bhogal": {
+    "startup_profile": {
+      "company_name": "June Oven",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+        "product_summary": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+        "sector": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+      },
+      "product_summary": "Built a connected smart oven.",
+      "sector": "Consumer hardware"
+    }
+  },
+  "ujjwal-singh": {
+    "startup_profile": {
+      "company_name": "SayNow",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+        "product_summary": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+        "sector": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+      },
+      "product_summary": "Built a voice-messaging service.",
+      "sector": "Communications software"
+    }
+  },
+  "scott-moorehead": {
+    "startup_profile": {
+      "company_name": "Stash Ventures",
+      "field_sources": {
+        "company_name": "https://stashventures.com/scott-julie-moorehead/"
+      }
+    }
+  },
+  "rex-gingerich": {
+    "startup_profile": {
+      "company_name": "Chariot Auto Group",
+      "field_sources": {
+        "company_name": "https://www.in.gov/dwd/power-up/success-stories/chariot-automotive-group",
+        "product_summary": "https://www.in.gov/dwd/power-up/success-stories/chariot-automotive-group",
+        "sector": "https://www.in.gov/dwd/power-up/success-stories/chariot-automotive-group"
+      },
+      "product_summary": "Operates automotive dealerships and a collision center.",
+      "sector": "Automotive retail"
+    }
+  },
+  "lee-ann-de-reus": {
+    "startup_profile": {
+      "company_name": "Badass University",
+      "field_sources": {
+        "company_name": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+      }
+    }
+  },
+  "jennie-l-pez": {
+    "startup_profile": {
+      "company_name": "Jennie López Enterprise",
+      "field_sources": {
+        "company_name": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "product_summary": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "sector": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+      },
+      "product_summary": "Provides coaching, consulting, and speaking services.",
+      "sector": "Professional services"
+    }
+  },
+  "kathleen-sarpy": {
+    "startup_profile": {
+      "company_name": "Agency H5",
+      "field_sources": {
+        "company_name": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "product_summary": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "sector": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+        "founded_year": "https://www.cla.purdue.edu/students/careers/scla-300/fall-2022/kathleen-sarpy.html",
+        "company_url": "https://agencyh5.com/about/"
+      },
+      "product_summary": "Provides public relations and communications services.",
+      "sector": "Communications services",
+      "founded_year": "2001",
+      "company_url": "https://agencyh5.com/"
+    }
+  },
+  "randy-haines": {
+    "startup_profile": {
+      "company_name": "ScaleBridge",
+      "field_sources": {
+        "company_name": "https://www.business.purdue.edu/events/exec-forum/speakers.php",
+        "product_summary": "https://www.business.purdue.edu/events/exec-forum/speakers.php",
+        "sector": "https://www.business.purdue.edu/events/exec-forum/speakers.php"
+      },
+      "product_summary": "Provides supply-chain consulting and management services.",
+      "sector": "Supply-chain services"
+    }
+  },
+  "prady-modukuru": {
+    "startup_profile": {
+      "company_name": "sync.",
+      "field_sources": {
+        "company_name": "https://www.ycombinator.com/companies/sync-2",
+        "product_summary": "https://www.ycombinator.com/companies/sync-2",
+        "sector": "https://www.ycombinator.com/companies/sync-2"
+      },
+      "product_summary": "Builds AI video-dubbing software.",
+      "sector": "Media software / AI"
+    }
+  },
+  "ashish-toshniwal": {
+    "startup_profile": {
+      "company_name": "Noah",
+      "field_sources": {
+        "company_name": "https://www.heynoah.io/careers",
+        "product_summary": "https://www.heynoah.io/careers",
+        "sector": "https://www.heynoah.io/careers",
+        "company_url": "https://www.heynoah.io/careers"
+      },
+      "product_summary": "Provides an AI assistant that schedules meetings and handles executive communications.",
+      "sector": "Executive productivity / AI",
+      "company_url": "https://www.heynoah.io/"
+    }
+  },
+  "tolen-schreid": {
+    "startup_profile": {
+      "company_name": "Caseflood.ai",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup",
+        "product_summary": "https://www.caseflood.ai/",
+        "sector": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup",
+        "company_url": "https://www.caseflood.ai/"
+      },
+      "product_summary": "Builds intake software and AI tools for law firms to reach, qualify, and sign clients.",
+      "sector": "Legal technology / AI",
+      "company_url": "https://www.caseflood.ai/"
+    }
+  },
+  "dea-parasuram-balasubramanian": {
+    "startup_profile": {
+      "company_name": "Theme Work Analytics",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2022/Balasubramanian",
+        "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2022/Balasubramanian",
+        "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2022/Balasubramanian",
+        "founded_year": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2022/Balasubramanian"
+      },
+      "product_summary": "Provided information technology and analytics services.",
+      "sector": "IT / analytics services",
+      "founded_year": "2004"
+    }
+  },
+  "ece-gen-fukunaga": {
+    "startup_profile": {
+      "company_name": "FUNimation Productions, Ltd",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+        "founded_year": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+        "exit_status": "https://www.sonypictures.com/corp/press_releases/2017/07_17/073117_funimation.html"
+      },
+      "product_summary": "Licensed and distributed Japanese animation in the United States.",
+      "sector": "Media / entertainment",
+      "founded_year": "1994",
+      "exit_status": "Sony acquired a substantial majority stake in 2017"
+    }
+  },
+  "ece-robert-j-hesselberth": {
+    "startup_profile": {
+      "company_name": "Spectracom Corporation",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/1998/hesselberth.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/1998/hesselberth.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/1998/hesselberth.html",
+        "founded_year": "https://engineering.purdue.edu/ECE/Alums/OECE/1998/hesselberth.html"
+      },
+      "product_summary": "Built synchronization products for communications, broadcast, and emergency networks.",
+      "sector": "Communications hardware",
+      "founded_year": "1972"
+    }
+  },
+  "ece-roch-chian-ho": {
+    "startup_profile": {
+      "company_name": "Intertek Corporation",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/r-h_ho.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/r-h_ho.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/r-h_ho.html",
+        "founded_year": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/r-h_ho.html"
+      },
+      "product_summary": "Designed and manufactured automated testing systems.",
+      "sector": "Industrial test equipment",
+      "founded_year": "1982"
+    }
+  },
+  "edmund-o-schweitzer-iii": {
+    "startup_profile": {
+      "company_name": "Schweitzer Engineering Laboratories",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+        "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+        "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+      },
+      "product_summary": "Develops equipment and software for electric-power protection and control.",
+      "sector": "Energy / industrial technology"
+    }
+  },
+  "ece-dhiraj-kacker": {
+    "startup_profile": {
+      "company_name": "Canvera.com",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2016/kacker.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2016/kacker.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2016/kacker.html"
+      },
+      "product_summary": "Operated an online photography service in India.",
+      "sector": "Photography / ecommerce"
+    }
+  },
+  "ece-lawrence-kessler": {
+    "startup_profile": {
+      "company_name": "Sonoscan",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2006/kessler.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2006/kessler.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2006/kessler.html"
+      },
+      "product_summary": "Developed acoustic-microscope technology for inspecting electronic components.",
+      "sector": "Industrial inspection"
+    }
+  },
+  "dea-peter-k-lambertus": {
+    "startup_profile": {
+      "company_name": "Charles River Development",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Lambertus",
+        "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Lambertus",
+        "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Lambertus"
+      },
+      "product_summary": "Developed investment-management software.",
+      "sector": "Financial software"
+    }
+  },
+  "ece-william-c-lindsey": {
+    "startup_profile": {
+      "company_name": "LinCom Corporation",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/1997/lindsey.html",
+        "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/1997/lindsey.html",
+        "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/1997/lindsey.html",
+        "founded_year": "https://engineering.purdue.edu/ECE/Alums/OECE/1997/lindsey.html"
+      },
+      "product_summary": "Provided research, development, and technical guidance for communications systems.",
+      "sector": "Communications engineering",
+      "founded_year": "1974"
+    }
+  },
+  "john-m-storm": {
+    "startup_profile": {
+      "company_name": "Contour Hardening",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2004/storm"
+      }
+    }
+  },
+  "john-a-bratt": {
+    "startup_profile": {
+      "company_name": "Tenax Corp.",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2005/bratt",
+        "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2005/bratt",
+        "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2005/bratt",
+        "founded_year": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2005/bratt"
+      },
+      "product_summary": "Operated manufacturing businesses making machine parts and power-transmission equipment.",
+      "sector": "Industrial manufacturing",
+      "founded_year": "1986"
+    }
+  },
+  "david-r-boyd": {
+    "startup_profile": {
+      "company_name": "Webcor Builders",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/boyd",
+        "product_summary": "https://engineering.purdue.edu/CCE/Media/Transitions/Transitions-2000-Summer.pdf",
+        "sector": "https://engineering.purdue.edu/CCE/Media/Transitions/Transitions-2000-Summer.pdf",
+        "founded_year": "https://engineering.purdue.edu/CCE/Media/Transitions/Transitions-2000-Summer.pdf"
+      },
+      "product_summary": "Built commercial construction projects.",
+      "sector": "Construction",
+      "founded_year": "1971"
+    }
+  },
+  "aelred-j-kurtenbach": {
+    "startup_profile": {
+      "company_name": "Daktronics",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/kurtenbach",
+        "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/kurtenbach",
+        "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/kurtenbach",
+        "founded_year": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/kurtenbach"
+      },
+      "product_summary": "Made scoreboards and programmable large-screen displays.",
+      "sector": "Display systems",
+      "founded_year": "1968"
+    }
+  },
+  "roger-b-gatewood": {
+    "startup_profile": {
+      "company_name": "Homes by WestBay",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2014/Gatewood",
+        "product_summary": "https://engineering.purdue.edu/ME/People/DEAs/hager.html/People/Areas/Areas/gatewood.html",
+        "sector": "https://engineering.purdue.edu/ME/People/DEAs/hager.html/People/Areas/Areas/gatewood.html",
+        "founded_year": "https://engineering.purdue.edu/ME/People/DEAs/hager.html/People/Areas/Areas/gatewood.html"
+      },
+      "product_summary": "Developed and built residential homes in Florida.",
+      "sector": "Residential construction",
+      "founded_year": "2009"
+    }
+  },
+  "liz-forman": {
+    "startup_profile": {
+      "company_name": "Endwell Coaching & Consulting",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/alumni/boards/alumni-board-members.php",
+        "product_summary": "https://www.business.purdue.edu/alumni/boards/alumni-board-members.php",
+        "sector": "https://www.business.purdue.edu/alumni/boards/alumni-board-members.php",
+        "founded_year": "https://www.business.purdue.edu/alumni/boards/alumni-board-members.php"
+      },
+      "product_summary": "Provides leadership coaching and human-resources consulting.",
+      "sector": "Professional services",
+      "founded_year": "2013"
+    }
+  },
+  "christian-piller": {
+    "startup_profile": {
+      "company_name": "Pollen Technologies",
+      "field_sources": {
+        "company_name": "https://new.business.purdue.edu/journal/25/s/stories/alumni-updates.php"
+      }
+    }
+  },
+  "rachel-svetanoff": {
+    "startup_profile": {
+      "company_name": "Global Futurist Initiative",
+      "field_sources": {
+        "company_name": "https://unausa.org/24ls-rachel-svetanoff/"
+      }
+    }
+  },
+  "brittany-whitenack": {
+    "startup_profile": {
+      "company_name": "Antique Candle Co.",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/journal/24/s/stories/lighting-the-way.php",
+        "product_summary": "https://business.purdue.edu/journal/24/s/stories/lighting-the-way.php",
+        "sector": "https://business.purdue.edu/journal/24/s/stories/lighting-the-way.php"
+      },
+      "product_summary": "Makes and sells candles through ecommerce.",
+      "sector": "Consumer goods / ecommerce"
+    }
+  },
+  "jennifer-e-jones": {
+    "startup_profile": {
+      "company_name": "Royal Title Services",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2021f/networks/class-notes.php"
+      }
+    }
+  },
+  "jonathan-gandolf": {
+    "startup_profile": {
+      "company_name": "The Juice",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2021f/networks/class-notes.php",
+        "product_summary": "https://business.purdue.edu/konline/2021f/networks/class-notes.php",
+        "sector": "https://business.purdue.edu/konline/2021f/networks/class-notes.php"
+      },
+      "product_summary": "Operated a content-discovery service for marketers.",
+      "sector": "Marketing software"
+    }
+  },
+  "jeremiah-lockett-jr": {
+    "startup_profile": {
+      "company_name": "Harriet Tubman School of Excellence",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2021f/networks/class-notes.php"
+      }
+    }
+  },
+  "vicky-bailey": {
+    "startup_profile": {
+      "company_name": "Anderson Stratton Enterprises",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2022f/networks/class-notes.php"
+      }
+    }
+  },
+  "deb-karstetter": {
+    "startup_profile": {
+      "company_name": "Executive nSight",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2016s/networks/classnotes1.php"
+      }
+    }
+  },
+  "brian-schutt": {
+    "startup_profile": {
+      "company_name": "Homesense Heating and Cooling",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
+        "product_summary": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
+        "sector": "https://business.purdue.edu/konline/2019s/networks/class-notes.php"
+      },
+      "product_summary": "Built HVAC services and coworking businesses.",
+      "sector": "Home services / coworking"
+    }
+  },
+  "brianna-cook": {
+    "startup_profile": {
+      "company_name": "Pepper & Mint Catering",
+      "field_sources": {
+        "company_name": "https://business.purdue.edu/centers/bop/about-us/bop-leadership-council/cook.php",
+        "product_summary": "https://business.purdue.edu/centers/bop/about-us/bop-leadership-council/cook.php",
+        "sector": "https://business.purdue.edu/centers/bop/about-us/bop-leadership-council/cook.php"
+      },
+      "product_summary": "Operates a catering business.",
+      "sector": "Food services"
+    }
+  },
+  "polytechnic-archive-thibault-corens": {
+    "startup_profile": {
+      "company_name": "Presso",
+      "field_sources": {
+        "company_name": "https://old.polytechnic.purdue.edu/people-profiles/thibault-corens",
+        "product_summary": "https://old.polytechnic.purdue.edu/newsroom/engineering-technology-grads-develop-presso-microwave-of-laundry",
+        "sector": "https://old.polytechnic.purdue.edu/newsroom/engineering-technology-grads-develop-presso-microwave-of-laundry"
+      },
+      "product_summary": "Developed a self-service garment-cleaning kiosk.",
+      "sector": "Laundry / consumer hardware"
+    }
+  },
+  "science-diane-k-fasel": {
+    "startup_profile": {
+      "company_name": "The Bellwood Group",
+      "field_sources": {
+        "company_name": "https://www.stat.purdue.edu/alumni/profiles/diane_fasel.html"
+      }
+    }
+  },
+  "science-jerone-n-deverman": {
+    "startup_profile": {
+      "company_name": "Medical Data Systems",
+      "field_sources": {
+        "company_name": "https://www.stat.purdue.edu/alumni/profiles/jerone_n_deverman.html",
+        "product_summary": "https://www.stat.purdue.edu/alumni/profiles/jerone_n_deverman.html",
+        "sector": "https://www.stat.purdue.edu/alumni/profiles/jerone_n_deverman.html",
+        "founded_year": "https://www.stat.purdue.edu/alumni/profiles/jerone_n_deverman.html"
+      },
+      "product_summary": "Consults on healthcare data and information systems.",
+      "sector": "Healthcare data consulting",
+      "founded_year": "1977"
+    }
+  },
+  "ag-award-michael-jackson": {
+    "startup_profile": {
+      "company_name": "Agri Business group",
+      "field_sources": {
+        "company_name": "https://ag.purdue.edu/agalumni/awards/DistinguishedAgAlumniAlpha.html"
+      }
+    }
+  },
+  "ag-award-robert-b-mcnamara": {
+    "startup_profile": {
+      "company_name": "McNamara Florists",
+      "field_sources": {
+        "company_name": "https://ag.purdue.edu/agalumni/awards/DistinguishedAgAlumniAlpha.html"
+      }
+    }
+  },
+  "ag-award-kristin-whittington": {
+    "startup_profile": {
+      "company_name": "Landmark Enterprises",
+      "field_sources": {
+        "company_name": "https://ag.purdue.edu/agalumni/awards/DistinguishedAgAlumniAlpha.html"
+      }
+    }
+  },
+  "lisa-laughner": {
+    "startup_profile": {
+      "company_name": "Go Electric",
+      "field_sources": {
+        "company_name": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+        "product_summary": "https://saft.com/en/media-resources/press-releases/saft-strengthens-its-energy-storage-business-acquisition-go-electric",
+        "sector": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+        "exit_status": "https://saft.com/en/media-resources/press-releases/saft-strengthens-its-energy-storage-business-acquisition-go-electric"
+      },
+      "product_summary": "Provided microgrid energy-control systems and resilience solutions.",
+      "sector": "Energy technology",
+      "exit_status": "Acquired by Saft in 2019"
+    }
+  }
+}

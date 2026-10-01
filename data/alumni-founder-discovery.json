@@ -1,0 +1,294 @@
+[
+  {
+    "id": "kong-kat-wong",
+    "name": "Kong Kat Wong",
+    "connection": "BS Computer Science 1996",
+    "role": "Co-founder (historical)",
+    "organization": "Xiaomi",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Xiaomi in 2010 after leading product development at Microsoft China.",
+    "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Computer Science",
+        "graduation_year": "1996",
+        "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "Xiaomi",
+      "founded_year": "2010",
+      "product_summary": "Builds smartphones, laptops, and connected consumer technology.",
+      "sector": "Consumer electronics",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+        "founded_year": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+        "product_summary": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+        "sector": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+      }
+    },
+    "highlights": [
+      {
+        "claim": "Co-founded Xiaomi in 2010 after earning a Purdue computer science degree in 1996.",
+        "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder"
+    ],
+    "notable_source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+  },
+  {
+    "id": "brian-lamb",
+    "name": "Brian Lamb",
+    "connection": "BA Speech 1963",
+    "role": "Founder (historical)",
+    "organization": "C-SPAN",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Founded C-SPAN in 1979 to make public affairs programming widely accessible.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BA",
+        "field": "Speech",
+        "graduation_year": "1963",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "C-SPAN",
+      "founded_year": "1979",
+      "product_summary": "Produces public affairs programming and coverage of government proceedings.",
+      "sector": "Media / public affairs",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+        "founded_year": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+        "product_summary": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+        "sector": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+      }
+    },
+    "highlights": [
+      {
+        "claim": "Founded C-SPAN in 1979 after earning a Purdue speech degree in 1963.",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+      }
+    ],
+    "notable_lanes": [
+      "industry-builder"
+    ],
+    "notable_source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+  },
+  {
+    "id": "arvind-sundaram",
+    "name": "Arvind Sundaram",
+    "connection": "BS Nuclear Engineering 2019; PhD Nuclear Engineering 2022",
+    "role": "Co-founder (historical)",
+    "organization": "Covert Defenses",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Purdue-based Covert Defenses and pitched its self-healing control-system security platform at the 2024 Indiana Innovation Showcase.",
+    "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+    "role_as_of": "2024",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Nuclear Engineering",
+        "graduation_year": "2019",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "field": "Nuclear Engineering",
+        "graduation_year": "2022",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "Covert Defenses",
+      "product_summary": "Develops self-healing protection for compromised control systems.",
+      "sector": "Industrial cybersecurity",
+      "field_sources": {
+        "company_name": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+        "product_summary": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+        "sector": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      }
+    },
+    "highlights": [
+      {
+        "claim": "Co-founded Covert Defenses, winner of the digital-tech prize at the 2024 Indiana Innovation Showcase.",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder"
+    ],
+    "notable_source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+  },
+  {
+    "id": "cary-supalo",
+    "name": "Cary Supalo",
+    "connection": "Purdue alumnus; degree and graduation year not stated in source",
+    "role": "Founder (historical)",
+    "organization": "Independence Science",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "Founded Independence Science, which develops accessible laboratory tools for blind and visually impaired students.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/independence-science-announces-new-device-for-visually-impaired-students.html",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "startup_profile": {
+      "company_name": "Independence Science",
+      "product_summary": "Develops accessible STEM laboratory products and services.",
+      "sector": "Education technology / accessibility",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/independence-science-announces-new-device-for-visually-impaired-students.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/independence-science-announces-new-device-for-visually-impaired-students.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/independence-science-announces-new-device-for-visually-impaired-students.html"
+      }
+    }
+  },
+  {
+    "id": "george-sadler",
+    "name": "George Sadler",
+    "connection": "Purdue College of Agriculture alumnus; degree and year not stated in source",
+    "role": "Co-founder (historical)",
+    "organization": "Induction Food Systems",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Induction Food Systems to develop on-demand heating technology for food and beverage manufacturers.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/releases/2019/Q2/this-brews-for-you-thanks-to-a-novel-heating-system.html",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "startup_profile": {
+      "company_name": "Induction Food Systems",
+      "product_summary": "Develops on-demand heating systems for food and beverage manufacturing.",
+      "sector": "Food technology / industrial equipment",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2019/Q2/this-brews-for-you-thanks-to-a-novel-heating-system.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2019/Q2/this-brews-for-you-thanks-to-a-novel-heating-system.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2019/Q2/this-brews-for-you-thanks-to-a-novel-heating-system.html"
+      }
+    }
+  },
+  {
+    "id": "jerry-a-brand",
+    "name": "Jerry A. Brand",
+    "connection": "BS Mechanical Engineering 1986",
+    "role": "Founder (historical)",
+    "organization": "Brand Heating and Air Conditioning / INOK Investments",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "Founded Brand Heating and Air Conditioning and sold it in 1997; later co-founded INOK Investments.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Mechanical Engineering",
+        "graduation_year": "1986",
+        "source_url": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "Brand Heating and Air Conditioning",
+      "product_summary": "Heating and air conditioning services company.",
+      "sector": "Home services",
+      "exit_status": "Sold in 1997",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html",
+        "exit_status": "https://www.purdue.edu/newsroom/archive/releases/2014/Q4/purdue-alumnus-to-speak-on-fiscal-responsibility.html"
+      }
+    }
+  },
+  {
+    "id": "joseph-louis",
+    "name": "Joseph Louis",
+    "connection": "PhD Civil Engineering; graduation year not stated in source",
+    "role": "Co-founder (historical)",
+    "organization": "SAMCRO Technologies",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "Co-founded SAMCRO Technologies to use equipment sensor data and software models to improve construction-site operations.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue-alumnus-develops-technology-to-improve-efficiency-at-construction-sites.html",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "field": "Civil Engineering",
+        "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue-alumnus-develops-technology-to-improve-efficiency-at-construction-sites.html"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "SAMCRO Technologies",
+      "product_summary": "Combines construction-equipment sensor data with site-operation models.",
+      "sector": "Construction technology",
+      "field_sources": {
+        "company_name": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue-alumnus-develops-technology-to-improve-efficiency-at-construction-sites.html",
+        "product_summary": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue-alumnus-develops-technology-to-improve-efficiency-at-construction-sites.html",
+        "sector": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue-alumnus-develops-technology-to-improve-efficiency-at-construction-sites.html"
+      }
+    }
+  },
+  {
+    "id": "nathan-gabhart",
+    "name": "Nathan Gabhart",
+    "connection": "BS Pharmacy 1998",
+    "role": "Founder (historical)",
+    "organization": "TrueScripts",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "Founded TrueScripts in 2013; Purdue describes it as a pharmacy benefit manager.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+    "role_as_of": "2024",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Pharmacy",
+        "graduation_year": "1998",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      }
+    ],
+    "startup_profile": {
+      "company_name": "TrueScripts",
+      "founded_year": "2013",
+      "product_summary": "Provides pharmacy benefit management services.",
+      "sector": "Healthcare / pharmacy benefits",
+      "field_sources": {
+        "company_name": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+        "founded_year": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+        "product_summary": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+        "sector": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      }
+    },
+    "highlights": [
+      {
+        "claim": "Founded pharmacy benefit manager TrueScripts in 2013.",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder"
+    ],
+    "notable_source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+  }
+]

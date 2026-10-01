@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-01",
   "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
-  "count": 55,
+  "count": 59,
   "alumni": [
     {
       "id": "keith-j-krach",
@@ -40,7 +40,167 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-ketih-krach",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Industrial Engineering",
+          "graduation_year": 1979,
+          "source_url": "https://engineering.purdue.edu/IE/news/2018/krach-hdr",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "General Motors",
+          "role": "Vice President and robotics division general manager",
+          "relationship": "executive",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "Rasna Corporation",
+          "role": "Chief Operating Officer",
+          "relationship": "executive",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "Ariba",
+          "role": "Co-founder, chairman and CEO",
+          "relationship": "co-founder",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "DocuSign",
+          "role": "CEO and later chairman",
+          "relationship": "executive",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "Angie’s List",
+          "role": "Chairman",
+          "relationship": "board",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "XOJET",
+          "role": "Director",
+          "relationship": "board",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        },
+        {
+          "organization": "Ooma",
+          "role": "Director",
+          "relationship": "board",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate"
+        }
+      ],
       "highlight_order": 0
+    },
+    {
+      "id": "kong-kat-wong",
+      "name": "Kong Kat Wong",
+      "connection": "BS Computer Science 1996",
+      "role": "Co-founder (historical)",
+      "organization": "Xiaomi",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Xiaomi in 2010 after leading product development at Microsoft China.",
+      "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+      "role_as_of": "2019",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Computer Science",
+          "graduation_year": 1996,
+          "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Xiaomi",
+        "founded_year": "2010",
+        "product_summary": "Builds smartphones, laptops, and connected consumer technology.",
+        "sector": "Consumer electronics",
+        "field_sources": {
+          "company_name": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+          "founded_year": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+          "product_summary": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+          "sector": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+        }
+      },
+      "highlights": [
+        {
+          "claim": "Co-founded Xiaomi in 2010 after earning a Purdue computer science degree in 1996.",
+          "source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://www.purdue.edu/newsroom/releases/2019/Q1/technology-firm-founder%2C-purdue-alumnus-to-speak-on-campus.html",
+      "highlight_order": 1
+    },
+    {
+      "id": "brian-lamb",
+      "name": "Brian Lamb",
+      "connection": "BA Speech 1963",
+      "role": "Founder (historical)",
+      "organization": "C-SPAN",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Founded C-SPAN in 1979 to make public affairs programming widely accessible.",
+      "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+      "role_as_of": "2025",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BA",
+          "field": "Speech",
+          "graduation_year": 1963,
+          "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "C-SPAN",
+        "founded_year": "1979",
+        "product_summary": "Produces public affairs programming and coverage of government proceedings.",
+        "sector": "Media / public affairs",
+        "field_sources": {
+          "company_name": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+          "founded_year": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+          "product_summary": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+          "sector": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+        }
+      },
+      "highlights": [
+        {
+          "claim": "Founded C-SPAN in 1979 after earning a Purdue speech degree in 1963.",
+          "source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/"
+        }
+      ],
+      "notable_lanes": [
+        "industry-builder"
+      ],
+      "notable_source_url": "https://www.purdue.edu/newsroom/purduetoday/2025/Q1/c-span-ceo-connects-with-campus-community-during-visit/",
+      "highlight_order": 2
     },
     {
       "id": "mamoon-hamid",
@@ -99,7 +259,41 @@
         "venture-investor"
       ],
       "notable_source_url": "https://www.kleinerperkins.com/people/mamoon-hamid/",
-      "highlight_order": 1
+      "affiliations": [
+        {
+          "organization": "Xilinx",
+          "role": "Engineering and marketing roles",
+          "relationship": "employee",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
+        },
+        {
+          "organization": "U.S. Venture Partners",
+          "role": "Partner",
+          "relationship": "investor",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
+        },
+        {
+          "organization": "Social Capital",
+          "role": "Co-founder and General Partner",
+          "relationship": "co-founder",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
+        },
+        {
+          "organization": "Kleiner Perkins",
+          "role": "Managing Member and General Partner",
+          "relationship": "investor",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2020/mamoon-hamid"
+        }
+      ],
+      "highlight_order": 3
     },
     {
       "id": "akshay-kothari",
@@ -170,9 +364,45 @@
         "startup-founder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical and Computer Engineering",
+          "graduation_year": 2007,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Pulse News",
+          "role": "Co-founder and CEO, 2010–2013",
+          "relationship": "co-founder",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2021/Awardees/kothari"
+        },
+        {
+          "organization": "LinkedIn",
+          "role": "Principal Product Manager and later VP Product / Head of International",
+          "relationship": "executive",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2021/Awardees/kothari"
+        },
+        {
+          "organization": "Notion",
+          "role": "Chief Operating Officer",
+          "relationship": "executive",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2021/Awardees/kothari"
+        }
+      ],
       "image": "/assets/alumni/akshay-kothari.webp",
       "image_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
-      "highlight_order": 2
+      "highlight_order": 4
     },
     {
       "id": "john-gedmark",
@@ -240,7 +470,35 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark",
-      "highlight_order": 3
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "aeronautics and astronautics",
+          "graduation_year": 2005,
+          "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Commercial Spaceflight Federation",
+          "role": "Co-founder and former head",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+        },
+        {
+          "organization": "Astranis",
+          "role": "Co-founder and CEO",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+        }
+      ],
+      "highlight_order": 5
     },
     {
       "id": "rehan-jalil",
@@ -317,7 +575,51 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil",
-      "highlight_order": 4
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1998,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "WiChorus",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        },
+        {
+          "organization": "Elastica",
+          "role": "CEO",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        },
+        {
+          "organization": "Securiti.ai",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        },
+        {
+          "organization": "Veeam Software",
+          "role": "President of Products & Technology",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        }
+      ],
+      "highlight_order": 6
     },
     {
       "id": "tom-feldman",
@@ -396,7 +698,15 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
-      "highlight_order": 5
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Aeronautical and Astronautical Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "highlight_order": 7
     },
     {
       "id": "julie-wainwright",
@@ -442,7 +752,25 @@
         "industry-builder"
       ],
       "notable_source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
-      "highlight_order": 6
+      "affiliations": [
+        {
+          "organization": "The RealReal",
+          "role": "Founder and former CEO",
+          "relationship": "founder",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+        },
+        {
+          "organization": "Ahara",
+          "role": "Co-founder and CEO",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+        }
+      ],
+      "highlight_order": 8
     },
     {
       "id": "kendra-bracken-ferguson",
@@ -487,7 +815,65 @@
         "venture-investor"
       ],
       "notable_source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
-      "highlight_order": 7
+      "affiliations": [
+        {
+          "organization": "FleishmanHillard",
+          "role": "Vice President, New York office",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "Ralph Lauren",
+          "role": "First Director of Digital Media",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "Digital Brand Architects",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "BrainTrust Marketing Agency",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "BrainTrust Founders Studio",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "BrainTrust Fund",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        },
+        {
+          "organization": "LumiNicole",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        }
+      ],
+      "highlight_order": 9
     },
     {
       "id": "don-thompson",
@@ -537,7 +923,41 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
-      "highlight_order": 8
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical Engineering",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Northrop Corporation",
+          "role": "Employee",
+          "relationship": "employee",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
+        },
+        {
+          "organization": "McDonald’s",
+          "role": "President and CEO, 2012–2015",
+          "relationship": "executive",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
+        },
+        {
+          "organization": "Cleveland Avenue",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2018",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
+        }
+      ],
+      "highlight_order": 10
     },
     {
       "id": "snehal-antani",
@@ -599,7 +1019,51 @@
         "industry-builder"
       ],
       "notable_source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html",
-      "highlight_order": 9
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Computer Science",
+          "graduation_year": 2002,
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "GE Capital",
+          "role": "Chief Information Officer roles",
+          "relationship": "executive",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
+        },
+        {
+          "organization": "Splunk",
+          "role": "Chief Technology Officer and Senior Vice President",
+          "relationship": "executive",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
+        },
+        {
+          "organization": "Joint Special Operations Command",
+          "role": "Chief Technology Officer",
+          "relationship": "executive",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
+        },
+        {
+          "organization": "Horizon3.ai",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
+        }
+      ],
+      "highlight_order": 11
     },
     {
       "id": "sid-sheth",
@@ -653,7 +1117,59 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth",
-      "highlight_order": 10
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1997,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Intel",
+          "role": "Marketing and R&D roles",
+          "relationship": "employee",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        },
+        {
+          "organization": "NetLogic Microsystems",
+          "role": "Marketing and R&D leadership",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        },
+        {
+          "organization": "Inphi Corporation",
+          "role": "Senior Vice President and General Manager, Networking Business Unit",
+          "relationship": "executive",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        },
+        {
+          "organization": "d-Matrix",
+          "role": "Co-founder, CEO and President",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        },
+        {
+          "organization": "Purdue ECE Advisory Board",
+          "role": "Member",
+          "relationship": "board",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        }
+      ],
+      "highlight_order": 12
     },
     {
       "id": "tim-mcenery",
@@ -696,7 +1212,15 @@
         "industry-builder"
       ],
       "notable_source_url": "https://www.purdue.edu/hhs/life360/documents/archive/2015-fall.pdf",
-      "highlight_order": 11
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "HHS",
+          "source_url": "https://www.purdue.edu/hhs/life360/documents/archive/2015-fall.pdf",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "highlight_order": 13
     },
     {
       "id": "william-elmore",
@@ -751,7 +1275,43 @@
         "campus-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
-      "highlight_order": 12
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1975,
+          "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1976,
+          "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Foundation Capital",
+          "role": "Co-founder and General Partner",
+          "relationship": "co-founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+        },
+        {
+          "organization": "Handshake Ventures",
+          "role": "General Partner",
+          "relationship": "investor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+        }
+      ],
+      "highlight_order": 14
     },
     {
       "id": "nobu-okada",
@@ -812,7 +1372,42 @@
         "industry-builder"
       ],
       "notable_source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php",
-      "highlight_order": 13
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MBA",
+          "graduation_year": 2001,
+          "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "McKinsey & Company",
+          "role": "Consulting role",
+          "relationship": "employee",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
+        },
+        {
+          "organization": "Bain Capital",
+          "role": "Finance role",
+          "relationship": "employee",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
+        },
+        {
+          "organization": "Astroscale",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
+        }
+      ],
+      "highlight_order": 15
     },
     {
       "id": "ece-gen-fukunaga",
@@ -859,7 +1454,57 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
-      "highlight_order": 14
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1982,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1984,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "IBM",
+          "role": "Employee",
+          "relationship": "employee",
+          "as_of": "2003",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html"
+        },
+        {
+          "organization": "FUNimation Productions",
+          "role": "Founder and President",
+          "relationship": "founder",
+          "as_of": "2003",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "FUNimation Productions, Ltd",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "founded_year": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+          "exit_status": "https://www.sonypictures.com/corp/press_releases/2017/07_17/073117_funimation.html"
+        },
+        "product_summary": "Licensed and distributed Japanese animation in the United States.",
+        "sector": "Media / entertainment",
+        "founded_year": "1994",
+        "exit_status": "Sony acquired a substantial majority stake in 2017"
+      },
+      "highlight_order": 16
     },
     {
       "id": "ece-wayne-c-westerman",
@@ -903,18 +1548,50 @@
         "industry-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html",
-      "highlight_order": 15
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1994,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "FingerWorks",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+        },
+        {
+          "organization": "Apple",
+          "role": "Senior Engineer, Multi-Touch Gestures and Algorithms",
+          "relationship": "employee",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+        }
+      ],
+      "highlight_order": 17
     },
     {
       "id": "joe-watkins",
       "name": "Joe Watkins",
-      "connection": "Purdue computer engineering alumnus",
+      "connection": "Attended Purdue computer engineering; did not complete degree",
       "role": "Co-founder and chief customer officer",
       "organization": "Socio / Webex Events",
       "region": "Not listed",
       "kind": "Founder",
       "why_relevant": "Co-founded Socio with fellow Purdue students; the event platform was acquired by Cisco in 2021. Role reported by Purdue in 2022.",
       "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "source_urls": [
+        "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+        "https://www.opp.purdue.edu/OPP/about/2022%20Annual%20Report.pdf"
+      ],
       "role_as_of": "2022",
       "verified_at": "2026-09-30",
       "highlights": [
@@ -942,7 +1619,33 @@
       "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
       "company_founded_year": 2016,
       "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
-      "highlight_order": 16
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Computer Engineering",
+          "completion_status": "attended_no_degree",
+          "source_url": "https://www.opp.purdue.edu/OPP/about/2022%20Annual%20Report.pdf"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Socio",
+          "role": "Co-founder and Chief Customer Officer",
+          "relationship": "co-founder",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "organization": "Webex Events",
+          "role": "Chief Customer Officer after Cisco acquisition",
+          "relationship": "executive",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "highlight_order": 18
     },
     {
       "id": "yarkin-sakucoglu",
@@ -981,7 +1684,25 @@
       "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
       "company_founded_year": 2016,
       "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
-      "highlight_order": 17
+      "affiliations": [
+        {
+          "organization": "Socio",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "organization": "Webex Events",
+          "role": "General Manager after Cisco acquisition",
+          "relationship": "executive",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "highlight_order": 19
     },
     {
       "id": "alihan-ozbayrak",
@@ -1020,7 +1741,25 @@
       "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
       "company_founded_year": 2016,
       "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
-      "highlight_order": 18
+      "affiliations": [
+        {
+          "organization": "Socio",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "organization": "Webex Events",
+          "role": "Chief Technology Officer after Cisco acquisition",
+          "relationship": "executive",
+          "as_of": "2022",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "highlight_order": 20
     },
     {
       "id": "jeffrey-peters",
@@ -1051,7 +1790,49 @@
         "venture-investor"
       ],
       "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
-      "highlight_order": 19
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Civil Engineering, Economics, and Agricultural Economics",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Autotech Ventures",
+          "role": "Investor; helped launch and grow firm",
+          "relationship": "investor",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+        },
+        {
+          "organization": "Ibex Investors",
+          "role": "Partner and early-stage VC fund lead",
+          "relationship": "investor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+        },
+        {
+          "organization": "Silicon Valley Boilermaker Innovation Group",
+          "role": "Founder mentor",
+          "relationship": "advisor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+        },
+        {
+          "organization": "TEDxPurdueU",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+        }
+      ],
+      "highlight_order": 21
     },
     {
       "id": "tyler-mantel",
@@ -1083,7 +1864,57 @@
         "venture-investor"
       ],
       "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
-      "highlight_order": 20
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Mechanical Engineering and Chemical Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Watertower Robotics",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        },
+        {
+          "organization": "TVP Health",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        },
+        {
+          "organization": "Purdue Research Foundation",
+          "role": "Director of Ventures",
+          "relationship": "investor",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        },
+        {
+          "organization": "Harvard University",
+          "role": "Adjunct entrepreneurship instructor",
+          "relationship": "employee",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        },
+        {
+          "organization": "Roll Tack Ventures",
+          "role": "Co-founder and General Partner",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        }
+      ],
+      "highlight_order": 22
     },
     {
       "id": "scott-wilson",
@@ -1139,7 +1970,16 @@
         "startup-founder"
       ],
       "notable_source_url": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php",
-      "highlight_order": 21
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "graduation_year": 2012,
+          "source_url": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "highlight_order": 23
     },
     {
       "id": "rush-bartlett",
@@ -1181,7 +2021,105 @@
         "venture-investor"
       ],
       "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
-      "highlight_order": 22
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Biomedical Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "LyoGo",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Awair Inc.",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Primo Lacto",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Vynca",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Sluice AI",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Stanford Mussallem Center for Biodesign",
+          "role": "Associate Director of Corporate Education",
+          "relationship": "executive",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "4i Biodesign Alumni Angel Investing Cooperative",
+          "role": "Founding partner",
+          "relationship": "investor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Dexcom",
+          "role": "Executive strategy consultant",
+          "relationship": "advisor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Watershed Therapeutics",
+          "role": "Board member",
+          "relationship": "board",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Noctrix Health",
+          "role": "Corporate strategy advisor",
+          "relationship": "advisor",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "organization": "Lansinoh",
+          "role": "Former Chief Product Officer",
+          "relationship": "executive",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        }
+      ],
+      "highlight_order": 24
     },
     {
       "id": "lisa-laughner",
@@ -1207,7 +2145,55 @@
         "industry-builder"
       ],
       "notable_source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
-      "highlight_order": 23
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Mechanical Engineering",
+          "graduation_year": 1981,
+          "source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Rolls-Royce Corporate Ventures",
+          "role": "Vice President",
+          "relationship": "executive",
+          "as_of": "2015",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ME/People/OME/1991-2006/2015/laughner.html"
+        },
+        {
+          "organization": "Go Electric",
+          "role": "Founder, President and CEO",
+          "relationship": "founder",
+          "as_of": "2015",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ME/People/OME/1991-2006/2015/laughner.html"
+        },
+        {
+          "organization": "Women & Hi Tech",
+          "role": "Past President",
+          "relationship": "board",
+          "as_of": "2015",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ME/People/OME/1991-2006/2015/laughner.html"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Go Electric",
+        "field_sources": {
+          "company_name": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+          "product_summary": "https://saft.com/en/media-resources/press-releases/saft-strengthens-its-energy-storage-business-acquisition-go-electric",
+          "sector": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+          "exit_status": "https://saft.com/en/media-resources/press-releases/saft-strengthens-its-energy-storage-business-acquisition-go-electric"
+        },
+        "product_summary": "Provided microgrid energy-control systems and resilience solutions.",
+        "sector": "Energy technology",
+        "exit_status": "Acquired by Saft in 2019"
+      },
+      "highlight_order": 25
     },
     {
       "id": "tom-scholl",
@@ -1238,7 +2224,67 @@
         "venture-investor"
       ],
       "notable_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
-      "highlight_order": 24
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BA",
+          "field": "philosophy",
+          "graduation_year": 1970,
+          "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Hughes Network Systems",
+          "role": "Senior Vice President of Engineering",
+          "relationship": "executive",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        },
+        {
+          "organization": "Telogy Networks",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        },
+        {
+          "organization": "Cognio",
+          "role": "Co-founder and chairman",
+          "relationship": "co-founder",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        },
+        {
+          "organization": "Novak Biddle Venture Partners",
+          "role": "General Partner",
+          "relationship": "investor",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        },
+        {
+          "organization": "Torrent Networking",
+          "role": "Director",
+          "relationship": "board",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        },
+        {
+          "organization": "Integrated Telecom",
+          "role": "Director",
+          "relationship": "board",
+          "as_of": "2012",
+          "status": "historical",
+          "source_url": "https://www.cla.purdue.edu/students/careers/scla-300/archive1/fall-2012/tom-scholl.html"
+        }
+      ],
+      "highlight_order": 26
     },
     {
       "id": "bala-s-manian",
@@ -1269,7 +2315,66 @@
         "venture-investor"
       ],
       "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian",
-      "highlight_order": 25
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "PhD",
+          "graduation_year": 1971,
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Digital Optics Corporation",
+          "role": "Founder and Chief Technology Officer",
+          "relationship": "founder",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "organization": "Lumisys",
+          "role": "Founder and Chief Technology Officer",
+          "relationship": "founder",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "organization": "Molecular Dynamics",
+          "role": "Founder and Chief Technology Officer",
+          "relationship": "founder",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "organization": "Biometric Imaging",
+          "role": "Founder and Chief Technology Officer",
+          "relationship": "founder",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "organization": "Saraswati Partners",
+          "role": "General Partner",
+          "relationship": "investor",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "organization": "Pattern Rx",
+          "role": "Chairman",
+          "relationship": "board",
+          "as_of": "2000",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        }
+      ],
+      "highlight_order": 27
     },
     {
       "id": "akash-raju",
@@ -1293,6 +2398,8 @@
           "source_url": "https://www.tryglimpse.com/post/seriesa"
         }
       ],
+      "linkedin": "https://linkedin.com/in/akash-raju",
+      "linkedin_source_url": "https://www.ycombinator.com/companies/glimpse-2",
       "flags": [
         "purdue-founder",
         "historical-role"
@@ -1323,7 +2430,31 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+      "affiliations": [
+        {
+          "organization": "Glimpse",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Glimpse",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+          "product_summary": "https://www.ycombinator.com/companies/glimpse-2",
+          "sector": "https://www.ycombinator.com/companies/glimpse-2",
+          "founded_year": "https://www.ycombinator.com/companies/glimpse-2",
+          "company_url": "https://www.ycombinator.com/companies/glimpse-2"
+        },
+        "product_summary": "Automates deduction management and revenue recovery for consumer brands selling through retailers.",
+        "sector": "Retail operations / AI",
+        "founded_year": "2020",
+        "company_url": "https://tryglimpse.com/"
+      }
     },
     {
       "id": "angik-sarkar",
@@ -1381,7 +2512,15 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "PhD",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "anuj-mehta",
@@ -1405,8 +2544,8 @@
           "source_url": "https://www.tryglimpse.com/post/seriesa"
         }
       ],
-      "linkedin": "https://www.linkedin.com/in/anujmehta0",
-      "linkedin_source_url": "https://www.linkedin.com/in/anujmehta0",
+      "linkedin": "https://www.linkedin.com/in/anuj-m-bb0431102/",
+      "linkedin_source_url": "https://www.ycombinator.com/companies/glimpse-2",
       "flags": [
         "purdue-founder"
       ],
@@ -1432,7 +2571,39 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Industrial Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Glimpse",
+          "role": "Co-founder and COO",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Glimpse",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+          "product_summary": "https://www.ycombinator.com/companies/glimpse-2",
+          "sector": "https://www.ycombinator.com/companies/glimpse-2",
+          "founded_year": "https://www.ycombinator.com/companies/glimpse-2",
+          "company_url": "https://www.ycombinator.com/companies/glimpse-2"
+        },
+        "product_summary": "Automates deduction management and revenue recovery for consumer brands selling through retailers.",
+        "sector": "Retail operations / AI",
+        "founded_year": "2020",
+        "company_url": "https://tryglimpse.com/"
+      }
     },
     {
       "id": "apeksha-kumavat",
@@ -1483,7 +2654,25 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical and Computer Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Gatik AI",
+          "role": "Co-founder and Chief Engineer",
+          "relationship": "co-founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=apeksha-kumavat"
+        }
+      ]
     },
     {
       "id": "arjun-narang",
@@ -1535,7 +2724,76 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical and Computer Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Gatik AI",
+          "role": "Co-founder and Chief Technology Officer",
+          "relationship": "co-founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
+        }
+      ]
+    },
+    {
+      "id": "arvind-sundaram",
+      "name": "Arvind Sundaram",
+      "connection": "BS Nuclear Engineering 2019; PhD Nuclear Engineering 2022",
+      "role": "Co-founder (historical)",
+      "organization": "Covert Defenses",
+      "region": "Indiana",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Purdue-based Covert Defenses and pitched its self-healing control-system security platform at the 2024 Indiana Innovation Showcase.",
+      "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+      "role_as_of": "2024",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Nuclear Engineering",
+          "graduation_year": 2019,
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "PhD",
+          "field": "Nuclear Engineering",
+          "graduation_year": 2022,
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Covert Defenses",
+        "product_summary": "Develops self-healing protection for compromised control systems.",
+        "sector": "Industrial cybersecurity",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+          "product_summary": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
+          "sector": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+        }
+      },
+      "highlights": [
+        {
+          "claim": "Co-founded Covert Defenses, winner of the digital-tech prize at the 2024 Indiana Innovation Showcase.",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
     },
     {
       "id": "brian-feth",
@@ -1586,7 +2844,17 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+      "notable_source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "molecular biology and chemistry",
+          "graduation_year": 2003,
+          "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "candice-xie",
@@ -1645,7 +2913,17 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/cdesign/wp/convergence-masters-thesis-graduate-and-veo-co-founder-edwin-tan-officially-launches-the-veo-fleet-at-purdue-university/"
+      "notable_source_url": "https://engineering.purdue.edu/cdesign/wp/convergence-masters-thesis-graduate-and-veo-co-founder-edwin-tan-officially-launches-the-veo-fleet-at-purdue-university/",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "finance",
+          "graduation_year": 2016,
+          "source_url": "https://business.purdue.edu/journal/25/s/home.php",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "ece-david-a-stamm",
@@ -1696,7 +2974,42 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical Engineering",
+          "graduation_year": 1973,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Intel",
+          "role": "Department Manager, High-Integration Microprocessors",
+          "relationship": "employee",
+          "as_of": "1999",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_1999/stamm"
+        },
+        {
+          "organization": "Daisy Systems",
+          "role": "Co-founder and engineering/marketing executive",
+          "relationship": "co-founder",
+          "as_of": "1999",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_1999/stamm"
+        },
+        {
+          "organization": "Clarify",
+          "role": "Co-founder, CEO and chairman",
+          "relationship": "co-founder",
+          "as_of": "1999",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_1999/stamm"
+        }
+      ]
     },
     {
       "id": "edmund-o-schweitzer-iii",
@@ -1731,7 +3044,61 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1968,
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1971,
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Ohio University",
+          "role": "Assistant Professor",
+          "relationship": "employee",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+        },
+        {
+          "organization": "Washington State University",
+          "role": "Assistant and later Associate Professor",
+          "relationship": "employee",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+        },
+        {
+          "organization": "Schweitzer Engineering Laboratories",
+          "role": "Founder, President and Chief Technology Officer",
+          "relationship": "founder",
+          "as_of": "2020",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Schweitzer Engineering Laboratories",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+          "product_summary": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer",
+          "sector": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+        },
+        "product_summary": "Develops equipment and software for electric-power protection and control.",
+        "sector": "Energy / industrial technology"
+      }
     },
     {
       "id": "edwin-tan",
@@ -1790,7 +3157,16 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "mechanical engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "ece-frank-s-greene-jr",
@@ -1826,7 +3202,58 @@
         "startup-founder",
         "venture-investor"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "graduation_year": 1962,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Fairchild Semiconductor",
+          "role": "Semiconductor research",
+          "relationship": "employee",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
+        },
+        {
+          "organization": "Technology Development Corporation",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
+        },
+        {
+          "organization": "ZeroOne Systems",
+          "role": "Founder",
+          "relationship": "founder",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
+        },
+        {
+          "organization": "Networked Picture Systems",
+          "role": "President",
+          "relationship": "executive",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
+        },
+        {
+          "organization": "New Vista Capital",
+          "role": "Founder and General Partner",
+          "relationship": "founder",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2010/FrankSGreenetechnologypioneerpasses"
+        }
+      ]
     },
     {
       "id": "ivan-ball",
@@ -1871,7 +3298,15 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
+      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Electrical Engineering technology",
+          "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+          "completion_status": "attended_status_unknown"
+        }
+      ]
     },
     {
       "id": "jane-brock-wilson",
@@ -1912,7 +3347,50 @@
       "notable_lanes": [
         "venture-investor"
       ],
-      "notable_source_url": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php"
+      "notable_source_url": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Industrial Management",
+          "source_url": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Raytheon",
+          "role": "Early-career professional role",
+          "relationship": "employee",
+          "as_of": "2023",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/journal/23/f/features/exec-forum.php"
+        },
+        {
+          "organization": "Bain & Company",
+          "role": "Partner",
+          "relationship": "executive",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/centers/bwcenter/about-us/jane-brock-wilson.php"
+        },
+        {
+          "organization": "Berkshire Partners",
+          "role": "Managing Director",
+          "relationship": "investor",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/centers/bwcenter/about-us/jane-brock-wilson.php"
+        },
+        {
+          "organization": "Berkshire Partners portfolio companies",
+          "role": "Director of several businesses",
+          "relationship": "board",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://www.business.purdue.edu/centers/bwcenter/about-us/jane-brock-wilson.php"
+        }
+      ]
     },
     {
       "id": "jessica-traver",
@@ -1964,7 +3442,15 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Mechanical Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
+          "completion_status": "attended_status_unknown"
+        }
+      ]
     },
     {
       "id": "joseph-p-schoendorf",
@@ -1997,7 +3483,67 @@
       "notable_lanes": [
         "venture-investor"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1966,
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Hewlett-Packard",
+          "role": "Marketing, business development and corporate accounts leader",
+          "relationship": "executive",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        },
+        {
+          "organization": "Industrial Networking",
+          "role": "CEO",
+          "relationship": "executive",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        },
+        {
+          "organization": "Ungermann-Bass",
+          "role": "Executive Vice President, Worldwide Sales and Marketing",
+          "relationship": "executive",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        },
+        {
+          "organization": "Apple Computer",
+          "role": "Vice President, Marketing",
+          "relationship": "executive",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        },
+        {
+          "organization": "Accel Partners",
+          "role": "Executive partner",
+          "relationship": "investor",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        },
+        {
+          "organization": "Accel Europe",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "as_of": "2007",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        }
+      ]
     },
     {
       "id": "ece-lila-ibrahim-liebat",
@@ -2033,7 +3579,35 @@
         "venture-investor",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1993,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Intel",
+          "role": "Design engineer and later emerging markets leader",
+          "relationship": "executive",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+        },
+        {
+          "organization": "Kleiner Perkins Caufield & Byers",
+          "role": "Partner",
+          "relationship": "investor",
+          "as_of": "2010",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+        }
+      ]
     },
     {
       "id": "max-bogue",
@@ -2089,7 +3663,17 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html"
+      "notable_source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "computer science",
+          "graduation_year": 2004,
+          "source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "ece-michael-j-birck",
@@ -2123,7 +3707,96 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1960,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "AT&T Bell Laboratories",
+          "role": "Technical staff",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-michael-birck"
+        },
+        {
+          "organization": "Continental Telephone Laboratories",
+          "role": "Employee",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-michael-birck"
+        },
+        {
+          "organization": "Wescom",
+          "role": "Employee",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-michael-birck"
+        },
+        {
+          "organization": "Tellabs",
+          "role": "Founder, President and CEO through 2004",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-michael-birck"
+        }
+      ]
+    },
+    {
+      "id": "nathan-gabhart",
+      "name": "Nathan Gabhart",
+      "connection": "BS Pharmacy 1998",
+      "role": "Founder (historical)",
+      "organization": "TrueScripts",
+      "region": "Indiana",
+      "kind": "Founder",
+      "why_relevant": "Founded TrueScripts in 2013; Purdue describes it as a pharmacy benefit manager.",
+      "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+      "role_as_of": "2024",
+      "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Pharmacy",
+          "graduation_year": 1998,
+          "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "TrueScripts",
+        "founded_year": "2013",
+        "product_summary": "Provides pharmacy benefit management services.",
+        "sector": "Healthcare / pharmacy benefits",
+        "field_sources": {
+          "company_name": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+          "founded_year": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+          "product_summary": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+          "sector": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+        }
+      },
+      "highlights": [
+        {
+          "claim": "Founded pharmacy benefit manager TrueScripts in 2013.",
+          "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
     },
     {
       "id": "nikhil-bhogal",
@@ -2170,7 +3843,27 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "computer engineering",
+          "graduation_year": 2003,
+          "source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "June Oven",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+          "product_summary": "https://engineering.purdue.edu/ECE/Partnerships/Stories",
+          "sector": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+        },
+        "product_summary": "Built a connected smart oven.",
+        "sector": "Consumer hardware"
+      }
     },
     {
       "id": "paroon-chadha",
@@ -2228,7 +3921,34 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html"
+      "notable_source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MBA",
+          "graduation_year": 1999,
+          "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Passageways / OnBoard",
+          "role": "Co-founder and former CEO",
+          "relationship": "co-founder",
+          "as_of": "2026",
+          "status": "historical",
+          "source_url": "https://www.onboardmeetings.com/ai-info/"
+        },
+        {
+          "organization": "OnBoard",
+          "role": "Board chairman and strategic adviser",
+          "relationship": "board",
+          "as_of": "2026",
+          "status": "current_as_of_source",
+          "source_url": "https://www.onboardmeetings.com/ai-info/"
+        }
+      ]
     },
     {
       "id": "paul-stahura",
@@ -2277,7 +3997,67 @@
         "startup-founder",
         "venture-investor"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1984,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1987,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Cybotech",
+          "role": "Engineer",
+          "relationship": "employee",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        },
+        {
+          "organization": "eNom",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        },
+        {
+          "organization": "Demand Media",
+          "role": "President and board member",
+          "relationship": "executive",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        },
+        {
+          "organization": "Donuts Inc.",
+          "role": "Co-founder, former CEO and board member",
+          "relationship": "co-founder",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        },
+        {
+          "organization": "iSpot.tv",
+          "role": "Founding investor",
+          "relationship": "investor",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        }
+      ]
     },
     {
       "id": "prahasith-veluvolu",
@@ -2345,7 +4125,15 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
+      "notable_source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "computer science",
+          "source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html",
+          "completion_status": "attended_status_unknown"
+        }
+      ]
     },
     {
       "id": "ram-palaniappan",
@@ -2396,7 +4184,16 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php"
+      "notable_source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MBA",
+          "graduation_year": 2000,
+          "source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php",
+          "completion_status": "degree_completed"
+        }
+      ]
     },
     {
       "id": "robert-j-mcmillen",
@@ -2441,7 +4238,61 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1978,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical Engineering",
+          "graduation_year": 1980,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "PhD",
+          "field": "ECE",
+          "graduation_year": 1982,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Teradata / NCR",
+          "role": "Computer architect and NCR Fellow",
+          "relationship": "employee",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+        },
+        {
+          "organization": "Edico Genome",
+          "role": "Co-founder and early-stage engineering lead",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Edico Genome",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+          "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen",
+          "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+        },
+        "product_summary": "Developed computing systems for genomic analysis.",
+        "sector": "Genomics computing"
+      }
     },
     {
       "id": "rouz-jazayeri",
@@ -2489,7 +4340,51 @@
       "notable_lanes": [
         "venture-investor"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "Electrical Engineering",
+          "graduation_year": 2002,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri",
+          "completion_status": "degree_completed"
+        },
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "field": "Electrical and Computer Engineering",
+          "graduation_year": 2004,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Intel",
+          "role": "Product development",
+          "relationship": "employee",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        },
+        {
+          "organization": "Kleiner Perkins",
+          "role": "Investor",
+          "relationship": "investor",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        },
+        {
+          "organization": "Catapult Ventures",
+          "role": "Co-founder and Managing Director",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        }
+      ]
     },
     {
       "id": "scott-massey",
@@ -2539,7 +4434,15 @@
         "startup-founder",
         "campus-builder"
       ],
-      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
+      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Mechanical Engineering technology",
+          "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award",
+          "completion_status": "attended_status_unknown"
+        }
+      ]
     },
     {
       "id": "stephanie-bonk",
@@ -2603,7 +4506,49 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Industrial Engineering",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk",
+          "completion_status": "attended_status_unknown"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Apple",
+          "role": "Commercial software leadership",
+          "relationship": "executive",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+        },
+        {
+          "organization": "PROS Holdings",
+          "role": "Commercial software leadership",
+          "relationship": "executive",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+        },
+        {
+          "organization": "University of Washington Robot Learning Laboratory",
+          "role": "Director of Strategic Initiatives",
+          "relationship": "executive",
+          "as_of": "2025",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+        },
+        {
+          "organization": "Overland AI",
+          "role": "Co-founder and President",
+          "relationship": "co-founder",
+          "as_of": "2025",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+        }
+      ]
     },
     {
       "id": "sumit-mehra",
@@ -2642,7 +4587,61 @@
         "startup-founder",
         "industry-builder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BS",
+          "field": "computer engineering",
+          "graduation_year": 2004,
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Dell",
+          "role": "Software engineer",
+          "relationship": "employee",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        },
+        {
+          "organization": "Yahoo",
+          "role": "Software engineer",
+          "relationship": "employee",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        },
+        {
+          "organization": "Google",
+          "role": "Software engineer",
+          "relationship": "employee",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        },
+        {
+          "organization": "Y Media Labs",
+          "role": "Co-founder, President and CTO",
+          "relationship": "co-founder",
+          "as_of": "2021",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        }
+      ],
+      "startup_profile": {
+        "company_name": "Y Media Labs",
+        "field_sources": {
+          "company_name": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+          "product_summary": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
+          "sector": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        },
+        "product_summary": "Designs and builds digital products for startups and large companies.",
+        "sector": "Software / digital product services"
+      }
     },
     {
       "id": "sunil-kumar-patro",
@@ -2678,7 +4677,58 @@
       "notable_lanes": [
         "startup-founder"
       ],
-      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award"
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "MS",
+          "graduation_year": 2003,
+          "source_url": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award",
+          "completion_status": "degree_completed"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Microsoft",
+          "role": "Enterprise software role",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
+        },
+        {
+          "organization": "Juniper Networks",
+          "role": "Enterprise software role",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
+        },
+        {
+          "organization": "TokBox",
+          "role": "Startup role",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
+        },
+        {
+          "organization": "Cleartrip",
+          "role": "Startup role",
+          "relationship": "employee",
+          "as_of": "2024",
+          "status": "historical",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
+        },
+        {
+          "organization": "Signeasy",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "as_of": "2024",
+          "status": "current_as_of_source",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2024/Sunil-Patro"
+        }
+      ]
     }
   ]
 }

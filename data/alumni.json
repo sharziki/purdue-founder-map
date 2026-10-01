@@ -1220,12 +1220,16 @@
     "id": "kushal-negi",
     "name": "Kushal Negi",
     "connection": "Purdue electrical and computer engineering alumnus",
-    "role": "Co-founder and chief business officer (source year)",
+    "role": "Co-founder and chief business officer (2023 source)",
     "organization": "Glimpse",
     "region": "Not listed",
     "kind": "Founder",
-    "why_relevant": "Co-founded Glimpse, which lets brands place products in vacation rentals for customer trial.",
+    "why_relevant": "Co-founded Glimpse during its earlier vacation-rental product period; Glimpse later pivoted to AI software for consumer packaged-goods retail operations.",
     "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+    "source_urls": [
+      "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list",
+      "https://www.ycombinator.com/companies/glimpse-2"
+    ],
     "role_as_of": "2023",
     "verified_at": "2026-09-30"
   },

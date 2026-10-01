@@ -27,6 +27,7 @@ ALUMNI_EXPANSIONS = (
     "alumni-science-expansion.json",
     "alumni-ag-expansion.json",
     "alumni-notable-new.json",
+    "alumni-founder-discovery.json",
 )
 ALUMNI_ENRICHMENTS = (
     "alumni-funding-enrichment.json",
@@ -35,6 +36,9 @@ ALUMNI_ENRICHMENTS = (
     "alumni-company-enrichment.json",
     "alumni-capital-enrichment.json",
     "alumni-notable-enrichment.json",
+    "alumni-education-enrichment.json",
+    "alumni-affiliations-enrichment.json",
+    "alumni-startup-enrichment.json",
 )
 ENRICHMENT_FIELDS = {
     "funding", "company", "company_location", "linkedin", "linkedin_source_url",
@@ -46,6 +50,7 @@ ENRICHMENT_FIELDS = {
     "company_founded_year", "company_founded_year_source_url",
     "capital_events", "highlights", "notable_lanes", "notable_source_url",
     "highlight_order",
+    "education", "affiliations", "startup_profile",
 }
 
 
@@ -227,12 +232,50 @@ with sqlite3.connect(DB) as db:
                     lane not in allowed_lanes for lane in details["notable_lanes"]
                 ) or not details.get("notable_source_url", "").startswith("https://"):
                     raise ValueError(f"{filename}: {person_id} has invalid notable lanes")
+            if "education" in details:
+                items = details["education"]
+                if not isinstance(items, list) or any(
+                    not isinstance(item, dict) or not item.get("institution") or
+                    not item.get("source_url", "").startswith("https://") or
+                    item.get("completion_status", "degree_completed") not in {"degree_completed", "attended_no_degree", "attended_status_unknown"} or
+                    (item.get("completion_status") == "attended_no_degree" and (item.get("degree") or item.get("graduation_year"))) or
+                    (item.get("graduation_year") and not re.fullmatch(r"\d{4}", str(item["graduation_year"])))
+                    for item in items
+                ):
+                    raise ValueError(f"{filename}: {person_id} has invalid education")
+            if "affiliations" in details:
+                allowed_relationships = {"founder", "co-founder", "investor", "executive", "employee", "board", "advisor"}
+                allowed_statuses = {"historical", "current_as_of_source"}
+                items = details["affiliations"]
+                if not isinstance(items, list) or any(
+                    not isinstance(item, dict) or not item.get("organization") or
+                    not item.get("role") or item.get("relationship") not in allowed_relationships or
+                    item.get("status") not in allowed_statuses or
+                    not item.get("source_url", "").startswith("https://") or
+                    (item.get("as_of") and not re.fullmatch(r"\d{4}", str(item["as_of"])))
+                    for item in items
+                ):
+                    raise ValueError(f"{filename}: {person_id} has invalid affiliations")
+            if "startup_profile" in details:
+                profile = details["startup_profile"]
+                fields = ("company_name", "company_url", "founded_year", "product_summary", "sector", "company_stage_as_of_source", "exit_status")
+                sources = profile.get("field_sources", {}) if isinstance(profile, dict) else {}
+                if not isinstance(profile, dict) or not profile.get("company_name") or not isinstance(sources, dict) or any(
+                    field in profile and (not isinstance(profile[field], str) or not profile[field].strip() or
+                    not sources.get(field, "").startswith("https://"))
+                    for field in fields
+                ) or (profile.get("founded_year") and not re.fullmatch(r"\d{4}", str(profile["founded_year"]))) or (
+                    profile.get("company_url") and not profile["company_url"].startswith("https://")
+                ):
+                    raise ValueError(f"{filename}: {person_id} has invalid startup profile")
             by_id[person_id].update(details)
     extra_portraits = {
             "ashish-toshniwal": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg",
             "akshay-kothari": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
     }
     for person in alumni:
+        for education in person.get("education", []):
+            education.setdefault("completion_status", "degree_completed" if education.get("degree") or education.get("graduation_year") else "attended_status_unknown")
         if person["id"] in extra_portraits:
             person["image"] = "/assets/alumni/" + person["id"] + ".webp"
             person["image_source_url"] = extra_portraits[person["id"]]
@@ -247,6 +290,9 @@ with sqlite3.connect(DB) as db:
     assert len({person["id"] for person in alumni}) == len(alumni), "duplicate alumni id"
     assert all(person["source_url"].startswith("https://") for person in alumni)
     db.executescript("""
+      DROP TABLE IF EXISTS alumni_education;
+      DROP TABLE IF EXISTS alumni_affiliations;
+      DROP TABLE IF EXISTS alumni_startups;
       DROP TABLE IF EXISTS alumni;
       CREATE TABLE alumni (
         id TEXT PRIMARY KEY, name TEXT NOT NULL, connection TEXT NOT NULL,
@@ -263,6 +309,44 @@ with sqlite3.connect(DB) as db:
         p.get("image"), p.get("image_source_url"), p.get("role_as_of"),
         json.dumps({key: p[key] for key in ENRICHMENT_FIELDS if key in p}, ensure_ascii=False))
         for p in alumni
+    ])
+    db.executescript("""
+      CREATE TABLE alumni_education (
+        alumni_id TEXT NOT NULL REFERENCES alumni(id), institution TEXT NOT NULL,
+        degree TEXT, field TEXT, graduation_year TEXT,
+        completion_status TEXT NOT NULL, source_url TEXT NOT NULL
+      );
+      CREATE INDEX idx_alumni_education_year ON alumni_education(graduation_year);
+      CREATE INDEX idx_alumni_education_alumni ON alumni_education(alumni_id);
+      CREATE TABLE alumni_affiliations (
+        alumni_id TEXT NOT NULL REFERENCES alumni(id), organization TEXT NOT NULL,
+        role TEXT NOT NULL, relationship TEXT NOT NULL, as_of TEXT,
+        status TEXT NOT NULL, source_url TEXT NOT NULL
+      );
+      CREATE INDEX idx_alumni_affiliations_org ON alumni_affiliations(organization);
+      CREATE INDEX idx_alumni_affiliations_alumni ON alumni_affiliations(alumni_id);
+      CREATE TABLE alumni_startups (
+        alumni_id TEXT PRIMARY KEY REFERENCES alumni(id), company_name TEXT NOT NULL,
+        company_url TEXT, founded_year TEXT, product_summary TEXT, sector TEXT,
+        company_stage_as_of_source TEXT, exit_status TEXT, field_sources_json TEXT NOT NULL
+      );
+      CREATE INDEX idx_alumni_startups_sector ON alumni_startups(sector);
+    """)
+    db.executemany("INSERT INTO alumni_education VALUES (?,?,?,?,?,?,?)", [
+        (p["id"], e["institution"], e.get("degree"), e.get("field"),
+         e.get("graduation_year"), e["completion_status"], e["source_url"])
+        for p in alumni for e in p.get("education", [])
+    ])
+    db.executemany("INSERT INTO alumni_affiliations VALUES (?,?,?,?,?,?,?)", [
+        (p["id"], a["organization"], a["role"], a["relationship"],
+         a.get("as_of"), a["status"], a["source_url"])
+        for p in alumni for a in p.get("affiliations", [])
+    ])
+    db.executemany("INSERT INTO alumni_startups VALUES (?,?,?,?,?,?,?,?,?)", [
+        (p["id"], s["company_name"], s.get("company_url"), s.get("founded_year"),
+         s.get("product_summary"), s.get("sector"), s.get("company_stage_as_of_source"),
+         s.get("exit_status"), json.dumps(s["field_sources"], ensure_ascii=False))
+        for p in alumni if (s := p.get("startup_profile"))
     ])
     db.commit()
 OUT.write_text(json.dumps({"checked_at": checked, "reviewed_count": reviewed_count, "expanded_count": expanded_count, "resources": rows}, indent=2) + "\n")

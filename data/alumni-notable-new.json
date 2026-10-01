@@ -2,13 +2,17 @@
   {
     "id": "joe-watkins",
     "name": "Joe Watkins",
-    "connection": "Purdue computer engineering alumnus",
+    "connection": "Attended Purdue computer engineering; did not complete degree",
     "role": "Co-founder and chief customer officer",
     "organization": "Socio / Webex Events",
     "region": "Not listed",
     "kind": "Founder",
     "why_relevant": "Co-founded Socio with fellow Purdue students; the event platform was acquired by Cisco in 2021. Role reported by Purdue in 2022.",
     "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+    "source_urls": [
+      "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "https://www.opp.purdue.edu/OPP/about/2022%20Annual%20Report.pdf"
+    ],
     "role_as_of": "2022",
     "verified_at": "2026-09-30",
     "highlights": [
