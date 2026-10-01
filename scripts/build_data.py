@@ -49,6 +49,9 @@ ALUMNI_EXPANSIONS = (
     "alumni-bay-tech-wave5.json",
     "alumni-nyc-business-wave5.json",
     "alumni-investor-wave5.json",
+    "alumni-vc-wave6.json",
+    "alumni-founders-wave6.json",
+    "alumni-moguls-wave6.json",
 )
 ALUMNI_ENRICHMENTS = (
     "alumni-funding-enrichment.json",
@@ -64,6 +67,9 @@ ALUMNI_ENRICHMENTS = (
     "alumni-bay-tech-wave5-enrichment.json",
     "alumni-nyc-business-wave5-enrichment.json",
     "alumni-investor-wave5-enrichment.json",
+    "alumni-vc-wave6-enrichment.json",
+    "alumni-founders-wave6-enrichment.json",
+    "alumni-moguls-wave6-enrichment.json",
 )
 ENRICHMENT_FIELDS = {
     "funding", "company", "company_location", "linkedin", "linkedin_source_url",
@@ -106,6 +112,10 @@ def derived_tags(person):
                if event.get("type") == "accelerator" and "ycombinator.com" in event["source_url"]), None)
     if yc:
         add("Y Combinator", yc["source_url"])
+    yc_profile = next((url for url in [person["source_url"], *person.get("source_urls", [])]
+                       if "ycombinator.com/companies/" in url), None)
+    if yc_profile:
+        add("Y Combinator", yc_profile)
     places = [
         (" ".join(str(person.get(field) or "") for field in ("region", "location_city", "location_region")),
          person.get("location_source_url") or person["source_url"]),
@@ -117,9 +127,10 @@ def derived_tags(person):
             add("Bay Area", source)
         if re.search(r"New York City|New York, NY|New York, New York|New York and London|Brooklyn|Manhattan|Queens|Bronx", place, re.I):
             add("NYC", source)
-    sector = person.get("company_sector", "")
+    sector = person.get("company_sector") or person.get("startup_profile", {}).get("sector", "")
+    sector_source = person.get("company_sector_source_url") or person.get("startup_profile", {}).get("field_sources", {}).get("sector")
     if re.search(r"software|artificial intelligence|\bAI\b|robotics|semiconductor|cybersecurity|deep tech|hardware|SaaS", sector, re.I):
-        add("Tech", person.get("company_sector_source_url"))
+        add("Tech", sector_source)
     return sorted(sources), sources
 
 
@@ -152,6 +163,7 @@ def alumni_name_key(name):
         "michellerenaecrumm": "michellecrumm",
         "pegpowellberens": "pegberens",
         "yenyumatsutomi": "yenmatsutomi",
+        "gailfotheringhamfarnsley": "gailfarnsley",
     }.get(key, key)
 
 rows = json.loads(SEED.read_text())

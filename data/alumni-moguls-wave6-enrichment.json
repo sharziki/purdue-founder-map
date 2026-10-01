@@ -1,0 +1,522 @@
+{
+  "madison-long": {
+    "affiliations": [
+      {
+        "organization": "Clutch",
+        "role": "Co-founder and CEO",
+        "relationship": "co-founder",
+        "status": "historical",
+        "as_of": "2023",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      },
+      {
+        "organization": "CareGivers, Inc.",
+        "role": "Operations manager",
+        "relationship": "executive",
+        "status": "current_as_of_source",
+        "as_of": "2025",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      },
+      {
+        "organization": "Microsoft",
+        "role": "Finance rotation analyst",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "2019",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    ],
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Clutch",
+        "date": "2024-01",
+        "description": "Clutch joined Techstars Future of Ecommerce powered by eBay.",
+        "source_url": "https://www.techstars.com/blog/impact/techstars-update-january-2024"
+      },
+      {
+        "type": "acquisition",
+        "company": "Clutch",
+        "description": "Madison Long sold Clutch to Plaiced after restructuring the company; Purdue's account does not state the sale date or purchase price.",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Purdue reports Clutch matched roughly 500 creators with 50 customers at peak scale before its sale to Plaiced.",
+        "date": "2025",
+        "source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    ]
+  },
+  "candice-xie": {
+    "affiliations": [
+      {
+        "organization": "Veo",
+        "role": "Co-founder and CEO",
+        "relationship": "co-founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.veoride.com/veo-named-to-fast-companys-list-of-the-worlds-most-innovative-companies-of-2026/"
+      },
+      {
+        "organization": "Purdue Foundry",
+        "role": "Student consultant",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "2017",
+        "source_url": "https://business.purdue.edu/people/candice-xie.php"
+      }
+    ],
+    "company_founded_year": "2017",
+    "company_founded_year_source_url": "https://www.veoride.com/home-sweet-veo-home-purdue-university/",
+    "capital_events": [
+      {
+        "type": "profitability",
+        "company": "Veo",
+        "date": "2020",
+        "description": "Veo says it reached company-wide profitability in spring 2020.",
+        "source_url": "https://www.veoride.com/about/"
+      },
+      {
+        "type": "profitability",
+        "company": "Veo",
+        "date": "2024",
+        "description": "Veo reported unadjusted EBIT profitability for 2024; this is a company-reported metric, not an audited net income figure.",
+        "source_url": "https://www.veoride.com/veo-achieves-unadjusted-ebit-profitability-in-2024-setting-a-financial-benchmark-for-the-industry/"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Veo introduced a shared electric trike in 2026 under Xie's leadership as co-founder and CEO.",
+        "date": "2026",
+        "source_url": "https://www.veoride.com/es/veo-launches-shared-electric-trike-expanding-access-to-micromobility/"
+      }
+    ]
+  },
+  "science-joan-varrone": {
+    "affiliations": [
+      {
+        "organization": "CFO Consulting and Services",
+        "role": "Founder and principal, fractional CFO for startups",
+        "relationship": "founder",
+        "status": "historical",
+        "as_of": "2011",
+        "source_url": "https://www.stat.purdue.edu/alumni/outstanding_alumni/varrone-11.html"
+      },
+      {
+        "organization": "International Finance Forum and Treasury Executives Network",
+        "role": "Founder",
+        "relationship": "founder",
+        "status": "historical",
+        "as_of": "2011",
+        "source_url": "https://www.stat.purdue.edu/alumni/outstanding_alumni/varrone-11.html"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "field": "Statistics",
+        "graduation_year": 1973,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.stat.purdue.edu/alumni/outstanding_alumni/varrone-11.html"
+      },
+      {
+        "institution": "New York University",
+        "degree": "MBA",
+        "graduation_year": 1980,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.stat.purdue.edu/alumni/outstanding_alumni/varrone-11.html"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Purdue's 2011 profile places Varrone in the San Francisco area and describes her as a fractional CFO helping software, biotech, and digital media startups raise capital; present-day role and residence need re-verification.",
+        "date": "2011",
+        "source_url": "https://www.stat.purdue.edu/alumni/outstanding_alumni/varrone-11.html"
+      }
+    ]
+  },
+  "cs-archive-kostas-pantazopoulos": {
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "completion_status": "degree_completed",
+        "source_url": "https://cs.purdue.edu/alumni/2024-alumni-awards.html"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Brevan Howard Asset Management",
+        "role": "Senior trader and portfolio manager",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2024",
+        "source_url": "https://cs.purdue.edu/alumni/2024-alumni-awards.html"
+      },
+      {
+        "organization": "Goldman Sachs",
+        "role": "Partner and head of global interest rates",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2024",
+        "source_url": "https://cs.purdue.edu/alumni/2024-alumni-awards.html"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Purdue reports a 20-year Goldman Sachs career in New York and London, with partner promotion in 2006, before joining Brevan Howard in 2020.",
+        "date": "2024",
+        "source_url": "https://cs.purdue.edu/alumni/2024-alumni-awards.html"
+      }
+    ]
+  },
+  "nikhil-bhogal": {
+    "affiliations": [
+      {
+        "organization": "June Oven",
+        "role": "Co-founder and CTO",
+        "relationship": "co-founder",
+        "status": "historical",
+        "as_of": "2021",
+        "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+      },
+      {
+        "organization": "Weber",
+        "role": "Senior vice president, technology and connected devices",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2021",
+        "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+      },
+      {
+        "organization": "Apple",
+        "role": "iOS and camera technology engineer",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "2022",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/nikhil-bhogal"
+      }
+    ],
+    "company_founded_year": "2013",
+    "company_founded_year_source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html",
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "June Oven",
+        "date": "2021-01-12",
+        "description": "Weber acquired June, which Bhogal co-founded; Weber did not disclose the purchase price in its announcement.",
+        "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+      }
+    ]
+  },
+  "ujjwal-singh": {
+    "affiliations": [
+      {
+        "organization": "SayNow",
+        "role": "Founder",
+        "relationship": "founder",
+        "status": "historical",
+        "as_of": "2020",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2020/2020-eaa-awards-deans-update"
+      },
+      {
+        "organization": "Google",
+        "role": "Hangouts project lead and Area 120 partner",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2019",
+        "source_url": "https://engineering.purdue.edu/ECE/Events/2019/stories-of-success-ujjwal-singh"
+      },
+      {
+        "organization": "GoFundMe",
+        "role": "Chief technology officer",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2019",
+        "source_url": "https://engineering.purdue.edu/ECE/Events/2019/stories-of-success-ujjwal-singh"
+      },
+      {
+        "organization": "Facebook",
+        "role": "Exploring New Products leader",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2019",
+        "source_url": "https://engineering.purdue.edu/ECE/Events/2019/stories-of-success-ujjwal-singh"
+      }
+    ],
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "SayNow",
+        "description": "Google acquired Singh's startup SayNow; Purdue did not state the deal value.",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2020/2020-eaa-awards-deans-update"
+      }
+    ]
+  },
+  "bruce-schechter": {
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Physics and Mathematics",
+        "graduation_year": 1980,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.physics.purdue.edu/alumni/distalum/schecter_2020.html"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Band of Angels",
+        "role": "Angel investor member",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2025",
+        "source_url": "https://www.housing.purdue.edu/campus-living/residential-learning/rai/eir/prior/2025-fall.html"
+      },
+      {
+        "organization": "Silicon Valley Boilermaker Innovation Group",
+        "role": "Co-founder and former co-chair",
+        "relationship": "co-founder",
+        "status": "historical",
+        "as_of": "2025",
+        "source_url": "https://www.housing.purdue.edu/campus-living/residential-learning/rai/eir/prior/2025-fall.html"
+      },
+      {
+        "organization": "Intel",
+        "role": "Engineering, product and marketing leader",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "1997",
+        "source_url": "https://www.physics.purdue.edu/alumni/distalum/schecter_2020.html"
+      }
+    ],
+    "location_city": "Palo Alto",
+    "location_region": "California",
+    "location_country": "United States",
+    "location_source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Events/2023/2023-0926-techstartup",
+    "location_as_of": "2023",
+    "location_note": "Purdue's 2023 event biography placed Schechter in Palo Alto; current residence unverified.",
+    "highlights": [
+      {
+        "claim": "Purdue identified Schechter as an angel investor and adviser to startups including Life360 and BigML and as a mentor to Purdue founders.",
+        "date": "2025",
+        "source_url": "https://www.housing.purdue.edu/campus-living/residential-learning/rai/eir/prior/2025-fall.html"
+      }
+    ]
+  },
+  "brian-feth": {
+    "affiliations": [
+      {
+        "organization": "Xcell Biosciences",
+        "role": "Co-founder and CEO",
+        "relationship": "co-founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+      }
+    ]
+  },
+  "lucas-nelson": {
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Computer Science",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.lyticalventures.com/lucas-nelson"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Lytical Ventures",
+        "role": "Founder and managing partner",
+        "relationship": "founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.lyticalventures.com/lucas-nelson"
+      },
+      {
+        "organization": "Evolution Equity Partners",
+        "role": "Venture investor",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://www.lyticalventures.com/lucas-nelson"
+      },
+      {
+        "organization": "Gotham Ventures",
+        "role": "Venture investor",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://www.lyticalventures.com/lucas-nelson"
+      }
+    ],
+    "company_location": {
+      "location": "New York City",
+      "source_url": "https://www.lyticalventures.com/"
+    },
+    "company_sector": "Venture capital / cybersecurity and AI",
+    "company_sector_source_url": "https://www.lyticalventures.com/"
+  },
+  "john-krenicki-jr": {
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "field": "Management",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Clayton, Dubilier & Rice",
+        "role": "Vice chairman and operating partner",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      },
+      {
+        "organization": "GE Energy",
+        "role": "President and CEO",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2013",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      },
+      {
+        "organization": "GE",
+        "role": "Vice chairman",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2013",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "CD&R's current biography says Krenicki oversees its industrials operations and chairs value creation and risk committees; the firm lists several portfolio investments and directorships.",
+        "date": "2026",
+        "source_url": "https://www.cdr.com/team/john-krenicki-jr"
+      }
+    ]
+  },
+  "rouz-jazayeri": {
+    "affiliations": [
+      {
+        "organization": "Catapult Ventures",
+        "role": "Co-founder and managing director",
+        "relationship": "co-founder",
+        "status": "current_as_of_source",
+        "as_of": "2025",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+      },
+      {
+        "organization": "Kleiner Perkins",
+        "role": "Investor and business development leader",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2025",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+      },
+      {
+        "organization": "Intel",
+        "role": "Chip design and business development engineer",
+        "relationship": "employee",
+        "status": "historical",
+        "as_of": "2022",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/AdvisoryBoard/Members/rouz-jazayeri"
+      }
+    ],
+    "company_location": {
+      "location": "Palo Alto, California",
+      "source_url": "https://www.catapultvc.com/contact/"
+    },
+    "company_founded_year": "2017",
+    "company_founded_year_source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-rouz-jazayeri"
+  },
+  "dave-manly": {
+    "affiliations": [
+      {
+        "organization": "Keurig",
+        "role": "Brand and marketing leader",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      {
+        "organization": "LoJack",
+        "role": "Marketing leader",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      {
+        "organization": "Boston Whaler",
+        "role": "Consumer marketing leader",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Purdue credits Manly with helping scale Keurig from a startup and doubling Boston Whaler sales through consumer marketing; these are retrospective roles.",
+        "date": "2026",
+        "source_url": "https://new.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ]
+  },
+  "gail-f-farnsley": {
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "Master's",
+        "field": "Business",
+        "graduation_year": 1997,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Cummins",
+        "role": "Vice president and CIO, global IT",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      {
+        "organization": "Gartner",
+        "role": "Vice president and executive partner",
+        "relationship": "executive",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      {
+        "organization": "Purdue Polytechnic Institute Dean's Council",
+        "role": "Council member",
+        "relationship": "advisor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ],
+    "flags": [
+      "mentor"
+    ],
+    "flag_sources": {
+      "mentor": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+    }
+  }
+}

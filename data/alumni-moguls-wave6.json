@@ -1,0 +1,110 @@
+[
+  {
+    "id": "michael-r-berghoff",
+    "name": "Michael R. Berghoff",
+    "connection": "BS Industrial Management 1985",
+    "role": "Founder, president and CEO",
+    "role_as_of": "2026",
+    "organization": "Lenex Steel",
+    "region": "Indianapolis, Indiana",
+    "kind": "Founder",
+    "why_relevant": "Built an Indiana structural steel fabrication company from a 2003 founding and chaired Purdue's board of trustees from 2015 to 2024.",
+    "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+    "source_urls": [
+      "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+      "https://lenexsteel.com/department/executive/"
+    ],
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "field": "Industrial Management",
+        "graduation_year": 1985,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Lenex Steel",
+        "role": "Founder, president and CEO",
+        "relationship": "founder",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      },
+      {
+        "organization": "Purdue University Board of Trustees",
+        "role": "Board chair",
+        "relationship": "board",
+        "status": "historical",
+        "as_of": "2024",
+        "source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php"
+      }
+    ],
+    "company_website": "https://lenexsteel.com/",
+    "company_website_source_url": "https://lenexsteel.com/department/executive/",
+    "company_sector": "Structural steel fabrication and construction",
+    "company_sector_source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+    "company_founded_year": "2003",
+    "company_founded_year_source_url": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+    "company_location": {
+      "location": "Indianapolis, Indiana",
+      "source_url": "https://lenexsteel.com/department/executive/"
+    },
+    "flags": [
+      "purdue-founder",
+      "indiana"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.business.purdue.edu/news/features/2026/legacies-and-leaders.php",
+      "indiana": "https://lenexsteel.com/department/executive/"
+    }
+  },
+  {
+    "id": "david-c-cooper",
+    "name": "David C. Cooper",
+    "connection": "Purdue undergraduate degree",
+    "role": "Chief Investment Officer",
+    "role_as_of": "2026",
+    "organization": "Purdue Research Foundation",
+    "region": "West Lafayette, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Oversees Purdue Research Foundation's investment assets; Purdue reports a $7 billion portfolio and a prior CIO role at Indiana's public pension system.",
+    "source_url": "https://business.purdue.edu/about/fellows.php",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://business.purdue.edu/about/fellows.php"
+      }
+    ],
+    "affiliations": [
+      {
+        "organization": "Purdue Research Foundation",
+        "role": "Chief Investment Officer",
+        "relationship": "investor",
+        "status": "current_as_of_source",
+        "as_of": "2026",
+        "source_url": "https://business.purdue.edu/about/fellows.php"
+      },
+      {
+        "organization": "Indiana Public Retirement System",
+        "role": "Chief Investment Officer",
+        "relationship": "investor",
+        "status": "historical",
+        "as_of": "2026",
+        "source_url": "https://business.purdue.edu/about/fellows.php"
+      }
+    ],
+    "highlights": [
+      {
+        "claim": "Purdue reports that Cooper oversees about $7 billion in investment assets for its Research Foundation; the figure is institutional assets, not his personal wealth.",
+        "date": "2026",
+        "source_url": "https://business.purdue.edu/about/fellows.php"
+      }
+    ]
+  }
+]

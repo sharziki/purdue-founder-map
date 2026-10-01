@@ -1,0 +1,106 @@
+{
+  "lewis-lien-polansky": {
+    "linkedin": "https://www.linkedin.com/in/lewispolansky/",
+    "linkedin_source_url": "https://www.ycombinator.com/companies/captain",
+    "education": [{"institution": "Purdue University", "field": "Computer Engineering Technology", "completion_status": "attended_status_unknown", "source_url": "https://engineering.purdue.edu/ABE/academics/competitions/student_statements"}],
+    "affiliations": [{"organization": "Captain", "role": "Co-founder and CEO", "relationship": "co-founder", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://www.ycombinator.com/companies/captain"}],
+    "capital_events": [
+      {"type": "accelerator", "company": "Captain", "date": "2026", "description": "Captain joined Y Combinator Winter 2026.", "source_url": "https://www.ycombinator.com/companies/captain"},
+      {"type": "competition_award", "company": "Captain", "date": "2025", "description": "Lewis Polansky and Edgar Babajanyan won the $7,000 second-place Burton D. Morgan Venture Concept Competition award; this is prize money, not a venture financing round.", "source_url": "https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php"}
+    ],
+    "company_location": {"location": "San Francisco", "source_url": "https://www.ycombinator.com/companies/captain"},
+    "company_website": "https://captain.dev", "company_website_source_url": "https://www.ycombinator.com/companies/captain",
+    "company_sector": "AI infrastructure / file search", "company_sector_source_url": "https://www.ycombinator.com/companies/captain",
+    "company_founded_year": "2025", "company_founded_year_source_url": "https://www.ycombinator.com/companies/captain"
+  },
+  "edgar-babajanyan": {
+    "linkedin": "https://www.linkedin.com/in/edgar-babajanyan-a28230217/",
+    "linkedin_source_url": "https://www.ycombinator.com/companies/captain",
+    "education": [{"institution": "Purdue University", "field": "Computer Infrastructure and Network Engineering Technology", "completion_status": "attended_status_unknown", "source_url": "https://old.polytechnic.purdue.edu/undergraduate-studies/deans-list/spring-2024-deans-list"}],
+    "affiliations": [{"organization": "Captain", "role": "Co-founder and CTO", "relationship": "co-founder", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://www.ycombinator.com/companies/captain"}],
+    "capital_events": [
+      {"type": "accelerator", "company": "Captain", "date": "2026", "description": "Captain joined Y Combinator Winter 2026.", "source_url": "https://www.ycombinator.com/companies/captain"},
+      {"type": "competition_award", "company": "Captain", "date": "2025", "description": "Edgar Babajanyan and Lewis Polansky won the $7,000 second-place Burton D. Morgan Venture Concept Competition award; this is prize money, not a venture financing round.", "source_url": "https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php"}
+    ],
+    "company_location": {"location": "San Francisco", "source_url": "https://www.ycombinator.com/companies/captain"},
+    "company_website": "https://captain.dev", "company_website_source_url": "https://www.ycombinator.com/companies/captain",
+    "company_sector": "AI infrastructure / file search", "company_sector_source_url": "https://www.ycombinator.com/companies/captain",
+    "company_founded_year": "2025", "company_founded_year_source_url": "https://www.ycombinator.com/companies/captain"
+  },
+  "rohit-sirosh": {
+    "linkedin": "https://www.linkedin.com/in/rohit-sirosh/",
+    "linkedin_source_url": "https://www.ycombinator.com/companies/mimos",
+    "education": [{"institution": "Purdue University", "completion_status": "attended_status_unknown", "source_url": "https://www.linkedin.com/in/rohit-sirosh/"}],
+    "affiliations": [{"organization": "Mimos", "role": "Co-founder and CEO", "relationship": "co-founder", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://www.ycombinator.com/companies/mimos"}],
+    "capital_events": [{"type": "accelerator", "company": "Mimos", "date": "2025", "description": "Mimos joined Y Combinator Summer 2025.", "source_url": "https://www.ycombinator.com/companies/mimos"}],
+    "company_location": {"location": "New York City", "source_url": "https://www.ycombinator.com/companies/mimos"},
+    "company_website": "https://www.trymimos.com/", "company_website_source_url": "https://www.ycombinator.com/companies/mimos",
+    "company_sector": "Legal technology / AI", "company_sector_source_url": "https://www.ycombinator.com/companies/mimos",
+    "company_founded_year": "2025", "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimos"
+  },
+  "jonathan-deutsch": {
+    "linkedin": "https://www.linkedin.com/in/jmfd",
+    "linkedin_source_url": "https://www.linkedin.com/in/jmfd",
+    "education": [{"institution": "Purdue University", "completion_status": "attended_status_unknown", "source_url": "https://www.linkedin.com/in/jmfd"}],
+    "affiliations": [{"organization": "Tumult", "role": "Founder and CEO", "relationship": "founder", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://www.ycombinator.com/companies/tumult"}],
+    "capital_events": [{"type": "accelerator", "company": "Tumult", "date": "2011", "description": "Tumult joined Y Combinator Winter 2011.", "source_url": "https://www.ycombinator.com/companies/tumult"}],
+    "company_location": {"location": "San Francisco", "source_url": "https://www.ycombinator.com/companies/tumult"},
+    "company_website": "https://tumult.com", "company_website_source_url": "https://www.ycombinator.com/companies/tumult",
+    "company_sector": "Developer tools / web design", "company_sector_source_url": "https://www.ycombinator.com/companies/tumult",
+    "company_founded_year": "2010", "company_founded_year_source_url": "https://www.ycombinator.com/companies/tumult"
+  },
+  "prady-modukuru": {
+    "education": [{"institution": "Purdue University", "field": "Computer Engineering", "completion_status": "degree_completed", "source_url": "https://convocations.purdue.edu/event/tedxpurdue-odyssey/"}],
+    "flags": ["purdue-founder", "vc-backed", "bay-area"],
+    "flag_sources": {"purdue-founder": "https://convocations.purdue.edu/event/tedxpurdue-odyssey/", "vc-backed": "https://sync.so/blog/sync-announces-5-5m-seed-round-to-make-video-content-creation-less-camera-dependent-using-ai", "bay-area": "https://sync.so/about"},
+    "funding": [{"type": "round", "amount": "$5.5 million", "round": "Seed led by GV", "date": "2024-08-16", "source_url": "https://sync.so/blog/sync-announces-5-5m-seed-round-to-make-video-content-creation-less-camera-dependent-using-ai"}],
+    "capital_events": [{"type": "accelerator", "company": "sync.", "date": "2024", "description": "sync. joined Y Combinator Winter 2024.", "source_url": "https://www.ycombinator.com/companies/sync-2"}],
+    "company_location": {"location": "San Francisco", "source_url": "https://sync.so/about"},
+    "company_website": "https://sync.so", "company_website_source_url": "https://sync.so/about",
+    "company_sector": "AI video / visual dubbing", "company_sector_source_url": "https://sync.so/about",
+    "company_founded_year": "2023", "company_founded_year_source_url": "https://f.inc/portfolio/sync-labs/",
+    "affiliations": [{"organization": "sync.", "role": "Co-founder and CEO", "relationship": "co-founder", "status": "current_as_of_source", "as_of": "2026", "source_url": "https://convocations.purdue.edu/event/tedxpurdue-odyssey/"}]
+  },
+  "tolen-schreid": {
+    "education": [{"institution": "Purdue University", "field": "First-Year Engineering", "completion_status": "attended_status_unknown", "source_url": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup"}],
+    "capital_events": [{"type": "accelerator", "company": "Caseflood.ai", "date": "2025", "description": "Caseflood.ai joined Y Combinator Winter 2025; its launch profile names Schreid on the founding team. Purdue separately reports a $500,000 YC investment.", "source_url": "https://www.ycombinator.com/companies/caseflood-ai"}],
+    "funding": [{"type": "round", "amount": "$500,000", "round": "Y Combinator investment", "date": "2025", "source_url": "https://engineering.purdue.edu/ENE/News/2025/purdue-fye-student-heads-to-west-coast-to-roll-out-tech-startup"}]
+  },
+  "akash-raju": {
+    "flags": ["purdue-founder", "historical-role", "vc-backed"],
+    "flag_sources": {"purdue-founder": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list", "historical-role": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list", "vc-backed": "https://www.tryglimpse.com/post/seriesa"},
+    "funding": [
+      {"type": "round", "amount": "$35 million", "round": "Series A led by Andreessen Horowitz", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"},
+      {"type": "total_raised", "amount": "$52 million", "round": "Company cumulative raised as announced with Series A", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"}
+    ],
+    "company_location": {"location": "New York City", "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"}
+  },
+  "anuj-mehta": {
+    "flags": ["purdue-founder", "vc-backed"],
+    "flag_sources": {"purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta", "vc-backed": "https://www.tryglimpse.com/post/seriesa"},
+    "funding": [
+      {"type": "round", "amount": "$35 million", "round": "Series A led by Andreessen Horowitz", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"},
+      {"type": "total_raised", "amount": "$52 million", "round": "Company cumulative raised as announced with Series A", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"}
+    ],
+    "company_location": {"location": "New York City", "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"}
+  },
+  "kushal-negi": {
+    "flags": ["purdue-founder", "historical-role", "vc-backed"],
+    "flag_sources": {"purdue-founder": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list", "historical-role": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list", "vc-backed": "https://www.tryglimpse.com/post/seriesa"},
+    "funding": [
+      {"type": "round", "amount": "$35 million", "round": "Series A led by Andreessen Horowitz", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"},
+      {"type": "total_raised", "amount": "$52 million", "round": "Company cumulative raised as announced with Series A", "date": "2026-03-25", "source_url": "https://www.tryglimpse.com/post/seriesa"}
+    ],
+    "company_location": {"location": "New York City", "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"}
+  },
+  "john-gedmark": {
+    "flags": ["purdue-founder", "vc-backed", "bay-area"],
+    "flag_sources": {"purdue-founder": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark", "vc-backed": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft", "bay-area": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft"},
+    "funding": [
+      {"type": "round", "amount": "$300 million", "round": "Series E equity financing", "date": "2026-05-06", "source_url": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft"},
+      {"type": "total_raised", "amount": "More than $1.2 billion", "round": "Company cumulative capital raised as announced with Series E", "date": "2026-05-06", "source_url": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft"}
+    ],
+    "company_location": {"location": "San Francisco", "source_url": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft"},
+    "company_website": "https://www.astranis.com", "company_website_source_url": "https://www.astranis.com/blog/series-e-raise-advanced-high-orbit-spacecraft"
+  }
+}

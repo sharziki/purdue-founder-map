@@ -1,0 +1,58 @@
+[
+  {
+    "id": "lewis-lien-polansky",
+    "name": "Lewis Lien Polansky",
+    "connection": "Purdue student founder; Purdue ABE identifies him as a Computer Engineering Technology freshman",
+    "role": "Co-founder and CEO of Captain",
+    "organization": "Captain",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Captain, a YC W26 file-search startup; Purdue lists his student work on SoyBox and his 2025 Burton D. Morgan competition team.",
+    "source_url": "https://engineering.purdue.edu/ABE/academics/competitions/student_statements",
+    "source_urls": ["https://engineering.purdue.edu/ABE/academics/competitions/student_statements", "https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php", "https://www.ycombinator.com/companies/captain"],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "edgar-babajanyan",
+    "name": "Edgar Babajanyan",
+    "connection": "Purdue Polytechnic student; listed on the 2024 Dean's List",
+    "role": "Co-founder and CTO of Captain",
+    "organization": "Captain",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Captain, a YC W26 file-search startup; Purdue lists him on its Polytechnic Dean's List and 2025 Burton D. Morgan competition team.",
+    "source_url": "https://old.polytechnic.purdue.edu/undergraduate-studies/deans-list/spring-2024-deans-list",
+    "source_urls": ["https://old.polytechnic.purdue.edu/undergraduate-studies/deans-list/spring-2024-deans-list", "https://www.business.purdue.edu/centers/communication-center/case-competitions/burton-d-morgan-business-concept-competition.php", "https://www.ycombinator.com/companies/captain"],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "rohit-sirosh",
+    "name": "Rohit Sirosh",
+    "connection": "Purdue student and Boiler Bhangra captain, per public professional profile",
+    "role": "Co-founder and CEO of Mimos",
+    "organization": "Mimos",
+    "region": "New York City",
+    "kind": "Founder",
+    "why_relevant": "Runs NYC-based Mimos (YC S25), software for plaintiff-side law firm acquisition and intake; his public profile records Purdue student organization leadership.",
+    "source_url": "https://www.linkedin.com/in/rohit-sirosh/",
+    "source_urls": ["https://www.linkedin.com/in/rohit-sirosh/", "https://www.ycombinator.com/companies/mimos"],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "jonathan-deutsch",
+    "name": "Jonathan Deutsch",
+    "connection": "Attended Purdue University, 2000–2004, per public professional profile",
+    "role": "Founder and CEO of Tumult",
+    "organization": "Tumult",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Founded YC W11 company Tumult, maker of Hype web-design software; YC lists its San Francisco location and his Purdue connection.",
+    "source_url": "https://www.ycombinator.com/companies/tumult",
+    "source_urls": ["https://www.ycombinator.com/companies/tumult", "https://www.linkedin.com/in/jmfd"],
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30"
+  }
+]

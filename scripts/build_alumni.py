@@ -36,6 +36,9 @@ EXPANSIONS = (
     "alumni-bay-tech-wave5.json",
     "alumni-nyc-business-wave5.json",
     "alumni-investor-wave5.json",
+    "alumni-vc-wave6.json",
+    "alumni-founders-wave6.json",
+    "alumni-moguls-wave6.json",
 )
 REQUIRED = {"id", "name", "connection", "role", "organization", "region", "kind", "why_relevant", "source_url", "verified_at"}
 KINDS = {"Founder", "Investor", "Operator"}

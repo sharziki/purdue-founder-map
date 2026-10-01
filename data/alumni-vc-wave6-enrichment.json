@@ -1,0 +1,105 @@
+{
+  "mike-asem": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://www.m25vc.com/team/mike-asem"
+    },
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://www.m25vc.com/team/mike-asem"
+    }
+  },
+  "jeffrey-eschbach": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://www.workboxcompany.com/workbox-ventures/"
+    },
+    "company_location": {
+      "location": "Chicago, Illinois",
+      "source_url": "https://www.workboxcompany.com/news/workbox-moves-corporate-headquarters-to-chicagos-fulton-market-district/"
+    }
+  },
+  "mary-lynne-hedley": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://www.thirdrockventures.com/people/mary-lynne-hedley"
+    },
+    "company_location": {
+      "location": "Boston, Massachusetts / San Francisco, California",
+      "source_url": "https://www.thirdrockventures.com/people/"
+    }
+  },
+  "milad-alucozai": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://pamir.vc/team"
+    },
+    "company_location": {
+      "location": "San Francisco, California / New York, New York",
+      "source_url": "https://pamir.vc/"
+    }
+  },
+  "darwin-ling": {
+    "flags": ["vc-investor", "bay-area"],
+    "flag_sources": {
+      "vc-investor": "https://www.cs.purdue.edu/alumni/2021-alumni-awards.html",
+      "bay-area": "https://www.linkedin.com/in/darwinling"
+    },
+    "location_region": "San Francisco Bay Area",
+    "location_source_url": "https://www.linkedin.com/in/darwinling",
+    "linkedin": "https://www.linkedin.com/in/darwinling",
+    "linkedin_source_url": "https://www.linkedin.com/in/darwinling"
+  },
+  "daniel-malven": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://alphapartners.com/alphateam/dan-malven/"
+    },
+    "company_location": {
+      "location": "New York, New York",
+      "source_url": "https://alphapartners.com/alphateam/"
+    }
+  },
+  "mark-achler": {
+    "flags": ["vc-investor"],
+    "flag_sources": {
+      "vc-investor": "https://www.kellogg.northwestern.edu/faculty/Directory/Achler_Mark/"
+    }
+  },
+  "dea-leslie-bottorff": {
+    "flags": ["investor", "vc-investor"],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2025/Bottorff",
+      "vc-investor": "https://engineering.purdue.edu/BME/AboutUs/News/2019/Prestigious-fellowships-named-for-biomedical-entrepreneur-and-Purdue-alumna-Leslie-Bottorff"
+    }
+  },
+  "ece-lila-ibrahim-liebat": {
+    "flags": ["investor", "historical-role", "vc-investor"],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html",
+      "historical-role": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html",
+      "vc-investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+    },
+    "flag_notes": {
+      "historical-role": "Venture partner role documented in 2010; current position not claimed."
+    }
+  },
+  "ag-award-michael-e-pape": {
+    "flags": ["investor", "historical-role", "vc-investor"],
+    "flag_sources": {
+      "investor": "https://ag.purdue.edu/agalumni/awards/DistinguishedAgAlumniAlpha.html",
+      "historical-role": "https://ag.purdue.edu/agalumni/awards/DistinguishedAgAlumniAlpha.html",
+      "vc-investor": "https://www.chicagobooth.edu/alumni/distinguished-alumni-award/honorees/michael-pape"
+    },
+    "flag_notes": {
+      "historical-role": "Orchard Venture Partners role is historical; current position not claimed."
+    }
+  },
+  "tyler-mantel": {
+    "flags": ["investor", "vc-investor"],
+    "flag_sources": {
+      "investor": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
+      "vc-investor": "https://rolltackventures.com/"
+    }
+  }
+}

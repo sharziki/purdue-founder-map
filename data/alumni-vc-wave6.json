@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mike-asem",
+    "name": "Mike Asem",
+    "connection": "BA Communication 2014",
+    "role": "Founding Partner",
+    "organization": "M25",
+    "region": "United States",
+    "kind": "Investor",
+    "why_relevant": "Co-built Purdue's Anvil incubator and invests in early-stage Midwest technology companies.",
+    "source_url": "https://www.m25vc.com/team/mike-asem",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://www.m25vc.com/team/mike-asem",
+      "https://cla.purdue.edu/students/careers/scla-300/fall-2024/spkr10-mike-asem.html"
+    ]
+  },
+  {
+    "id": "jeffrey-eschbach",
+    "name": "Jeffrey Eschbach",
+    "connection": "BS and MS Electrical Engineering, Purdue University",
+    "role": "Managing General Partner",
+    "organization": "Workbox Ventures",
+    "region": "Chicago firm connection",
+    "kind": "Investor",
+    "why_relevant": "Leads Workbox Ventures and Chicago Early Growth Ventures, investing in early-stage companies.",
+    "source_url": "https://www.workboxcompany.com/workbox-ventures/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "mary-lynne-hedley",
+    "name": "Mary Lynne Hedley",
+    "connection": "BS, Purdue University",
+    "role": "Venture Partner",
+    "organization": "Third Rock Ventures",
+    "region": "East Coast",
+    "kind": "Investor",
+    "why_relevant": "Biotech company builder and venture partner; previously co-founded TESARO.",
+    "source_url": "https://www.thirdrockventures.com/people/mary-lynne-hedley",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "milad-alucozai",
+    "name": "Milad Alucozai",
+    "connection": "Neuroscience degree, Purdue University Honors Program",
+    "role": "Co-founder and General Partner",
+    "organization": "Pamir Ventures",
+    "region": "United States",
+    "kind": "Investor",
+    "why_relevant": "Invests in technical founders and life-science startups; previously led bio and deep-tech investing at BoxOne Ventures.",
+    "source_url": "https://pamir.vc/team",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://pamir.vc/team",
+      "https://c-path.org/c-path-appoints-biotech-executive-and-investor-dr-milad-alucozai-to-board-of-directors/",
+      "https://www.purdue.edu/research/oevprp/news/index.php?view=2879"
+    ]
+  },
+  {
+    "id": "darwin-ling",
+    "name": "Darwin Ling",
+    "connection": "BS Computer Science 1988, MS Computer Science 1990",
+    "role": "Founder and General Partner",
+    "organization": "Good AI Capital",
+    "region": "San Francisco Bay Area",
+    "kind": "Investor",
+    "why_relevant": "Purdue distinguished alumnus investing in early-stage AI companies across healthcare, fintech, and enterprise software.",
+    "source_url": "https://www.cs.purdue.edu/alumni/2021-alumni-awards.html",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://purdue.edu/science/about/deans-leadership-council.html",
+      "https://goodai.capital/team",
+      "https://www.linkedin.com/in/darwinling"
+    ]
+  },
+  {
+    "id": "daniel-malven",
+    "name": "Dan Malven",
+    "connection": "BS Engineering, Purdue University",
+    "role": "Venture Partner",
+    "role_as_of": "2026",
+    "organization": "Alpha Partners",
+    "region": "New York firm connection",
+    "kind": "Investor",
+    "why_relevant": "Technology investor and former 4490 Ventures managing director with early-stage and growth-stage investing experience.",
+    "source_url": "https://alphapartners.com/alphateam/dan-malven/",
+    "verified_at": "2026-09-30",
+    "source_urls": [
+      "https://alphapartners.com/alphateam/dan-malven/",
+      "https://alphapartners.com/alphateam/"
+    ]
+  }
+]
