@@ -720,6 +720,8 @@
       "source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
       "role_as_of": "2025",
       "verified_at": "2026-09-30",
+      "linkedin": "https://www.linkedin.com/in/juliewainwright",
+      "linkedin_source_url": "https://podcasts.apple.com/us/podcast/245-the-realreal-founder-julie-wainwright-on/id1655711728?i=1000712073024",
       "flags": [
         "purdue-founder"
       ],
@@ -989,6 +991,8 @@
         "location": "San Francisco, California",
         "source_url": "https://horizon3.ai/news/press-release/horizon3-appoints-chief-marketing-officer/"
       },
+      "linkedin": "https://www.linkedin.com/in/snehalantani",
+      "linkedin_source_url": "https://www.linkedin.com/in/snehalantani",
       "flags": [
         "purdue-founder",
         "bay-area"
@@ -1339,6 +1343,8 @@
         "location": "Tokyo, Japan",
         "source_url": "https://www.astroscale.com/en/news/astroscale-closes-series-g-funding-round-with-an-additional-u-s-7-5-million-bringing-total-capital-raised-to-u-s-383-million"
       },
+      "linkedin": "https://jp.linkedin.com/in/nobu-okada-4a525517",
+      "linkedin_source_url": "https://jp.linkedin.com/in/nobu-okada-4a525517",
       "flags": [
         "purdue-founder"
       ],
@@ -1611,6 +1617,8 @@
         "campus-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "linkedin": "https://www.linkedin.com/in/josephlwatkins",
+      "linkedin_source_url": "https://www.linkedin.com/in/josephlwatkins",
       "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
       "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
       "company_sector": "Software / events",
@@ -1676,6 +1684,8 @@
         "campus-builder"
       ],
       "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "linkedin": "https://www.linkedin.com/in/yarkin",
+      "linkedin_source_url": "https://www.linkedin.com/in/yarkin",
       "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
       "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
       "company_sector": "Software / events",
@@ -1942,6 +1952,8 @@
         "location": "Seattle, Washington",
         "source_url": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist"
       },
+      "linkedin": "https://www.linkedin.com/in/markettohumans",
+      "linkedin_source_url": "https://www.linkedin.com/in/markettohumans",
       "flags": [
         "purdue-founder"
       ],
@@ -2207,6 +2219,16 @@
       "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
       "role_as_of": "2009",
       "verified_at": "2026-09-30",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "degree": "BA",
+          "field": "philosophy",
+          "graduation_year": 1970,
+          "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
+          "completion_status": "degree_completed"
+        }
+      ],
       "highlights": [
         {
           "claim": "Founded and bootstrapped Telogy Networks in 1990; Texas Instruments acquired it in 1999.",
@@ -2224,16 +2246,6 @@
         "venture-investor"
       ],
       "notable_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
-      "education": [
-        {
-          "institution": "Purdue University",
-          "degree": "BA",
-          "field": "philosophy",
-          "graduation_year": 1970,
-          "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
-          "completion_status": "degree_completed"
-        }
-      ],
       "affiliations": [
         {
           "organization": "Hughes Network Systems",
@@ -2881,6 +2893,8 @@
         "location": "Chicago, Illinois",
         "source_url": "https://engineering.purdue.edu/cdesign/wp/veo-raises-16-million-in-funding-to-scale-across-the-u-s-paving-the-way-to-profitable-sustainable-micromobility/"
       },
+      "linkedin": "https://www.linkedin.com/in/candicexie",
+      "linkedin_source_url": "https://www.linkedin.com/in/candicexie",
       "flags": [
         "purdue-founder"
       ],
@@ -3877,6 +3891,8 @@
       "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html",
       "role_as_of": "2016",
       "verified_at": "2026-09-30",
+      "linkedin": "https://www.linkedin.com/in/paroon-chadha",
+      "linkedin_source_url": "https://www.linkedin.com/in/paroon-chadha",
       "flags": [
         "purdue-founder",
         "historical-role"
@@ -4157,6 +4173,8 @@
           "source_url": "https://www.earnin.com/press"
         }
       ],
+      "linkedin": "https://www.linkedin.com/in/ramlink",
+      "linkedin_source_url": "https://www.linkedin.com/in/ramlink",
       "flags": [
         "purdue-founder",
         "historical-role"
@@ -4407,6 +4425,8 @@
           "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumni-create-smart-garden-home-appliance-supported-indiana"
         }
       ],
+      "linkedin": "https://www.linkedin.com/in/scott-massey-755419b9",
+      "linkedin_source_url": "https://www.linkedin.com/in/scott-massey-755419b9",
       "flags": [
         "purdue-founder"
       ],
@@ -4561,6 +4581,8 @@
       "why_relevant": "Built a digital product agency serving startups and large companies.",
       "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra",
       "verified_at": "2026-09-30",
+      "linkedin": "https://www.linkedin.com/in/mehrasumit",
+      "linkedin_source_url": "https://www.linkedin.com/in/mehrasumit",
       "flags": [
         "purdue-founder"
       ],

@@ -1,0 +1,610 @@
+[
+  {
+    "id": "vet-award-david-madsen",
+    "name": "David Madsen",
+    "connection": "Purdue DVM 1969",
+    "role": "Founder and swine veterinarian",
+    "organization": "SwinePro Associates, LLC",
+    "region": "Nebraska",
+    "kind": "Founder",
+    "why_relevant": "Purdue says Madsen established SwinePro Associates in partnership in 1994; 2019 profile documents his later veterinary work.",
+    "source_url": "https://vet.purdue.edu/news/aasv-names-pvm-alumnus-as-meritorious-service-award-recipient.php",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1969,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/aasv-names-pvm-alumnus-as-meritorious-service-award-recipient.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-bret-d-marsh",
+    "name": "Bret D. Marsh",
+    "connection": "Purdue DVM 1984",
+    "role": "Indiana State Veterinarian",
+    "organization": "Indiana State Board of Animal Health",
+    "region": "Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/dr-bret-marsh-honored-with-prestigious-service-award.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1984,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/dr-bret-marsh-honored-with-prestigious-service-award.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-tom-gillespie",
+    "name": "Tom Gillespie",
+    "connection": "Purdue DVM 1979",
+    "role": "Founder and veterinarian",
+    "organization": "Rensselaer Swine Services, P.C.",
+    "region": "Rensselaer, Indiana",
+    "kind": "Founder",
+    "why_relevant": "Alltech speaker biography says Gillespie started Rensselaer Swine Services in 1991 and earned a Purdue DVM in 1979.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://go.alltech.com/hubfs/ONE-Media_Kit-2018_V5.pdf",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1979,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-john-t-schnarr",
+    "name": "John T. Schnarr",
+    "connection": "Purdue DVM 1970",
+    "role": "Owner and veterinarian",
+    "organization": "Irvington Pet Clinic",
+    "region": "Indianapolis, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2015 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2015_PVM-Annual-Report_web_final.pdf",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1970,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2015_PVM-Annual-Report_web_final.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-robert-l-pete-bill",
+    "name": "Robert L. \"Pete\" Bill",
+    "connection": "Purdue DVM 1980",
+    "role": "Assistant dean for academic affairs, teaching and learning",
+    "organization": "Purdue Veterinary Medicine",
+    "region": "West Lafayette, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2015 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2015_PVM-Annual-Report_web_final.pdf",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1980,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2015_PVM-Annual-Report_web_final.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-susan-e-johnson",
+    "name": "Susan E. Johnson",
+    "connection": "Purdue DVM 1978",
+    "role": "Interim associate dean of academic affairs",
+    "organization": "The Ohio State University College of Veterinary Medicine",
+    "region": "Columbus, Ohio",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2017 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2017-Annual-PVM-Report_web_FINAL.pdf",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1978,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2017-Annual-PVM-Report_web_FINAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-kay-stewart",
+    "name": "Kay Stewart",
+    "connection": "Purdue AS-VT 1982",
+    "role": "Associate director",
+    "organization": "University of Notre Dame Freimann Life Science Center",
+    "region": "Notre Dame, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue describes this as her most recent role at the time of the 2017 award.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2017-Annual-PVM-Report_web_FINAL.pdf",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "AS-VT",
+        "field": "Veterinary Technology",
+        "graduation_year": 1982,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2017-Annual-PVM-Report_web_FINAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-amelia-woolums",
+    "name": "Amelia Woolums",
+    "connection": "Purdue DVM 1988",
+    "role": "Professor, Department of Pathobiology and Population Medicine",
+    "organization": "Mississippi State University College of Veterinary Medicine",
+    "region": "Mississippi",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://www.vetmed.msstate.edu/sites/www.vetmed.msstate.edu/files/2021-03/Pegasus%20Press%20Fall%20%26%20Winter%202020.pdf",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1988,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-herbert-e-whiteley",
+    "name": "Herbert E. Whiteley",
+    "connection": "Purdue DVM 1977",
+    "role": "Dean",
+    "organization": "University of Illinois College of Veterinary Medicine",
+    "region": "Urbana, Illinois",
+    "kind": "Operator",
+    "why_relevant": "University of Illinois records his 2001–2013 deanship and Purdue veterinary degree.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://vetmed.illinois.edu/about-the-college/history-of-the-college/",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1977,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-dennis-b-denicola",
+    "name": "Dennis B. DeNicola",
+    "connection": "Purdue DVM 1978",
+    "role": "Partner and clinical pathologist",
+    "organization": "Laboratory Retrievers",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2025 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/attendees-flock-to-annual-purdue-veterinary-nursing-symposium.php",
+    "role_as_of": "2023",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1978,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/attendees-flock-to-annual-purdue-veterinary-nursing-symposium.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-mary-anna-thrall",
+    "name": "Mary Anna Thrall",
+    "connection": "Purdue DVM 1970",
+    "role": "Professor of clinical pathology",
+    "organization": "Colorado State University / Ross University School of Veterinary Medicine",
+    "region": "Colorado / St. Kitts",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2008 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2008",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://www.asvcp.org/page/2008MaryAnnaThrall",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1970,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-philip-roudebush",
+    "name": "Philip Roudebush",
+    "connection": "Purdue DVM 1975",
+    "role": "Veterinary nutrition researcher",
+    "organization": "Hill’s Pet Nutrition",
+    "region": "Topeka, Kansas",
+    "kind": "Operator",
+    "why_relevant": "Purdue award roster confirms DVM year; published research lists Hill’s Pet Nutrition affiliation.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2004",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://pubmed.ncbi.nlm.nih.gov/15198260/",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1975,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-john-p-sundberg",
+    "name": "John P. Sundberg",
+    "connection": "Purdue DVM 1977",
+    "role": "Research scientist",
+    "organization": "The Jackson Laboratory",
+    "region": "Bar Harbor, Maine",
+    "kind": "Operator",
+    "why_relevant": "Purdue award roster confirms degree year; research article lists Jackson Laboratory affiliation.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5503261/",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1977,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-kathleen-t-neuhoff",
+    "name": "Kathleen T. Neuhoff",
+    "connection": "Purdue DVM 1979",
+    "role": "Veterinarian and canine/feline specialist",
+    "organization": "Ireland Animal Clinic",
+    "region": "South Bend, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue award roster confirms degree year; clinic bio documents veterinary practice.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://www.irelandanimal.com/about",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1979,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-karen-k-cornell",
+    "name": "Karen K. Cornell",
+    "connection": "Purdue DVM 1988",
+    "role": "Associate dean for professional programs",
+    "organization": "Texas A&M School of Veterinary Medicine & Biomedical Sciences",
+    "region": "College Station, Texas",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2026 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://vetmed.tamu.edu/ce/acvr-retreat/",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1988,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-alan-h-rebar",
+    "name": "Alan H. Rebar",
+    "connection": "Purdue DVM 1973",
+    "role": "Editor in chief, Journal of the American Animal Hospital Association",
+    "organization": "American Animal Hospital Association",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue award roster confirms DVM year; AAHA identifies editor role.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2021",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://www.aaha.org/trends-magazine/publications/jaaha-57-3/",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1973,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-donald-e-thrall",
+    "name": "Donald E. Thrall",
+    "connection": "Purdue DVM 1969",
+    "role": "Clinical professor",
+    "organization": "North Carolina State University College of Veterinary Medicine",
+    "region": "North Carolina",
+    "kind": "Operator",
+    "why_relevant": "Publisher biography records Purdue DVM and clinical professorship.",
+    "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "role_source_url": "https://www.kriso.ee/textbook-veterinary-diagnostic-radiology-e-book-db-97803234824626e.html",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1969,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/alumni/distinguished-alumni.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-kurt-mychajlonka",
+    "name": "Kurt Mychajlonka",
+    "connection": "Purdue DVM 1993",
+    "role": "Co-owner and veterinarian",
+    "organization": "Craig Road Animal Hospital and Lone Mountain Animal Hospital",
+    "region": "Las Vegas, Nevada",
+    "kind": "Operator",
+    "why_relevant": "Purdue profile says he and fellow alumna Deborah White co-owned both clinics.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1993,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-jerry-rusch",
+    "name": "Jerry Rusch",
+    "connection": "Purdue DVM 1991",
+    "role": "Owner and veterinarian",
+    "organization": "Spring Mill Veterinary Service",
+    "region": "Mitchell, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1991,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-rita-johnson",
+    "name": "Rita Johnson",
+    "connection": "Purdue DVM 2009",
+    "role": "Owner and veterinarian",
+    "organization": "St. Joe Veterinary Hospital",
+    "region": "Evansville, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 2009,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-kim-mordasky",
+    "name": "Kim Mordasky",
+    "connection": "Purdue DVM 2011",
+    "role": "Owner and veterinarian",
+    "organization": "Hebron Veterinary Hospital",
+    "region": "Hebron, Connecticut",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 2011,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-tony-rumschlag",
+    "name": "Tony Rumschlag",
+    "connection": "Purdue DVM 1985",
+    "role": "Senior director of consulting veterinarians",
+    "organization": "Elanco Animal Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine distinguished alumnus; 2020 role documented by source. Confirm current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1985,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/pvr-veterinary-professionals-together-even-while-apart.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-patrick-sharp",
+    "name": "Patrick Sharp",
+    "connection": "Purdue DVM 1991",
+    "role": "Assistant Vice President for Animal Resources",
+    "organization": "Purdue University",
+    "region": "West Lafayette, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine source documents degree and 2026 professional role; check current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/directory/patrick-sharp",
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1991,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/directory/patrick-sharp"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-grant-n-burcham",
+    "name": "Grant N. Burcham",
+    "connection": "Purdue DVM 2007",
+    "role": "Veterinary diagnostician and head",
+    "organization": "Heeke Animal Disease Diagnostic Laboratory",
+    "region": "Dubois County, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine source documents degree and 2014 professional role; check current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 2007,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-jim-weisman",
+    "name": "Jim Weisman",
+    "connection": "Purdue DVM 1997",
+    "role": "Assistant dean for student affairs",
+    "organization": "Purdue Veterinary Medicine",
+    "region": "West Lafayette, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine source documents degree and 2020 professional role; check current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/purdue-veterinary-alumni-association-appropriations-benefit-students.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1997,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/purdue-veterinary-alumni-association-appropriations-benefit-students.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-award-sandy-san-miguel",
+    "name": "Sandy San Miguel",
+    "connection": "Purdue DVM 1993",
+    "role": "Associate dean for engagement and professor of swine production medicine",
+    "organization": "Purdue Veterinary Medicine",
+    "region": "West Lafayette, Indiana",
+    "kind": "Operator",
+    "why_relevant": "Purdue Veterinary Medicine source documents degree and 2018 professional role; check current affiliation before outreach.",
+    "source_url": "https://vet.purdue.edu/news/national-savma-symposium-recognizes-pvm-faculty-and-students.php",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "field": "Veterinary Medicine",
+        "graduation_year": 1993,
+        "completion_status": "degree_completed",
+        "source_url": "https://vet.purdue.edu/news/national-savma-symposium-recognizes-pvm-faculty-and-students.php"
+      }
+    ]
+  }
+]

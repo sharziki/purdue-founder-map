@@ -1,0 +1,298 @@
+[
+  {
+    "id": "yc-purdue-pranjal-daga",
+    "name": "Pranjal Daga",
+    "connection": "Attended Purdue AI/ML PhD program; left without degree",
+    "role": "Co-founder",
+    "organization": "Accend",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue PhD researcher who co-founded YC S23 fintech Accend.",
+    "source_url": "https://www.ycombinator.com/companies/accend",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Artificial intelligence / machine learning",
+        "completion_status": "attended_no_degree",
+        "source_url": "https://www.ycombinator.com/companies/accend"
+      }
+    ],
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/accend",
+      "bay-area": "https://www.ycombinator.com/companies/accend"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/accend"
+    },
+    "funding": [
+      {
+        "type": "seed_round",
+        "amount": "$3.2 million",
+        "round": "Seed",
+        "source_url": "https://www.ycombinator.com/companies/accend"
+      }
+    ],
+    "company_founded_year": "2023",
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/accend"
+  },
+  {
+    "id": "yc-purdue-krish-iyengar",
+    "name": "Krish Iyengar",
+    "connection": "Studied Purdue Computer Science; left without degree",
+    "role": "Co-founder and CEO",
+    "organization": "Pixley AI",
+    "region": "United States",
+    "kind": "Founder",
+    "why_relevant": "Purdue-connected founder of YC F25 consumer AI company.",
+    "source_url": "https://www.ycombinator.com/companies/pixley-ai",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "field": "Computer Science",
+        "completion_status": "attended_no_degree",
+        "source_url": "https://www.ycombinator.com/companies/pixley-ai"
+      }
+    ],
+    "flags": [
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/pixley-ai"
+    }
+  },
+  {
+    "id": "yc-purdue-lin-sun-fa",
+    "name": "Lin Sun Fa",
+    "connection": "Purdue Cybersecurity degree",
+    "role": "Founder and CEO",
+    "organization": "Emobi",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue-trained founder of YC W22 EV charging platform.",
+    "source_url": "https://www.ycombinator.com/companies/emobi",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/emobi",
+      "bay-area": "https://www.ycombinator.com/companies/emobi"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/emobi"
+    },
+    "company_founded_year": "2020",
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/emobi",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/emobi",
+        "field": "Cybersecurity"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-jay-mehta",
+    "name": "Jay Mehta",
+    "connection": "Purdue Computer Science; degree status not specified",
+    "role": "Co-founder",
+    "organization": "StableBrowse",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue CS-connected co-founder of YC S26 physical AI data company.",
+    "source_url": "https://www.ycombinator.com/companies/stablebrowse",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/stablebrowse",
+      "bay-area": "https://www.ycombinator.com/companies/stablebrowse"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/stablebrowse"
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "attended_status_unknown",
+        "source_url": "https://www.ycombinator.com/companies/stablebrowse",
+        "field": "Computer Science"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-shaurya-aggarwal",
+    "name": "Shaurya Aggarwal",
+    "connection": "Purdue BS Computer Science",
+    "role": "Founder and CEO",
+    "organization": "Florin",
+    "region": "United States",
+    "kind": "Founder",
+    "why_relevant": "Purdue CS graduate building YC-backed AI-native insurance company.",
+    "source_url": "https://www.ycombinator.com/companies/florin",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/florin"
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/florin",
+        "degree": "BS",
+        "field": "Computer Science"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-prateek-jannu",
+    "name": "Prateek Jannu",
+    "connection": "Purdue BE Computer Engineering",
+    "role": "Co-founder and CEO",
+    "organization": "CoArena",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue computer engineering graduate leading YC S26 AI evaluation startup.",
+    "source_url": "https://www.ycombinator.com/companies/coarena",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/coarena",
+      "bay-area": "https://www.ycombinator.com/companies/coarena"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/coarena"
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/coarena",
+        "degree": "BE",
+        "field": "Computer Engineering"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-nitish-kovuru",
+    "name": "Nitish Kovuru",
+    "connection": "Purdue BS Computer Engineering",
+    "role": "Co-founder and CTO/COO",
+    "organization": "CoArena",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue computer engineering graduate and YC S26 startup technical leader.",
+    "source_url": "https://www.ycombinator.com/companies/coarena",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/coarena",
+      "bay-area": "https://www.ycombinator.com/companies/coarena"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/coarena"
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/coarena",
+        "degree": "BS",
+        "field": "Computer Engineering"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-amit-yadav",
+    "name": "Amit Yadav",
+    "connection": "Purdue PhD",
+    "role": "Co-founder and CEO",
+    "organization": "Fern",
+    "region": "United States",
+    "kind": "Founder",
+    "why_relevant": "Purdue PhD graduate building YC W26 robotics AI company.",
+    "source_url": "https://www.ycombinator.com/companies/fern-bot",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/fern-bot"
+    },
+    "company_founded_year": "2025",
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/fern-bot",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/fern-bot",
+        "degree": "PhD"
+      }
+    ]
+  },
+  {
+    "id": "yc-purdue-zsika-phillip",
+    "name": "Zsika Phillip",
+    "connection": "Purdue Computer Science degree",
+    "role": "Founder and CEO",
+    "organization": "SpotPay",
+    "region": "San Francisco Bay Area",
+    "kind": "Founder",
+    "why_relevant": "Purdue CS graduate building YC W26 global payments company.",
+    "source_url": "https://www.ycombinator.com/companies/spotpay",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "flags": [
+      "purdue-founder",
+      "bay-area"
+    ],
+    "flag_sources": {
+      "purdue-founder": "https://www.ycombinator.com/companies/spotpay",
+      "bay-area": "https://www.ycombinator.com/companies/spotpay"
+    },
+    "company_location": {
+      "location": "San Francisco Bay Area",
+      "source_url": "https://www.ycombinator.com/companies/spotpay"
+    },
+    "education": [
+      {
+        "institution": "Purdue University",
+        "completion_status": "degree_completed",
+        "source_url": "https://www.ycombinator.com/companies/spotpay",
+        "field": "Computer Science"
+      }
+    ]
+  }
+]

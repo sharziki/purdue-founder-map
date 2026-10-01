@@ -28,10 +28,29 @@ ALUMNI_EXPANSIONS = (
     "alumni-ag-expansion.json",
     "alumni-notable-new.json",
     "alumni-founder-discovery.json",
+    "alumni-cs-expansion.json",
+    "alumni-biology-expansion.json",
+    "alumni-yc-expansion.json",
+    "alumni-liberal-arts-expansion.json",
+    "alumni-hhs-pharmacy-expansion.json",
+    "alumni-engineering-archive-expansion.json",
+    "alumni-pfl-wave2.json",
+    "alumni-expo26-expansion.json",
+    "alumni-founder-stories-expansion.json",
+    "alumni-paen-2026-expansion.json",
+    "alumni-business-wave2.json",
+    "alumni-science-archive-wave2.json",
+    "alumni-polytechnic-ag-wave2.json",
+    "alumni-dea-2026-expansion.json",
+    "alumni-old-masters-wave3.json",
+    "alumni-old-masters-early-wave3.json",
+    "alumni-vet-wave3.json",
+    "alumni-engineering-labs-wave4.json",
 )
 ALUMNI_ENRICHMENTS = (
     "alumni-funding-enrichment.json",
     "alumni-social-enrichment.json",
+    "alumni-social-wave3-enrichment.json",
     "alumni-location-enrichment.json",
     "alumni-company-enrichment.json",
     "alumni-capital-enrichment.json",
@@ -54,10 +73,33 @@ ENRICHMENT_FIELDS = {
 }
 
 
+ALUMNI_ID_ALIASES = {
+    "ece-aelred-al-kurtenbach": "aelred-j-kurtenbach",
+    "ece-andrew-aj-metcalf": "andrew-metcalf",
+    "ece-karenann-terrell": "karenann-kat-terrell",
+    "lab-nanoenergy-tianli-feng": "tianli-andy-feng",
+    "kathy-kilmer": "kathy-kortte-kilmer",
+    "michelle-renae-crumm": "michelle-crumm",
+    "peg-berens": "peg-powell-berens",
+    "dea26-yen-yu-matsutomi": "aae-oae-yen-matsutomi",
+}
+
+
 def alumni_name_key(name):
     plain = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode().lower()
     words = re.findall(r"[a-z]+", plain)
-    return "".join(word for word in words if len(word) > 1 and word not in {"jr", "sr", "ii", "iii"})
+    key = "".join(word for word in words if len(word) > 1 and word not in {"jr", "sr", "ii", "iii"})
+    return {
+        "aelredalkurtenbach": "aelredkurtenbach",
+        "aelredjkurtenbach": "aelredkurtenbach",
+        "andrewajmetcalf": "andrewmetcalf",
+        "karenannkatterrell": "karenannterrell",
+        "tianliandyfeng": "tianlifeng",
+        "kathykorttekilmer": "kathykilmer",
+        "michellerenaecrumm": "michellecrumm",
+        "pegpowellberens": "pegberens",
+        "yenyumatsutomi": "yenmatsutomi",
+    }.get(key, key)
 
 rows = json.loads(SEED.read_text())
 reviewed_count = len(rows)
@@ -167,20 +209,40 @@ with sqlite3.connect(DB) as db:
             "verified_at": bay_data["reviewed_at"], "source_urls": item["source_urls"]})
         known[alumni_name_key(item["name"])] = len(alumni) - 1
     protected = set(known)
+    pinned_ids = set(json.loads(NOTABLE_ORDER.read_text()))
+    for enrichment_name in ALUMNI_ENRICHMENTS:
+        enrichment_path = ROOT / "data" / enrichment_name
+        if enrichment_path.exists():
+            pinned_ids.update(json.loads(enrichment_path.read_text()))
     for filename in ALUMNI_EXPANSIONS:
         for person in json.loads((ROOT / "data" / filename).read_text()):
+            person = {**person, "id": ALUMNI_ID_ALIASES.get(person["id"], person["id"])}
             key = alumni_name_key(person["name"])
             if key not in known:
                 known[key] = len(alumni)
                 alumni.append(person)
-            elif key not in protected and int(person.get("role_as_of") or 0) > int(alumni[known[key]].get("role_as_of") or 0):
-                alumni[known[key]] = person
+            elif person["id"] == alumni[known[key]]["id"]:
+                current = alumni[known[key]]
+                newer = key not in protected and int(person.get("role_as_of") or 0) > int(current.get("role_as_of") or 0)
+                alumni[known[key]] = {**(current if newer else person), **(person if newer else current)}
+            elif key in protected:
+                current = alumni[known[key]]
+                stable_id = person["id"] if person["id"] in pinned_ids and current["id"] not in pinned_ids else current["id"]
+                alumni[known[key]] = {**person, **current, "id": stable_id}
+            elif int(person.get("role_as_of") or 0) > int(alumni[known[key]].get("role_as_of") or 0):
+                current = alumni[known[key]]
+                stable_id = person["id"] if person["id"] in pinned_ids and current["id"] not in pinned_ids else current["id"]
+                alumni[known[key]] = {**current, **person, "id": stable_id}
+            else:
+                current = alumni[known[key]]
+                alumni[known[key]] = {**person, **current}
     by_id = {person["id"]: person for person in alumni}
     for filename in ALUMNI_ENRICHMENTS:
         path = ROOT / "data" / filename
         if not path.exists():
             continue
         for person_id, details in json.loads(path.read_text()).items():
+            person_id = ALUMNI_ID_ALIASES.get(person_id, person_id)
             if person_id not in by_id:
                 raise ValueError(f"{filename}: unknown alumni id {person_id}")
             unknown = set(details) - ENRICHMENT_FIELDS
@@ -194,7 +256,7 @@ with sqlite3.connect(DB) as db:
                     raise ValueError(f"{filename}: {person_id} has invalid {field}")
             if details.get("linkedin"):
                 url = urlparse(details["linkedin"])
-                if url.hostname not in {"linkedin.com", "www.linkedin.com"} or not url.path.startswith(("/in/", "/pub/")) or not details.get("linkedin_source_url"):
+                if not (url.hostname == "linkedin.com" or (url.hostname or "").endswith(".linkedin.com")) or not url.path.startswith(("/in/", "/pub/")) or not details.get("linkedin_source_url"):
                     raise ValueError(f"{filename}: {person_id} has unverified LinkedIn profile")
             if details.get("x"):
                 url = urlparse(details["x"])

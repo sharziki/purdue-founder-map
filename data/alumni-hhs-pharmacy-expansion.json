@@ -1,0 +1,2347 @@
+[
+  {
+    "id": "hhs-adam-fetsch",
+    "name": "Adam Fetsch",
+    "connection": "Purdue HHS; 2005",
+    "role": "Founder",
+    "organization": "Rewined Candles",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents recycled-bottle candle company founded in Charleston.",
+    "source_url": "https://www.purduealumnus.org/adam-fetsch/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "pharmacy-alan-l-fites",
+    "name": "Alan L. Fites",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1964; MS 1968; PhD 1970",
+    "role": "Consultant, Research and Development",
+    "organization": "BioConvergence",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2014 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1964",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1968",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1970",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-alan-slade",
+    "name": "Alan Slade",
+    "connection": "Purdue College of Pharmacy; PharmD 2002",
+    "role": "Translational Medicine Expert",
+    "organization": "Novartis Pharmaceutical Corporation",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2002",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-alicea-howell",
+    "name": "Alicea Howell",
+    "connection": "Purdue Veterinary Technology BS 2003",
+    "role": "Veterinary Technician Specialist in Animal Behavior",
+    "organization": "Hillview Veterinary Clinic",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2016 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2016_PVM-Annual-Report_web_final.pdf",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "2003",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2016_PVM-Annual-Report_web_final.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-alisa-k-kilgas",
+    "name": "Alisa K. Kilgas",
+    "connection": "Purdue College of Pharmacy; BS 1987, Pharmacy",
+    "role": "Chief Executive Officer",
+    "organization": "Singota Solutions",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2017 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-kilgas",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1987",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-kilgas",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-allen-y-chao",
+    "name": "Allen Y. Chao",
+    "connection": "Purdue College of Pharmacy; PhD Industrial and Physical Pharmacy 1973",
+    "role": "Co-founder",
+    "organization": "Watson Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Company press release documents Purdue PhD and co-founding Watson Pharmaceuticals.",
+    "source_url": "https://investors.amneal.com/news/press-releases/press-release-details/2010/Allen-Chao-PhD-Elected-to-Impax-Laboratories-Board-of-Directors/default.aspx",
+    "role_as_of": "2010",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1973",
+        "source_url": "https://investors.amneal.com/news/press-releases/press-release-details/2010/Allen-Chao-PhD-Elected-to-Impax-Laboratories-Board-of-Directors/default.aspx",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-angela-m-falzone",
+    "name": "Angela M. Falzone",
+    "connection": "Purdue College of Pharmacy; PhD 1990, Industrial and Physical Pharmacy",
+    "role": "Scientific Director, Portfolio Management Group",
+    "organization": "Janssen Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2017 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-falzone",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1990",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-falzone",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-barbara-e-hayes",
+    "name": "Barbara E. Hayes",
+    "connection": "Purdue College of Pharmacy; MS Pharmacology 1977",
+    "role": "Professor Emeritus",
+    "organization": "Texas Southern University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2015 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-hayes",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1977",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-hayes",
+        "field": "Pharmacology"
+      }
+    ]
+  },
+  {
+    "id": "vet-bobbie-kaufman",
+    "name": "Bobbie Kaufman",
+    "connection": "Purdue Veterinary Technology AS 1987",
+    "role": "Veterinary Technology Department Director",
+    "organization": "Brown Mackie College",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2014 source documents this role. Historical roles may have changed.",
+    "source_url": "https://www.vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report-2014_FINAL.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "pharmacy-bobby-w-sandage-jr",
+    "name": "Bobby W. Sandage, Jr.",
+    "connection": "Purdue College of Pharmacy; PhD 1981, Clinical Pharmacy",
+    "role": "President and Chief Executive Officer",
+    "organization": "Euclises Pharmaceuticals, Inc.",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2018 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Sandage",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Sandage",
+        "field": "Clinical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-brian-schumer",
+    "name": "Brian Schumer",
+    "connection": "Purdue College of Pharmacy; PharmD 2007",
+    "role": "Chief Operating Officer",
+    "organization": "SOFIE",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2025 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-brian-schumer",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2007",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-brian-schumer"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-brian-w-musial",
+    "name": "Brian W. Musial",
+    "connection": "Purdue College of Pharmacy; BS 1986 Pharmaceutics",
+    "role": "Director of Pharmacy Analytics",
+    "organization": "MDWise",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2019 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Musial",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1986",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Musial"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-carlton-k-erickson",
+    "name": "Carlton K. Erickson",
+    "connection": "Purdue College of Pharmacy; MS 1963; PhD 1965",
+    "role": "Professor of Pharmacology and Toxicology; Associate Dean",
+    "organization": "University of Texas at Austin",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2014 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1963",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1965",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-charles-l-goodall",
+    "name": "Charles L. Goodall",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1984",
+    "role": "Senior Vice President, Pharmacy and Member Services Technology",
+    "organization": "Catamaran Corporation",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2015 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-goodall",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1984",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-goodall",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-charles-mueller",
+    "name": "Charles Mueller",
+    "connection": "Purdue College of Pharmacy; BS 1981, Pharmacy",
+    "role": "Global Head of Clinical and Bioanalytical Quality",
+    "organization": "Viatris",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2023 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-charles-mueller",
+    "role_as_of": "2023",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-charles-mueller",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-chetan-p-pujara",
+    "name": "Chetan P. Pujara",
+    "connection": "Purdue College of Pharmacy; PhD 1997",
+    "role": "Vice President, Pharmaceutical Sciences in Global R&D",
+    "organization": "AbbVie",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2020 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Pujara",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1997",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Pujara"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-christopher-m-scott",
+    "name": "Christopher M. Scott",
+    "connection": "Purdue College of Pharmacy; BS 1998, Pharmacy",
+    "role": "Vice President of Clinical Services",
+    "organization": "Eskenazi Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2018 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-scott",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1998",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-scott",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "vet-claire-hankenson",
+    "name": "Claire Hankenson",
+    "connection": "Purdue Veterinary Medicine DVM 1997",
+    "role": "Associate Vice Provost for Research and Executive Director",
+    "organization": "University Laboratory Animal Resources, University of Pennsylvania",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2021 source documents this role. Historical roles may have changed.",
+    "source_url": "https://almanac.upenn.edu/articles/f-claire-hankenson-associate-vice-provost-for-research-and-executive-director-of-ular-v68-n1",
+    "role_as_of": "2021",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1997",
+        "source_url": "https://almanac.upenn.edu/articles/f-claire-hankenson-associate-vice-provost-for-research-and-executive-director-of-ular-v68-n1"
+      }
+    ]
+  },
+  {
+    "id": "vet-craig-l-wardrip",
+    "name": "Craig L. Wardrip",
+    "connection": "Purdue Veterinary Medicine DVM 1978",
+    "role": "Co-owner",
+    "organization": "Crestwood Animal Clinic",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2013 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1978",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-dale-e-wurster",
+    "name": "Dale E. Wurster",
+    "connection": "Purdue College of Pharmacy; PhD Industrial and Physical Pharmacy 1979",
+    "role": "Senior Associate Dean for Academic Affairs",
+    "organization": "University of Iowa Graduate College",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2015 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-wurster",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1979",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-wurster",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-dan-degnan",
+    "name": "Dan Degnan",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1991; PharmD 1992",
+    "role": "Medication Safety Officer",
+    "organization": "Community Health Network",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1991",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1992",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-daniel-kerner",
+    "name": "Daniel Kerner",
+    "connection": "Purdue College of Pharmacy; PharmD 2015",
+    "role": "Chair of Pharmacy Practice and Clinical Associate Professor",
+    "organization": "Chicago State University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2024 early-career honoree; source documents academic leadership role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/early-career-award/2024-daniel-kerner",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2024",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2015",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/early-career-award/2024-daniel-kerner"
+      }
+    ]
+  },
+  {
+    "id": "hhs-darrin-carrico",
+    "name": "Darrin Carrico",
+    "connection": "Purdue HHS, Restaurant Hotel and Institutional Management; 1990",
+    "role": "Co-founder and part owner",
+    "organization": "BiologicTx",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents transplant technology venture and co-founding role.",
+    "source_url": "https://www.purduealumnus.org/darrin-carrico/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "vet-debbie-white",
+    "name": "Debbie White",
+    "connection": "Purdue Veterinary Medicine DVM 1994",
+    "role": "Owner, animal hospitals",
+    "organization": "Veterinary hospitals in Las Vegas area",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2020 source documents this role. Historical roles may have changed.",
+    "source_url": "https://www.vet.purdue.edu/news/virtual-celebration-to-honor-distinguished-alumni-and-outstanding-teacher-award-recipients.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1994",
+        "source_url": "https://www.vet.purdue.edu/news/virtual-celebration-to-honor-distinguished-alumni-and-outstanding-teacher-award-recipients.php"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-dolores-c--shockley",
+    "name": "Dolores C. Shockley",
+    "connection": "Purdue MS Pharmacology 1953; PhD Pharmacology 1955",
+    "role": "Professor Emerita",
+    "organization": "Meharry Medical College",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Former pharmacology department chair and mentor profiled by Purdue in 2009.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+    "role_as_of": "2009",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1953",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+        "field": "Pharmacology"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1955",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+        "field": "Pharmacology"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-edward-l-langston",
+    "name": "Edward L. Langston",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1967",
+    "role": "Director, Graduate Medical Education",
+    "organization": "St. Elizabeth Regional Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2010 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+    "role_as_of": "2010",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1967",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-elaine-sorg",
+    "name": "Elaine Sorg",
+    "connection": "Purdue College of Pharmacy; BS 1989",
+    "role": "Senior Vice President, U.S. Commercial Operations",
+    "organization": "AbbVie, Inc.",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2021 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Sorg",
+    "role_as_of": "2021",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1989",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Sorg"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-emily-hancock",
+    "name": "Emily Hancock",
+    "connection": "Purdue College of Pharmacy; PharmD 1992",
+    "role": "Retired Manager of Policy and Program Integration",
+    "organization": "State of Indiana Office of Medicaid Policy and Planning",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2025 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-emily-hancock",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1992",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-emily-hancock"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-eric-w-kolodziej",
+    "name": "Eric W. Kolodziej",
+    "connection": "Purdue College of Pharmacy; PhD 1982",
+    "role": "Senior Vice President, Global Regulatory Affairs",
+    "organization": "Roche Diagnostics Operations North America",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2013 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-fred-metzger",
+    "name": "Fred Metzger",
+    "connection": "Purdue Veterinary Medicine DVM 1986",
+    "role": "Founder and Medical Director",
+    "organization": "VCA Metzger Animal Hospital",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue-connected veterinary professional; public 2026 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vcahospitals.com/metzger/team/fred-metzger",
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1986",
+        "source_url": "https://vcahospitals.com/metzger/team/fred-metzger"
+      }
+    ]
+  },
+  {
+    "id": "vet-frederic-j-hoerr",
+    "name": "Frederic J. Hoerr",
+    "connection": "Purdue Veterinary Medicine DVM 1976",
+    "role": "Director and Professor of Avian Pathology",
+    "organization": "Alabama Veterinary Diagnostic Laboratories, Auburn University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2011 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1976",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-g-kay-boyd",
+    "name": "G. Kay Boyd",
+    "connection": "Purdue Veterinary Medicine DVM 1975",
+    "role": "Founder and veterinarian",
+    "organization": "Kentland Veterinary Clinic",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue-connected veterinary professional; public 2025 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1975",
+        "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-garnet-e-peck",
+    "name": "Garnet E. Peck",
+    "connection": "Purdue College of Pharmacy; MS Industrial Pharmacy 1959; PhD 1962",
+    "role": "Professor Emeritus",
+    "organization": "Purdue University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2010 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+    "role_as_of": "2010",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1959",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Industrial Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1962",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-george-h-hinkle",
+    "name": "George H. Hinkle",
+    "connection": "Purdue College of Pharmacy; BS 1975, MS 1977",
+    "role": "Medical Health Physicist, Laser Safety Officer and Non-Medical X-ray Officer",
+    "organization": "The Ohio State University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2021 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Hinkle",
+    "role_as_of": "2021",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1975",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Hinkle",
+        "field": "MS 1977"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1977",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Hinkle"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-gregory-d--wasson",
+    "name": "Gregory D. Wasson",
+    "connection": "Purdue BS Pharmacy 1981",
+    "role": "President and Chief Executive Officer",
+    "organization": "Walgreen Company",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Led Walgreens as CEO in Purdue’s 2009 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+    "role_as_of": "2009",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-hamid-a--abbaspour",
+    "name": "Hamid A. Abbaspour",
+    "connection": "Purdue BS Pharmacy 1985",
+    "role": "Founder and owner",
+    "organization": "Dr. Aziz Pharmacy",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Founded Indianapolis pharmacy in 1988; also established Gateway Institute in 2000.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+    "role_as_of": "2008",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1985",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-heidi-m-anderson",
+    "name": "Heidi M. Anderson",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1978; MS Education 1982; PhD Pharmacy Administration 1986",
+    "role": "Associate Provost for Faculty Affairs",
+    "organization": "University of Kentucky",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2010 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+    "role_as_of": "2010",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1978",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Education"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1986",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Pharmacy Administration"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-henry-bryant",
+    "name": "Henry Bryant",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1981; PhD 1986",
+    "role": "Distinguished Research Fellow",
+    "organization": "Eli Lilly and Company",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1986",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hhs-hillary-gramm",
+    "name": "Hillary Gramm",
+    "connection": "Purdue HHS, Selling and Sales Management; 2005",
+    "role": "Founding Executive Director",
+    "organization": "HIGHER Up Texas",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents founding leadership of youth career-readiness nonprofit.",
+    "source_url": "https://www.purduealumnus.org/hillary-gramm/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "hhspharm-holly-m--bonsignore",
+    "name": "Holly M. Bonsignore",
+    "connection": "Purdue PhD Industrial and Physical Pharmacy 1987",
+    "role": "Director, New Products Group, Pfizer Global Manufacturing",
+    "organization": "Pfizer",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Led small-molecule product commercialization in Purdue’s 2009 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+    "role_as_of": "2009",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1987",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-james-b-jones",
+    "name": "James B Jones",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1987; PharmD 1988",
+    "role": "Vice President, Clinical Development – Pain",
+    "organization": "Vertex Pharmaceuticals Incorporated",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2022 distinguished alumnus; source documents this drug-development role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Jones",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2022",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1987",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Jones",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1988",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Jones"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-james-w-bedford",
+    "name": "James W. Bedford",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1981",
+    "role": "Director",
+    "organization": "West Monroe Partners",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2014 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-jason-lennen",
+    "name": "Jason Lennen",
+    "connection": "Purdue College of Pharmacy; PharmD 2005",
+    "role": "Commander and Military Treatment Facility Director",
+    "organization": "316th Medical Group, Joint Base Andrews, Maryland",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2022 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Lennen",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2005",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Lennen"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-jeffrey-e-browne",
+    "name": "Jeffrey E. Browne",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1975; PhD 1979",
+    "role": "Director, Science & Technology",
+    "organization": "Catalent Pharma Solutions",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2016 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-browne",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1975",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-browne",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1979",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-browne"
+      }
+    ]
+  },
+  {
+    "id": "vet-jeffrey-harker",
+    "name": "Jeffrey Harker",
+    "connection": "Purdue Veterinary Medicine DVM 1994",
+    "role": "Swine veterinarian",
+    "organization": "AMVC (formerly Swine Health Services)",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2025 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/purdue-veterinary-alumnus-jeffrey-harker-receives-indiana-pork-award-for-meritorious-service.php",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1994",
+        "source_url": "https://vet.purdue.edu/news/purdue-veterinary-alumnus-jeffrey-harker-receives-indiana-pork-award-for-meritorious-service.php"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-jeffrey-s-hatfield",
+    "name": "Jeffrey S. Hatfield",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1981",
+    "role": "Chief Executive Officer",
+    "organization": "Vitae Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-jennifer-eads",
+    "name": "Jennifer Eads",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1982; PharmD 1983",
+    "role": "Clinical Trial Manager",
+    "organization": "Eli Lilly and Company",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1983",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-jim-branham",
+    "name": "Jim Branham",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1977",
+    "role": "Executive Customer Team Manager",
+    "organization": "Merck & Co.",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1977",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-joanne-barrick",
+    "name": "Joanne Barrick",
+    "connection": "Purdue College of Pharmacy; BS 1984, Pharmacy",
+    "role": "Senior Director of Global Validation Support within Technical Services/Manufacturing Science",
+    "organization": "Eli Lilly and Company",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2023 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-joanne-barrick",
+    "role_as_of": "2023",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1984",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-joanne-barrick",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-john-jack-horner",
+    "name": "John \"Jack\" Horner",
+    "connection": "Purdue College of Pharmacy; BS 1981, Pharmacy",
+    "role": "President and CEO",
+    "organization": "Major Health Partners",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2025 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-john-jack-horner",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1981",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-john-jack-horner",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-john-a-zehner",
+    "name": "John A. Zehner",
+    "connection": "Purdue College of Pharmacy; BS 1991, Pharmacy",
+    "role": "CEO and Partner",
+    "organization": "SpectronRx",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2023 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-john-zehner",
+    "role_as_of": "2023",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1991",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-john-zehner",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-john-grosso",
+    "name": "John Grosso",
+    "connection": "Purdue College of Pharmacy; PhD 1980, Medicinal Chemistry and Molecular Pharmacology",
+    "role": "Vice President, Manufacturing Controls",
+    "organization": "Arvinas Inc.",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2018 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Grosso",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Grosso",
+        "field": "Medicinal Chemistry and Molecular Pharmacology"
+      }
+    ]
+  },
+  {
+    "id": "vet-joseph-j-klopfenstein",
+    "name": "Joseph J. Klopfenstein",
+    "connection": "Purdue Veterinary Medicine DVM 1983",
+    "role": "Owner",
+    "organization": "Vergennes Large Animal Associates",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2014 source documents this role. Historical roles may have changed.",
+    "source_url": "https://www.vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report-2014_FINAL.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1983",
+        "source_url": "https://www.vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report-2014_FINAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-judith-jacobi",
+    "name": "Judith Jacobi",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1979",
+    "role": "Critical Care Pharmacy Specialist",
+    "organization": "IU Health Methodist Hospital",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1979",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "hhs-julianne-mccollum",
+    "name": "Julianne McCollum",
+    "connection": "Purdue HHS, Consumer Sciences and Retailing; 1997",
+    "role": "Founder",
+    "organization": "Yellow Duck Marketing",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents founding a Charlotte marketing agency.",
+    "source_url": "https://www.purduealumnus.org/julianne-smith-mccollum/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "vet-kayla-baird",
+    "name": "Kayla Baird",
+    "connection": "Purdue Veterinary Medicine DVM 2021",
+    "role": "Veterinarian",
+    "organization": "Jackman Animal Clinic",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2025 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "2021",
+        "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-kristin-husband",
+    "name": "Kristin Husband",
+    "connection": "Purdue Veterinary Technology AS 2002",
+    "role": "Program Registered Veterinary Technician",
+    "organization": "Vet Tech Institute, International Business College",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2011 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "vet-kyle-shipman",
+    "name": "Kyle Shipman",
+    "connection": "Purdue Veterinary Medicine DVM 2015",
+    "role": "Indiana State Veterinarian",
+    "organization": "Indiana State Board of Animal Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2025 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/pvm-alumnus-kyle-shipman-named-as-new-state-veterinarian.php",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "2015",
+        "source_url": "https://vet.purdue.edu/news/pvm-alumnus-kyle-shipman-named-as-new-state-veterinarian.php"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-lana-burrell",
+    "name": "Lana Burrell",
+    "connection": "Purdue College of Pharmacy; Ph.D. 1998, Pharmacy",
+    "role": "Head of Contract Development & Manufacturing Operations",
+    "organization": "Roche Global Supply Chain",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2023 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2023-lana-burrell",
+    "role_as_of": "2023",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "pharmacy-louise-johnson",
+    "name": "Louise Johnson",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1973",
+    "role": "Former Senior Vice President and Global Head of R&D Quality Assurance",
+    "organization": "Takeda Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2016 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-johnson",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1973",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-johnson",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-m-eileen-dolan",
+    "name": "M. Eileen Dolan",
+    "connection": "Purdue College of Pharmacy; PhD Medicinal Chemistry 1983",
+    "role": "Professor, Department of Medicine",
+    "organization": "University of Chicago",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2010 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+    "role_as_of": "2010",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1983",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v86_n2.pdf",
+        "field": "Medicinal Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-mansoor-m-amiji",
+    "name": "Mansoor M. Amiji",
+    "connection": "Purdue College of Pharmacy; PhD 1992 Industrial and Physical Pharmacy",
+    "role": "University Distinguished Professor, Professor of Pharmaceutical Sciences, Professor of Chemical Engineering",
+    "organization": "Northeastern University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2019 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Amiji",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1992",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Amiji"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-marcia-l-buck",
+    "name": "Marcia L. Buck",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1986; PharmD 1987",
+    "role": "Clinical Pharmacy Coordinator and Residency Director",
+    "organization": "University of Virginia Children’s Hospital",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2016 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-buck",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1986",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-buck",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1987",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-buck"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-marvin-r--richardson",
+    "name": "Marvin R. Richardson",
+    "connection": "Purdue BS Pharmacy 1980",
+    "role": "Co-founder, PrairieStone Pharmacy; President and CEO, Arcadia HealthCare",
+    "organization": "PrairieStone Pharmacy; Arcadia HealthCare",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded PrairieStone in 2003 and led Arcadia HealthCare in Purdue’s 2008 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+    "role_as_of": "2008",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-mary-j-kuhn",
+    "name": "Mary J. Kuhn",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1982",
+    "role": "President",
+    "organization": "Grifols",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2012 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+    "role_as_of": "2012",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-mary-l-westrick",
+    "name": "Mary L. Westrick",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1978; MS 1980; PhD 1983",
+    "role": "Vice President, Clinical Research",
+    "organization": "Quintiles",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2012 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+    "role_as_of": "2012",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1978",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1983",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-max-t-rodibaugh",
+    "name": "Max T. Rodibaugh",
+    "connection": "Purdue Veterinary Medicine DVM 1977",
+    "role": "Founding Partner",
+    "organization": "Swine Health Services",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue-connected veterinary professional; public 2012 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2012.pdf",
+    "role_as_of": "2012",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1977",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2012.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hhs-meghan-fay",
+    "name": "Meghan Fay",
+    "connection": "Purdue HHS, Behavioral Neuroscience; 2006",
+    "role": "Founder",
+    "organization": "Extraordinary Days",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents founding an international wedding-planning business.",
+    "source_url": "https://www.purduealumnus.org/meghan-fay/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "vet-michael-p-andrews",
+    "name": "Michael P. Andrews",
+    "connection": "Purdue Veterinary Medicine DVM 1983",
+    "role": "Owner",
+    "organization": "Woodcrest Veterinary Clinic",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2013 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1983",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report_2013.pdf"
+      }
+    ]
+  },
+  {
+    "id": "hhs-michelle-gladieux",
+    "name": "Michelle Gladieux",
+    "connection": "Purdue HHS Psychology; 1993; Purdue MS Industrial Technology 1995",
+    "role": "Founder and President",
+    "organization": "Gladieux Consulting",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue event and company biography document the training and workplace-coaching firm and her Purdue degrees.",
+    "source_url": "https://events.purdue.edu/event/2023_purdue_womens_conference",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2023",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1995",
+        "source_url": "https://events.purdue.edu/event/2023_purdue_womens_conference",
+        "field": "Industrial Technology"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-ming-daw-tsai",
+    "name": "Ming-Daw Tsai",
+    "connection": "Purdue PhD Medicinal Chemistry and Pharmacognosy 1978",
+    "role": "Director, Institute of Biological Chemistry",
+    "organization": "Academia Sinica",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Led Academia Sinica’s Institute of Biological Chemistry in Purdue’s 2008 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+    "role_as_of": "2008",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1978",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+        "field": "Medicinal Chemistry and Pharmacognosy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-nancy-c-lilly",
+    "name": "Nancy C. Lilly",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1978",
+    "role": "Vice President, Marketing Emerging Markets",
+    "organization": "Eli Lilly and Company",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2013 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1978",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-nathan-gabhart",
+    "name": "Nathan Gabhart",
+    "connection": "Purdue College of Pharmacy; BS 1998, Pharmacy",
+    "role": "Founder",
+    "organization": "TrueScripts",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2024 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+    "role_as_of": "2024",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1998",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "vet-nathan-rich",
+    "name": "Nathan Rich",
+    "connection": "Purdue Veterinary Medicine DVM 2006",
+    "role": "Owner and veterinarian",
+    "organization": "Country Acre Animal Clinic",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2025 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "2006",
+        "source_url": "https://vet.purdue.edu/news/three-pvm-alumni-receive-ivma-awards-for-achievements-and-volunteering.php"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-nathaniel-milton",
+    "name": "Nathaniel Milton",
+    "connection": "Purdue College of Pharmacy; BS 1989, PhD 1995",
+    "role": "Senior Scientist",
+    "organization": "Exelead",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2021 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Milton",
+    "role_as_of": "2021",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1989",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Milton",
+        "field": "PhD 1995"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1995",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2021-Milton"
+      }
+    ]
+  },
+  {
+    "id": "hhs-nickey-ramsey",
+    "name": "Nikeytha (Nickey) Ramsey",
+    "connection": "Purdue HHS, Speech Language and Hearing Sciences; 2014",
+    "role": "Founder",
+    "organization": "Junobie",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue HHS alumna founded reusable breast-milk storage startup Junobie.",
+    "source_url": "https://stories.purdue.edu/purdue-alumna-nickey-ramsey-takes-on-shark-tank-with-an-innovative-solution-for-busy-parents/",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2022"
+  },
+  {
+    "id": "pharmacy-q-may-wang",
+    "name": "Q. May Wang",
+    "connection": "Purdue College of Pharmacy; PhD in Biochemistry (year not stated)",
+    "role": "Senior Vice President and Head of Business Development and Strategic Alliances",
+    "organization": "Hutchison MediPharma (Chi-Med)",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2017 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-wang",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "pharmacy-r-gary-hollenbeck",
+    "name": "R. Gary Hollenbeck",
+    "connection": "Purdue College of Pharmacy; PhD 1977, Industrial and Physical Pharmacy",
+    "role": "Research Fellow; retired professor",
+    "organization": "University of Maryland",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2018 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Hollenbeck",
+    "role_as_of": "2018",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1977",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2018-Hollenbeck",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-randy-boris",
+    "name": "Randy Boris",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1968; MS Management 1977",
+    "role": "Senior Vice President",
+    "organization": "FactorHealth Management",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1968",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1977",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Management"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-rebecca-vermeulen",
+    "name": "Rebecca Vermeulen",
+    "connection": "Purdue College of Pharmacy; BS 1991, Pharmacy",
+    "role": "Head of Global Patient Partnership, Product Development Medical Affairs",
+    "organization": "Roche Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2024 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-rebecca-vermeulen",
+    "role_as_of": "2024",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1991",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-rebecca-vermeulen",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-renee-e-coffman",
+    "name": "Renee E. Coffman",
+    "connection": "Purdue College of Pharmacy; PhD 1995",
+    "role": "President and Co-Founder",
+    "organization": "Roseman University of Health Sciences",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2020 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Coffman",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1995",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Coffman"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-rick-f-rondinelli",
+    "name": "Rick F. Rondinelli",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1980",
+    "role": "Founder, President and Owner",
+    "organization": "In Touch Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-robert-j-sepelyak",
+    "name": "Robert J. Sepelyak",
+    "connection": "Purdue College of Pharmacy; PhD 1982",
+    "role": "Project Director, Pharmaceutical Development",
+    "organization": "AstraZeneca Pharmaceuticals",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "vet-roy-a-coolman",
+    "name": "Roy A. Coolman",
+    "connection": "Purdue Veterinary Medicine DVM 1965",
+    "role": "Retired private-practice veterinarian",
+    "organization": "Private practice, Fort Wayne",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2011 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1965",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2011.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-ryan-cohlhepp",
+    "name": "Ryan Cohlhepp",
+    "connection": "Purdue College of Pharmacy; PharmD 2000",
+    "role": "President and COO",
+    "organization": "Bicara Therapeutics",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2025 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-ryan-cohlhepp",
+    "role_as_of": "2025",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2000",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2025-ryan-cohlhepp"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-s-suresh-madhavan",
+    "name": "S. Suresh Madhavan",
+    "connection": "Purdue College of Pharmacy; PhD 1988, Pharmacy Practice",
+    "role": "Chair and Professor, Department of Pharmaceutical Systems and Policy",
+    "organization": "School of Pharmacy, West Virginia University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2017 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-madhavan",
+    "role_as_of": "2017",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1988",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2017-madhavan",
+        "field": "Pharmacy Practice"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-said-m-sebti",
+    "name": "Said M. Sebti",
+    "connection": "Purdue College of Pharmacy; PhD 1984",
+    "role": "Endowed Chair, Department of Drug Discovery",
+    "organization": "Moffitt Cancer Center",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2011 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf",
+    "role_as_of": "2011",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1984",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v87_n2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-sarah-a-sanders",
+    "name": "Sarah A. Sanders",
+    "connection": "Purdue College of Pharmacy; BS 1978, PharmD 1980 Pharmacy",
+    "role": "President-Elect",
+    "organization": "AMA Foundation Board",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2019 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Sanders",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1978",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Sanders",
+        "field": "PharmD 1980 Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Sanders"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-satish-reddy",
+    "name": "Satish Reddy",
+    "connection": "Purdue MS Medicinal Chemistry 1991",
+    "role": "Managing Director and Chief Operating Officer",
+    "organization": "Dr. Reddy’s Laboratories",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Led pharmaceutical services, active ingredients, and global generics in Purdue’s 2009 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+    "role_as_of": "2009",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1991",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n3.pdf",
+        "field": "Medicinal Chemistry"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-scott-c-brower",
+    "name": "Scott C. Brower",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1980",
+    "role": "Former founder and owner",
+    "organization": "Mid-America Isotopes and Mid-America Cyclotron",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue Pharmacy 2020 distinguished alumnus; profile documents nuclear pharmacy ventures and former leadership.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Brower",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1980",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Brower",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-steven-l-nail",
+    "name": "Steven L. Nail",
+    "connection": "Purdue College of Pharmacy; BS Chemical Engineering 1972; PhD 1975",
+    "role": "Principal Scientist, Pharmaceutical R&D",
+    "organization": "Baxter Pharmaceutical Solutions",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2013 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1972",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+        "field": "Chemical Engineering"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1975",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-sue-cammarata",
+    "name": "Sue Cammarata",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1979",
+    "role": "Consultant",
+    "organization": "Biomedical Advanced Research and Development (BARDA)",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2022 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Cammarata",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1979",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Cammarata",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-susan-k-brown",
+    "name": "Susan K. Brown",
+    "connection": "Purdue College of Pharmacy; MS Clinical Pharmacy 1974",
+    "role": "Retired Administrative Director of Pharmacy",
+    "organization": "Franciscan St. Francis Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2015 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-brown",
+    "role_as_of": "2015",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1974",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2015-brown",
+        "field": "Clinical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-tate-n-trujillo",
+    "name": "Tate N. Trujillo",
+    "connection": "Purdue College of Pharmacy; PharmD 1996",
+    "role": "Director of Pharmacy, Adult Academic Health Center",
+    "organization": "Indiana University Health",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2020 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Trujillo",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "1996",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2020-Trujillo"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-terry-l-holcslaw",
+    "name": "Terry L. Holcslaw",
+    "connection": "Purdue College of Pharmacy; MS Pharmacology and Toxicology 1972; PhD 1974",
+    "role": "Vice President of Business Development",
+    "organization": "New Drug Development Services, Inc.",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2016 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-holcslaw",
+    "role_as_of": "2016",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1972",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-holcslaw",
+        "field": "Pharmacology and Toxicology"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1974",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2016-holcslaw"
+      }
+    ]
+  },
+  {
+    "id": "purdue-terry-morris",
+    "name": "Terry Morris",
+    "connection": "Purdue MS Biology; 1984; veterinary degree from Tuskegee",
+    "role": "Founder and Executive Director",
+    "organization": "Vets to Vets United",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue alumni profile documents a service-dog nonprofit founded by Morris; Purdue degree is biology, not veterinary medicine.",
+    "source_url": "https://www.purduealumnus.org/more-impact/alumni/",
+    "verified_at": "2026-09-30"
+  },
+  {
+    "id": "pharmacy-thomas-a-gossel",
+    "name": "Thomas A. Gossel",
+    "connection": "Purdue College of Pharmacy; MS 1970 PhD 1972 Medicinal Chemistry and Molecular Pharmacology",
+    "role": "Author and Professor Emeritus, College of Pharmacy",
+    "organization": "Ohio Northern University",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2019 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Gossel",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": "1970",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Gossel"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1972",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2019-Gossel"
+      }
+    ]
+  },
+  {
+    "id": "vet-tim-mullican",
+    "name": "Tim Mullican",
+    "connection": "Purdue Veterinary Medicine DVM 1984",
+    "role": "Senior Vice President and Chief Zoological Officer",
+    "organization": "Georgia Aquarium",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2014 source documents this role. Historical roles may have changed.",
+    "source_url": "https://www.vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report-2014_FINAL.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1984",
+        "source_url": "https://www.vet.purdue.edu/news/wp-content/uploads/2020/09/PVM-Annual-Report-2014_FINAL.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-timothy-s-tracy",
+    "name": "Timothy S. Tracy",
+    "connection": "Purdue College of Pharmacy; PhD 1988",
+    "role": "Dean, College of Pharmacy",
+    "organization": "University of Kentucky",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2014 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf",
+    "role_as_of": "2014",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1988",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v90_n1.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-todd-e-chermak",
+    "name": "Todd E. Chermak",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1994",
+    "role": "Divisional Vice President, Global Regulatory Affairs",
+    "organization": "Abbott Laboratories",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2012 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+    "role_as_of": "2012",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1994",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v88_n2.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "vet-tom-troxel",
+    "name": "Tom Troxel",
+    "connection": "Purdue Veterinary Medicine DVM 1981",
+    "role": "Veterinarian and dairy farmer",
+    "organization": "Private veterinary practice",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2020 source documents this role. Historical roles may have changed.",
+    "source_url": "https://www.vet.purdue.edu/news/virtual-celebration-to-honor-distinguished-alumni-and-outstanding-teacher-award-recipients.php",
+    "role_as_of": "2020",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1981",
+        "source_url": "https://www.vet.purdue.edu/news/virtual-celebration-to-honor-distinguished-alumni-and-outstanding-teacher-award-recipients.php"
+      }
+    ]
+  },
+  {
+    "id": "hhs-virginia-jacko",
+    "name": "Virginia Jacko",
+    "connection": "Purdue HHS MS; 1975",
+    "role": "President and CEO; founder of Miami Lighthouse Academy",
+    "organization": "Miami Lighthouse for the Blind and Visually Impaired",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Purdue women’s conference identifies executive and founder roles.",
+    "source_url": "https://events.purdue.edu/event/2023_purdue_womens_conference",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2023"
+  },
+  {
+    "id": "vet-w-mark-hilton",
+    "name": "W. Mark Hilton",
+    "connection": "Purdue Veterinary Medicine DVM 1983",
+    "role": "President",
+    "organization": "American Association of Bovine Practitioners",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2026 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/pvm-well-represented-by-students-faculty-and-staff-at-annual-aabp-meeting.php",
+    "role_as_of": "2026",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1983",
+        "source_url": "https://vet.purdue.edu/news/pvm-well-represented-by-students-faculty-and-staff-at-annual-aabp-meeting.php"
+      }
+    ]
+  },
+  {
+    "id": "vet-w-ron-dehaven",
+    "name": "W. Ron DeHaven",
+    "connection": "Purdue Veterinary Medicine DVM 1975",
+    "role": "Executive Vice President and CEO",
+    "organization": "American Veterinary Medical Association",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue-connected veterinary professional; public 2012 source documents this role. Historical roles may have changed.",
+    "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2012.pdf",
+    "role_as_of": "2012",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "DVM",
+        "graduation_year": "1975",
+        "source_url": "https://vet.purdue.edu/news/wp-content/uploads/2020/09/2012.pdf"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-warren-moore",
+    "name": "Warren Moore",
+    "connection": "Purdue College of Pharmacy; PharmD 2002",
+    "role": "Vice President of Social Determinants of Health Actions",
+    "organization": "Walmart",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy distinguished alumnus; 2022 award profile documents this professional role.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Moore",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": "2002",
+        "source_url": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2022-Moore"
+      }
+    ]
+  },
+  {
+    "id": "hhspharm-william-g--randolph-iii",
+    "name": "William G. Randolph III",
+    "connection": "Purdue BS Pharmacy 1982; PhD Industrial and Physical Pharmacy 1988",
+    "role": "Vice President, Global Technical Services",
+    "organization": "Johnson & Johnson",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Led global pharmaceutical manufacturing technical services in Purdue’s 2008 alumni profile.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+    "role_as_of": "2008",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1982",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+        "field": "Pharmacy"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": "1988",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v85_n1.pdf",
+        "field": "Industrial and Physical Pharmacy"
+      }
+    ]
+  },
+  {
+    "id": "pharmacy-william-x-malloy",
+    "name": "William X. Malloy",
+    "connection": "Purdue College of Pharmacy; BS Pharmacy 1976",
+    "role": "Clinical Coordinator",
+    "organization": "Roudebush VA Medical Center",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "Purdue Pharmacy 2013 magazine documents this historical professional role and education.",
+    "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+    "role_as_of": "2013",
+    "verified_at": "2026-09-30",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": "1976",
+        "source_url": "https://legacy.pharmacy.purdue.edu/sites/default/files/publications/pharmacist/v89_n1.pdf",
+        "field": "Pharmacy"
+      }
+    ]
+  }
+]

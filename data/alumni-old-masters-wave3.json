@@ -1,0 +1,702 @@
+[
+  {
+    "id": "brian-cardinal",
+    "name": "Brian Cardinal",
+    "connection": "BS Management 2000",
+    "role": "Assistant Director",
+    "organization": "John Purdue Club",
+    "region": "West Lafayette, IN",
+    "kind": "Operator",
+    "why_relevant": "2017 Old Master; former NBA player.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2000,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Management"
+      }
+    ]
+  },
+  {
+    "id": "moses-chan",
+    "name": "Moses Chan",
+    "connection": "BS 1991, MS 1993, PhD 1999 Electrical and Computer Engineering",
+    "role": "Technical Fellow",
+    "organization": "Lockheed Martin Space Systems",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Old Master in aerospace engineering.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1991,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": 1993,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": 1999,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html"
+      }
+    ]
+  },
+  {
+    "id": "malcolm-dekryger",
+    "name": "Malcolm DeKryger",
+    "connection": "MS Animal Science 1983",
+    "role": "CEO and President",
+    "organization": "Belstra Milling",
+    "region": "Indiana",
+    "kind": "Founder",
+    "why_relevant": "2017 Old Master and part-owner of Belstra Milling.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": 1983,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Animal Science"
+      }
+    ]
+  },
+  {
+    "id": "julie-goonewardene",
+    "name": "Julie Goonewardene",
+    "connection": "BS Management 1981, MS Health Communication 2010",
+    "role": "Managing Director",
+    "organization": "UT Horizon Fund, University of Texas System",
+    "region": "Texas",
+    "kind": "Investor",
+    "why_relevant": "2017 Old Master leading a university venture fund.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1981,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Management"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": 2010,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Health Communication"
+      }
+    ]
+  },
+  {
+    "id": "kathy-kilmer",
+    "name": "Kathy Kilmer",
+    "connection": "BS Industrial Engineering 1992",
+    "role": "Director, Sales Analytics and Insights",
+    "organization": "Walt Disney Parks and Resorts",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Old Master in analytics leadership.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1992,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "ed-langford",
+    "name": "Ed Langford",
+    "connection": "BS Landscape Architecture 1981",
+    "role": "Technical Director",
+    "organization": "Cruise Missile Support Activity",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Old Master in defense technology.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1981,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Landscape Architecture"
+      }
+    ]
+  },
+  {
+    "id": "katie-macfarlane",
+    "name": "Katie MacFarlane",
+    "connection": "PharmD 1989",
+    "role": "Founder and Managing Partner",
+    "organization": "SmartPharma LLC Consulting",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "2017 Old Master and founder of a pharmaceutical consultancy.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "PharmD",
+        "graduation_year": 1989,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html"
+      }
+    ]
+  },
+  {
+    "id": "anthony-miller",
+    "name": "Anthony Miller",
+    "connection": "BS Industrial Engineering 1989",
+    "role": "Co-founder, COO and Partner",
+    "organization": "The Vistria Group",
+    "region": "Not listed",
+    "kind": "Investor",
+    "why_relevant": "2017 Old Master and private investment firm co-founder.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1989,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "ginger-thompson",
+    "name": "Ginger Thompson",
+    "connection": "BA Communications 1986",
+    "role": "Senior Reporter",
+    "organization": "ProPublica",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Old Master in investigative journalism.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BA",
+        "graduation_year": 1986,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2017/Q3/old-masters-program-announces-returning-alumni.html",
+        "field": "Communications"
+      }
+    ]
+  },
+  {
+    "id": "lauren-mioton-conner",
+    "name": "Lauren Mioton Conner",
+    "connection": "BA Biology 2009",
+    "role": "Plastic Surgery Resident",
+    "organization": "Northwestern Memorial Hospital",
+    "region": "Chicago, IL",
+    "kind": "Operator",
+    "why_relevant": "2017 Rising Professional in healthcare.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BA",
+        "graduation_year": 2009,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+        "field": "Biology"
+      }
+    ]
+  },
+  {
+    "id": "derek-mauk",
+    "name": "Derek Mauk",
+    "connection": "BS Management 2009, MBA 2010",
+    "role": "Senior Innovation Brand Manager",
+    "organization": "Anheuser-Busch",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Rising Professional in consumer brands.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2009,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+        "field": "Management"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MBA",
+        "graduation_year": 2010,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html"
+      }
+    ]
+  },
+  {
+    "id": "alexandra-french",
+    "name": "Alexandra French",
+    "connection": "BA Political Science and Philosophy 2012",
+    "role": "Litigation Associate",
+    "organization": "Barnes & Thornburg LLP",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Rising Professional in legal services.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BA",
+        "graduation_year": 2012,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+        "field": "Political Science and Philosophy"
+      }
+    ]
+  },
+  {
+    "id": "eric-barnard",
+    "name": "Eric Barnard",
+    "connection": "BS Agricultural Economics 2009",
+    "role": "Software Engineer",
+    "organization": "RICS Software",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2017 Rising Professional; also held analyst and implementation manager roles at RICS Software.",
+    "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2009,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/archive/purduetoday/releases/2017/Q1/rising-professionals-old-masters-program-announces-returning-alumni.html",
+        "field": "Agricultural Economics"
+      }
+    ]
+  },
+  {
+    "id": "brad-krites",
+    "name": "Brad Krites",
+    "connection": "BS Business Management 2011, MBA 2013",
+    "role": "Plant Finance Manager",
+    "organization": "Procter & Gamble",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2019 Rising Professional in corporate finance.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2011,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+        "field": "Business Management"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "MBA",
+        "graduation_year": 2013,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html"
+      }
+    ]
+  },
+  {
+    "id": "daniel-van-de-voorde",
+    "name": "Daniel Van De Voorde",
+    "connection": "BS Psychology 2012",
+    "role": "Senior Manager",
+    "organization": "Strata Decision Technology",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2019 Rising Professional in healthcare technology.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2012,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+        "field": "Psychology"
+      }
+    ]
+  },
+  {
+    "id": "christian-angarita",
+    "name": "Christian Angarita",
+    "connection": "BS Industrial Engineering 2012",
+    "role": "Manager, Supply Chain and Operations",
+    "organization": "EY Advisory Services",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2019 Rising Professional in consulting.",
+    "source_url": "https://engineering.purdue.edu/IE/news/2019/2-ies-rising-professionals-2019",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2012,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/IE/news/2019/2-ies-rising-professionals-2019",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "nathan-welch",
+    "name": "Nathan Welch",
+    "connection": "BS Aviation Technology 2010",
+    "role": "Project Manager, Commercial and Military Aftermarket",
+    "organization": "Parker Aerospace",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2019 Rising Professional in aerospace.",
+    "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2010,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/newsroom/purduetoday/releases/2019/Q1/rising-professionals-announces-returning-alumni.html",
+        "field": "Aviation Technology"
+      }
+    ]
+  },
+  {
+    "id": "jocelyn-dunn",
+    "name": "Jocelyn Dunn",
+    "connection": "MS Biomedical Engineering 2011, PhD Industrial Engineering 2016",
+    "role": "Human Performance Engineer",
+    "organization": "NASA Johnson Space Center",
+    "region": "Houston, TX",
+    "kind": "Operator",
+    "why_relevant": "2019 Rising Professional; Purdue engineering source corrects a degree attribution error in Purdue Today.",
+    "source_url": "https://engineering.purdue.edu/IE/news/2019/2-ies-rising-professionals-2019",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": 2011,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/IE/news/2019/2-ies-rising-professionals-2019",
+        "field": "Biomedical Engineering"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": 2016,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/IE/news/2019/2-ies-rising-professionals-2019",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "lane-konkel",
+    "name": "Lane Konkel",
+    "connection": "BS Industrial Engineering 2013",
+    "role": "Materials Team Leader",
+    "organization": "GE Healthcare",
+    "region": "Milwaukee, WI",
+    "kind": "Operator",
+    "why_relevant": "2018 Rising Professional and Forbes 30 Under 30 manufacturing honoree.",
+    "source_url": "https://engineering.purdue.edu/IE/news/2018/konkel-rps",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2018",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2013,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/IE/news/2018/konkel-rps",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "susan-lozier",
+    "name": "Susan Lozier",
+    "connection": "BS Chemical Engineering 1979",
+    "role": "Professor of Earth and Ocean Sciences",
+    "organization": "Duke University",
+    "region": "Durham, NC",
+    "kind": "Operator",
+    "why_relevant": "2018 Old Master and ocean scientist.",
+    "source_url": "https://engineering.purdue.edu/ChE/news/?batch_start=435",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2018",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1979,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/ChE/news/?batch_start=435",
+        "field": "Chemical Engineering"
+      }
+    ]
+  },
+  {
+    "id": "david-omholt",
+    "name": "David Omholt",
+    "connection": "BS Economics 1992",
+    "role": "CEO",
+    "organization": "Entrepreneur Authority and Veteran Franchise Centers",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "2015 Old Master and franchise-sector founder.",
+    "source_url": "https://thesighouse.com/wp-content/uploads/2018/11/Fall-Data-2015.pdf",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2015",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1992,
+        "completion_status": "degree_completed",
+        "source_url": "https://thesighouse.com/wp-content/uploads/2018/11/Fall-Data-2015.pdf",
+        "field": "Economics"
+      }
+    ]
+  },
+  {
+    "id": "seth-morales",
+    "name": "Seth Morales",
+    "connection": "BA, Purdue University",
+    "role": "CEO",
+    "organization": "Morales Group",
+    "region": "Indianapolis, IN",
+    "kind": "Founder",
+    "why_relevant": "2024 Old Master and staffing-company leader.",
+    "source_url": "https://moralesgroup.net/2024/11/06/sethmoralesoldmasters2024/",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2024",
+    "connection_source_url": "https://moralesgroup.net/2016/10/11/seth-morales-named-president/"
+  },
+  {
+    "id": "julie-dussliere",
+    "name": "Julie Dussliere",
+    "connection": "BA Russian 1994",
+    "role": "President and CEO",
+    "organization": "Purdue for Life Foundation",
+    "region": "West Lafayette, IN",
+    "kind": "Operator",
+    "why_relevant": "2020 Old Master; named Purdue for Life president and CEO in 2024.",
+    "source_url": "https://stories.purdue.edu/purdue-alums-unexpected-path-to-paralympics-leadership/",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2024",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BA",
+        "graduation_year": 1994,
+        "completion_status": "degree_completed",
+        "source_url": "https://stories.purdue.edu/purdue-alums-unexpected-path-to-paralympics-leadership/",
+        "field": "Russian"
+      }
+    ]
+  },
+  {
+    "id": "reini-wirahadikusumah",
+    "name": "Reini Wirahadikusumah",
+    "connection": "MS Civil Engineering 1996, PhD Civil Engineering 1999",
+    "role": "President",
+    "organization": "Institut Teknologi Bandung",
+    "region": "Bandung, Indonesia",
+    "kind": "Operator",
+    "why_relevant": "2020 Old Master and first woman president of Institut Teknologi Bandung.",
+    "source_url": "https://www.purdue.edu/vpsl/news/featured-stories/2020_archive/old-masters.php",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2020",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "MS",
+        "graduation_year": 1996,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/vpsl/news/featured-stories/2020_archive/old-masters.php",
+        "field": "Civil Engineering"
+      },
+      {
+        "institution": "Purdue University",
+        "degree": "PhD",
+        "graduation_year": 1999,
+        "completion_status": "degree_completed",
+        "source_url": "https://www.purdue.edu/vpsl/news/featured-stories/2020_archive/old-masters.php",
+        "field": "Civil Engineering"
+      }
+    ]
+  },
+  {
+    "id": "luke-marklin",
+    "name": "Luke Marklin",
+    "connection": "BS Construction Engineering and Management 2007",
+    "role": "CEO",
+    "organization": "Bellhops",
+    "region": "Tennessee",
+    "kind": "Operator",
+    "why_relevant": "2020 Old Master; led tech-enabled moving startup Bellhops as of 2017.",
+    "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2017/cem-alum-steps-in-as-ceo-of-startup-outside-construction-industry",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2017",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 2007,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2017/cem-alum-steps-in-as-ceo-of-startup-outside-construction-industry",
+        "field": "Construction Engineering and Management"
+      }
+    ]
+  },
+  {
+    "id": "melody-birmingham",
+    "name": "Melody Birmingham",
+    "connection": "BS Organizational Leadership 1994",
+    "role": "Senior Vice President and Chief Procurement Officer",
+    "organization": "Duke Energy",
+    "region": "Not listed",
+    "kind": "Operator",
+    "why_relevant": "2020 Old Master; Purdue Polytechnic identifies her professional role.",
+    "source_url": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-presents-awards-exceptional-technology-alumni",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2019",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1994,
+        "completion_status": "degree_completed",
+        "source_url": "https://old.polytechnic.purdue.edu/newsroom/polytechnic-presents-awards-exceptional-technology-alumni",
+        "field": "Organizational Leadership"
+      }
+    ]
+  },
+  {
+    "id": "ted-mckinney",
+    "name": "Ted McKinney",
+    "connection": "BS Agricultural Economics 1981",
+    "role": "Under Secretary for Trade and Foreign Agricultural Affairs",
+    "organization": "U.S. Department of Agriculture",
+    "region": "Washington, DC",
+    "kind": "Operator",
+    "why_relevant": "2020 Old Master; Purdue Agriculture confirmed USDA leadership in 2020.",
+    "source_url": "https://ag.purdue.edu/news/2020/11/ag-alumni-share-their-purdue-pete-lore.html",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2020",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1981,
+        "completion_status": "degree_completed",
+        "source_url": "https://ag.purdue.edu/news/2020/11/ag-alumni-share-their-purdue-pete-lore.html",
+        "field": "Agricultural Economics"
+      }
+    ]
+  },
+  {
+    "id": "orlena-nwokah-blanchard",
+    "name": "Orlena Nwokah Blanchard",
+    "connection": "BS Industrial Engineering 1994",
+    "role": "President and COO",
+    "organization": "JOY Collective",
+    "region": "Bethesda, MD",
+    "kind": "Founder",
+    "why_relevant": "2024 Old Master and entrepreneur; role cited from Purdue engineering alumni profile.",
+    "source_url": "https://engineering.purdue.edu/IE/people/AlumniAwards/ptProfile?resource_id=252981",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2021",
+    "old_master_source_url": "https://www.linkedin.com/posts/purdueomrp_thisisom-purdueoldmasters-omfamily-activity-7259323088155115521-xYET",
+    "education": [
+      {
+        "institution": "Purdue University",
+        "degree": "BS",
+        "graduation_year": 1994,
+        "completion_status": "degree_completed",
+        "source_url": "https://engineering.purdue.edu/IE/people/AlumniAwards/ptProfile?resource_id=252981",
+        "field": "Industrial Engineering"
+      }
+    ]
+  },
+  {
+    "id": "scott-hutton",
+    "name": "Scott Hutton",
+    "connection": "Purdue graduate, class of 1995",
+    "role": "President and CEO",
+    "organization": "Biodesix",
+    "region": "Louisville, CO",
+    "kind": "Operator",
+    "why_relevant": "2021 Old Master; Purdue HHS confirms degree year and Biodesix role in 2026.",
+    "source_url": "https://www.linkedin.com/posts/purduehhs_purduehhs-purduealumni-activity-7389677989392941056-5PhU",
+    "verified_at": "2026-09-30",
+    "role_as_of": "2026",
+    "old_master_source_url": "https://thesighouse.com/wp-content/uploads/2022/03/Fall-Winter-Data-2022-rev-1.pdf"
+  }
+]
