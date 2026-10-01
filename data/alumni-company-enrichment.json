@@ -1,0 +1,464 @@
+{
+  "akshay-kothari": {
+    "company_website": "https://www.notion.com/",
+    "company_website_source_url": "https://www.notion.com/",
+    "company_product": "Provides a connected AI workspace for documents, projects, and team knowledge.",
+    "company_product_source_url": "https://www.notion.com/",
+    "company_sector": "Software / productivity",
+    "company_sector_source_url": "https://www.notion.com/"
+  },
+  "alexis-harroun": {
+    "company_website": "https://www.junopropulsion.com/",
+    "company_website_source_url": "https://www.junopropulsion.com/",
+    "company_product": "Develops rotating detonation rocket engines.",
+    "company_product_source_url": "https://www.junopropulsion.com/",
+    "company_sector": "Space / propulsion",
+    "company_sector_source_url": "https://www.junopropulsion.com/"
+  },
+  "alihan-ozbayrak": {
+    "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+    "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_sector": "Software / events",
+    "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_founded_year": 2016,
+    "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+  },
+  "angik-sarkar": {
+    "company_website": "https://ixana.ai/",
+    "company_website_source_url": "https://ixana.ai/",
+    "company_product": "Builds E-field communication silicon for connected wearable devices, robots, and machines.",
+    "company_product_source_url": "https://ixana.ai/",
+    "company_sector": "Semiconductors / wireless communication",
+    "company_sector_source_url": "https://ixana.ai/"
+  },
+  "apeksha-kumavat": {
+    "company_website": "https://www.gatik.ai/",
+    "company_website_source_url": "https://www.gatik.ai/",
+    "company_product": "Runs driverless middle-mile freight routes between distribution centers and stores.",
+    "company_product_source_url": "https://archive.gatik.ai/about/",
+    "company_sector": "Logistics / autonomous vehicles",
+    "company_sector_source_url": "https://archive.gatik.ai/about/",
+    "company_founded_year": 2017,
+    "company_founded_year_source_url": "https://gatik.ai/wp-content/uploads/Gatik-named-a-TIME-Best-Invention-of-2022-for-World-First-Fully-Driverless-Middle-Mile-Trucking-Solution.pdf"
+  },
+  "ari-martinez": {
+    "company_website": "https://www.junopropulsion.com/",
+    "company_website_source_url": "https://www.junopropulsion.com/",
+    "company_product": "Develops rotating detonation rocket engines.",
+    "company_product_source_url": "https://www.junopropulsion.com/",
+    "company_sector": "Space / propulsion",
+    "company_sector_source_url": "https://www.junopropulsion.com/"
+  },
+  "arjun-narang": {
+    "company_website": "https://www.gatik.ai/",
+    "company_website_source_url": "https://www.gatik.ai/",
+    "company_product": "Runs driverless middle-mile freight routes between distribution centers and stores.",
+    "company_product_source_url": "https://archive.gatik.ai/about/",
+    "company_sector": "Logistics / autonomous vehicles",
+    "company_sector_source_url": "https://archive.gatik.ai/about/",
+    "company_founded_year": 2017,
+    "company_founded_year_source_url": "https://gatik.ai/wp-content/uploads/Gatik-named-a-TIME-Best-Invention-of-2022-for-World-First-Fully-Driverless-Middle-Mile-Trucking-Solution.pdf"
+  },
+  "austin-link": {
+    "company_website": "https://www.starfishspace.com/",
+    "company_website_source_url": "https://www.starfishspace.com/",
+    "company_product": "Develops autonomous spacecraft for satellite servicing and orbital debris removal.",
+    "company_product_source_url": "https://www.starfishspace.com/company/",
+    "company_sector": "Space / satellite servicing",
+    "company_sector_source_url": "https://www.starfishspace.com/company/",
+    "company_founded_year": 2019,
+    "company_founded_year_source_url": "https://www.starfishspace.com/company/"
+  },
+  "brad-niemeier": {
+    "company_product": "Runs made-to-order pizza restaurants in Indiana and Kentucky.",
+    "company_product_source_url": "https://azzippizza.com/",
+    "company_sector": "Food and beverage / restaurants",
+    "company_sector_source_url": "https://azzippizza.com/",
+    "company_website": "https://azzippizza.com/",
+    "company_website_source_url": "https://azzippizza.com/"
+  },
+  "brian-feth": {
+    "company_website": "https://www.xcellbio.com/",
+    "company_website_source_url": "https://www.xcellbio.com/",
+    "company_product": "Builds instruments and workflows for cell and gene therapy research and manufacturing.",
+    "company_product_source_url": "https://www.xcellbio.com/",
+    "company_sector": "Biotechnology / life sciences",
+    "company_sector_source_url": "https://www.xcellbio.com/"
+  },
+  "candice-xie": {
+    "company_website": "https://www.veoride.com/",
+    "company_website_source_url": "https://www.veoride.com/",
+    "company_product": "Operates shared e-scooters and bikes through city and campus partnerships.",
+    "company_product_source_url": "https://www.veoride.com/",
+    "company_sector": "Mobility / micromobility",
+    "company_sector_source_url": "https://www.veoride.com/"
+  },
+  "christian-miller": {
+    "company_product": "Invests in cloud software companies in middle America.",
+    "company_product_source_url": "https://poplarventures.com/",
+    "company_sector": "Venture capital / software",
+    "company_sector_source_url": "https://poplarventures.com/",
+    "company_website": "https://poplarventures.com/",
+    "company_website_source_url": "https://poplarventures.com/"
+  },
+  "colton-voege": {
+    "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+    "company_product_source_url": "https://www.mimirhq.com/company",
+    "company_sector": "Education technology / developer tools",
+    "company_sector_source_url": "https://www.mimirhq.com/company",
+    "company_website": "https://www.mimirhq.com/company",
+    "company_website_source_url": "https://www.mimirhq.com/company",
+    "company_founded_year": 2014,
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir"
+  },
+  "don-thompson": {
+    "company_website": "https://www.clevelandavenue.com/",
+    "company_website_source_url": "https://www.clevelandavenue.com/",
+    "company_product": "Invests in consumer brands and technology companies, with operating support.",
+    "company_product_source_url": "https://www.clevelandavenue.com/",
+    "company_sector": "Venture capital / consumer",
+    "company_sector_source_url": "https://www.clevelandavenue.com/"
+  },
+  "edwin-tan": {
+    "company_website": "https://www.veoride.com/",
+    "company_website_source_url": "https://www.veoride.com/",
+    "company_product": "Operates shared e-scooters and bikes through city and campus partnerships.",
+    "company_product_source_url": "https://www.veoride.com/",
+    "company_sector": "Mobility / micromobility",
+    "company_sector_source_url": "https://www.veoride.com/"
+  },
+  "ivan-ball": {
+    "company_website": "https://www.growanu.com/",
+    "company_website_source_url": "https://www.growanu.com/",
+    "company_product": "Makes indoor growing systems for fresh produce at home.",
+    "company_product_source_url": "https://www.growanu.com/about",
+    "company_sector": "Agriculture / consumer hardware",
+    "company_sector_source_url": "https://www.growanu.com/about"
+  },
+  "jackie-magno": {
+    "company_product": "Connects women-led startups with angel investors and funding programs.",
+    "company_product_source_url": "https://www.goldenseeds.com/",
+    "company_sector": "Angel investing",
+    "company_sector_source_url": "https://www.goldenseeds.com/",
+    "company_website": "https://www.goldenseeds.com/",
+    "company_website_source_url": "https://www.goldenseeds.com/"
+  },
+  "jacobi-petrucciani": {
+    "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+    "company_product_source_url": "https://www.mimirhq.com/company",
+    "company_sector": "Education technology / developer tools",
+    "company_sector_source_url": "https://www.mimirhq.com/company",
+    "company_website": "https://www.mimirhq.com/company",
+    "company_website_source_url": "https://www.mimirhq.com/company",
+    "company_founded_year": 2014,
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir"
+  },
+  "jane-brock-wilson": {
+    "company_product": "Partners with companies through private equity investing.",
+    "company_product_source_url": "https://berkshirepartners.com/",
+    "company_sector": "Private equity",
+    "company_sector_source_url": "https://berkshirepartners.com/",
+    "company_website": "https://berkshirepartners.com/",
+    "company_website_source_url": "https://berkshirepartners.com/"
+  },
+  "jeffrey-peters": {
+    "company_product": "Manages venture capital and hedge fund strategies focused on Israel and mobility.",
+    "company_product_source_url": "https://www.ibexinvestors.com/",
+    "company_sector": "Investment management",
+    "company_sector_source_url": "https://www.ibexinvestors.com/",
+    "company_website": "https://www.ibexinvestors.com/",
+    "company_website_source_url": "https://www.ibexinvestors.com/"
+  },
+  "jessica-traver": {
+    "company_website": "https://www.intuitapmedical.com/",
+    "company_website_source_url": "https://www.intuitapmedical.com/",
+    "company_product": "Develops image-guided technology for spinal taps and other neuraxial procedures.",
+    "company_product_source_url": "https://www.intuitapmedical.com/",
+    "company_sector": "Medical devices",
+    "company_sector_source_url": "https://www.intuitapmedical.com/"
+  },
+  "joe-watkins": {
+    "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+    "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_sector": "Software / events",
+    "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_founded_year": 2016,
+    "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+  },
+  "john-gedmark": {
+    "company_website": "https://www.astranis.com/",
+    "company_website_source_url": "https://www.astranis.com/",
+    "company_product": "Builds compact high-orbit satellites for communications and government missions.",
+    "company_product_source_url": "https://www.astranis.com/",
+    "company_sector": "Space / satellite communications",
+    "company_sector_source_url": "https://www.astranis.com/"
+  },
+  "julie-wainwright": {
+    "company_website": "https://www.therealreal.com/",
+    "company_website_source_url": "https://www.therealreal.com/",
+    "company_product": "Operates an authenticated luxury consignment marketplace.",
+    "company_product_source_url": "https://www.therealreal.com/",
+    "company_sector": "Commerce / luxury resale",
+    "company_sector_source_url": "https://www.therealreal.com/"
+  },
+  "katherine-clayton": {
+    "company_product": "Developed a smartphone-enabled rapid diagnostic platform initially aimed at cholera detection.",
+    "company_product_source_url": "https://engineering.purdue.edu/BME/AboutUs/News/2019/Cholera-detection-lab-smartphone-enabled-platform-to-be-beta-tested-by-worldwide-leading-hospital-in-cholera-research",
+    "company_sector": "Medical diagnostics",
+    "company_sector_source_url": "https://engineering.purdue.edu/BME/AboutUs/News/2019/Cholera-detection-lab-smartphone-enabled-platform-to-be-beta-tested-by-worldwide-leading-hospital-in-cholera-research"
+  },
+  "kelvin-pennington": {
+    "company_product": "Invests in government contracting and electric and gas utility businesses.",
+    "company_product_source_url": "https://imbpartners.com/",
+    "company_sector": "Private equity",
+    "company_sector_source_url": "https://imbpartners.com/",
+    "company_website": "https://imbpartners.com/",
+    "company_website_source_url": "https://imbpartners.com/"
+  },
+  "madison-long": {
+    "company_product": "Matched content creators with brands needing digital marketing content.",
+    "company_product_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+    "company_sector": "Marketplace / creator economy",
+    "company_sector_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+    "company_founded_year": 2019,
+    "company_founded_year_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+  },
+  "mamoon-hamid": {
+    "company_website": "https://www.kleinerperkins.com/",
+    "company_website_source_url": "https://www.kleinerperkins.com/",
+    "company_product": "Invests in technology companies from seed through growth.",
+    "company_product_source_url": "https://www.kleinerperkins.com/about/",
+    "company_sector": "Venture capital",
+    "company_sector_source_url": "https://www.kleinerperkins.com/about/"
+  },
+  "manu-shah": {
+    "company_product": "Distributes flooring, countertops, tile, and hardscaping materials.",
+    "company_product_source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx",
+    "company_sector": "Building materials / distribution",
+    "company_sector_source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx",
+    "company_website": "https://www.msisurfaces.com/",
+    "company_website_source_url": "https://www.msisurfaces.com/",
+    "company_founded_year": 1975,
+    "company_founded_year_source_url": "https://www.msisurfaces.com/corporate/company-history.aspx",
+    "company_location": {
+      "location": "Orange, California",
+      "source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx"
+    }
+  },
+  "mario-paniccia": {
+    "company_website": "https://www.anellophotonics.com/",
+    "company_website_source_url": "https://www.anellophotonics.com/",
+    "company_product": "Builds silicon-photonic gyroscopes and inertial navigation products.",
+    "company_product_source_url": "https://www.anellophotonics.com/",
+    "company_sector": "Hardware / navigation",
+    "company_sector_source_url": "https://www.anellophotonics.com/"
+  },
+  "max-bogue": {
+    "company_website": "https://the3doodler.com/",
+    "company_website_source_url": "https://the3doodler.com/",
+    "company_product": "Makes handheld 3D printing pens and related educational tools.",
+    "company_product_source_url": "https://the3doodler.com/",
+    "company_sector": "Consumer hardware / education",
+    "company_sector_source_url": "https://the3doodler.com/"
+  },
+  "nobu-okada": {
+    "company_website": "https://www.astroscale.com/en",
+    "company_website_source_url": "https://www.astroscale.com/en",
+    "company_product": "Provides on-orbit inspection, life extension, and debris removal services.",
+    "company_product_source_url": "https://www.astroscale.com/en",
+    "company_sector": "Space / orbital services",
+    "company_sector_source_url": "https://www.astroscale.com/en"
+  },
+  "paroon-chadha": {
+    "company_product": "Provides board management software for governance and meetings.",
+    "company_product_source_url": "https://www.onboardmeetings.com/",
+    "company_sector": "Software / governance",
+    "company_sector_source_url": "https://www.onboardmeetings.com/",
+    "company_website": "https://www.onboardmeetings.com/",
+    "company_website_source_url": "https://www.onboardmeetings.com/"
+  },
+  "prahasith-veluvolu": {
+    "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+    "company_product_source_url": "https://www.mimirhq.com/company",
+    "company_sector": "Education technology / developer tools",
+    "company_sector_source_url": "https://www.mimirhq.com/company",
+    "company_website": "https://www.mimirhq.com/company",
+    "company_website_source_url": "https://www.mimirhq.com/company",
+    "company_founded_year": 2014,
+    "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir"
+  },
+  "ram-palaniappan": {
+    "company_website": "https://www.earnin.com/",
+    "company_website_source_url": "https://www.earnin.com/",
+    "company_product": "Lets workers access pay they have already earned before payday.",
+    "company_product_source_url": "https://www.earnin.com/",
+    "company_sector": "Financial technology",
+    "company_sector_source_url": "https://www.earnin.com/"
+  },
+  "rashid-bashir": {
+    "company_product": "Develops precision medicine tools for acute care, including sepsis assessment.",
+    "company_product_source_url": "https://prenosis.com/",
+    "company_sector": "Medical technology / diagnostics",
+    "company_sector_source_url": "https://prenosis.com/",
+    "company_website": "https://prenosis.com/",
+    "company_website_source_url": "https://prenosis.com/"
+  },
+  "rehan-jalil": {
+    "company_website": "https://securiti.ai/",
+    "company_website_source_url": "https://securiti.ai/",
+    "company_product": "Provides a platform for enterprise data security, governance, privacy, and AI controls.",
+    "company_product_source_url": "https://securiti.ai/about/",
+    "company_sector": "Cybersecurity / data",
+    "company_sector_source_url": "https://securiti.ai/about/",
+    "company_location": {
+      "location": "San Jose, California",
+      "source_url": "https://securiti.ai/about/"
+    }
+  },
+  "rouz-jazayeri": {
+    "company_product": "Provides seed-stage venture capital to startups outside mature technology hubs.",
+    "company_product_source_url": "https://www.catapultvc.com/",
+    "company_sector": "Venture capital",
+    "company_sector_source_url": "https://www.catapultvc.com/",
+    "company_website": "https://www.catapultvc.com/",
+    "company_website_source_url": "https://www.catapultvc.com/"
+  },
+  "scott-massey": {
+    "company_website": "https://www.growanu.com/",
+    "company_website_source_url": "https://www.growanu.com/",
+    "company_product": "Makes indoor growing systems for fresh produce at home.",
+    "company_product_source_url": "https://www.growanu.com/about",
+    "company_sector": "Agriculture / consumer hardware",
+    "company_sector_source_url": "https://www.growanu.com/about"
+  },
+  "scott-wilson": {
+    "company_website": "https://www.qawolf.com/",
+    "company_website_source_url": "https://www.qawolf.com/",
+    "company_product": "Provides managed end-to-end testing for web and mobile applications.",
+    "company_product_source_url": "https://www.qawolf.com/",
+    "company_sector": "Software / developer tools",
+    "company_sector_source_url": "https://www.qawolf.com/"
+  },
+  "seth-corder": {
+    "company_product": "Creates and funds B2B software companies.",
+    "company_product_source_url": "https://www.highalpha.com/",
+    "company_sector": "Venture capital / venture studio",
+    "company_sector_source_url": "https://www.highalpha.com/",
+    "company_website": "https://www.highalpha.com/",
+    "company_website_source_url": "https://www.highalpha.com/"
+  },
+  "shovan-maity": {
+    "company_website": "https://ixana.ai/",
+    "company_website_source_url": "https://ixana.ai/",
+    "company_product": "Builds E-field communication silicon for connected wearable devices, robots, and machines.",
+    "company_product_source_url": "https://ixana.ai/",
+    "company_sector": "Semiconductors / wireless communication",
+    "company_sector_source_url": "https://ixana.ai/"
+  },
+  "sid-sheth": {
+    "company_website": "https://www.d-matrix.ai/",
+    "company_website_source_url": "https://www.d-matrix.ai/",
+    "company_product": "Builds computing systems for AI inference in data centers.",
+    "company_product_source_url": "https://www.d-matrix.ai/wp-content/uploads/2024/11/d-Matrix-WhitePaper-Technical-FINAL.pdf",
+    "company_sector": "Semiconductors / AI infrastructure",
+    "company_sector_source_url": "https://www.d-matrix.ai/wp-content/uploads/2024/11/d-Matrix-WhitePaper-Technical-FINAL.pdf"
+  },
+  "simone-may": {
+    "company_product": "Matched content creators with brands needing digital marketing content.",
+    "company_product_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+    "company_sector": "Marketplace / creator economy",
+    "company_sector_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+    "company_founded_year": 2019,
+    "company_founded_year_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+  },
+  "snehal-antani": {
+    "company_website": "https://horizon3.ai/",
+    "company_website_source_url": "https://horizon3.ai/",
+    "company_product": "Provides NodeZero, an automated platform for testing exploitable cybersecurity risks.",
+    "company_product_source_url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
+    "company_sector": "Cybersecurity",
+    "company_sector_source_url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/"
+  },
+  "stephanie-bonk": {
+    "company_website": "https://www.overland.ai/",
+    "company_website_source_url": "https://www.overland.ai/",
+    "company_product": "Develops autonomous ground vehicles and software for military operations.",
+    "company_product_source_url": "https://www.overland.ai/company",
+    "company_sector": "Defense / robotics",
+    "company_sector_source_url": "https://www.overland.ai/company",
+    "company_founded_year": 2022,
+    "company_founded_year_source_url": "https://www.overland.ai/news/overland-ai-raises-100-million-to-scale-ground-autonomy-with-u-s-armed-forces",
+    "company_location": {
+      "location": "Seattle, Washington",
+      "source_url": "https://www.overland.ai/news/overland-ai-raises-100-million-to-scale-ground-autonomy-with-u-s-armed-forces"
+    }
+  },
+  "sunil-kumar-patro": {
+    "company_website": "https://signeasy.com/",
+    "company_website_source_url": "https://signeasy.com/",
+    "company_product": "Provides electronic signatures and contract management for businesses.",
+    "company_product_source_url": "https://signeasy.com/",
+    "company_sector": "Software / contracts",
+    "company_sector_source_url": "https://signeasy.com/"
+  },
+  "tarrus-l-richardson": {
+    "company_product": "Invests in government contracting and electric and gas utility businesses.",
+    "company_product_source_url": "https://imbpartners.com/",
+    "company_sector": "Private equity",
+    "company_sector_source_url": "https://imbpartners.com/",
+    "company_website": "https://imbpartners.com/",
+    "company_website_source_url": "https://imbpartners.com/"
+  },
+  "tiffany-sauder": {
+    "company_product": "Provides marketing strategy and execution for manufacturers and other B2B2X brands.",
+    "company_product_source_url": "https://elementthree.com/",
+    "company_sector": "Marketing services",
+    "company_sector_source_url": "https://elementthree.com/",
+    "company_website": "https://elementthree.com/",
+    "company_website_source_url": "https://elementthree.com/"
+  },
+  "tim-mcenery": {
+    "company_website": "https://chwinery.com/",
+    "company_website_source_url": "https://chwinery.com/",
+    "company_product": "Operates restaurants, wineries, and a wine club.",
+    "company_product_source_url": "https://chwinery.com/",
+    "company_sector": "Food and beverage / hospitality",
+    "company_sector_source_url": "https://chwinery.com/"
+  },
+  "tom-feldman": {
+    "company_website": "https://www.stokespace.com/",
+    "company_website_source_url": "https://www.stokespace.com/",
+    "company_product": "Builds fully reusable rockets for frequent orbital launch.",
+    "company_product_source_url": "https://www.stokespace.com/about-us",
+    "company_sector": "Space / launch systems",
+    "company_sector_source_url": "https://www.stokespace.com/about-us",
+    "company_founded_year": 2019,
+    "company_founded_year_source_url": "https://www.stokespace.com/news/the-future-of-spaceflight-and-why-we-built-stoke",
+    "company_location": {
+      "location": "Kent, Washington",
+      "source_url": "https://www.stokespace.com/locations/kent"
+    }
+  },
+  "william-elmore": {
+    "company_website": "https://www.foundationcapital.com/",
+    "company_website_source_url": "https://www.foundationcapital.com/",
+    "company_product": "Invests in early-stage technology founders and companies.",
+    "company_product_source_url": "https://www.foundationcapital.com/",
+    "company_sector": "Venture capital",
+    "company_sector_source_url": "https://www.foundationcapital.com/"
+  },
+  "yarkin-sakucoglu": {
+    "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+    "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_sector": "Software / events",
+    "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+    "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+    "company_founded_year": 2016,
+    "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/"
+  }
+}

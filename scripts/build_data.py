@@ -16,6 +16,8 @@ OUT = ROOT / "public" / "data.json"
 PEOPLE = ROOT / "data" / "people.json"
 PEOPLE_OUT = ROOT / "public" / "people.json"
 ALUMNI_OUT = ROOT / "public" / "alumni.json"
+NOTABLE_OUT = ROOT / "public" / "notable-alumni.json"
+NOTABLE_ORDER = ROOT / "data" / "notable-display-order.json"
 ALUMNI_EXPANSIONS = (
     "alumni-ece-expansion.json",
     "alumni-awards-expansion.json",
@@ -24,17 +26,26 @@ ALUMNI_EXPANSIONS = (
     "alumni-polytechnic-archive.json",
     "alumni-science-expansion.json",
     "alumni-ag-expansion.json",
+    "alumni-notable-new.json",
 )
 ALUMNI_ENRICHMENTS = (
     "alumni-funding-enrichment.json",
     "alumni-social-enrichment.json",
     "alumni-location-enrichment.json",
+    "alumni-company-enrichment.json",
+    "alumni-capital-enrichment.json",
+    "alumni-notable-enrichment.json",
 )
 ENRICHMENT_FIELDS = {
     "funding", "company", "company_location", "linkedin", "linkedin_source_url",
     "x", "x_source_url", "flags", "flag_sources", "flag_notes", "location_city",
     "location_region", "location_country", "location_source_url",
     "location_as_of", "location_note",
+    "company_website", "company_website_source_url", "company_product",
+    "company_product_source_url", "company_sector", "company_sector_source_url",
+    "company_founded_year", "company_founded_year_source_url",
+    "capital_events", "highlights", "notable_lanes", "notable_source_url",
+    "highlight_order",
 }
 
 
@@ -192,6 +203,30 @@ with sqlite3.connect(DB) as db:
                 raise ValueError(f"{filename}: {person_id} has unsourced personal location")
             if details.get("company_location") and not details["company_location"].get("source_url", "").startswith("https://"):
                 raise ValueError(f"{filename}: {person_id} has unsourced company location")
+            for field in ("company_website", "company_product", "company_sector", "company_founded_year"):
+                if field in details:
+                    source = details.get(f"{field}_source_url", "")
+                    if not source.startswith("https://"):
+                        raise ValueError(f"{filename}: {person_id} has unsourced {field}")
+            if details.get("company_website") and not details["company_website"].startswith("https://"):
+                raise ValueError(f"{filename}: {person_id} has invalid company website")
+            for field, required in (("capital_events", ("type", "company", "description")),
+                                    ("highlights", ("claim",))):
+                if field in details:
+                    events = details[field]
+                    if not isinstance(events, list) or any(
+                        not isinstance(event, dict) or
+                        any(not event.get(key) for key in required) or
+                        not event.get("source_url", "").startswith("https://")
+                        for event in events
+                    ):
+                        raise ValueError(f"{filename}: {person_id} has invalid {field}")
+            if "notable_lanes" in details:
+                allowed_lanes = {"startup-founder", "venture-investor", "industry-builder", "campus-builder"}
+                if not isinstance(details["notable_lanes"], list) or not details["notable_lanes"] or any(
+                    lane not in allowed_lanes for lane in details["notable_lanes"]
+                ) or not details.get("notable_source_url", "").startswith("https://"):
+                    raise ValueError(f"{filename}: {person_id} has invalid notable lanes")
             by_id[person_id].update(details)
     extra_portraits = {
             "ashish-toshniwal": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg",
@@ -201,6 +236,14 @@ with sqlite3.connect(DB) as db:
         if person["id"] in extra_portraits:
             person["image"] = "/assets/alumni/" + person["id"] + ".webp"
             person["image_source_url"] = extra_portraits[person["id"]]
+    display_ids = json.loads(NOTABLE_ORDER.read_text())
+    if len(display_ids) != len(set(display_ids)) or any(
+        person_id not in by_id or not by_id[person_id].get("highlights")
+        for person_id in display_ids
+    ):
+        raise ValueError("notable display order must contain unique alumni with sourced highlights")
+    for index, person_id in enumerate(display_ids):
+        by_id[person_id]["highlight_order"] = index
     assert len({person["id"] for person in alumni}) == len(alumni), "duplicate alumni id"
     assert all(person["source_url"].startswith("https://") for person in alumni)
     db.executescript("""
@@ -225,6 +268,15 @@ with sqlite3.connect(DB) as db:
 OUT.write_text(json.dumps({"checked_at": checked, "reviewed_count": reviewed_count, "expanded_count": expanded_count, "resources": rows}, indent=2) + "\n")
 PEOPLE_OUT.write_text(json.dumps({"generated_at": checked, "people": people}, ensure_ascii=False, indent=2) + "\n")
 ALUMNI_OUT.write_text(json.dumps({"generated_at": checked, "alumni": alumni}, ensure_ascii=False, indent=2) + "\n")
+notable = sorted((person for person in alumni if person.get("highlights")),
+                 key=lambda person: (person.get("highlight_order", len(display_ids)), person["name"]))
+NOTABLE_OUT.write_text(json.dumps({
+    "generated_at": checked,
+    "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
+    "count": len(notable),
+    "alumni": notable,
+}, ensure_ascii=False, indent=2) + "\n")
 print(f"Built {len(rows)} resources ({reviewed_count} core, {expanded_count-reviewed_count} expansion, {len(rows)-expanded_count} Navigator) → {DB} and {OUT}")
 print(f"Built {len(people)} public professional profiles → {DB} and {PEOPLE_OUT}")
 print(f"Built {len(alumni)} alumni profiles → {DB} and {ALUMNI_OUT}")
+print(f"Built {len(notable)} sourced milestone profiles → {NOTABLE_OUT}")

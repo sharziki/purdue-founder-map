@@ -1,0 +1,177 @@
+[
+  {
+    "id": "joe-watkins",
+    "name": "Joe Watkins",
+    "connection": "Purdue computer engineering alumnus",
+    "role": "Co-founder and chief customer officer",
+    "organization": "Socio / Webex Events",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Socio with fellow Purdue students; the event platform was acquired by Cisco in 2021. Role reported by Purdue in 2022.",
+    "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Co-founded Socio with Purdue students; the team built its first version in under 48 hours at an Anvil hackathon.",
+        "date": "2016",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      },
+      {
+        "claim": "Cisco acquired Socio, later Webex Events, in July 2021.",
+        "date": "2021",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "campus-builder"
+    ],
+    "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+  },
+  {
+    "id": "yarkin-sakucoglu",
+    "name": "Yarkin Sakucoglu",
+    "connection": "Purdue student Socio co-founder",
+    "role": "Co-founder and general manager",
+    "organization": "Socio / Webex Events",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Purdue-born Socio, acquired by Cisco in 2021; Purdue reported his general-manager role in 2022.",
+    "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Co-founded Purdue-born Socio; Cisco acquired it in July 2021.",
+        "date": "2021",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      },
+      {
+        "claim": "Purdue reported he served as Webex Events general manager after the acquisition.",
+        "date": "2022",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "campus-builder"
+    ],
+    "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+  },
+  {
+    "id": "alihan-ozbayrak",
+    "name": "Alihan Ozbayrak",
+    "connection": "Purdue student Socio co-founder",
+    "role": "Co-founder and chief technology officer",
+    "organization": "Socio / Webex Events",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Co-founded Purdue-born Socio, acquired by Cisco in 2021; Purdue reported his CTO role in 2022.",
+    "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+    "role_as_of": "2022",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Co-founded Purdue-born Socio; Cisco acquired it in July 2021.",
+        "date": "2021",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      },
+      {
+        "claim": "Purdue reported he served as Webex Events chief technology officer after the acquisition.",
+        "date": "2022",
+        "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "campus-builder"
+    ],
+    "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+  },
+  {
+    "id": "lisa-laughner",
+    "name": "Lisa Laughner",
+    "connection": "BSME 1981",
+    "role": "Founder and former CEO",
+    "organization": "Go Electric",
+    "region": "Not listed",
+    "kind": "Founder",
+    "why_relevant": "Founded energy technology company Go Electric; Purdue reports it was acquired by Saft in 2019.",
+    "source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+    "role_as_of": "2019",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Founded energy technology company Go Electric and led it as CEO until Saft acquired it in 2019.",
+        "date": "2019",
+        "source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "industry-builder"
+    ],
+    "notable_source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner"
+  },
+  {
+    "id": "tom-scholl",
+    "name": "Tom Scholl",
+    "connection": "BA 1970, philosophy",
+    "role": "Founder and venture investor",
+    "organization": "Telogy Networks / Novak Biddle Venture Partners",
+    "region": "Not listed",
+    "kind": "Investor",
+    "why_relevant": "Founded and bootstrapped Telogy Networks, acquired by Texas Instruments in 1999; later became a Novak Biddle general partner.",
+    "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
+    "role_as_of": "2009",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Founded and bootstrapped Telogy Networks in 1990; Texas Instruments acquired it in 1999.",
+        "date": "1999",
+        "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+      },
+      {
+        "claim": "Purdue identified him as a Novak Biddle Venture Partners general partner in 2009.",
+        "date": "2009",
+        "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "venture-investor"
+    ],
+    "notable_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+  },
+  {
+    "id": "bala-s-manian",
+    "name": "Bala S. Manian",
+    "connection": "PhD 1971, Purdue University",
+    "role": "Serial entrepreneur and general partner",
+    "organization": "Saraswati Partners / Biometric Imaging",
+    "region": "Not listed",
+    "kind": "Investor",
+    "why_relevant": "Started six Silicon Valley companies based on optical technology and served as a venture general partner, according to Purdue's 2000 profile.",
+    "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian",
+    "role_as_of": "2000",
+    "verified_at": "2026-09-30",
+    "highlights": [
+      {
+        "claim": "Started six Silicon Valley optical-technology companies and later served as a general partner at Saraswati Partners.",
+        "date": "2000",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+      },
+      {
+        "claim": "Received a Technical Academy Award for film special-effects advances in 1999.",
+        "date": "1999",
+        "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+      }
+    ],
+    "notable_lanes": [
+      "startup-founder",
+      "venture-investor"
+    ],
+    "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+  }
+]

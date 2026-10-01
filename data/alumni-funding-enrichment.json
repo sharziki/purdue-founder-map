@@ -584,6 +584,20 @@
     "funding": [
       {
         "type": "round",
+        "amount": "$1 billion Series E; initial closing announced",
+        "round": "Series E",
+        "date": "2026-09-08",
+        "source_url": "https://www.stokespace.com/news/stoke-space-series-e"
+      },
+      {
+        "type": "total_raised",
+        "amount": "$2.3 billion total capital raised",
+        "round": "Company total",
+        "date": "2026-09-08",
+        "source_url": "https://www.stokespace.com/news/stoke-space-series-e"
+      },
+      {
+        "type": "round",
         "amount": "$260 million",
         "round": "Series C",
         "date": "2025-01-15",

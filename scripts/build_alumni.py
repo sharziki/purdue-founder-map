@@ -13,6 +13,7 @@ EXPANSIONS = (
     "alumni-business-expansion.json", "alumni-polytechnic-expansion.json",
     "alumni-polytechnic-archive.json", "alumni-science-expansion.json",
     "alumni-ag-expansion.json",
+    "alumni-notable-new.json",
 )
 REQUIRED = {"id", "name", "connection", "role", "organization", "region", "kind", "why_relevant", "source_url", "verified_at"}
 KINDS = {"Founder", "Investor", "Operator"}

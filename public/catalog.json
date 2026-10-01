@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T01:25:00+00:00",
+  "generated_at": "2026-10-01T01:37:50+00:00",
   "counts": {
     "resources": 177,
     "people": 41,
-    "alumni": 1045,
+    "alumni": 1051,
     "events": 33,
     "reading_links": 14
   },
@@ -2639,7 +2639,24 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
-      }
+      },
+      "company_website": "https://www.xcellbio.com/",
+      "company_website_source_url": "https://www.xcellbio.com/",
+      "company_product": "Builds instruments and workflows for cell and gene therapy research and manufacturing.",
+      "company_product_source_url": "https://www.xcellbio.com/",
+      "company_sector": "Biotechnology / life sciences",
+      "company_sector_source_url": "https://www.xcellbio.com/",
+      "highlights": [
+        {
+          "claim": "Co-founded cell-therapy company Xcell Biosciences and raised more than $50 million in venture financing.",
+          "date": "2026",
+          "source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html"
     },
     {
       "id": "john-gedmark",
@@ -2674,7 +2691,40 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
-      }
+      },
+      "company_website": "https://www.astranis.com/",
+      "company_website_source_url": "https://www.astranis.com/",
+      "company_product": "Builds compact high-orbit satellites for communications and government missions.",
+      "company_product_source_url": "https://www.astranis.com/",
+      "company_sector": "Space / satellite communications",
+      "company_sector_source_url": "https://www.astranis.com/",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Astranis",
+          "date": "2016",
+          "description": "Astranis joined Y Combinator Winter 2016; YC lists Gedmark as its CEO and founder.",
+          "source_url": "https://www.ycombinator.com/companies/astranis"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Astranis in 2015 and launched its first geostationary satellite, Arcturus, in 2023.",
+          "date": "2023",
+          "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+        },
+        {
+          "claim": "Purdue reported more than $750 million in company funding and a 300-engineer team in 2025.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/AAE/people/alumni/oae/2025/profiles/john_gedmark",
+      "highlight_order": 3
     },
     {
       "id": "william-elmore",
@@ -2696,7 +2746,40 @@
         "purdue-founder": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
         "investor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
         "mentor": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
-      }
+      },
+      "company_website": "https://www.foundationcapital.com/",
+      "company_website_source_url": "https://www.foundationcapital.com/",
+      "company_product": "Invests in early-stage technology founders and companies.",
+      "company_product_source_url": "https://www.foundationcapital.com/",
+      "company_sector": "Venture capital",
+      "company_sector_source_url": "https://www.foundationcapital.com/",
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "Foundation Capital",
+          "date": "1995",
+          "description": "Elmore co-founded Foundation Capital, whose portfolio has included Netflix, Chegg, Sunrun, and LendingClub.",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2021/venture-capitalist-elmore-gives-25-million-to-school-of-electrical-and-computer-engineering"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Foundation Capital in 1995; Purdue's 2017 profile credits its portfolio with 28 public listings, including Netflix.",
+          "date": "2017",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2017/Elmore"
+        },
+        {
+          "claim": "Taught Purdue students about venture capital as a Handshake Ventures general partner during a 2024 Silicon Valley visit.",
+          "date": "2024",
+          "source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/Engr/Academics/Undergraduate/news/2024/2024-0917-silicon-valley",
+      "highlight_order": 12
     },
     {
       "id": "sumit-mehra",
@@ -2714,7 +2797,28 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
-      }
+      },
+      "capital_events": [
+        {
+          "type": "merger",
+          "company": "Y Media Labs",
+          "date": "2023-06",
+          "description": "Y Media Labs became part of Code and Theory.",
+          "source_url": "https://yml.co/codeandtheory"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Y Media Labs and grew the product-design agency to more than 450 people worldwide by Purdue's 2021 profile.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Sumit-Mehra"
     },
     {
       "id": "kendra-bracken-ferguson",
@@ -2736,7 +2840,30 @@
       "flag_sources": {
         "purdue-founder": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
         "investor": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
-      }
+      },
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "BrainTrust Fund",
+          "date": "2022",
+          "amount": "$15 million fund",
+          "description": "Bracken-Ferguson co-founded BrainTrust Fund to invest in beauty and wellness brands.",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Digital Brand Architects, later acquired by United Talent Agency, and a $15 million fund investing in beauty and wellness brands.",
+          "date": "2022",
+          "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html",
+      "highlight_order": 7
     },
     {
       "id": "don-thompson",
@@ -2758,7 +2885,35 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
-      }
+      },
+      "company_website": "https://www.clevelandavenue.com/",
+      "company_website_source_url": "https://www.clevelandavenue.com/",
+      "company_product": "Invests in consumer brands and technology companies, with operating support.",
+      "company_product_source_url": "https://www.clevelandavenue.com/",
+      "company_sector": "Venture capital / consumer",
+      "company_sector_source_url": "https://www.clevelandavenue.com/",
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "Cleveland Avenue",
+          "date": "2017",
+          "description": "Thompson founded Cleveland Avenue, an investment group and accelerator for emerging food, beverage, and restaurant concepts.",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Served as McDonald's president and CEO from 2012 to 2015, then founded investment firm Cleveland Avenue.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2021/purdue-names-thompson-as-2021-dreamer-award-recipient",
+      "highlight_order": 8
     },
     {
       "id": "scott-massey",
@@ -2786,7 +2941,29 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
-      }
+      },
+      "company_website": "https://www.growanu.com/",
+      "company_website_source_url": "https://www.growanu.com/",
+      "company_product": "Makes indoor growing systems for fresh produce at home.",
+      "company_product_source_url": "https://www.growanu.com/about",
+      "company_sector": "Agriculture / consumer hardware",
+      "company_sector_source_url": "https://www.growanu.com/about",
+      "highlights": [
+        {
+          "claim": "Co-founded anu, building automated indoor gardens from Purdue and NASA-backed research.",
+          "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
+        },
+        {
+          "claim": "Was named to Forbes 30 Under 30 in manufacturing and technology in 2024.",
+          "date": "2024",
+          "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
     },
     {
       "id": "ivan-ball",
@@ -2814,7 +2991,24 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
-      }
+      },
+      "company_website": "https://www.growanu.com/",
+      "company_website_source_url": "https://www.growanu.com/",
+      "company_product": "Makes indoor growing systems for fresh produce at home.",
+      "company_product_source_url": "https://www.growanu.com/about",
+      "company_sector": "Agriculture / consumer hardware",
+      "company_sector_source_url": "https://www.growanu.com/about",
+      "highlights": [
+        {
+          "claim": "Co-founded anu, adapting Purdue and NASA-backed food-growing research into automated indoor gardens.",
+          "source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://polytechnic.purdue.edu/newsroom/purdue-polytechnic-alumnus-entrepreneur-receives-mitch-daniels-leadership-foundation-award"
     },
     {
       "id": "doug-booth",
@@ -2850,7 +3044,13 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://azzippizza.com/about/"
-      }
+      },
+      "company_product": "Runs made-to-order pizza restaurants in Indiana and Kentucky.",
+      "company_product_source_url": "https://azzippizza.com/",
+      "company_sector": "Food and beverage / restaurants",
+      "company_sector_source_url": "https://azzippizza.com/",
+      "company_website": "https://azzippizza.com/",
+      "company_website_source_url": "https://azzippizza.com/"
     },
     {
       "id": "grant-chapman",
@@ -2910,7 +3110,13 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/AAE/Aerogram/2025-2026/articles/99-about-Aerogram/aerogram-2025.pdf"
-      }
+      },
+      "company_website": "https://www.junopropulsion.com/",
+      "company_website_source_url": "https://www.junopropulsion.com/",
+      "company_product": "Develops rotating detonation rocket engines.",
+      "company_product_source_url": "https://www.junopropulsion.com/",
+      "company_sector": "Space / propulsion",
+      "company_sector_source_url": "https://www.junopropulsion.com/"
     },
     {
       "id": "ari-martinez",
@@ -2928,7 +3134,13 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/AAE/Aerogram/2025-2026/articles/99-about-Aerogram/aerogram-2025.pdf"
-      }
+      },
+      "company_website": "https://www.junopropulsion.com/",
+      "company_website_source_url": "https://www.junopropulsion.com/",
+      "company_product": "Develops rotating detonation rocket engines.",
+      "company_product_source_url": "https://www.junopropulsion.com/",
+      "company_sector": "Space / propulsion",
+      "company_sector_source_url": "https://www.junopropulsion.com/"
     },
     {
       "id": "candice-xie",
@@ -2960,7 +3172,34 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://business.purdue.edu/journal/25/s/home.php"
-      }
+      },
+      "company_website": "https://www.veoride.com/",
+      "company_website_source_url": "https://www.veoride.com/",
+      "company_product": "Operates shared e-scooters and bikes through city and campus partnerships.",
+      "company_product_source_url": "https://www.veoride.com/",
+      "company_sector": "Mobility / micromobility",
+      "company_sector_source_url": "https://www.veoride.com/",
+      "capital_events": [
+        {
+          "type": "profitability",
+          "company": "Veo",
+          "date": "2020",
+          "description": "Veo says it reached company-wide profitability in spring 2020.",
+          "source_url": "https://www.veoride.com/about/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Veo on Purdue's campus; the company later operated micromobility services in more than 50 U.S. cities.",
+          "date": "2023",
+          "source_url": "https://engineering.purdue.edu/cdesign/wp/convergence-masters-thesis-graduate-and-veo-co-founder-edwin-tan-officially-launches-the-veo-fleet-at-purdue-university/"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/cdesign/wp/convergence-masters-thesis-graduate-and-veo-co-founder-edwin-tan-officially-launches-the-veo-fleet-at-purdue-university/"
     },
     {
       "id": "edwin-tan",
@@ -2992,7 +3231,34 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan"
-      }
+      },
+      "company_website": "https://www.veoride.com/",
+      "company_website_source_url": "https://www.veoride.com/",
+      "company_product": "Operates shared e-scooters and bikes through city and campus partnerships.",
+      "company_product_source_url": "https://www.veoride.com/",
+      "company_sector": "Mobility / micromobility",
+      "company_sector_source_url": "https://www.veoride.com/",
+      "capital_events": [
+        {
+          "type": "profitability",
+          "company": "Veo",
+          "date": "2020",
+          "description": "Veo says it reached company-wide profitability in spring 2020.",
+          "source_url": "https://www.veoride.com/about/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Veo in West Lafayette; Purdue reported more than 40 million trips, 5 million customers and more than $20 million raised by 2025.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan"
     },
     {
       "id": "madison-long",
@@ -3020,7 +3286,22 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
-      }
+      },
+      "company_product": "Matched content creators with brands needing digital marketing content.",
+      "company_product_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "company_sector": "Marketplace / creator economy",
+      "company_sector_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "company_founded_year": 2019,
+      "company_founded_year_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Clutch",
+          "date": "2024-01",
+          "description": "Clutch was in Techstars Future of Ecommerce powered by eBay cohort.",
+          "source_url": "https://www.techstars.com/blog/impact/techstars-update-january-2024"
+        }
+      ]
     },
     {
       "id": "simone-may",
@@ -3048,7 +3329,22 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
-      }
+      },
+      "company_product": "Matched content creators with brands needing digital marketing content.",
+      "company_product_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "company_sector": "Marketplace / creator economy",
+      "company_sector_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "company_founded_year": 2019,
+      "company_founded_year_source_url": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Clutch",
+          "date": "2024-01",
+          "description": "Clutch was in Techstars Future of Ecommerce powered by eBay cohort.",
+          "source_url": "https://www.techstars.com/blog/impact/techstars-update-january-2024"
+        }
+      ]
     },
     {
       "id": "jin-wu",
@@ -3185,7 +3481,43 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
-      }
+      },
+      "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+      "company_product_source_url": "https://www.mimirhq.com/company",
+      "company_sector": "Education technology / developer tools",
+      "company_sector_source_url": "https://www.mimirhq.com/company",
+      "company_website": "https://www.mimirhq.com/company",
+      "company_website_source_url": "https://www.mimirhq.com/company",
+      "company_founded_year": 2014,
+      "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Mimir",
+          "date": "2015",
+          "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+          "source_url": "https://www.ycombinator.com/companies/mimir"
+        },
+        {
+          "type": "acquisition",
+          "company": "Mimir",
+          "date": "2019-12-17",
+          "description": "HackerRank acquired Mimir; terms were not disclosed.",
+          "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Mimir, whose computer-science teaching platform was used at more than 70 universities by 2017.",
+          "date": "2017",
+          "source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
     },
     {
       "id": "jacobi-petrucciani",
@@ -3217,7 +3549,31 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
-      }
+      },
+      "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+      "company_product_source_url": "https://www.mimirhq.com/company",
+      "company_sector": "Education technology / developer tools",
+      "company_sector_source_url": "https://www.mimirhq.com/company",
+      "company_website": "https://www.mimirhq.com/company",
+      "company_website_source_url": "https://www.mimirhq.com/company",
+      "company_founded_year": 2014,
+      "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Mimir",
+          "date": "2015",
+          "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+          "source_url": "https://www.ycombinator.com/companies/mimir"
+        },
+        {
+          "type": "acquisition",
+          "company": "Mimir",
+          "date": "2019-12-17",
+          "description": "HackerRank acquired Mimir; terms were not disclosed.",
+          "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+        }
+      ]
     },
     {
       "id": "colton-voege",
@@ -3249,7 +3605,31 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.cs.purdue.edu/news/articles/2017/Forbes-30-Under-30.html"
-      }
+      },
+      "company_product": "Built online tools for computer science coursework, programming projects, and grading.",
+      "company_product_source_url": "https://www.mimirhq.com/company",
+      "company_sector": "Education technology / developer tools",
+      "company_sector_source_url": "https://www.mimirhq.com/company",
+      "company_website": "https://www.mimirhq.com/company",
+      "company_website_source_url": "https://www.mimirhq.com/company",
+      "company_founded_year": 2014,
+      "company_founded_year_source_url": "https://www.ycombinator.com/companies/mimir",
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Mimir",
+          "date": "2015",
+          "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+          "source_url": "https://www.ycombinator.com/companies/mimir"
+        },
+        {
+          "type": "acquisition",
+          "company": "Mimir",
+          "date": "2019-12-17",
+          "description": "HackerRank acquired Mimir; terms were not disclosed.",
+          "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+        }
+      ]
     },
     {
       "id": "rush-bartlett",
@@ -3262,7 +3642,36 @@
       "why_relevant": "Biomedical-device ventures, palliative care, and 4i angel investing.",
       "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
       "role_as_of": "2024",
-      "verified_at": "2026-09-30"
+      "verified_at": "2026-09-30",
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "Awair",
+          "date": "2015",
+          "description": "Cook Medical acquired Bartlett's medical device company Awair.",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        },
+        {
+          "type": "acquisition",
+          "company": "Primo Lacto",
+          "date": "2018",
+          "description": "Lansinoh Laboratories acquired Bartlett's breastfeeding technology company Primo Lacto.",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded medical-device startups Awair and Primo Lacto, acquired by Cook Medical in 2015 and Lansinoh in 2018.",
+          "date": "2018",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
+      "highlight_order": 22
     },
     {
       "id": "yaerid-jacob",
@@ -3314,7 +3723,25 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat"
-      }
+      },
+      "company_website": "https://www.gatik.ai/",
+      "company_website_source_url": "https://www.gatik.ai/",
+      "company_product": "Runs driverless middle-mile freight routes between distribution centers and stores.",
+      "company_product_source_url": "https://archive.gatik.ai/about/",
+      "company_sector": "Logistics / autonomous vehicles",
+      "company_sector_source_url": "https://archive.gatik.ai/about/",
+      "company_founded_year": 2017,
+      "company_founded_year_source_url": "https://gatik.ai/wp-content/uploads/Gatik-named-a-TIME-Best-Invention-of-2022-for-World-First-Fully-Driverless-Middle-Mile-Trucking-Solution.pdf",
+      "highlights": [
+        {
+          "claim": "Co-founded Gatik and led development of its safety-critical autonomous trucking technology.",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat"
     },
     {
       "id": "colin-mcgonagill",
@@ -3381,7 +3808,26 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
-      }
+      },
+      "company_website": "https://www.gatik.ai/",
+      "company_website_source_url": "https://www.gatik.ai/",
+      "company_product": "Runs driverless middle-mile freight routes between distribution centers and stores.",
+      "company_product_source_url": "https://archive.gatik.ai/about/",
+      "company_sector": "Logistics / autonomous vehicles",
+      "company_sector_source_url": "https://archive.gatik.ai/about/",
+      "company_founded_year": 2017,
+      "company_founded_year_source_url": "https://gatik.ai/wp-content/uploads/Gatik-named-a-TIME-Best-Invention-of-2022-for-World-First-Fully-Driverless-Middle-Mile-Trucking-Solution.pdf",
+      "highlights": [
+        {
+          "claim": "Co-founded Gatik; its trucks began driverless commercial operations for Walmart in 2021.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
     },
     {
       "id": "jeffrey-peters",
@@ -3394,7 +3840,25 @@
       "why_relevant": "Invests in mobility and industrial startups; Purdue profile notes support for alumni ventures.",
       "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
       "role_as_of": "2024",
-      "verified_at": "2026-09-30"
+      "verified_at": "2026-09-30",
+      "company_product": "Manages venture capital and hedge fund strategies focused on Israel and mobility.",
+      "company_product_source_url": "https://www.ibexinvestors.com/",
+      "company_sector": "Investment management",
+      "company_sector_source_url": "https://www.ibexinvestors.com/",
+      "company_website": "https://www.ibexinvestors.com/",
+      "company_website_source_url": "https://www.ibexinvestors.com/",
+      "highlights": [
+        {
+          "claim": "Launched and led a $113 million early-stage mobility and industrial venture fund at Ibex Investors in 2021.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
+      "highlight_order": 19
     },
     {
       "id": "mayura-shah",
@@ -3450,7 +3914,24 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver"
-      }
+      },
+      "company_website": "https://www.intuitapmedical.com/",
+      "company_website_source_url": "https://www.intuitapmedical.com/",
+      "company_product": "Develops image-guided technology for spinal taps and other neuraxial procedures.",
+      "company_product_source_url": "https://www.intuitapmedical.com/",
+      "company_sector": "Medical devices",
+      "company_sector_source_url": "https://www.intuitapmedical.com/",
+      "highlights": [
+        {
+          "claim": "Led IntuiTap Medical through clinical trials and FDA approval of its VerTouch spinal-puncture guidance device.",
+          "date": "2024",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver"
     },
     {
       "id": "alvin-ang",
@@ -3496,7 +3977,40 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
-      }
+      },
+      "company_website": "https://www.overland.ai/",
+      "company_website_source_url": "https://www.overland.ai/",
+      "company_product": "Develops autonomous ground vehicles and software for military operations.",
+      "company_product_source_url": "https://www.overland.ai/company",
+      "company_sector": "Defense / robotics",
+      "company_sector_source_url": "https://www.overland.ai/company",
+      "company_founded_year": 2022,
+      "company_founded_year_source_url": "https://www.overland.ai/news/overland-ai-raises-100-million-to-scale-ground-autonomy-with-u-s-armed-forces",
+      "company_location": {
+        "location": "Seattle, Washington",
+        "source_url": "https://www.overland.ai/news/overland-ai-raises-100-million-to-scale-ground-autonomy-with-u-s-armed-forces"
+      },
+      "capital_events": [
+        {
+          "type": "government_contract",
+          "company": "Overland AI",
+          "date": "2026-08-04",
+          "amount": "$20 million",
+          "description": "The U.S. Marine Corps awarded Overland AI a production Other Transaction Authority agreement for autonomous ground vehicles.",
+          "source_url": "https://overlandai.substack.com/p/overland-ai-is-the-first-ground-autonomy"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded defense robotics startup Overland AI, which won DARPA's RACER competition and raised more than $42 million by 2025.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
     },
     {
       "id": "juanita-duque",
@@ -3533,6 +4047,20 @@
       "funding": [
         {
           "type": "round",
+          "amount": "$1 billion Series E; initial closing announced",
+          "round": "Series E",
+          "date": "2026-09-08",
+          "source_url": "https://www.stokespace.com/news/stoke-space-series-e"
+        },
+        {
+          "type": "total_raised",
+          "amount": "$2.3 billion total capital raised",
+          "round": "Company total",
+          "date": "2026-09-08",
+          "source_url": "https://www.stokespace.com/news/stoke-space-series-e"
+        },
+        {
+          "type": "round",
           "amount": "$260 million",
           "round": "Series C",
           "date": "2025-01-15",
@@ -3546,7 +4074,41 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman"
-      }
+      },
+      "company_website": "https://www.stokespace.com/",
+      "company_website_source_url": "https://www.stokespace.com/",
+      "company_product": "Builds fully reusable rockets for frequent orbital launch.",
+      "company_product_source_url": "https://www.stokespace.com/about-us",
+      "company_sector": "Space / launch systems",
+      "company_sector_source_url": "https://www.stokespace.com/about-us",
+      "company_founded_year": 2019,
+      "company_founded_year_source_url": "https://www.stokespace.com/news/the-future-of-spaceflight-and-why-we-built-stoke",
+      "company_location": {
+        "location": "Kent, Washington",
+        "source_url": "https://www.stokespace.com/locations/kent"
+      },
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Stoke Space",
+          "date": "2021",
+          "description": "Stoke Space joined Y Combinator's Winter 2021 batch; Feldman is listed as a founder.",
+          "source_url": "https://www.ycombinator.com/companies/stoke-space"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Stoke Space, developing the fully reusable Nova launch vehicle with a team Purdue described as nearly 300 people.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
+      "highlight_order": 5
     },
     {
       "id": "dhruv-garg",
@@ -3650,7 +4212,15 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=austin-link"
-      }
+      },
+      "company_website": "https://www.starfishspace.com/",
+      "company_website_source_url": "https://www.starfishspace.com/",
+      "company_product": "Develops autonomous spacecraft for satellite servicing and orbital debris removal.",
+      "company_product_source_url": "https://www.starfishspace.com/company/",
+      "company_sector": "Space / satellite servicing",
+      "company_sector_source_url": "https://www.starfishspace.com/company/",
+      "company_founded_year": 2019,
+      "company_founded_year_source_url": "https://www.starfishspace.com/company/"
     },
     {
       "id": "tyler-mantel",
@@ -3669,7 +4239,20 @@
       ],
       "flag_sources": {
         "investor": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Co-founded Roll Tack Ventures after building and exiting two companies; previously directed six Purdue Research Foundation venture funds with more than 45 portfolio companies.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
+      "highlight_order": 20
     },
     {
       "id": "katherine-clayton",
@@ -3698,7 +4281,11 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=katherine-clayton"
-      }
+      },
+      "company_product": "Developed a smartphone-enabled rapid diagnostic platform initially aimed at cholera detection.",
+      "company_product_source_url": "https://engineering.purdue.edu/BME/AboutUs/News/2019/Cholera-detection-lab-smartphone-enabled-platform-to-be-beta-tested-by-worldwide-leading-hospital-in-cholera-research",
+      "company_sector": "Medical diagnostics",
+      "company_sector_source_url": "https://engineering.purdue.edu/BME/AboutUs/News/2019/Cholera-detection-lab-smartphone-enabled-platform-to-be-beta-tested-by-worldwide-leading-hospital-in-cholera-research"
     },
     {
       "id": "marcus-lannie",
@@ -3750,7 +4337,27 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta"
-      }
+      },
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Glimpse",
+          "date": "2020",
+          "description": "Glimpse joined Y Combinator's Summer 2020 batch.",
+          "source_url": "https://www.ycombinator.com/companies/glimpse-2"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Glimpse while a Purdue student; Purdue reported it raised $6.2 million from Y Combinator, GSR Ventures and others by 2023.",
+          "date": "2023",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta"
     },
     {
       "id": "stephen-murray",
@@ -4141,7 +4748,16 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2022; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "investment",
+          "company": "Insignum AgTech",
+          "date": "2023",
+          "description": "Elevate Ventures lists an investment in Insignum AgTech in 2023. Amount not stated on its founder profile.",
+          "source_url": "https://elevateventures.com/founder/kyle-mohler/"
+        }
+      ]
     },
     {
       "id": "liane-hart",
@@ -4217,7 +4833,23 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2017; current status unverified."
-      }
+      },
+      "company_website": "https://the3doodler.com/",
+      "company_website_source_url": "https://the3doodler.com/",
+      "company_product": "Makes handheld 3D printing pens and related educational tools.",
+      "company_product_source_url": "https://the3doodler.com/",
+      "company_sector": "Consumer hardware / education",
+      "company_sector_source_url": "https://the3doodler.com/",
+      "highlights": [
+        {
+          "claim": "Co-founded WobbleWorks, the company behind the 3Doodler 3D-printing pen.",
+          "source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://www.cs.purdue.edu/alumni/outstanding-alumni.html"
     },
     {
       "id": "shahani-markus",
@@ -4267,7 +4899,32 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2021; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "eNom",
+          "description": "Stahura sold the domain registrar eNom to Demand Media.",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded eNom, later sold it to Demand Media, then co-founded domain registry Donuts in 2009.",
+          "date": "2009",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        },
+        {
+          "claim": "Purdue described him as founding investor in television measurement company iSpot.tv.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
     },
     {
       "id": "hemant-thapar",
@@ -4331,7 +4988,24 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award"
-      }
+      },
+      "company_website": "https://signeasy.com/",
+      "company_website_source_url": "https://signeasy.com/",
+      "company_product": "Provides electronic signatures and contract management for businesses.",
+      "company_product_source_url": "https://signeasy.com/",
+      "company_sector": "Software / contracts",
+      "company_sector_source_url": "https://signeasy.com/",
+      "highlights": [
+        {
+          "claim": "Founded electronic-signature software company Signeasy and remained its CEO in Purdue's 2024 profile.",
+          "date": "2024",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2024/purdue-ece-honors-five-alumni-with-the-outstanding-electrical-and-computer-engineer-award"
     },
     {
       "id": "nicolaus-radford",
@@ -4355,7 +5029,16 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2023; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "public_listing",
+          "company": "Nauticus Robotics",
+          "date": "2022-09-09",
+          "description": "Nauticus completed its business combination with CleanTech Acquisition Corp.; shares began trading on Nasdaq as KITT on September 13. Radford led the combined company as founder and CEO.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1849820/000121390022056286/ea165514ex99-1_nautics.htm"
+        }
+      ]
     },
     {
       "id": "bob-burlas",
@@ -4400,6 +5083,18 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2017; current status unverified."
+      },
+      "company_product": "Distributes flooring, countertops, tile, and hardscaping materials.",
+      "company_product_source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx",
+      "company_sector": "Building materials / distribution",
+      "company_sector_source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx",
+      "company_website": "https://www.msisurfaces.com/",
+      "company_website_source_url": "https://www.msisurfaces.com/",
+      "company_founded_year": 1975,
+      "company_founded_year_source_url": "https://www.msisurfaces.com/corporate/company-history.aspx",
+      "company_location": {
+        "location": "Orange, California",
+        "source_url": "https://www.msisurfaces.com/corporate/company-profile.aspx"
       }
     },
     {
@@ -4448,7 +5143,41 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2016; current status unverified."
-      }
+      },
+      "company_product": "Provides board management software for governance and meetings.",
+      "company_product_source_url": "https://www.onboardmeetings.com/",
+      "company_sector": "Software / governance",
+      "company_sector_source_url": "https://www.onboardmeetings.com/",
+      "company_website": "https://www.onboardmeetings.com/",
+      "company_website_source_url": "https://www.onboardmeetings.com/",
+      "capital_events": [
+        {
+          "type": "growth_financing",
+          "company": "Passageways",
+          "date": "2020",
+          "description": "Passageways announced growth capital from existing investors Five Elms Capital and Saratoga Financial after nearly 12 years of organic growth; amount undisclosed.",
+          "source_url": "https://www.onboardmeetings.com/blog/onboard-hires-rob-kunzler-as-chief-marketing-officer/"
+        },
+        {
+          "type": "acquisition",
+          "company": "Passageways / OnBoard",
+          "date": "2021-08-04",
+          "description": "Passageways, the company Chadha co-founded, acquired eSCRIBE Software Ltd.",
+          "source_url": "https://www.onboardmeetings.com/escribe/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Passageways after winning a Purdue business-plan competition; Purdue reported 50 employees and offices in London and Mumbai by 2016.",
+          "date": "2016",
+          "source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q4/purdue%2C-dwd-partner-to-expand-startup-opportunities-for-international-scholars%2C-students-through-j-1-visa-program.html"
     },
     {
       "id": "tim-mcenery",
@@ -4472,7 +5201,26 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2015; current status unverified."
-      }
+      },
+      "company_website": "https://chwinery.com/",
+      "company_website_source_url": "https://chwinery.com/",
+      "company_product": "Operates restaurants, wineries, and a wine club.",
+      "company_product_source_url": "https://chwinery.com/",
+      "company_sector": "Food and beverage / hospitality",
+      "company_sector_source_url": "https://chwinery.com/",
+      "highlights": [
+        {
+          "claim": "Founded Cooper’s Hawk Winery & Restaurants, which Purdue reported had 22 locations and more than $150 million in revenue in 2015.",
+          "date": "2015",
+          "source_url": "https://www.purdue.edu/hhs/life360/documents/archive/2015-fall.pdf"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://www.purdue.edu/hhs/life360/documents/archive/2015-fall.pdf",
+      "highlight_order": 11
     },
     {
       "id": "arjun-ishwar",
@@ -4664,7 +5412,32 @@
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri",
         "investor": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
-      }
+      },
+      "company_product": "Provides seed-stage venture capital to startups outside mature technology hubs.",
+      "company_product_source_url": "https://www.catapultvc.com/",
+      "company_sector": "Venture capital",
+      "company_sector_source_url": "https://www.catapultvc.com/",
+      "company_website": "https://www.catapultvc.com/",
+      "company_website_source_url": "https://www.catapultvc.com/",
+      "capital_events": [
+        {
+          "type": "portfolio_exits",
+          "company": "Catapult Ventures",
+          "description": "Purdue's profile credits Catapult Ventures, co-founded by Jazayeri, with early exits from Oculii, XNOR.ai, Left Hand Robotics, FlightWave, and Engine ML.",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Catapult Ventures; Purdue identifies early exits including Oculii, XNOR.ai and Left Hand Robotics.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
     },
     {
       "id": "yuxin-liu",
@@ -4707,7 +5480,28 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2025; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "Edico Genome",
+          "date": "2018-05-15",
+          "description": "Illumina acquired Edico Genome, the genomics company McMillen co-founded.",
+          "source_url": "https://investor.illumina.com/news/press-release-details/2018/Illumina-Acquires-Edico-Genome-to-Accelerate-Genomic-Data-Analysis/default.aspx"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Edico Genome, built its DRAGEN genomic processor, and saw the company acquired by Illumina.",
+          "date": "2025",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Robert-McMillen"
     },
     {
       "id": "sid-sheth",
@@ -4742,7 +5536,26 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
-      }
+      },
+      "company_website": "https://www.d-matrix.ai/",
+      "company_website_source_url": "https://www.d-matrix.ai/",
+      "company_product": "Builds computing systems for AI inference in data centers.",
+      "company_product_source_url": "https://www.d-matrix.ai/wp-content/uploads/2024/11/d-Matrix-WhitePaper-Technical-FINAL.pdf",
+      "company_sector": "Semiconductors / AI infrastructure",
+      "company_sector_source_url": "https://www.d-matrix.ai/wp-content/uploads/2024/11/d-Matrix-WhitePaper-Technical-FINAL.pdf",
+      "highlights": [
+        {
+          "claim": "Co-founded AI-chip company d-Matrix and raised nearly $500 million in financing by 2026.",
+          "date": "2026",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/sid-sheth",
+      "highlight_order": 10
     },
     {
       "id": "rehan-jalil",
@@ -4768,7 +5581,7 @@
       ],
       "company_location": {
         "location": "San Jose, California",
-        "source_url": "https://securiti.ai/press-release/securiti-unveils-worlds-first-data-controls-cloud/"
+        "source_url": "https://securiti.ai/about/"
       },
       "linkedin": "https://www.linkedin.com/in/rehanjalil",
       "linkedin_source_url": "https://www.linkedin.com/in/rehanjalil",
@@ -4777,7 +5590,49 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
-      }
+      },
+      "company_website": "https://securiti.ai/",
+      "company_website_source_url": "https://securiti.ai/",
+      "company_product": "Provides a platform for enterprise data security, governance, privacy, and AI controls.",
+      "company_product_source_url": "https://securiti.ai/about/",
+      "company_sector": "Cybersecurity / data",
+      "company_sector_source_url": "https://securiti.ai/about/",
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "Securiti AI",
+          "date": "2025-12-11",
+          "amount": "$1.725 billion",
+          "description": "Veeam completed its acquisition of Securiti AI, founded by Jalil, who joined as President of Security and AI.",
+          "source_url": "https://www.veeam.com/company/press-release/veeam-acquires-securiti-ai.html"
+        },
+        {
+          "type": "merger",
+          "company": "Elastica",
+          "amount": "$280 million",
+          "description": "Elastica, previously founded by Jalil, merged with Blue Coat for $280 million, according to Veeam's transaction announcement.",
+          "source_url": "https://www.veeam.com/company/press-release/veeam-to-acquire-securiti-ai.html"
+        },
+        {
+          "type": "acquisition",
+          "company": "WiChorus",
+          "description": "Tellabs acquired WiChorus, Jalil's first company.",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded Securiti, which Veeam acquired for $1.7 billion; his earlier companies Elastica and WiChorus also exited.",
+          "date": "2026",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil",
+      "highlight_order": 4
     },
     {
       "id": "kushal-negi",
@@ -4813,7 +5668,16 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2023; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Glimpse",
+          "date": "2020",
+          "description": "Glimpse joined Y Combinator's Summer 2020 batch; Y Combinator lists Negi among its founders.",
+          "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"
+        }
+      ]
     },
     {
       "id": "akash-raju",
@@ -4847,7 +5711,27 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2023; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "accelerator",
+          "company": "Glimpse",
+          "date": "2020",
+          "description": "Glimpse joined Y Combinator's Summer 2020 batch.",
+          "source_url": "https://www.ycombinator.com/companies/glimpse-2"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Glimpse while a Purdue student; its founders were named to Forbes 30 Under 30 after placing products in 15,000 vacation rentals.",
+          "date": "2023",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ece-alumnus-named-to-forbes-30-under-30-list"
     },
     {
       "id": "angik-sarkar",
@@ -4887,7 +5771,25 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2023; current status unverified."
-      }
+      },
+      "company_website": "https://ixana.ai/",
+      "company_website_source_url": "https://ixana.ai/",
+      "company_product": "Builds E-field communication silicon for connected wearable devices, robots, and machines.",
+      "company_product_source_url": "https://ixana.ai/",
+      "company_sector": "Semiconductors / wireless communication",
+      "company_sector_source_url": "https://ixana.ai/",
+      "highlights": [
+        {
+          "claim": "Co-founded Purdue research spinout Ixana, which developed a high-speed wireless chip for wearable devices and received Purdue Ventures investment.",
+          "date": "2023",
+          "source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/News/2023/purdue-ventures-invests-in-wearable-communication-chip-company-ixana"
     },
     {
       "id": "shovan-maity",
@@ -4927,7 +5829,13 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2023; current status unverified."
-      }
+      },
+      "company_website": "https://ixana.ai/",
+      "company_website_source_url": "https://ixana.ai/",
+      "company_product": "Builds E-field communication silicon for connected wearable devices, robots, and machines.",
+      "company_product_source_url": "https://ixana.ai/",
+      "company_sector": "Semiconductors / wireless communication",
+      "company_sector_source_url": "https://ixana.ai/"
     },
     {
       "id": "vasiliki-keramida",
@@ -4994,7 +5902,13 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/DEA/2026/bashir"
-      }
+      },
+      "company_product": "Develops precision medicine tools for acute care, including sepsis assessment.",
+      "company_product_source_url": "https://prenosis.com/",
+      "company_sector": "Medical technology / diagnostics",
+      "company_sector_source_url": "https://prenosis.com/",
+      "company_website": "https://prenosis.com/",
+      "company_website_source_url": "https://prenosis.com/"
     },
     {
       "id": "nikhil-bhogal",
@@ -5020,7 +5934,28 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2021; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "June",
+          "date": "2021-01-12",
+          "description": "Weber acquired June, the smart oven company Bhogal co-founded; terms were not disclosed.",
+          "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded smart-oven company June in 2013; Weber acquired the company in 2021.",
+          "date": "2021",
+          "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
     },
     {
       "id": "ujjwal-singh",
@@ -5044,7 +5979,15 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2020; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "SayNow",
+          "description": "Google acquired SayNow, Singh's startup, after which he led Hangouts work.",
+          "source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+        }
+      ]
     },
     {
       "id": "jie-weng",
@@ -5104,7 +6047,16 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2003; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "merger",
+          "company": "SDL",
+          "date": "2001-02-13",
+          "description": "SDL, which Scifres co-founded and led, merged with JDS Uniphase; he became co-chairman of the combined company's board.",
+          "source_url": "https://media.corporate-ir.net/media_files/nsd/jdsu/proxy/FY01proxy.pdf"
+        }
+      ]
     },
     {
       "id": "jeff-gordon",
@@ -5177,7 +6129,30 @@
       "flag_sources": {
         "purdue-founder": "https://new.business.purdue.edu/journal/23/f/features/timeline.php",
         "investor": "https://new.business.purdue.edu/journal/23/f/features/timeline.php"
-      }
+      },
+      "company_product": "Invests in government contracting and electric and gas utility businesses.",
+      "company_product_source_url": "https://imbpartners.com/",
+      "company_sector": "Private equity",
+      "company_sector_source_url": "https://imbpartners.com/",
+      "company_website": "https://imbpartners.com/",
+      "company_website_source_url": "https://imbpartners.com/",
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "IMB Partners",
+          "date": "2010",
+          "description": "Richardson founded IMB Partners after co-founding ICV Partners, a $440 million private equity firm.",
+          "source_url": "https://imbpartners.com/team-member/tarrus-richardson/"
+        },
+        {
+          "type": "fund_close",
+          "company": "IMB Partners SBIC I",
+          "date": "2024-12-31",
+          "amount": "$125.5 million",
+          "description": "IMB closed its first institutional fund above its original $100 million target.",
+          "source_url": "https://imbpartners.com/press-news/imb-partners-exceeds-fundraising-target-by-25/"
+        }
+      ]
     },
     {
       "id": "tiffany-sauder",
@@ -5196,7 +6171,13 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://events.purdue.edu/event/coffee_at_convergence_6317"
-      }
+      },
+      "company_product": "Provides marketing strategy and execution for manufacturers and other B2B2X brands.",
+      "company_product_source_url": "https://elementthree.com/",
+      "company_sector": "Marketing services",
+      "company_sector_source_url": "https://elementthree.com/",
+      "company_website": "https://elementthree.com/",
+      "company_website_source_url": "https://elementthree.com/"
     },
     {
       "id": "nobu-okada",
@@ -5229,7 +6210,35 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
-      }
+      },
+      "company_website": "https://www.astroscale.com/en",
+      "company_website_source_url": "https://www.astroscale.com/en",
+      "company_product": "Provides on-orbit inspection, life extension, and debris removal services.",
+      "company_product_source_url": "https://www.astroscale.com/en",
+      "company_sector": "Space / orbital services",
+      "company_sector_source_url": "https://www.astroscale.com/en",
+      "capital_events": [
+        {
+          "type": "ipo",
+          "company": "Astroscale Holdings",
+          "date": "2024-06-05",
+          "description": "Astroscale Holdings listed on the Tokyo Stock Exchange Growth Market under code 186A.",
+          "source_url": "https://www.astroscale.com/ja/news/astroscale-listed-on-the-tokyo-stock-exchange-growth-market"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded Astroscale in 2013 to develop commercial orbital-servicing and debris-removal missions.",
+          "date": "2013",
+          "source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://www.business.purdue.edu/journal/25/f/stories/nobu-okada-astroscale.php",
+      "highlight_order": 13
     },
     {
       "id": "julie-wainwright",
@@ -5248,7 +6257,34 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
-      }
+      },
+      "company_website": "https://www.therealreal.com/",
+      "company_website_source_url": "https://www.therealreal.com/",
+      "company_product": "Operates an authenticated luxury consignment marketplace.",
+      "company_product_source_url": "https://www.therealreal.com/",
+      "company_sector": "Commerce / luxury resale",
+      "company_sector_source_url": "https://www.therealreal.com/",
+      "capital_events": [
+        {
+          "type": "ipo",
+          "company": "The RealReal",
+          "date": "2019",
+          "description": "Wainwright led The RealReal, which she founded in 2011, through its initial public offering.",
+          "source_url": "https://www.purdue.edu/newsroom/2022/Q1/presidential-lecture-series-to-welcome-julie-wainwright-purdue-management-alumna-and-the-realreal-founder-on-march-29/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded luxury resale marketplace The RealReal and later co-founded Ahara.",
+          "source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://events.purdue.edu/event/purdue-womens-conference-2025-5088",
+      "highlight_order": 6
     },
     {
       "id": "scott-moorehead",
@@ -5449,7 +6485,39 @@
       ],
       "flag_sources": {
         "investor": "https://www.kleinerperkins.com/people/mamoon-hamid/"
-      }
+      },
+      "company_website": "https://www.kleinerperkins.com/",
+      "company_website_source_url": "https://www.kleinerperkins.com/",
+      "company_product": "Invests in technology companies from seed through growth.",
+      "company_product_source_url": "https://www.kleinerperkins.com/about/",
+      "company_sector": "Venture capital",
+      "company_sector_source_url": "https://www.kleinerperkins.com/about/",
+      "capital_events": [
+        {
+          "type": "fund_launch",
+          "company": "Social Capital",
+          "description": "Hamid co-founded venture firm Social Capital, where he helped launch companies including Intercom and Greenhouse and was Slack's first outside investor.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
+        },
+        {
+          "type": "investor_role",
+          "company": "Kleiner Perkins",
+          "date": "2017",
+          "description": "Hamid joined Kleiner Perkins as managing member and general partner.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded Social Capital, then became a Kleiner Perkins partner backing companies including Figma, Rippling and Anthropic.",
+          "source_url": "https://www.kleinerperkins.com/people/mamoon-hamid/"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor"
+      ],
+      "notable_source_url": "https://www.kleinerperkins.com/people/mamoon-hamid/",
+      "highlight_order": 1
     },
     {
       "id": "snehal-antani",
@@ -5493,7 +6561,25 @@
       "location_country": "United States",
       "location_source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html",
       "location_note": "Purdue alumni page says Antani resides in the San Francisco Bay Area.",
-      "location_as_of": "2025"
+      "location_as_of": "2025",
+      "company_website": "https://horizon3.ai/",
+      "company_website_source_url": "https://horizon3.ai/",
+      "company_product": "Provides NodeZero, an automated platform for testing exploitable cybersecurity risks.",
+      "company_product_source_url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
+      "company_sector": "Cybersecurity",
+      "company_sector_source_url": "https://horizon3.ai/news/press-release/horizon3-safe-autonomous-ai-cyber-defense/",
+      "highlights": [
+        {
+          "claim": "Founded Horizon3.ai after senior technology posts at Splunk and U.S. Joint Special Operations Command.",
+          "source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://www.cs.purdue.edu/alumni/2023-alumni-awards.html",
+      "highlight_order": 9
     },
     {
       "id": "mario-paniccia",
@@ -5524,7 +6610,13 @@
       "location_region": "Silicon Valley, California",
       "location_country": "United States",
       "location_source_url": "https://www.physics.purdue.edu/alumni/distalum/paniccia.html",
-      "location_note": "Undated Purdue profile calls Paniccia a business executive based in Silicon Valley; source checked 2026-09-30."
+      "location_note": "Undated Purdue profile calls Paniccia a business executive based in Silicon Valley; source checked 2026-09-30.",
+      "company_website": "https://www.anellophotonics.com/",
+      "company_website_source_url": "https://www.anellophotonics.com/",
+      "company_product": "Builds silicon-photonic gyroscopes and inertial navigation products.",
+      "company_product_source_url": "https://www.anellophotonics.com/",
+      "company_sector": "Hardware / navigation",
+      "company_sector_source_url": "https://www.anellophotonics.com/"
     },
     {
       "id": "bruce-schechter",
@@ -5611,8 +6703,41 @@
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html"
       },
+      "company_website": "https://www.notion.com/",
+      "company_website_source_url": "https://www.notion.com/",
+      "company_product": "Provides a connected AI workspace for documents, projects, and team knowledge.",
+      "company_product_source_url": "https://www.notion.com/",
+      "company_sector": "Software / productivity",
+      "company_sector_source_url": "https://www.notion.com/",
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "Pulse News",
+          "date": "2013",
+          "amount": "$90 million",
+          "description": "LinkedIn acquired Pulse News, the mobile news reader Kothari co-founded.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-akshay-kothari%20"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-created Pulse, which grew to more than 30 million users before LinkedIn acquired it.",
+          "date": "2013",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html"
+        },
+        {
+          "claim": "Later became co-founder and COO of Notion.",
+          "date": "2022",
+          "source_url": "https://www.notion.com/blog/building-a-connected-company"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/kothari.html",
       "image": "/assets/alumni/akshay-kothari.webp",
-      "image_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg"
+      "image_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",
+      "highlight_order": 2
     },
     {
       "id": "ashish-toshniwal",
@@ -5639,6 +6764,15 @@
       "flag_sources": {
         "purdue-founder": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Ashish-Toshniwal"
       },
+      "capital_events": [
+        {
+          "type": "merger",
+          "company": "Y Media Labs",
+          "date": "2023-06",
+          "description": "Y Media Labs became part of Code and Theory.",
+          "source_url": "https://yml.co/codeandtheory"
+        }
+      ],
       "image": "/assets/alumni/ashish-toshniwal.webp",
       "image_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg"
     },
@@ -5745,7 +6879,13 @@
       "flag_sources": {
         "investor": "https://housing.purdue.edu/campus-living/residential-learning/rai/eir/upcoming-eir.html",
         "mentor": "https://housing.purdue.edu/campus-living/residential-learning/rai/eir/upcoming-eir.html"
-      }
+      },
+      "company_product": "Connects women-led startups with angel investors and funding programs.",
+      "company_product_source_url": "https://www.goldenseeds.com/",
+      "company_sector": "Angel investing",
+      "company_sector_source_url": "https://www.goldenseeds.com/",
+      "company_website": "https://www.goldenseeds.com/",
+      "company_website_source_url": "https://www.goldenseeds.com/"
     },
     {
       "id": "ece-ayse-ufuk-agar",
@@ -6103,7 +7243,19 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 1992; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Co-founded networking-equipment company Tellabs in 1975 and led it as CEO.",
+          "date": "1975",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1992/birck.html"
     },
     {
       "id": "ece-wayne-l-bledsoe",
@@ -6555,7 +7707,16 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2004; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "ipo",
+          "company": "Vitria",
+          "date": "1999",
+          "description": "Chang led Vitria, the company she founded, through its initial public offering.",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2004/chang.html"
+        }
+      ]
     },
     {
       "id": "ece-patrick-chapman",
@@ -7305,7 +8466,30 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2003; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "majority_stake_sale",
+          "company": "Funimation",
+          "date": "2017-07-31",
+          "amount": "approximately $150 million company valuation",
+          "description": "Sony announced an agreement to buy a substantial majority stake in Funimation; Fukunaga retained a minority stake and CEO role at announcement.",
+          "source_url": "https://www.sonypictures.com/corp/press_releases/2017/07_17/073117_funimation.html"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded FUNimation Productions and served as its president, as documented in Purdue's 2003 alumni profile.",
+          "date": "2003",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2003/fukunaga.html",
+      "highlight_order": 14
     },
     {
       "id": "ece-uzia-galil",
@@ -7768,7 +8952,18 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2020; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Founded Schweitzer Engineering Laboratories with a $2,000 investment to commercialize digital protective relays.",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2020/Schweitzer"
     },
     {
       "id": "william-a-payne-iii",
@@ -8012,7 +9207,19 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 1999; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Founded multiple technology businesses and established venture firm New Vista Capital in 1993.",
+          "date": "1993",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1999/greene.html"
     },
     {
       "id": "ece-james-r-eaton-jr",
@@ -8596,7 +9803,17 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2020; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "Charles River Development",
+          "date": "2018",
+          "amount": "$2.6 billion",
+          "description": "State Street acquired Charles River Development, founded by Lambertus in 1984.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-peter-lambertus"
+        }
+      ]
     },
     {
       "id": "rita-s-lane",
@@ -8765,7 +9982,19 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2010; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Joined Kleiner Perkins as a partner in 2010 after leading an Intel education-technology program deployed in more than 50 countries.",
+          "date": "2010",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/liebat.html"
     },
     {
       "id": "ece-qian-lin",
@@ -10123,7 +11352,18 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2007; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Served as an Accel executive partner and co-founded Accel Europe, which managed a fund investing more than $500 million across Europe and Israel.",
+          "date": "2007",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2007/schoendorf"
     },
     {
       "id": "stephen-s-schwartz",
@@ -10422,7 +11662,36 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 1996; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "ipo",
+          "company": "Clarify",
+          "date": "1995",
+          "description": "Clarify went public under Stamm's leadership.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-david-stamm"
+        },
+        {
+          "type": "acquisition",
+          "company": "Clarify",
+          "date": "2002",
+          "amount": "$2.1 billion",
+          "description": "Nortel acquired Clarify, which Stamm co-founded and led.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-david-stamm"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Founded Daisy Systems in 1980 and Clarify in 1990; Purdue reported Daisy employed more than 1,000 people by 1985.",
+          "date": "1996",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/1996/stamm.html"
     },
     {
       "id": "ece-mark-stettler",
@@ -11244,7 +12513,29 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2010; current status unverified."
-      }
+      },
+      "capital_events": [
+        {
+          "type": "acquisition",
+          "company": "FingerWorks",
+          "date": "2005",
+          "description": "Apple acquired FingerWorks and its founders, including Westerman.",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded FingerWorks, whose multitouch technology and founders Apple acquired in 2005 for its iPhone and iPad work.",
+          "date": "2005",
+          "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html",
+      "highlight_order": 15
     },
     {
       "id": "dea-julie-a-kramer-white",
@@ -12904,13 +14195,13 @@
       "id": "keith-j-krach",
       "name": "Keith J. Krach",
       "connection": "BSIE 1979",
-      "role": "President",
-      "organization": "3points LLC",
+      "role": "Co-founder of Ariba; former CEO of DocuSign",
+      "organization": "Ariba / DocuSign",
       "region": "Not listed",
-      "kind": "Operator",
-      "why_relevant": "Purdue Engineering alumnus recognized in the 2006 alumni awards; historical role shown as of 2006.",
-      "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2006/krach",
-      "role_as_of": "2006",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Ariba and later led DocuSign through its growth and 2018 IPO; a Purdue industrial engineering alumnus and former trustee.",
+      "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/congratulations-to-ie-alum-keith-krach-on-honorary-doctorate",
+      "role_as_of": "2018",
       "verified_at": "2026-09-30",
       "flags": [
         "historical-role"
@@ -12920,7 +14211,24 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2006; current status unverified."
-      }
+      },
+      "highlights": [
+        {
+          "claim": "Co-founded Ariba and served as its CEO and chairman; its market capitalization passed $40 billion in 2000.",
+          "date": "2000",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-ketih-krach"
+        },
+        {
+          "claim": "Later served as chairman and CEO of DocuSign and chaired Purdue's Board of Trustees.",
+          "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-ketih-krach"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-ketih-krach",
+      "highlight_order": 0
     },
     {
       "id": "roman-j-krygier-jr",
@@ -15427,7 +16735,23 @@
       "why_relevant": "Purdue alum listed in a first-party business-school profile as Managing director and CIO at IMB Partners.",
       "source_url": "https://new.business.purdue.edu/journal/25/s/stories/alumni-updates.php",
       "role_as_of": "2025",
-      "verified_at": "2026-09-30"
+      "verified_at": "2026-09-30",
+      "company_product": "Invests in government contracting and electric and gas utility businesses.",
+      "company_product_source_url": "https://imbpartners.com/",
+      "company_sector": "Private equity",
+      "company_sector_source_url": "https://imbpartners.com/",
+      "company_website": "https://imbpartners.com/",
+      "company_website_source_url": "https://imbpartners.com/",
+      "capital_events": [
+        {
+          "type": "fund_close",
+          "company": "IMB Partners SBIC I",
+          "date": "2024-12-31",
+          "amount": "$125.5 million",
+          "description": "IMB, where Pennington served as managing partner, closed its first institutional fund above target.",
+          "source_url": "https://imbpartners.com/press-news/imb-partners-exceeds-fundraising-target-by-25/"
+        }
+      ]
     },
     {
       "id": "christian-piller",
@@ -15518,7 +16842,30 @@
       ],
       "flag_sources": {
         "purdue-founder": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php"
-      }
+      },
+      "company_website": "https://www.qawolf.com/",
+      "company_website_source_url": "https://www.qawolf.com/",
+      "company_product": "Provides managed end-to-end testing for web and mobile applications.",
+      "company_product_source_url": "https://www.qawolf.com/",
+      "company_sector": "Software / developer tools",
+      "company_sector_source_url": "https://www.qawolf.com/",
+      "highlights": [
+        {
+          "claim": "Co-founded software-testing company QA Wolf.",
+          "date": "2025",
+          "source_url": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php"
+        },
+        {
+          "claim": "QA Wolf announced a $36 million Series B financing round in 2024.",
+          "date": "2024",
+          "source_url": "https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://business.purdue.edu/journal/25/f/stories/321-alumni-updates.php",
+      "highlight_order": 21
     },
     {
       "id": "erin-windler",
@@ -15782,7 +17129,24 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2015; current status unverified."
-      }
+      },
+      "company_product": "Partners with companies through private equity investing.",
+      "company_product_source_url": "https://berkshirepartners.com/",
+      "company_sector": "Private equity",
+      "company_sector_source_url": "https://berkshirepartners.com/",
+      "company_website": "https://berkshirepartners.com/",
+      "company_website_source_url": "https://berkshirepartners.com/",
+      "highlights": [
+        {
+          "claim": "Joined Berkshire Partners in 1991 and became a managing director in 1994, according to Purdue’s business-school profile.",
+          "date": "1994",
+          "source_url": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php"
+        }
+      ],
+      "notable_lanes": [
+        "venture-investor"
+      ],
+      "notable_source_url": "https://business.purdue.edu/konline/2015s/networks/kranz-lss.php"
     },
     {
       "id": "gregory-flemming",
@@ -16574,7 +17938,13 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2021; current status unverified."
-      }
+      },
+      "company_product": "Creates and funds B2B software companies.",
+      "company_product_source_url": "https://www.highalpha.com/",
+      "company_sector": "Venture capital / venture studio",
+      "company_sector_source_url": "https://www.highalpha.com/",
+      "company_website": "https://www.highalpha.com/",
+      "company_website_source_url": "https://www.highalpha.com/"
     },
     {
       "id": "elliot-fullen",
@@ -16840,7 +18210,13 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2021; current status unverified."
-      }
+      },
+      "company_product": "Invests in cloud software companies in middle America.",
+      "company_product_source_url": "https://poplarventures.com/",
+      "company_sector": "Venture capital / software",
+      "company_sector_source_url": "https://poplarventures.com/",
+      "company_website": "https://poplarventures.com/",
+      "company_website_source_url": "https://poplarventures.com/"
     },
     {
       "id": "jeremiah-lockett-jr",
@@ -17479,7 +18855,24 @@
       },
       "flag_notes": {
         "historical-role": "Role reported as of 2019; current status unverified."
-      }
+      },
+      "company_website": "https://www.earnin.com/",
+      "company_website_source_url": "https://www.earnin.com/",
+      "company_product": "Lets workers access pay they have already earned before payday.",
+      "company_product_source_url": "https://www.earnin.com/",
+      "company_sector": "Financial technology",
+      "company_sector_source_url": "https://www.earnin.com/",
+      "highlights": [
+        {
+          "claim": "Co-founded Earnin, which Forbes included on its 2019 Fintech 50 list.",
+          "date": "2019",
+          "source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder"
+      ],
+      "notable_source_url": "https://business.purdue.edu/konline/2019s/networks/class-notes.php"
     },
     {
       "id": "brian-schutt",
@@ -21935,6 +23328,211 @@
       "flag_notes": {
         "historical-role": "Role reported as of 1992; current status unverified."
       }
+    },
+    {
+      "id": "joe-watkins",
+      "name": "Joe Watkins",
+      "connection": "Purdue computer engineering alumnus",
+      "role": "Co-founder and chief customer officer",
+      "organization": "Socio / Webex Events",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Socio with fellow Purdue students; the event platform was acquired by Cisco in 2021. Role reported by Purdue in 2022.",
+      "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "role_as_of": "2022",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Co-founded Socio with Purdue students; the team built its first version in under 48 hours at an Anvil hackathon.",
+          "date": "2016",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "claim": "Cisco acquired Socio, later Webex Events, in July 2021.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+      "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_sector": "Software / events",
+      "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_founded_year": 2016,
+      "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "highlight_order": 16
+    },
+    {
+      "id": "yarkin-sakucoglu",
+      "name": "Yarkin Sakucoglu",
+      "connection": "Purdue student Socio co-founder",
+      "role": "Co-founder and general manager",
+      "organization": "Socio / Webex Events",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Purdue-born Socio, acquired by Cisco in 2021; Purdue reported his general-manager role in 2022.",
+      "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "role_as_of": "2022",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Co-founded Purdue-born Socio; Cisco acquired it in July 2021.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "claim": "Purdue reported he served as Webex Events general manager after the acquisition.",
+          "date": "2022",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+      "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_sector": "Software / events",
+      "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_founded_year": 2016,
+      "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "highlight_order": 17
+    },
+    {
+      "id": "alihan-ozbayrak",
+      "name": "Alihan Ozbayrak",
+      "connection": "Purdue student Socio co-founder",
+      "role": "Co-founder and chief technology officer",
+      "organization": "Socio / Webex Events",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Co-founded Purdue-born Socio, acquired by Cisco in 2021; Purdue reported his CTO role in 2022.",
+      "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "role_as_of": "2022",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Co-founded Purdue-born Socio; Cisco acquired it in July 2021.",
+          "date": "2021",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        },
+        {
+          "claim": "Purdue reported he served as Webex Events chief technology officer after the acquisition.",
+          "date": "2022",
+          "source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "campus-builder"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/EngineeringImpact/summer-2022/articles/undergraduate-education/interview-alumnus-entrepreneur-joe-watkins-socio",
+      "company_product": "Built Socio, an event management platform later acquired by Cisco and renamed Webex Events.",
+      "company_product_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_sector": "Software / events",
+      "company_sector_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "company_website": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_website_source_url": "https://www.webex.com/us/en/solutions/event-management.html",
+      "company_founded_year": 2016,
+      "company_founded_year_source_url": "https://blog.webex.com/event-management/webex-events-formerly-socio-wins-kinetic-exit-of-the-year-award/",
+      "highlight_order": 18
+    },
+    {
+      "id": "lisa-laughner",
+      "name": "Lisa Laughner",
+      "connection": "BSME 1981",
+      "role": "Founder and former CEO",
+      "organization": "Go Electric",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Founded energy technology company Go Electric; Purdue reports it was acquired by Saft in 2019.",
+      "source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+      "role_as_of": "2019",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Founded energy technology company Go Electric and led it as CEO until Saft acquired it in 2019.",
+          "date": "2019",
+          "source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "industry-builder"
+      ],
+      "notable_source_url": "https://www.opp.purdue.edu/about/hall-of-fame-inductees/Lisa%20Laughner",
+      "highlight_order": 23
+    },
+    {
+      "id": "tom-scholl",
+      "name": "Tom Scholl",
+      "connection": "BA 1970, philosophy",
+      "role": "Founder and venture investor",
+      "organization": "Telogy Networks / Novak Biddle Venture Partners",
+      "region": "Not listed",
+      "kind": "Investor",
+      "why_relevant": "Founded and bootstrapped Telogy Networks, acquired by Texas Instruments in 1999; later became a Novak Biddle general partner.",
+      "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
+      "role_as_of": "2009",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Founded and bootstrapped Telogy Networks in 1990; Texas Instruments acquired it in 1999.",
+          "date": "1999",
+          "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+        },
+        {
+          "claim": "Purdue identified him as a Novak Biddle Venture Partners general partner in 2009.",
+          "date": "2009",
+          "source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://www.cla.purdue.edu/alumni/awards/distinguished-alumni-archive/2009/tom-scholl.html",
+      "highlight_order": 24
+    },
+    {
+      "id": "bala-s-manian",
+      "name": "Bala S. Manian",
+      "connection": "PhD 1971, Purdue University",
+      "role": "Serial entrepreneur and general partner",
+      "organization": "Saraswati Partners / Biometric Imaging",
+      "region": "Not listed",
+      "kind": "Investor",
+      "why_relevant": "Started six Silicon Valley companies based on optical technology and served as a venture general partner, according to Purdue's 2000 profile.",
+      "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian",
+      "role_as_of": "2000",
+      "verified_at": "2026-09-30",
+      "highlights": [
+        {
+          "claim": "Started six Silicon Valley optical-technology companies and later served as a general partner at Saraswati Partners.",
+          "date": "2000",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        },
+        {
+          "claim": "Received a Technical Academy Award for film special-effects advances in 1999.",
+          "date": "1999",
+          "source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian"
+        }
+      ],
+      "notable_lanes": [
+        "startup-founder",
+        "venture-investor"
+      ],
+      "notable_source_url": "https://engineering.purdue.edu/Engr/People/Awards/Institutional/DEA/DEA_2000/manian",
+      "highlight_order": 25
     }
   ],
   "events": [

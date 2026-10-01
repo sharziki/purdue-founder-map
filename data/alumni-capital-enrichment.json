@@ -1,0 +1,516 @@
+{
+  "akash-raju": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Glimpse",
+        "date": "2020",
+        "description": "Glimpse joined Y Combinator's Summer 2020 batch.",
+        "source_url": "https://www.ycombinator.com/companies/glimpse-2"
+      }
+    ]
+  },
+  "akshay-kothari": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "Pulse News",
+        "date": "2013",
+        "amount": "$90 million",
+        "description": "LinkedIn acquired Pulse News, the mobile news reader Kothari co-founded.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-akshay-kothari%20"
+      }
+    ]
+  },
+  "anuj-mehta": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Glimpse",
+        "date": "2020",
+        "description": "Glimpse joined Y Combinator's Summer 2020 batch.",
+        "source_url": "https://www.ycombinator.com/companies/glimpse-2"
+      }
+    ]
+  },
+  "ashish-toshniwal": {
+    "capital_events": [
+      {
+        "type": "merger",
+        "company": "Y Media Labs",
+        "date": "2023-06",
+        "description": "Y Media Labs became part of Code and Theory.",
+        "source_url": "https://yml.co/codeandtheory"
+      }
+    ]
+  },
+  "candice-xie": {
+    "capital_events": [
+      {
+        "type": "profitability",
+        "company": "Veo",
+        "date": "2020",
+        "description": "Veo says it reached company-wide profitability in spring 2020.",
+        "source_url": "https://www.veoride.com/about/"
+      }
+    ]
+  },
+  "colton-voege": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Mimir",
+        "date": "2015",
+        "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+        "source_url": "https://www.ycombinator.com/companies/mimir"
+      },
+      {
+        "type": "acquisition",
+        "company": "Mimir",
+        "date": "2019-12-17",
+        "description": "HackerRank acquired Mimir; terms were not disclosed.",
+        "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+      }
+    ]
+  },
+  "dea-peter-k-lambertus": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "Charles River Development",
+        "date": "2018",
+        "amount": "$2.6 billion",
+        "description": "State Street acquired Charles River Development, founded by Lambertus in 1984.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-peter-lambertus"
+      }
+    ]
+  },
+  "don-thompson": {
+    "capital_events": [
+      {
+        "type": "fund_launch",
+        "company": "Cleveland Avenue",
+        "date": "2017",
+        "description": "Thompson founded Cleveland Avenue, an investment group and accelerator for emerging food, beverage, and restaurant concepts.",
+        "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2018/150th-pre-kick-off-event-alumni-don-and-liz-thompsons-chicago-reception"
+      }
+    ]
+  },
+  "donald-r-scifres": {
+    "capital_events": [
+      {
+        "type": "merger",
+        "company": "SDL",
+        "date": "2001-02-13",
+        "description": "SDL, which Scifres co-founded and led, merged with JDS Uniphase; he became co-chairman of the combined company's board.",
+        "source_url": "https://media.corporate-ir.net/media_files/nsd/jdsu/proxy/FY01proxy.pdf"
+      }
+    ]
+  },
+  "ece-david-a-stamm": {
+    "capital_events": [
+      {
+        "type": "ipo",
+        "company": "Clarify",
+        "date": "1995",
+        "description": "Clarify went public under Stamm's leadership.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-david-stamm"
+      },
+      {
+        "type": "acquisition",
+        "company": "Clarify",
+        "date": "2002",
+        "amount": "$2.1 billion",
+        "description": "Nortel acquired Clarify, which Stamm co-founded and led.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-david-stamm"
+      }
+    ]
+  },
+  "ece-gen-fukunaga": {
+    "capital_events": [
+      {
+        "type": "majority_stake_sale",
+        "company": "Funimation",
+        "date": "2017-07-31",
+        "amount": "approximately $150 million company valuation",
+        "description": "Sony announced an agreement to buy a substantial majority stake in Funimation; Fukunaga retained a minority stake and CEO role at announcement.",
+        "source_url": "https://www.sonypictures.com/corp/press_releases/2017/07_17/073117_funimation.html"
+      }
+    ]
+  },
+  "ece-jomei-chang": {
+    "capital_events": [
+      {
+        "type": "ipo",
+        "company": "Vitria",
+        "date": "1999",
+        "description": "Chang led Vitria, the company she founded, through its initial public offering.",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2004/chang.html"
+      }
+    ]
+  },
+  "ece-wayne-c-westerman": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "FingerWorks",
+        "date": "2005",
+        "description": "Apple acquired FingerWorks and its founders, including Westerman.",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2010/westerman.html"
+      }
+    ]
+  },
+  "edwin-tan": {
+    "capital_events": [
+      {
+        "type": "profitability",
+        "company": "Veo",
+        "date": "2020",
+        "description": "Veo says it reached company-wide profitability in spring 2020.",
+        "source_url": "https://www.veoride.com/about/"
+      }
+    ]
+  },
+  "jacobi-petrucciani": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Mimir",
+        "date": "2015",
+        "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+        "source_url": "https://www.ycombinator.com/companies/mimir"
+      },
+      {
+        "type": "acquisition",
+        "company": "Mimir",
+        "date": "2019-12-17",
+        "description": "HackerRank acquired Mimir; terms were not disclosed.",
+        "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+      }
+    ]
+  },
+  "john-gedmark": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Astranis",
+        "date": "2016",
+        "description": "Astranis joined Y Combinator Winter 2016; YC lists Gedmark as its CEO and founder.",
+        "source_url": "https://www.ycombinator.com/companies/astranis"
+      }
+    ]
+  },
+  "julie-wainwright": {
+    "capital_events": [
+      {
+        "type": "ipo",
+        "company": "The RealReal",
+        "date": "2019",
+        "description": "Wainwright led The RealReal, which she founded in 2011, through its initial public offering.",
+        "source_url": "https://www.purdue.edu/newsroom/2022/Q1/presidential-lecture-series-to-welcome-julie-wainwright-purdue-management-alumna-and-the-realreal-founder-on-march-29/"
+      }
+    ]
+  },
+  "kelvin-pennington": {
+    "capital_events": [
+      {
+        "type": "fund_close",
+        "company": "IMB Partners SBIC I",
+        "date": "2024-12-31",
+        "amount": "$125.5 million",
+        "description": "IMB, where Pennington served as managing partner, closed its first institutional fund above target.",
+        "source_url": "https://imbpartners.com/press-news/imb-partners-exceeds-fundraising-target-by-25/"
+      }
+    ]
+  },
+  "kendra-bracken-ferguson": {
+    "capital_events": [
+      {
+        "type": "fund_launch",
+        "company": "BrainTrust Fund",
+        "date": "2022",
+        "amount": "$15 million fund",
+        "description": "Bracken-Ferguson co-founded BrainTrust Fund to invest in beauty and wellness brands.",
+        "source_url": "https://www.cla.purdue.edu/news/college/2026/from-campus-leadership-to-corporate-innovation.html"
+      }
+    ]
+  },
+  "kushal-negi": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Glimpse",
+        "date": "2020",
+        "description": "Glimpse joined Y Combinator's Summer 2020 batch; Y Combinator lists Negi among its founders.",
+        "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"
+      }
+    ]
+  },
+  "kyle-mohler": {
+    "capital_events": [
+      {
+        "type": "investment",
+        "company": "Insignum AgTech",
+        "date": "2023",
+        "description": "Elevate Ventures lists an investment in Insignum AgTech in 2023. Amount not stated on its founder profile.",
+        "source_url": "https://elevateventures.com/founder/kyle-mohler/"
+      }
+    ]
+  },
+  "madison-long": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Clutch",
+        "date": "2024-01",
+        "description": "Clutch was in Techstars Future of Ecommerce powered by eBay cohort.",
+        "source_url": "https://www.techstars.com/blog/impact/techstars-update-january-2024"
+      }
+    ]
+  },
+  "mamoon-hamid": {
+    "capital_events": [
+      {
+        "type": "fund_launch",
+        "company": "Social Capital",
+        "description": "Hamid co-founded venture firm Social Capital, where he helped launch companies including Intercom and Greenhouse and was Slack's first outside investor.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
+      },
+      {
+        "type": "investor_role",
+        "company": "Kleiner Perkins",
+        "date": "2017",
+        "description": "Hamid joined Kleiner Perkins as managing member and general partner.",
+        "source_url": "https://engineering.purdue.edu/150/Consequential-Stories/150th-mamoon-hamid"
+      }
+    ]
+  },
+  "nicolaus-radford": {
+    "capital_events": [
+      {
+        "type": "public_listing",
+        "company": "Nauticus Robotics",
+        "date": "2022-09-09",
+        "description": "Nauticus completed its business combination with CleanTech Acquisition Corp.; shares began trading on Nasdaq as KITT on September 13. Radford led the combined company as founder and CEO.",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1849820/000121390022056286/ea165514ex99-1_nautics.htm"
+      }
+    ]
+  },
+  "nikhil-bhogal": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "June",
+        "date": "2021-01-12",
+        "description": "Weber acquired June, the smart oven company Bhogal co-founded; terms were not disclosed.",
+        "source_url": "https://www.weber.com/US/en/blog/behind-the-grill/weber-acquires-june/weber-2118732.html"
+      }
+    ]
+  },
+  "nobu-okada": {
+    "capital_events": [
+      {
+        "type": "ipo",
+        "company": "Astroscale Holdings",
+        "date": "2024-06-05",
+        "description": "Astroscale Holdings listed on the Tokyo Stock Exchange Growth Market under code 186A.",
+        "source_url": "https://www.astroscale.com/ja/news/astroscale-listed-on-the-tokyo-stock-exchange-growth-market"
+      }
+    ]
+  },
+  "paroon-chadha": {
+    "capital_events": [
+      {
+        "type": "growth_financing",
+        "company": "Passageways",
+        "date": "2020",
+        "description": "Passageways announced growth capital from existing investors Five Elms Capital and Saratoga Financial after nearly 12 years of organic growth; amount undisclosed.",
+        "source_url": "https://www.onboardmeetings.com/blog/onboard-hires-rob-kunzler-as-chief-marketing-officer/"
+      },
+      {
+        "type": "acquisition",
+        "company": "Passageways / OnBoard",
+        "date": "2021-08-04",
+        "description": "Passageways, the company Chadha co-founded, acquired eSCRIBE Software Ltd.",
+        "source_url": "https://www.onboardmeetings.com/escribe/"
+      }
+    ]
+  },
+  "paul-stahura": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "eNom",
+        "description": "Stahura sold the domain registrar eNom to Demand Media.",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Paul-Stahura"
+      }
+    ]
+  },
+  "prahasith-veluvolu": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Mimir",
+        "date": "2015",
+        "description": "Mimir joined Y Combinator's Summer 2015 batch.",
+        "source_url": "https://www.ycombinator.com/companies/mimir"
+      },
+      {
+        "type": "acquisition",
+        "company": "Mimir",
+        "date": "2019-12-17",
+        "description": "HackerRank acquired Mimir; terms were not disclosed.",
+        "source_url": "https://www.prnewswire.com/news-releases/hackerrank-acquires-mimir-to-help-student-developers-learn-improve-and-assess-their-skills-from-coursework-to-career-300975852.html"
+      }
+    ]
+  },
+  "rehan-jalil": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "Securiti AI",
+        "date": "2025-12-11",
+        "amount": "$1.725 billion",
+        "description": "Veeam completed its acquisition of Securiti AI, founded by Jalil, who joined as President of Security and AI.",
+        "source_url": "https://www.veeam.com/company/press-release/veeam-acquires-securiti-ai.html"
+      },
+      {
+        "type": "merger",
+        "company": "Elastica",
+        "amount": "$280 million",
+        "description": "Elastica, previously founded by Jalil, merged with Blue Coat for $280 million, according to Veeam's transaction announcement.",
+        "source_url": "https://www.veeam.com/company/press-release/veeam-to-acquire-securiti-ai.html"
+      },
+      {
+        "type": "acquisition",
+        "company": "WiChorus",
+        "description": "Tellabs acquired WiChorus, Jalil's first company.",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2026/rehan-jalil"
+      }
+    ]
+  },
+  "robert-j-mcmillen": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "Edico Genome",
+        "date": "2018-05-15",
+        "description": "Illumina acquired Edico Genome, the genomics company McMillen co-founded.",
+        "source_url": "https://investor.illumina.com/news/press-release-details/2018/Illumina-Acquires-Edico-Genome-to-Accelerate-Genomic-Data-Analysis/default.aspx"
+      }
+    ]
+  },
+  "rouz-jazayeri": {
+    "capital_events": [
+      {
+        "type": "portfolio_exits",
+        "company": "Catapult Ventures",
+        "description": "Purdue's profile credits Catapult Ventures, co-founded by Jazayeri, with early exits from Oculii, XNOR.ai, Left Hand Robotics, FlightWave, and Engine ML.",
+        "source_url": "https://engineering.purdue.edu/ECE/Alums/OECE/2025/Rouz-Jazayeri"
+      }
+    ]
+  },
+  "rush-bartlett": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "Awair",
+        "date": "2015",
+        "description": "Cook Medical acquired Bartlett's medical device company Awair.",
+        "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+      },
+      {
+        "type": "acquisition",
+        "company": "Primo Lacto",
+        "date": "2018",
+        "description": "Lansinoh Laboratories acquired Bartlett's breastfeeding technology company Primo Lacto.",
+        "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
+      }
+    ]
+  },
+  "simone-may": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Clutch",
+        "date": "2024-01",
+        "description": "Clutch was in Techstars Future of Ecommerce powered by eBay cohort.",
+        "source_url": "https://www.techstars.com/blog/impact/techstars-update-january-2024"
+      }
+    ]
+  },
+  "stephanie-bonk": {
+    "capital_events": [
+      {
+        "type": "government_contract",
+        "company": "Overland AI",
+        "date": "2026-08-04",
+        "amount": "$20 million",
+        "description": "The U.S. Marine Corps awarded Overland AI a production Other Transaction Authority agreement for autonomous ground vehicles.",
+        "source_url": "https://overlandai.substack.com/p/overland-ai-is-the-first-ground-autonomy"
+      }
+    ]
+  },
+  "sumit-mehra": {
+    "capital_events": [
+      {
+        "type": "merger",
+        "company": "Y Media Labs",
+        "date": "2023-06",
+        "description": "Y Media Labs became part of Code and Theory.",
+        "source_url": "https://yml.co/codeandtheory"
+      }
+    ]
+  },
+  "tarrus-l-richardson": {
+    "capital_events": [
+      {
+        "type": "fund_launch",
+        "company": "IMB Partners",
+        "date": "2010",
+        "description": "Richardson founded IMB Partners after co-founding ICV Partners, a $440 million private equity firm.",
+        "source_url": "https://imbpartners.com/team-member/tarrus-richardson/"
+      },
+      {
+        "type": "fund_close",
+        "company": "IMB Partners SBIC I",
+        "date": "2024-12-31",
+        "amount": "$125.5 million",
+        "description": "IMB closed its first institutional fund above its original $100 million target.",
+        "source_url": "https://imbpartners.com/press-news/imb-partners-exceeds-fundraising-target-by-25/"
+      }
+    ]
+  },
+  "tom-feldman": {
+    "capital_events": [
+      {
+        "type": "accelerator",
+        "company": "Stoke Space",
+        "date": "2021",
+        "description": "Stoke Space joined Y Combinator's Winter 2021 batch; Feldman is listed as a founder.",
+        "source_url": "https://www.ycombinator.com/companies/stoke-space"
+      }
+    ]
+  },
+  "ujjwal-singh": {
+    "capital_events": [
+      {
+        "type": "acquisition",
+        "company": "SayNow",
+        "description": "Google acquired SayNow, Singh's startup, after which he led Hangouts work.",
+        "source_url": "https://engineering.purdue.edu/ECE/Partnerships/Stories"
+      }
+    ]
+  },
+  "william-elmore": {
+    "capital_events": [
+      {
+        "type": "fund_launch",
+        "company": "Foundation Capital",
+        "date": "1995",
+        "description": "Elmore co-founded Foundation Capital, whose portfolio has included Netflix, Chegg, Sunrun, and LendingClub.",
+        "source_url": "https://engineering.purdue.edu/ECE/News/2021/venture-capitalist-elmore-gives-25-million-to-school-of-electrical-and-computer-engineering"
+      }
+    ]
+  }
+}
