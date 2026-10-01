@@ -1,0 +1,133 @@
+{
+  "checks": [
+    {
+      "check": "2130 alumni loaded",
+      "passed": true
+    },
+    {
+      "check": "Alumni search",
+      "passed": true
+    },
+    {
+      "check": "Source-backed profile",
+      "passed": true
+    },
+    {
+      "check": "Dialog Escape",
+      "passed": true
+    },
+    {
+      "check": "Profile focus return",
+      "passed": true
+    },
+    {
+      "check": "Role filtering",
+      "passed": true
+    },
+    {
+      "check": "Organization sorting",
+      "passed": true
+    },
+    {
+      "check": "Pagination",
+      "passed": true
+    },
+    {
+      "check": "Global search finds campus contacts",
+      "passed": true
+    },
+    {
+      "check": "Search keyboard navigation",
+      "passed": true
+    },
+    {
+      "check": "Grant filter",
+      "passed": true
+    },
+    {
+      "check": "Eligibility details",
+      "passed": true
+    },
+    {
+      "check": "Saved checklist",
+      "passed": true
+    },
+    {
+      "check": "Glossary empty state",
+      "passed": true
+    },
+    {
+      "check": "Calendar events loaded",
+      "passed": true
+    },
+    {
+      "check": "Calendar date filter",
+      "passed": true
+    },
+    {
+      "check": "Google Calendar export",
+      "passed": true
+    },
+    {
+      "check": "ICS download",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: home",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: alumni.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: people.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: opportunities.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: resources.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: guide.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: guide/explore.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: playbooks/cold-outreach.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: glossary.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: events.html",
+      "passed": true
+    },
+    {
+      "check": "320px overflow: contribute.html",
+      "passed": true
+    },
+    {
+      "check": "Mobile menu",
+      "passed": true
+    },
+    {
+      "check": "Reduced motion",
+      "passed": true
+    },
+    {
+      "check": "No runtime errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Purdue Founder Map//Events//EN
+BEGIN:VEVENT
+UID:purdue-53667446527959@purdue-founder-map
+DTSTAMP:20261001T210851Z
+DTSTART:20261002T153000Z
+DTEND:20261002T162000Z
+SUMMARY:Executive Forum with Randy Haines\, Founder for ScaleBridge LLC\
+ , and Matt Vuckov\, Chief Executive Officer for TalentCraft
+LOCATION:Mitch Daniels School of Business
+DESCRIPTION:https://events.purdue.edu/event/executive-forum-with-randy-h
+ aines-founder-for-scalebridge-llc-and-matt-vuckov-chief-executive-office
+ r-for-talentcraft
+URL:https://events.purdue.edu/event/executive-forum-with-randy-haines-fo
+ under-for-scalebridge-llc-and-matt-vuckov-chief-executive-officer-for-ta
+ lentcraft
+END:VEVENT
+END:VCALENDAR

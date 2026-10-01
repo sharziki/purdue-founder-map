@@ -1,0 +1,173 @@
+{
+  "checks": [
+    {
+      "route": "",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "alumni.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "opportunities.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "guide.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "guide/explore.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "events.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "people.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "resources.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "glossary.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "contribute.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "playbooks/cold-outreach.html",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "alumni.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "opportunities.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "guide.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "guide/explore.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "events.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "people.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "resources.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "glossary.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "contribute.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "playbooks/cold-outreach.html",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "alumni.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "opportunities.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "guide.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "guide/explore.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "events.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "people.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "resources.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "glossary.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "contribute.html",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "route": "playbooks/cold-outreach.html",
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "failed_assets": [],
+  "no_js": "passed",
+  "core_bundle_failure": "passed"
+}

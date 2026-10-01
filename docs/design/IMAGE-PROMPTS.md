@@ -13,3 +13,10 @@ Generated with the built-in image tool on 2026-09-30. Each image is conceptual a
 ## Event stage — `assets/source/founder-stage.png`
 
 > Create an original cinematic photorealistic wide editorial image for an independent university founder events site. Empty small startup pitch auditorium just before doors open: rows of dark chairs, a simple unbranded stage and one narrow warm spotlight, tall windows showing blue-hour Midwest sky, subtle equipment cases and presentation screen turned off. Evoke anticipation and real builders gathering without showing any people, names, text, logos, or fake event signage. Dramatic premium aerospace-documentary photographic quality, graphite-black shadows with restrained warm light, strong visual focal point to the right and generous dark left side for white heading overlay. No rockets, no spacecraft, no SpaceX trademarks. 16:9 landscape high resolution, no watermark.
+
+
+## October 2026 Bell Tower
+
+Prompt brief: original premium architectural illustration of Purdue’s Bell Tower, three-quarter view, isolated on transparent background. Black/gray ink, detailed stippling and dithering, subtle ground/shrub base, no text or logos. Intended as a calm editorial landmark for a Purdue founder guide.
+
+Generated 1024×1536 RGBA master: `masters/bell-tower-dither.png`. The delivered WebP preserves alpha and is encoded at quality 86. This is an illustration, not a documentary campus photograph.

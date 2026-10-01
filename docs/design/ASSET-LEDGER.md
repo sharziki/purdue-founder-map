@@ -1,5 +1,21 @@
 # Asset and component ledger
-## September 2026 visual revision
+
+## Active October 2026 design
+
+This section supersedes the historical layout notes below.
+
+| Asset/component | Source and license | Delivery and behavior |
+|---|---|---|
+| Bell Tower illustration | Original image generated for this project; conceptual illustration, not documentary photography | 1024×1536 transparent PNG master in `masters/bell-tower-dither.png`; 223KB WebP in `public/assets/bell-tower-dither.webp`; explicit dimensions, descriptive alt |
+| Instrument Sans | Fontsource variable package 5.3.0, SIL OFL 1.1 | Local WOFF2; license in `public/fonts/INSTRUMENT-SANS-LICENSE.txt`; Arial fallback |
+| P/wayfinding logo | Original SVG drawn for this project | `public/assets/map-mark.svg`, no official Purdue mark |
+| Command Button + Slide Text Button | Kokonut UI, MIT, commit `bbe9fe9592e86c5c773b1e25b109dc10bb864ff0` | Canonical source snapshots and license in `public/vendor/kokonut-source/`; adapted native controls, no React dependencies |
+| GSAP | Existing official vendored GSAP distribution, standard license | Only hero image/headline/CTA transforms and opacity; static initial content, reduced-motion bypass, context cleanup |
+| Alumni and club imagery | Existing public first-party sources documented below and in each JSON profile | Four featured alumni, campus marks, and profile portraits; source ownership retained |
+
+21st CLI search returned HTTP 401. Canonical MIT source was inspected from the local audited Kokonut repository. No marketplace preview media was reused. Mobbin, f.inc, OPCS, Linear, and Stripe Atlas informed structure; their screenshots are reference evidence only.
+
+## Historical September 2026 visual revision
 
 The active homepage uses sourced portraits of Kostas Grigoriou, Brooke Beier, Danielle Salters, and John Gedmark in its editorial image strip. Their image sources are listed below and in `data/people.json` or `data/alumni.json`. The generated workshop, corridor, and auditorium remain in the repository as earlier assets but are not used in the current page layout. No image or code from [Founders, Inc.](https://f.inc/) was copied; its public site was studied for hierarchy, spacing, and restraint.
 

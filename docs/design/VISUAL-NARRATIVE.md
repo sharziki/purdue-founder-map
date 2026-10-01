@@ -1,9 +1,20 @@
-# Visual narrative · Purdue Founder Map
+# Active visual narrative · October 2026
 
-The page starts with a direct statement and one primary action. Four sourced public portraits immediately establish that this is a real network. Three entry choices route a founder to the guide, a person, or an opportunity. The six step roadmap explains sequence without requiring a long read. Program examples, contact paths, the full resource index, and public events follow in that order.
+**Thesis:** starting a company at Purdue begins with one useful step and one real conversation.
 
-White space, strong serif headlines, restrained sans text, and a small gold accent keep the interface calm. The design studies [Founders, Inc.](https://f.inc/) for hierarchy and focus while retaining its own Purdue content and layout. The homepage portrait strip, people directory, and alumni features use real sourced images. The guide behaves like a document, with a visible chapter rail on desktop and a compact chapter menu on mobile.
+The homepage establishes place with an original dithered Bell Tower. Large sans-serif typography gives the idea room; ink, ivory, and a little gold connect every page. There is no blocking splash screen. The tower and headline settle with a brief GSAP entrance, and static content stays available if motion fails.
 
-The final panel asks for one action: start the guide. The footer keeps provenance and contribution links close to that action. Search and filters expose the deeper database when readers need it. Motion is subtle; the site remains readable without JavaScript.
+Reading order: first action → six stages → three sourced opportunities → four real alumni → open-source contribution and exports. The guide, people, and opportunities are the three primary destinations. Events, resources, dictionary, and contribution live in one secondary menu.
 
-The alumni directory shows public professional profiles, not private contact information or guaranteed introductions. Each profile links to its source.
+Interior pages begin with compact literal headings. Search and filters sit immediately above ruled records. Profile facts, funding, education, affiliations, and evidence appear in native dialogs. Two-column mobile filters preserve readable labels. The mobile event calendar opens on demand so the next event appears immediately. Individual guide chapters include persistent local checklists, useful links, and a clear next stage.
+
+## Motion ownership
+
+- GSAP: home image/headline/CTA transform and opacity, 0.6–1.1 seconds; context reverted on pagehide and preference changes.
+- CSS: small control hover transitions, menu, actual-navigation progress line.
+- Native browser: scrolling, details, dialogs, focus containment, Escape, and history.
+- No Lenis, scroll traps, pinned scenes, canvas loops, or content hidden pending animation.
+
+## Design review
+
+An independent critic requested compact database headings, readable metadata, a mobile date disclosure, closer guide columns, and SVG arrow icons. All were implemented. Reference rationale and product truth: `REDESIGN-2026.md`. License and asset details: `ASSET-LEDGER.md`.
