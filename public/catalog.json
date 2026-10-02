@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T06:44:18+00:00",
+  "generated_at": "2026-10-02T17:53:50+00:00",
   "counts": {
     "resources": 177,
     "people": 41,
     "alumni": 2130,
-    "events": 33,
+    "events": 32,
     "opportunities": 142,
     "reading_links": 14
   },
@@ -66842,18 +66842,6 @@
     }
   ],
   "events": [
-    {
-      "id": "purdue-53667446527959",
-      "title": "Executive Forum with Randy Haines, Founder for ScaleBridge LLC, and Matt Vuckov, Chief Executive Officer for TalentCraft",
-      "starts_at": "2026-10-02T15:30:00+00:00",
-      "ends_at": "2026-10-02T16:20:00+00:00",
-      "venue": "Mitch Daniels School of Business",
-      "host": "Mitch Daniels School of Business",
-      "region": "West Lafayette",
-      "category": "Talk",
-      "url": "https://events.purdue.edu/event/executive-forum-with-randy-haines-founder-for-scalebridge-llc-and-matt-vuckov-chief-executive-officer-for-talentcraft",
-      "source": "https://events.purdue.edu/api/2/events"
-    },
     {
       "id": "buildpurdue-2780c777-c9ab-4987-b53e-eba35c0f9608",
       "title": "Nightshift",
