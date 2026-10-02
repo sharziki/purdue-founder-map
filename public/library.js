@@ -149,17 +149,17 @@
   const EXIT_TYPES = new Set(['acquisition', 'ipo', 'merger', 'exit', 'public_listing', 'majority_stake_sale']);
   const hasTag = name => p => (p.raw.tags || []).includes(name);
   const COLLECTIONS = [
-    { slug: 'y-combinator', title: 'Y Combinator', c: '#c4572a', words: ['yc', 'y combinator', 'ycombinator', 'combinator'], test: hasTag('Y Combinator') },
-    { slug: 'venture-backed', title: 'Venture-backed', words: ['venture backed', 'venture-backed', 'vc backed', 'vc-backed'], test: hasTag('Venture-backed') },
-    { slug: 'funded-startups', title: 'Funded startups', words: ['funded', 'funded startup', 'funded startups', 'funding', 'raised'], test: hasTag('Funded startup') },
+    { slug: 'y-combinator', title: 'Y Combinator', tag: 'Y Combinator', c: '#c4572a', words: ['yc', 'y combinator', 'ycombinator', 'combinator'], test: hasTag('Y Combinator') },
+    { slug: 'venture-backed', title: 'Venture-backed', tag: 'Venture-backed', words: ['venture backed', 'venture-backed', 'vc backed', 'vc-backed'], test: hasTag('Venture-backed') },
+    { slug: 'funded-startups', title: 'Funded startups', tag: 'Funded startup', words: ['funded', 'funded startup', 'funded startups', 'funding', 'raised'], test: hasTag('Funded startup') },
     { slug: 'exits', title: 'Exits and IPOs', words: ['exit', 'exits', 'ipo', 'ipos', 'acquired', 'acquisition', 'merger'], test: p => (p.raw.capital_events || []).some(e => EXIT_TYPES.has(e.type)) },
     { slug: 'accelerators', title: 'Accelerators', words: ['accelerator', 'accelerators', 'techstars'], test: p => hasTag('Y Combinator')(p) || (p.raw.capital_events || []).some(e => e.type === 'accelerator') },
-    { slug: 'vc-investors', title: 'VC investors', words: ['vc', 'vcs', 'venture capital', 'vc investor', 'vc investors'], test: hasTag('VC investor') },
-    { slug: 'investors', title: 'Investors', words: ['investor', 'investors', 'angel', 'angels'], test: hasTag('Investor') },
-    { slug: 'founders', title: 'Founders', words: ['founder', 'founders'], test: hasTag('Founder') },
-    { slug: 'tech', title: 'Tech', words: ['tech', 'software'], test: hasTag('Tech') },
-    { slug: 'bay-area', title: 'Bay Area', words: ['bay area', 'sf', 'san francisco', 'silicon valley'], test: hasTag('Bay Area') },
-    { slug: 'new-york', title: 'New York', words: ['nyc', 'new york', 'ny'], test: hasTag('NYC') },
+    { slug: 'vc-investors', title: 'VC investors', tag: 'VC investor', words: ['vc', 'vcs', 'venture capital', 'vc investor', 'vc investors'], test: hasTag('VC investor') },
+    { slug: 'investors', title: 'Investors', tag: 'Investor', words: ['investor', 'investors', 'angel', 'angels'], test: hasTag('Investor') },
+    { slug: 'founders', title: 'Founders', tag: 'Founder', words: ['founder', 'founders'], test: hasTag('Founder') },
+    { slug: 'tech', title: 'Tech', tag: 'Tech', words: ['tech', 'software'], test: hasTag('Tech') },
+    { slug: 'bay-area', title: 'Bay Area', tag: 'Bay Area', words: ['bay area', 'sf', 'san francisco', 'silicon valley'], test: hasTag('Bay Area') },
+    { slug: 'new-york', title: 'New York', tag: 'NYC', words: ['nyc', 'new york', 'ny'], test: hasTag('NYC') },
   ];
   function matchCollections(value) {
     const q = fold(value).trim();
@@ -823,24 +823,66 @@
     const k = v.kinds, parts = [['Founder', 'founder'], ['Investor', 'investor'], ['Operator', 'operator']].filter(([key]) => k[key]).map(([key, n]) => `${k[key]} ${n}${k[key] === 1 ? '' : 's'}`);
     return `<div class="title-page"><p class="tp-letter" data-letter="${v.letter}"><span class="sr-only">${v.custom ? 'Compiled book' : `Volume ${v.letter}`}</span></p>${v.custom ? `<p class="tp-title">${esc(v.title)}</p>` : ''}<p class="tp-count">${v.people.length.toLocaleString()} ${v.people.length === 1 ? 'person' : 'people'}</p><p class="tp-kinds">${parts.join(' · ')}</p><p class="tp-hint">Choose a name from the index, or turn the page with <kbd>→</kbd>.</p></div>`;
   }
+  const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const when = d => { const m = /^(\d{4})(?:-(\d{2}))?/.exec(String(d || '')); return !m ? esc(d || '') : m[2] ? `${MONTHS[+m[2] - 1]} ${m[1]}` : m[1]; };
+  const human = s => String(s || '').replace(/_/g, ' ');
+  // Everything the database knows about a person, laid out as a readable page; each claim cites its source.
   function personPage(p) {
-    const r = p.raw, v = volumes[p.vol];
+    const r = p.raw, v = volumes[p.vol], cited = [];
+    const cite = url => {
+      if (!safeURL(url) || url.startsWith('/')) return '';
+      let n = cited.indexOf(url) + 1; if (!n) { cited.push(url); n = cited.length; }
+      return `<a class="cite" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="Source ${n}">${n}</a>`;
+    };
     const role = r.role && r.organization && !r.role.toLowerCase().includes(r.organization.toLowerCase()) ? `${r.role} · ${r.organization}` : (r.role || r.organization);
-    const facts = [['Purdue', r.connection], ['Based', r.region === 'Not listed' ? '' : r.region], ['Role', r.kind], ['Sector', r.company_sector]].filter(([, val]) => val);
-    const high = (r.highlights || []).slice(0, 2).map(h => `<li>${esc(h.claim)}${h.date && !h.claim.includes(String(h.date).slice(0, 4)) ? ` <span class="e-date">${esc(String(h.date).slice(0, 4))}</span>` : ''}</li>`).join('');
-    const fund = (r.funding || [])[0];
-    const links = [[r.source_url, 'Source'], [r.linkedin, 'LinkedIn'], [r.company_website, 'Website'], [r.x, 'X'], [`/alumni.html?person=${encodeURIComponent(r.id)}`, 'On the map']].filter(([u]) => safeURL(u))
-      .map(([u, t]) => `<a href="${esc(u)}"${u.startsWith('/') ? '' : ' target="_blank" rel="noopener noreferrer"'}>${t}</a>`).join('');
     const asOf = r.role_as_of ? ` <span class="e-asof">as of ${esc(r.role_as_of)}</span>` : '';
     const initials = ((p.first ? p.first[0] : '') + p.last[0]).toUpperCase();
+    const roleCite = cite(r.role_source_url);
+    const lead = `${esc(r.why_relevant)}${cite(r.source_url)}`;
+    const place = [r.location_city, r.location_region, r.location_country === 'United States' && r.location_city ? '' : r.location_country].filter(Boolean).join(', ') || (r.region && r.region !== 'Not listed' ? r.region : '');
+    const tags = (r.tags || []).map(t => { const c = COLLECTIONS.find(x => x.tag === t); return c ? `<button type="button" class="tag-chip" data-book="${c.slug}" title="Open the ${esc(c.title)} book">${esc(t)}</button>` : `<span class="tag-chip">${esc(t)}</span>`; }).join('');
+    const facts = [
+      ['Purdue', r.connection && `${esc(r.connection)}${cite(r.connection_source_url)}`],
+      ['Based', place && `${esc(place)}${r.location_as_of ? ` <span class="e-asof">(${esc(r.location_as_of)})</span>` : ''}${cite(r.location_source_url)}`],
+      ['Company HQ', r.company_location?.location && `${esc(r.company_location.location)}${cite(r.company_location.source_url)}`],
+      ['Shelved as', esc(r.kind)],
+      ['Tags', tags],
+    ].filter(([, val]) => val);
+    const milestones = [
+      ...(r.highlights || []).map(h => ({ d: h.date, html: `${esc(h.claim)}${cite(h.source_url)}` })),
+      ...(r.capital_events || []).map(e => ({ d: e.date, html: `<b>${esc(human(e.type).replace(/^./, c => c.toUpperCase()))}.</b> ${esc(e.description || e.company || '')}${e.amount ? ` (${esc(e.amount)})` : ''}${cite(e.source_url)}` })),
+    ].sort((a, b) => String(b.d || '').localeCompare(String(a.d || '')));
+    const sp = r.startup_profile || {}, fs = sp.field_sources || {};
+    const company = sp.company_name || r.company;
+    const product = r.company_product || sp.product_summary;
+    const companyRows = [
+      ['Makes', product && `${esc(product)}${cite(r.company_product_source_url || fs.product_summary)}`],
+      ['Sector', (r.company_sector || sp.sector) && `${esc(r.company_sector || sp.sector)}${cite(r.company_sector_source_url || fs.sector)}`],
+      ['Founded', (r.company_founded_year || sp.founded_year) && `${esc(r.company_founded_year || sp.founded_year)}${cite(r.company_founded_year_source_url || fs.founded_year)}`],
+      ['Status', sp.exit_status && esc(human(sp.exit_status))],
+      ...(r.funding || []).map(f => ['Funding', `${esc(f.amount)}${f.round ? `, ${esc(f.round)}` : ''}${f.date ? ` <span class="e-asof">· ${when(f.date)}</span>` : ''}${cite(f.source_url)}`]),
+    ].filter(([, val]) => val);
+    const site = safeURL(r.company_website || sp.company_url);
+    const career = (r.affiliations || []).map(a => `<li>${esc(a.role)}${a.organization ? `, <b>${esc(a.organization)}</b>` : ''} <span class="e-asof">· ${a.status === 'historical' ? 'earlier role' : 'current'}${a.as_of ? `, as of ${esc(a.as_of)}` : ''}</span>${cite(a.source_url)}</li>`).join('');
+    const school = (r.education || []).map(e => `<li><b>${esc(e.institution || 'Purdue University')}</b>${[e.degree, e.field].filter(Boolean).length ? `, ${esc([e.degree, e.field].filter(Boolean).join(' in '))}` : ''}${e.graduation_year ? ` <span class="e-asof">· ${esc(e.graduation_year)}</span>` : ''}${e.completion_status === 'attended_no_degree' ? ' <span class="e-asof">attended, no degree</span>' : e.completion_status === 'attended_status_unknown' ? ' <span class="e-asof">attended</span>' : ''}${cite(e.source_url)}</li>`).join('');
+    const notes = Object.values(r.flag_notes || {}).filter(Boolean);
+    const links = [[r.linkedin, 'LinkedIn'], [site, 'Website'], [r.x, 'X']].filter(([u]) => safeURL(u))
+      .map(([u, t]) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t}</a>`).join('');
+    const section = (title, body) => body ? `<section class="e-sec"><h3>${title}</h3>${body}</section>` : '';
+    const dl = rows => `<dl class="facts">${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>`;
+    const sources = cited.map((u, i) => { let host = u; try { const x = new URL(u); host = x.hostname.replace(/^www\./, '') + (x.pathname.length > 1 ? x.pathname.replace(/\/$/, '').slice(0, 38) : ''); } catch {} return `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><span>${i + 1}</span>${esc(host)}</a></li>`; });
     return `<article class="person">
       <header class="e-top"><div class="stamp" data-img="${esc(r.image || '')}" aria-hidden="true"><span>${esc(initials)}</span></div>
-        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}</p></div></header>
-      <div class="rule" aria-hidden="true"></div>
-      <dl class="facts">${facts.map(([k, val]) => `<dt>${k}</dt><dd>${esc(val)}</dd>`).join('')}${fund ? `<dt>Company funding</dt><dd>${esc(fund.amount)}${fund.round ? `, ${esc(fund.round)}` : ''}${safeURL(fund.source_url) ? ` <a href="${esc(fund.source_url)}" target="_blank" rel="noopener noreferrer">source</a>` : ''}</dd>` : ''}</dl>
-      <p class="e-why">${esc(r.why_relevant)}</p>
-      ${high ? `<ul class="e-high">${high}</ul>` : ''}
-      <nav class="e-links" aria-label="Links for ${esc(r.name)}">${links}</nav>
+        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}${roleCite}</p></div></header>
+      <p class="e-why">${lead}</p>
+      ${dl(facts)}
+      ${section('Milestones', milestones.length ? `<ul class="e-list">${milestones.map(m => `<li>${m.d ? `<span class="e-when">${when(m.d)}</span>` : ''}${m.html}</li>`).join('')}</ul>` : '')}
+      ${section(company ? `The company: ${esc(company)}` : 'The company', companyRows.length ? dl(companyRows) : '')}
+      ${section('Career', career && `<ul class="e-list">${career}</ul>`)}
+      ${section('Education', school && `<ul class="e-list">${school}</ul>`)}
+      ${notes.length ? `<p class="e-note">${notes.map(esc).join(' ')}</p>` : ''}
+      ${links ? `<nav class="e-links" aria-label="Links for ${esc(r.name)}">${links}</nav>` : ''}
+      ${section('Sources', sources.length ? `<ol class="e-sources">${sources.join('')}</ol>` : '')}
       <footer class="e-foot"><span>${book.v && book.v.custom ? `${esc(book.v.title)}, p. ${book.person + 1} of ${book.v.people.length} · shelved in Vol. ${v.letter}` : `Vol. ${v.letter}, p. ${p.n + 1} of ${v.people.length}`}</span><span>Checked ${esc(r.verified_at || '')}</span></footer>
     </article>`;
   }
@@ -1056,6 +1098,10 @@
     if (+b.dataset.n === book.person && book.single) { setView('entry'); entryEl.tabIndex = -1; entryEl.focus({ preventScroll: true }); }
     else turnTo(+b.dataset.n, +b.dataset.n > book.person ? 1 : -1);
   });
+  entryEl.addEventListener('click', e => {
+    const chip = e.target.closest('.tag-chip[data-book]'); if (!chip || busy) return;
+    const c = COLLECTIONS.find(x => x.slug === chip.dataset.book); if (c) openBook(collectionBook(c));
+  });
   closeBtn.addEventListener('click', closeBook);
   $('previous-person').addEventListener('click', () => turnTo(book.person - 1, -1));
   $('next-person').addEventListener('click', () => turnTo(book.person + 1, 1));
@@ -1128,6 +1174,6 @@
     else if (id && byId.has(id)) openPerson(byId.get(id));
     else if (/^[A-Z]$/.test(letter)) openVolume(letter.charCodeAt(0) - 65);
   }).catch(() => {
-    $('room-sub').innerHTML = 'The shelves did not load. Try again, or browse the <a href="/alumni.html">alumni directory</a>.';
+    $('room-sub').innerHTML = 'The shelves did not load. Try again in a moment, or read the <a href="/alumni.json">plain data</a>.';
   });
 })();

@@ -1,1 +1,12 @@
-{"outputDirectory":"public","cleanUrls":true,"rewrites":[{"source":"/mcp","destination":"/api/mcp"}]}
+{
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/(alumni|people|guide|opportunities|resources|events|glossary|contribute)", "destination": "/", "permanent": true },
+    { "source": "/(guide|playbooks)/:path*", "destination": "/", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/library", "destination": "/" }
+  ]
+}
