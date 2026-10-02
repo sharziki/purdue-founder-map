@@ -459,7 +459,13 @@
     await openVolume(p.vol, p);
   }
 
-  indexEl.addEventListener('click', e => { const b = e.target.closest('button[data-n]'); if (b) turnTo(+b.dataset.n, +b.dataset.n > book.person ? 1 : -1); });
+  indexEl.addEventListener('click', e => {
+    const b = e.target.closest('button[data-n]');
+    if (!b || busy) return;
+    if (+b.dataset.n === book.person && book.single) {
+      setView('entry'); entryEl.tabIndex = -1; entryEl.focus({preventScroll:true});
+    } else turnTo(+b.dataset.n, +b.dataset.n > book.person ? 1 : -1);
+  });
   closeBtn.addEventListener('click', closeBook);
   $('previous-person').addEventListener('click', () => turnTo(book.person - 1, -1));
   $('next-person').addEventListener('click', () => turnTo(book.person + 1, 1));
@@ -510,7 +516,7 @@
     clearTimeout(resizeT);
     resizeT = setTimeout(() => {
       layout(); frame();
-      if (book.open && !busy) { applyMetrics(metrics(), volumes[book.vol]); setView(book.single ? book.view : 'index'); }
+      if (book.open && !busy) { applyMetrics(metrics(), volumes[book.vol]); setView(book.single && book.person >= 0 ? 'entry' : 'index'); }
     }, 120);
   });
   layout();

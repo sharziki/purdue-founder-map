@@ -27,3 +27,7 @@ WebGL context was available in the test browser. All 117 referenced local portra
 Independent critic inspected room, reader and animation screenshots. Final readability 8.7, coherence 8.7, mobile 8.6. Identified small mobile targets, glyph fallback, loss of room detail on mobile, and a 150ms selected-row contrast transition. All repaired; selected background now changes immediately and its computed color is asserted by the browser check.
 
 Asset/prompt provenance: `ASSETS-V2.md` and `assets/`.
+
+## Production verification
+
+Release `9933916` passed Vercel deployment. Live HTML/CSS/JS, both artwork files, the Tyler Mantel portrait and alumni JSON matched local bytes; live MCP `get_person` returned portrait evidence. Browser search, cover animation and profile photo loaded with no JavaScript errors. A final mobile resize/index check found that selecting the already-active entry did not reopen its page; corrected and checked locally. Mobile now retains the selected profile when resizing and reopens it from the index.

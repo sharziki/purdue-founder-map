@@ -54,6 +54,11 @@ for w,h in [(390,844),(320,568),(844,390)]:
  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth')
  assert page.locator('#book-close').bounding_box()['y']+page.locator('#book-close').bounding_box()['height']<=h
  assert page.locator('.stamp img').count()==1
+ if w<760:
+  page.locator('#to-index').click()
+  page.locator('#index [aria-current]').click()
+  assert page.locator('#book').get_attribute('data-view')=='entry'
+  assert page.locator('.e-name').inner_text()=='Tyler Mantel'
  page.screenshot(path=str(OUT/f'profile-{w}.png'))
  for _ in range(14):
   page.keyboard.press('Tab')
