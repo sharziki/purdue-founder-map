@@ -1,0 +1,10 @@
+{
+  "release": "ca659c4",
+  "url": "https://purdue-founder-map.vercel.app/library",
+  "desktop": true,
+  "mobile": true,
+  "shelf": true,
+  "search": true,
+  "mcp_inspector": "production search_people passed",
+  "errors": []
+}

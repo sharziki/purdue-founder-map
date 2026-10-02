@@ -24,3 +24,9 @@ Camoufox desktop/mobile evidence is stored alongside this file, with final resul
 MCP transport reference: https://modelcontextprotocol.io/specification/2025-11-25/basic/transports
 
 The illustration is original procedural pixel art from `public/library.js`. Existing photos, public data, and sources remain the same as the map. No personal Claude account was connected during testing; protocol interoperability was tested with MCP Inspector.
+
+## Production
+
+UI/API release `ca659c4` deployed successfully through the existing GitHub → Vercel integration. `/library`, its CSS/JS, and both local font files match the local release. `/mcp` initializes successfully. The official MCP Inspector performs `search_people(query="gedmark")` against the public endpoint and receives the sourced John Gedmark record and reading-room permalink.
+
+Live desktop shelf opening/closing and mobile search-to-entry passed without runtime errors or horizontal overflow. Final hosted evidence: `live-desktop.png`, `live-mobile.png`, `live-entry.png`, and `live-checks.json`.
