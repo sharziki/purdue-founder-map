@@ -258,4 +258,11 @@ button.tag-chip:hover { background: var(--ink); color: var(--cream); box-shadow:
 .tp-count { font-size: 22px; }
 .tp-kinds, .tp-hint { font-family: var(--read); font-size: 15px; line-height: 1.5; }
 .tp-hint { max-width: 30ch; }
+/* LinkedIn: solid for a verified profile, outlined for a people search */
+.li-btn { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; padding: 6px 12px 6px 6px; background: #0a66c2; color: #fff; font: 600 13.5px/1 var(--read); text-decoration: none; box-shadow: 0 0 0 2px var(--ink), 3px 3px 0 0 rgba(27, 18, 32, .3); }
+.li-btn:hover { background: #004182; }
+.li-in { display: grid; place-items: center; width: 19px; height: 19px; border-radius: 3px; background: #fff; color: #0a66c2; font: 800 12.5px/1 var(--read); letter-spacing: -.5px; }
+.li-btn.li-search { background: var(--cream); color: #0a66c2; box-shadow: 0 0 0 2px #0a66c2; }
+.li-btn.li-search:hover { background: #e3eefa; }
+.li-search .li-in { background: #0a66c2; color: #fff; }
 @media (max-width: 760px) { .entry { padding: 24px 22px 18px; } .e-why { font-size: 16px; } }

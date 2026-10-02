@@ -866,14 +866,18 @@
     const career = (r.affiliations || []).map(a => `<li>${esc(a.role)}${a.organization ? `, <b>${esc(a.organization)}</b>` : ''} <span class="e-asof">· ${a.status === 'historical' ? 'earlier role' : 'current'}${a.as_of ? `, as of ${esc(a.as_of)}` : ''}</span>${cite(a.source_url)}</li>`).join('');
     const school = (r.education || []).map(e => `<li><b>${esc(e.institution || 'Purdue University')}</b>${[e.degree, e.field].filter(Boolean).length ? `, ${esc([e.degree, e.field].filter(Boolean).join(' in '))}` : ''}${e.graduation_year ? ` <span class="e-asof">· ${esc(e.graduation_year)}</span>` : ''}${e.completion_status === 'attended_no_degree' ? ' <span class="e-asof">attended, no degree</span>' : e.completion_status === 'attended_status_unknown' ? ' <span class="e-asof">attended</span>' : ''}${cite(e.source_url)}</li>`).join('');
     const notes = Object.values(r.flag_notes || {}).filter(Boolean);
-    const links = [[r.linkedin, 'LinkedIn'], [site, 'Website'], [r.x, 'X']].filter(([u]) => safeURL(u))
+    const links = [[site, 'Website'], [r.x, 'X']].filter(([u]) => safeURL(u))
       .map(([u, t]) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t}</a>`).join('');
+    // A verified profile links straight to it; otherwise the button is an honest LinkedIn people search.
+    const linkedin = safeURL(r.linkedin)
+      ? `<a class="li-btn" href="${esc(r.linkedin)}" target="_blank" rel="noopener noreferrer"><span class="li-in" aria-hidden="true">in</span>LinkedIn</a>`
+      : `<a class="li-btn li-search" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent([r.name, r.organization].filter(Boolean).join(' '))}" target="_blank" rel="noopener noreferrer" title="Search LinkedIn for ${esc(r.name)}"><span class="li-in" aria-hidden="true">in</span>Find on LinkedIn</a>`;
     const section = (title, body) => body ? `<section class="e-sec"><h3>${title}</h3>${body}</section>` : '';
     const dl = rows => `<dl class="facts">${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>`;
     const sources = cited.map((u, i) => { let host = u; try { const x = new URL(u); host = x.hostname.replace(/^www\./, '') + (x.pathname.length > 1 ? x.pathname.replace(/\/$/, '').slice(0, 38) : ''); } catch {} return `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><span>${i + 1}</span>${esc(host)}</a></li>`; });
     return `<article class="person">
       <header class="e-top"><div class="stamp" data-img="${esc(r.image || '')}" aria-hidden="true"><span>${esc(initials)}</span></div>
-        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}${roleCite}</p></div></header>
+        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}${roleCite}</p>${linkedin}</div></header>
       <p class="e-why">${lead}</p>
       ${dl(facts)}
       ${section('Milestones', milestones.length ? `<ul class="e-list">${milestones.map(m => `<li>${m.d ? `<span class="e-when">${when(m.d)}</span>` : ''}${m.html}</li>`).join('')}</ul>` : '')}
