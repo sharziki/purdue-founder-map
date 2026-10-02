@@ -1,101 +1,50 @@
 # Purdue Founder Map
 
-Independent, open-source directory and practical roadmap for Purdue founders. The site is not affiliated with or endorsed by Purdue University.
+An independent, open-source reading room of Purdue founders, investors and operators. It is not affiliated with or endorsed by Purdue University.
 
-**Live site:** https://purdue-founder-map.vercel.app
+**Live:** https://purdue-founder-map.vercel.app
 
-## What is here
+## What it is
 
-- Six-stage scan-friendly roadmap and a chaptered [field guide](https://purdue-founder-map.vercel.app/guide) from first builder meetup to launch, funding, and growth.
-- [People directory](https://purdue-founder-map.vercel.app/people) with 41 source-backed public contacts, including program leads, capital, alumni, and Kostas Grigoriou.
-- [Alumni directory](https://purdue-founder-map.vercel.app/alumni) backed by 2,130 deduplicated public profiles in this repository: 290 founders, 80 investors, and 1,760 operators. Its default featured ordering surfaces 70 Purdue-connected builders with specific, source-linked milestones; the selection is available in [JSON](https://purdue-founder-map.vercel.app/notable-alumni.json). Every entry links to a public source. Historical roles are labeled or dated; check the linked source for current employment before outreach.
-- The database has 1,906 sourced education entries across 1,622 people, 395 dated company and investor affiliations across 118 people, and 89 structured startup profiles. Further enrichment includes company funding for 46 profiles, 62 capital and exit milestones, 63 company locations, 20 directly stated personal locations, 65 verified LinkedIn profiles, 4 X profiles, and 612 source-linked tag rows. Missing social profiles remain unlinked rather than being guessed.
-- First-party club imagery for useful campus entry points, with direct organization links.
-- 49 core reviewed resources, 28 new Indiana and Bay Area resources, plus 100 entries imported from [Purdue Innovates Navigator](https://purdueinnovates.org/navigator/). Each entry links to its source.
-- A separate [opportunity directory](https://purdue-founder-map.vercel.app/opportunities) with 142 source-linked programs: 30 Purdue, 48 Indiana and Midwest, and 64 national or global. It records audience, eligibility, benefit, application page, cycle, and sourced amounts or deadlines where available.
-- Search and filters by resource type; alumni filters by role, geography, and source-linked tag, with name or organization sorting. People directories show all matching profiles. Resource and opportunity lists expand on demand. Cmd/Ctrl+K searches the whole map.
-- Upcoming events pulled daily from [The Anvil](https://www.anvilstartups.com/events), [buildpurdue](https://www.buildpurdue.org/events), [Purdue Executive Forum](https://new.business.purdue.edu/events/exec-forum/home.php), and the [San Francisco Boilermaker Founders Forum](https://purdue.edu/science/events/science/2026/purdue-alumni-of-san-francisco-boilermaker-founders-forum.html).
-- One SQLite database at `data/founders.sqlite3` containing resources, public contacts, alumni, and a separate indexed `opportunities` table; static JSON exports in `public/` make the site cheap to host and easy to reuse.
-- A reusable [data catalog](https://purdue-founder-map.vercel.app/catalog.json), [link-only feed](https://purdue-founder-map.vercel.app/links.json), and [structured founder guide](https://purdue-founder-map.vercel.app/guide-data.json) connect the roadmap to programs, tools, and curated Hacker News discussions.
+One screen: a pixel-art room on a rainy night. Someone reads on the couch, a cat sleeps beside him, and a shelf of 26 volumes holds all 2,130 people, A to Z by surname (290 founders, 80 investors, 1,760 operators).
 
-No registration or tracking is required.
+- **Read.** Click a spine and the book flies off the shelf and opens to an index and one page per person. A page gathers everything the database knows about that person: role and Purdue connection, milestones and capital events, the company (product, sector, founding year, funding rounds), career, education, location, and tags. Every claim carries a numbered source. Historical roles are labelled with the year of their source.
+- **Search.** Search by name, company, field, place or tag. Searches for tags such as "yc", "vc", "exits", "bay area" or "new york" offer to **compile a book** of that set. Any search can also be **bound into a book**. Matching volumes get a red ribbon on the shelf.
+- **Links.** `/?person=<id>`, `/#G` (a volume), `/?book=y-combinator` (a tag book), `/?find=robotics` (a search book). `/library` serves the same room.
+- **Poke around.** The cat, the lamp (night mode), the window, a snow globe, an hourglass, a radio, the candle, a ball of yarn, the plant, the tea. Click the reader for a random page.
+- **Connect Claude.** The small *connect claude* link gives the public MCP endpoint, `https://purdue-founder-map.vercel.app/mcp`. It has three read-only tools: `search_people`, `get_person` and `browse_volume`. Add it in Claude.ai or Desktop under Settings → Connectors → Add custom connector, or in Claude Code with `claude mcp add --transport http purdue-founders https://purdue-founder-map.vercel.app/mcp`.
 
-The interface uses locally hosted Instrument Sans, an original dithered Bell Tower illustration, three primary navigation destinations, and dedicated pages for every task. Two MIT-licensed [Kokonut UI components](https://21st.dev/@kokonutd/library/kokonut-ui)—Command Button and Slide Text Button—are adapted to native HTML/CSS. Source snapshots and licenses are in `public/vendor/kokonut-source/`. Optional GSAP motion is restricted to the home hero, with reduced-motion and no-JavaScript fallbacks.
+The database holds 1,906 sourced education entries across 1,622 people, 395 dated affiliations, 89 startup profiles, funding for 46 companies, 62 capital and exit milestones, and 612 source-linked tags. Missing profiles stay empty rather than guessed.
 
-`scripts/build_site.py` generates all 19 pages from the same public exports. Shared styles and controls live in `public/map.css` and `public/map.js`. Guide progress is stored only on the visitor’s device. Events support Google Calendar links and per-event `.ics` downloads.
+Reduced motion freezes the room and skips book transitions. On phones the room scrolls sideways and the book shows one page at a time.
+
+## Files
+
+- `public/index.html`, `public/library.css`, `public/library.js` — the whole site.
+- `public/assets/library/reading-room.png` — the 320×180 room. Generated with Higgsfield GPT Image 2 and snapped to a 64-colour grid by `scripts/pixelate_room.py`. Provenance is in `docs/design/reading-room/VERIFICATION-V3.md`.
+- `public/assets/alumni/` — 117 sourced portraits, shown dithered.
+- `public/alumni.json` — every record, the room's only data source. See [DATA-API.md](docs/DATA-API.md).
+- `api/mcp.js` — the stateless MCP server, routed to `/mcp` by `vercel.json`. `vercel.json` also redirects the old site's pages to the room.
 
 ## Run locally
 
 ```bash
-python3 -m http.server 4173 -d public
+node scripts/serve.js        # http://127.0.0.1:4320, the room plus /mcp
+node scripts/check_mcp.js    # MCP protocol and data checks
 ```
 
-Open `http://localhost:4173`.
+## Update the data
 
-## Data updates
-
-Edit reviewed records in `data/resources.json`, public contacts in `data/people.json`, alumni in `data/alumni.json` and `data/alumni-*-expansion.json`, or the sourced Indiana and Bay Area expansion files, then run:
+Alumni records live in `data/alumni.json` and the sourced `data/alumni-*.json` expansion and enrichment files. Rebuild the database and the public export:
 
 ```bash
-python3 -m pip install requests beautifulsoup4
-python3 scripts/scrape_navigator.py
-python3 scripts/scrape_polytechnic_alumni.py
-python3 scripts/scrape_polytechnic_archive.py
-python3 scripts/scrape_science_alumni.py
-python3 scripts/scrape_ag_awards.py
 python3 scripts/build_alumni.py
-python3 scripts/build_data.py
-python3 scripts/build_opportunities.py
+python3 scripts/build_data.py      # writes data/founders.sqlite3 and public/alumni.json
 python3 scripts/check_alumni_db.py
-python3 scripts/refresh_events.py
-python3 scripts/build_catalog.py
-python3 scripts/build_site.py
 ```
 
-`scrape_navigator.py` caches Purdue Innovates' public directory. `build_data.py` combines that index with the reviewed list, then rebuilds the resource table and public JSON. `refresh_events.py` updates upcoming events in both SQLite and public JSON. A daily GitHub Action refreshes the directory and events. If all event sources fail, the script preserves the last good export and exits with an error.
-
-Opportunity source records live in `data/opportunities-{purdue,indiana,national}.json`. `build_opportunities.py` validates and publishes the separate SQLite table and `/opportunities.json`; `build_catalog.py` adds them to the combined exports. A date appears only when supported by the linked organizer page. The derived status is recalculated on each build; check the program page for current terms.
-
-Alumni coverage combines curated profiles with public Purdue Engineering, Business, Polytechnic, Science, Statistics, Agriculture, and Pharmacy sources. The university's private alumni roster is not included. Purdue-connected former students can appear when the connection is documented; attendance is not treated as a degree. Many award and archive biographies describe past roles; `role_as_of` records the source year when known, while undated profile rows carry an explicit verification note. The source URL is the evidence; `verified_at` means the page loaded on that date, not that its job title is current. Optional sourced enrichment lives in `data/alumni-*-enrichment.json`. The normalized education, affiliation, and startup facts are queryable in `data/founders.sqlite3` and exported in `/alumni.json`. Funding belongs to the named company and is not a claim about a person's net worth; company location is separate from personal location. Highlights are an editorial starting point backed by public milestones, not a ranking.
-
-The static endpoints and link relationships are documented in [DATA-API.md](docs/DATA-API.md). Edit `data/founder-guide.json` for roadmap, playbook, tool, and glossary records; edit `data/reading-links.json` for curated reading. Rebuild the catalog and then the static site after either change.
-
-Resource entries use a durable program page rather than a deadline or an `apply` form when applications open and close by cohort. Check each linked page for current eligibility and dates. Event times display in Purdue's Eastern time zone.
-
-## Contribute
-
-Use the [contribution page](https://purdue-founder-map.vercel.app/contribute) to suggest a resource, nominate a public contact or alumnus, or report a correction. Pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for the data format and verification steps.
+`scripts/scrape_*.py` collect candidates from public Purdue alumni pages for review, and `scripts/refresh_portraits.py` refreshes sourced portraits. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
 Code and original writing: MIT. Names, trademarks, and linked content belong to their owners.
-
-## Reading room and MCP
-
-[The reading room](https://purdue-founder-map.vercel.app/library) is a single-screen pixel-art room on a rainy night: a 320×180 scene with someone reading on the couch, a sleeping cat, and a shelf of 26 volumes that hold every alumni record, ordered by surname. Click a spine, search by name/company/field, or open a person’s permalink; click the reader for a random page. Search knows the alumni tags: type "yc", "vc", "exits" or "bay area" to compile that set into its own book (`/library?book=y-combinator`), or bind any search into one (`/library?find=robotics`). Most of the room can be poked: the cat, the lamp (night mode), the window, a snow globe, an hourglass, a radio, the candle, a ball of yarn, the plant, and the tea. Arrow keys or the previous/next controls turn pages; Escape closes the book. On phones the room scrolls sideways and the book shows one page at a time. Reduced motion freezes the room and skips book transitions. The art's provenance and its reproducible pixelation step are in `docs/design/reading-room/VERIFICATION-V3.md`.
-
-The small **connect claude** control provides the public MCP address:
-
-```text
-https://purdue-founder-map.vercel.app/mcp
-```
-
-For Claude Code:
-
-```bash
-claude mcp add --transport http purdue-founders https://purdue-founder-map.vercel.app/mcp
-```
-
-Tools: `search_people`, `get_person`, and `browse_volume`. They read the same public `alumni.json`; no account data, writes, or private alumni roster. Responses retain sources and historical-role dates. The endpoint is stateless Streamable HTTP with JSON responses. GET returns 405 because it does not offer a server event stream.
-
-Run both the site and endpoint locally with Node 20+:
-
-```bash
-node scripts/serve.js
-# http://127.0.0.1:4320/library
-node scripts/check_mcp.js
-```
-
-The static generator adds the reading room to shared navigation. The handcrafted room files (`library.html`, `library.css`, `library.js`, and the room art in `assets/library/`) are preserved when the generator runs. MCP implementation: `api/mcp.js`; transport requirements: [official MCP specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports).
-
-Reading room art provenance, pixelation and motion notes: [VERIFICATION-V3.md](docs/design/reading-room/VERIFICATION-V3.md) and `docs/design/reading-room/assets/higgsfield-pixel-room.json`. The room animation pauses while the tab is hidden or a book is open, and stops entirely with reduced motion. Portrait source evidence lives in `data/alumni-portraits.json`; `python scripts/refresh_portraits.py` refreshes explicitly named public Purdue portraits, then `python scripts/build_data.py` publishes them to JSON and SQLite.

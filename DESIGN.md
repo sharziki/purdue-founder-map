@@ -1,29 +1,22 @@
 # Purdue Founder Map design
 
-Audience: Purdue students, alumni, and research founders who need one useful next action. This is an independent, open source, source backed guide.
+The whole site is one screen: the reading room. Visitors want to find a Purdue person and read a trustworthy page about them. The room makes that feel calm and a little playful.
 
-## Routes
+## Room
 
-- `/`: orientation, six step roadmap, application examples, people, searchable resource index, and upcoming events.
-- `/guide.html`: six chapter field guide with chapter navigation and concrete next moves.
-- `/people.html`: public professional contact directory with search and filters.
-- `/alumni.html`: sourced founders, investors, and operators with geography and role filters.
-- `/contribute.html`: issue forms for additions and corrections.
+- A 320×180, 64-colour pixel image (`public/assets/library/reading-room.png`) at a scale snapped to whole device pixels. Past its edges, the walls mirror, the ceiling and floorboards repeat, and everything fades to night.
+- Mellow lo-fi palette: indigo and plum shadows, amber lamplight. Nothing glows that wouldn't glow in the room.
+- The 26 volumes, the toys and every animation are drawn in code on the same pixel grid. The overlay coordinates (`SHELF`, `SPOTS`, `TOYS` in `library.js`) are tied to this exact image, so re-measure them if the art changes.
+- The title sits on the floor at bottom-left, search at top-right, and the tiny *unofficial · source · data · connect claude* line at bottom-right. Nothing may cover a spine or a toy; this is checked at 13 viewport sizes.
 
-## Visual system
+## Book
 
-The September 2026 revision takes its cues from [Founders, Inc.](https://f.inc/): a white canvas, direct navigation, an unambiguous headline, real people imagery, restrained controls, and content that becomes more detailed as the reader moves down the page. It uses an original Purdue guide layout and its own content and assets. No Founders, Inc. source, imagery, or brand assets are copied.
-
-Libre Baskerville is reserved for major headings. DM Sans carries navigation, body text, controls, and directory rows. Ink and white dominate; Purdue gold marks provenance and the current step. The homepage portraits and alumni features use sourced public images. Decorative conceptual graphics have been removed from the active layout. A shared `/professional.css` keeps all routes consistent.
-
-The first screen gives one guide action and a direct directory path. The six step roadmap and application examples remain brief. Search and filters expose depth only when needed. The final invitation is a compact actionable panel.
-
-GSAP 3.14.2 and ScrollTrigger add light entrance motion. Essential content is visible without scripts. Reduced motion disables the transitions. The opening mark appears only on the first page of a session; subsequent navigation is immediate. Native links, details, search, and buttons remain keyboard reachable.
+- Covers, spines and big letters are pixel art: a 3×5 face on spines, 5×7 on covers. Names and section titles use Pixelify Sans.
+- Page text uses Instrument Sans: 17px lead, 15px lists, 14.5px facts. Every claim carries a numbered source, and a Sources list closes the page.
+- Motion has jobs: a book is pulled from the shelf, turns to its cover, and hinges open. Pages turn, and the book goes back to its slot. Compiled books bind out of the search box. Reduced motion skips all of it.
 
 ## Quality gates
 
-- No page overflow at 320, 390, or 1280 pixels.
-- Search, filters, pagination, links, chapter anchors, and native details work by keyboard and pointer.
-- Every public person and alumni record has source information; professional location is qualified where necessary.
-- Event and resource failure states remain visible.
-- Organization marks and portraits identify their subjects and do not imply endorsement.
+- No page scroll on desktop; phones scroll the room sideways only.
+- Keyboard: search first, then spines, toys, the cat and the reader. Escape closes the book or the connect card, and focus returns to where the book came from.
+- Every person page shows its sources. Historical roles are labelled.
