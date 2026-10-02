@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-02",
   "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
   "count": 70,
   "alumni": [
@@ -801,6 +801,10 @@
           "completion_status": "attended_status_unknown"
         }
       ],
+      "image": "/assets/alumni/tom-feldman.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/tom-feldman.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
+      "image_alt_evidence": "Photo of Tom Feldman.",
       "tags": [
         "Founder",
         "Funded startup",
@@ -2095,6 +2099,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=jeffrey-peters"
         }
       ],
+      "image": "/assets/alumni/jeffrey-peters.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/jeffrey-peters.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
+      "image_alt_evidence": "Photo of Jeffrey Peters.",
       "tags": [
         "Bay Area",
         "Investor",
@@ -2189,6 +2197,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel"
         }
       ],
+      "image": "/assets/alumni/tyler-mantel.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/tyler-mantel.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
+      "image_alt_evidence": "Photo of Tyler Mantel.",
       "tags": [
         "Investor",
         "VC investor"
@@ -2416,6 +2428,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=rush-bartlett"
         }
       ],
+      "image": "/assets/alumni/rush-bartlett.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/rush-bartlett.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
+      "image_alt_evidence": "Photo of Rush Bartlett.",
       "tags": [
         "Founder"
       ],
@@ -2979,6 +2995,10 @@
         "location": "New York City",
         "source_url": "https://www.tryglimpse.com/post/announcing-our-10m-seed-to-bring-ai-powered-deduction-management-to-cpg-brands"
       },
+      "image": "/assets/alumni/anuj-mehta.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/anuj-mehta.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+      "image_alt_evidence": "Photo of Anuj Mehta.",
       "tags": [
         "Founder",
         "Funded startup",
@@ -3064,6 +3084,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/past-recipients/?r=apeksha-kumavat"
         }
       ],
+      "image": "/assets/alumni/apeksha-kumavat.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/apeksha-kumavat.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat",
+      "image_alt_evidence": "Photo of Apeksha Kumavat.",
       "tags": [
         "Bay Area",
         "Founder",
@@ -3146,6 +3170,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang"
         }
       ],
+      "image": "/assets/alumni/arjun-narang.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/arjun-narang.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang",
+      "image_alt_evidence": "Photo of Arjun Narang.",
       "tags": [
         "Bay Area",
         "Founder",
@@ -3854,6 +3882,10 @@
           "completion_status": "degree_completed"
         }
       ],
+      "image": "/assets/alumni/edwin-tan.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/edwin-tan.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
+      "image_alt_evidence": "Photo of Edwin Tan.",
       "tags": [
         "Founder",
         "Funded startup",
@@ -4392,6 +4424,10 @@
           "completion_status": "attended_status_unknown"
         }
       ],
+      "image": "/assets/alumni/jessica-traver.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/jessica-traver.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
+      "image_alt_evidence": "Photo of Jessica Traver.",
       "tags": [
         "Founder",
         "Funded startup",
@@ -6018,6 +6054,10 @@
           "source_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk"
         }
       ],
+      "image": "/assets/alumni/stephanie-bonk.webp",
+      "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/stephanie-bonk.jpg",
+      "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk",
+      "image_alt_evidence": "Photo of Stephanie Bonk.",
       "tags": [
         "Founder",
         "Funded startup",

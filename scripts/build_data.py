@@ -396,6 +396,16 @@ with sqlite3.connect(DB) as db:
                 ):
                     raise ValueError(f"{filename}: {person_id} has invalid startup profile")
             by_id[person_id].update(details)
+    portrait_path = ROOT / "data" / "alumni-portraits.json"
+    for person_id, portrait in json.loads(portrait_path.read_text()).items():
+        image = portrait.get("image", "")
+        if (person_id not in by_id or not image.startswith("/assets/alumni/")
+                or not (ROOT / "public" / image.lstrip("/")).is_file()
+                or not portrait.get("image_source_url", "").startswith("https://")
+                or not portrait.get("image_page_url", "").startswith("https://")
+                or not portrait.get("image_alt_evidence")):
+            raise ValueError(f"Invalid sourced portrait: {person_id}")
+        by_id[person_id].update(portrait)
     extra_portraits = {
             "ashish-toshniwal": "https://engineering.purdue.edu/ECE/Alums/OECE/2021/Images/TOSHNIWAL-web.jpg",
             "akshay-kothari": "https://engineering.purdue.edu/ECE/Alums/OECE/2014/Images/kothari.jpg",

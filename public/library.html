@@ -3,22 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#211a28">
-<meta name="description" content="A cozy reading room holding every person on the Purdue Founder Map, shelved A to Z by surname. Search it, pull a volume, or connect it to Claude.">
+<meta name="theme-color" content="#181a16">
+<meta name="description" content="A basement archive holding every person on the Purdue Founder Map, shelved A to Z by surname. Search it, pull a volume, or connect it to Claude.">
 <title>The Reading Room · Purdue Founder Map</title>
 <link rel="icon" href="/assets/map-mark.svg" type="image/svg+xml">
-<link rel="stylesheet" href="/library.css">
+<link rel="stylesheet" href="/library.css?v=archive2">
 <link rel="preload" href="/alumni.json" as="fetch" crossorigin>
-<script src="/library.js" defer></script>
+<script src="/library.js?v=archive2" defer></script>
+<script src="/library-atmosphere.js" defer></script>
 </head>
 <body>
-<canvas id="room" aria-hidden="true"></canvas>
+<div class="room-scene" aria-hidden="true"></div>
+<canvas id="atmosphere" aria-hidden="true"></canvas>
+<div id="cabinet" class="cabinet" aria-hidden="true"></div>
 <div class="spines" id="spines" role="group" aria-label="Bookshelf, volumes A to Z"></div>
 <button class="cat-spot" id="cat-spot" type="button" aria-label="Pet the sleeping cat" hidden></button>
 <div class="spine-tip" id="spine-tip" role="status" hidden></div>
 
 <header class="room-head">
-  <a class="room-back" href="/">← Founder Map</a>
+  <a class="room-back" href="/"><svg class="nav-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3m5-5L3 8l5 5" stroke="currentColor" stroke-width="1.3"/></svg>Founder Map</a>
   <h1>The Reading Room</h1>
   <p class="room-sub" id="room-sub">Opening the shelves… <a href="/alumni.html">Use the directory</a>.</p>
 </header>
@@ -65,7 +68,9 @@
       </section>
     </div>
     <div class="book-controls">
-      <button type="button" class="book-btn" id="to-index" hidden>← index</button>
+      <button type="button" class="book-btn" id="to-index" hidden><svg class="nav-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3m5-5L3 8l5 5" stroke="currentColor" stroke-width="1.3"/></svg>Index</button>
+      <button type="button" class="book-btn" id="previous-person" aria-label="Previous person"><svg class="nav-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M13 8H3m5-5L3 8l5 5" stroke="currentColor" stroke-width="1.3"/></svg></button>
+      <button type="button" class="book-btn" id="next-person" aria-label="Next person"><svg class="nav-arrow" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg></button>
       <button type="button" class="book-btn" id="book-close" aria-label="Close the book">close <kbd>esc</kbd></button>
     </div>
   </div>

@@ -1,0 +1,18 @@
+{
+  "errors": [],
+  "checks": [
+    "26 volumes",
+    "2130 records",
+    "search and profile",
+    "headshots",
+    "fixed index header",
+    "next profile",
+    "close cleanup",
+    "cover animation",
+    "reduced motion",
+    "390/320/844 viewport fit",
+    "focus trap",
+    "no-JS directory link",
+    "failed-bundle directory link"
+  ]
+}

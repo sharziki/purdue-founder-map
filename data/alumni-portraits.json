@@ -1,0 +1,674 @@
+{
+  "edwin-tan": {
+    "image": "/assets/alumni/edwin-tan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/edwin-tan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=edwin-tan",
+    "image_alt_evidence": "Photo of Edwin Tan."
+  },
+  "rush-bartlett": {
+    "image": "/assets/alumni/rush-bartlett.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/rush-bartlett.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=rush-bartlett",
+    "image_alt_evidence": "Photo of Rush Bartlett."
+  },
+  "yaerid-jacob": {
+    "image": "/assets/alumni/yaerid-jacob.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/yaerid-jacob.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=yaerid-jacob",
+    "image_alt_evidence": "Photo of Yaerid Jacob."
+  },
+  "apeksha-kumavat": {
+    "image": "/assets/alumni/apeksha-kumavat.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/apeksha-kumavat.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=apeksha-kumavat",
+    "image_alt_evidence": "Photo of Apeksha Kumavat."
+  },
+  "colin-mcgonagill": {
+    "image": "/assets/alumni/colin-mcgonagill.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/colin-mcgonagill.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=colin-mcgonagill",
+    "image_alt_evidence": "Photo of Colin McGonagill."
+  },
+  "brendan-michaelsen": {
+    "image": "/assets/alumni/brendan-michaelsen.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/brendan-michaelsen.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=brendan-michaelsen",
+    "image_alt_evidence": "Photo of Brendan Michaelsen."
+  },
+  "arjun-narang": {
+    "image": "/assets/alumni/arjun-narang.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/arjun-narang.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-narang",
+    "image_alt_evidence": "Photo of Arjun Narang."
+  },
+  "jeffrey-peters": {
+    "image": "/assets/alumni/jeffrey-peters.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/jeffrey-peters.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jeffrey-peters",
+    "image_alt_evidence": "Photo of Jeffrey Peters."
+  },
+  "mayura-shah": {
+    "image": "/assets/alumni/mayura-shah.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/mayura-shah.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=mayura-shah",
+    "image_alt_evidence": "Photo of Mayura Davda Shah."
+  },
+  "jessica-traver": {
+    "image": "/assets/alumni/jessica-traver.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/jessica-traver.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=jessica-traver",
+    "image_alt_evidence": "Photo of Jessica Traver."
+  },
+  "alvin-ang": {
+    "image": "/assets/alumni/alvin-ang.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/alvin-ang.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=alvin-ang",
+    "image_alt_evidence": "Photo of Alvin Ang."
+  },
+  "stephanie-bonk": {
+    "image": "/assets/alumni/stephanie-bonk.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/stephanie-bonk.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=stephanie-bonk",
+    "image_alt_evidence": "Photo of Stephanie Bonk."
+  },
+  "juanita-duque": {
+    "image": "/assets/alumni/juanita-duque.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/juanita-duque.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=juanita-duque",
+    "image_alt_evidence": "Photo of Juanita Duque."
+  },
+  "tom-feldman": {
+    "image": "/assets/alumni/tom-feldman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/tom-feldman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tom-feldman",
+    "image_alt_evidence": "Photo of Tom Feldman."
+  },
+  "dhruv-garg": {
+    "image": "/assets/alumni/dhruv-garg.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/dhruv-garg.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=dhruv-garg",
+    "image_alt_evidence": "Photo of Dhruv Garg."
+  },
+  "keith-hansen": {
+    "image": "/assets/alumni/keith-hansen.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/keith-hansen.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=keith-hansen",
+    "image_alt_evidence": "Photo of Keith Hansen."
+  },
+  "tareq-khalifeh": {
+    "image": "/assets/alumni/tareq-khalifeh.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/tareq-khalifeh.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tareq-khalifeh",
+    "image_alt_evidence": "Photo of Tareq Khalifeh."
+  },
+  "austin-link": {
+    "image": "/assets/alumni/austin-link.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/austin-link.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=austin-link",
+    "image_alt_evidence": "Photo of Austin Link."
+  },
+  "tyler-mantel": {
+    "image": "/assets/alumni/tyler-mantel.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/tyler-mantel.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=tyler-mantel",
+    "image_alt_evidence": "Photo of Tyler Mantel."
+  },
+  "katherine-clayton": {
+    "image": "/assets/alumni/katherine-clayton.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/katherine-clayton.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=katherine-clayton",
+    "image_alt_evidence": "Photo of Katherine Clayton."
+  },
+  "marcus-lannie": {
+    "image": "/assets/alumni/marcus-lannie.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/marcus-lannie.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=marcus-lannie",
+    "image_alt_evidence": "Photo of Marcus Lannie."
+  },
+  "anuj-mehta": {
+    "image": "/assets/alumni/anuj-mehta.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/anuj-mehta.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=anuj-mehta",
+    "image_alt_evidence": "Photo of Anuj Mehta."
+  },
+  "stephen-murray": {
+    "image": "/assets/alumni/stephen-murray.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/stephen-murray.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=stephen-murray",
+    "image_alt_evidence": "Photo of Stephen Murray."
+  },
+  "jordan-page": {
+    "image": "/assets/alumni/jordan-page.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/jordan-page.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=jordan-page",
+    "image_alt_evidence": "Photo of Jordan Page."
+  },
+  "adam-scott": {
+    "image": "/assets/alumni/adam-scott.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/adam-scott.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=adam-scott",
+    "image_alt_evidence": "Photo of Adam Scott."
+  },
+  "michael-streicher": {
+    "image": "/assets/alumni/michael-streicher.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/michael-streicher.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=michael-streicher",
+    "image_alt_evidence": "Photo of Michael Streicher."
+  },
+  "arjun-ishwar": {
+    "image": "/assets/alumni/arjun-ishwar.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/arjun-ishwar.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=arjun-ishwar",
+    "image_alt_evidence": "Photo of Arjun Ishwar."
+  },
+  "yuri-kubo": {
+    "image": "/assets/alumni/yuri-kubo.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/yuri-kubo.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=yuri-kubo",
+    "image_alt_evidence": "Photo of Yuri Kubo."
+  },
+  "keith-rhoades": {
+    "image": "/assets/alumni/keith-rhoades.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/keith-rhoades.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=keith-rhoades",
+    "image_alt_evidence": "Photo of Keith Rhoades."
+  },
+  "adam-yestrepsky": {
+    "image": "/assets/alumni/adam-yestrepsky.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/adam-yestrepsky.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients/?r=adam-yestrepsky",
+    "image_alt_evidence": "Photo of Adam Yestrepsky."
+  },
+  "brooke-beier": {
+    "image": "/assets/alumni/brooke-beier.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/brooke-beier.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=brooke-beier",
+    "image_alt_evidence": "Photo of Brooke Beier."
+  },
+  "marat-kulakhmetov": {
+    "image": "/assets/alumni/marat-kulakhmetov.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/marat-kulakhmetov.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=marat-kulakhmetov",
+    "image_alt_evidence": "Photo of Marat Kulakhmetov."
+  },
+  "timothy-loescher": {
+    "image": "/assets/alumni/timothy-loescher.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/timothy-loescher.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=timothy-loescher",
+    "image_alt_evidence": "Photo of Timothy Loescher."
+  },
+  "joseph-muth": {
+    "image": "/assets/alumni/joseph-muth.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/joseph-muth.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients/?r=joseph-muth",
+    "image_alt_evidence": "Photo of Joseph Muth."
+  },
+  "yi-ding": {
+    "image": "/assets/alumni/yi-ding.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/yi-ding.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=yi-ding",
+    "image_alt_evidence": "Photo of Yi Ding."
+  },
+  "beng-lim": {
+    "image": "/assets/alumni/beng-lim.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/beng-lim.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=beng-lim",
+    "image_alt_evidence": "Photo of Beng Ee Lim."
+  },
+  "david-gross": {
+    "image": "/assets/alumni/david-gross.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/david-gross.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=david-gross",
+    "image_alt_evidence": "Photo of David Gross."
+  },
+  "brandon-kan": {
+    "image": "/assets/alumni/brandon-kan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/brandon-kan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=brandon-kan",
+    "image_alt_evidence": "Photo of Brandon Kan."
+  },
+  "ayan-sinha": {
+    "image": "/assets/alumni/ayan-sinha.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/ayan-sinha.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients/?r=ayan-sinha",
+    "image_alt_evidence": "Photo of Ayan Sinha."
+  },
+  "zaid-alami": {
+    "image": "/assets/alumni/zaid-alami.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/zaid-alami.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=zaid-alami",
+    "image_alt_evidence": "Photo of Zaid Alami."
+  },
+  "sirisha-bandla": {
+    "image": "/assets/alumni/sirisha-bandla.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/sirisha-bandla.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=sirisha-bandla",
+    "image_alt_evidence": "Photo of Sirisha Bandla."
+  },
+  "rachael-bisnett": {
+    "image": "/assets/alumni/rachael-bisnett.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/rachael-bisnett.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=rachael-bisnett",
+    "image_alt_evidence": "Photo of Rachael Bisnett."
+  },
+  "josephine-casely-hayford-martin": {
+    "image": "/assets/alumni/josephine-casely-hayford-martin.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/josephine-martin.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=josephine-martin",
+    "image_alt_evidence": "Photo of Josephine Casely-Hayford Martin."
+  },
+  "kara-cunzeman": {
+    "image": "/assets/alumni/kara-cunzeman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/kara-cunzeman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=kara-cunzeman",
+    "image_alt_evidence": "Photo of Kara Cunzeman."
+  },
+  "ronak-dave": {
+    "image": "/assets/alumni/ronak-dave.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/ronak-dave.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=ronak-dave",
+    "image_alt_evidence": "Photo of Ronak Dave."
+  },
+  "darius-elliott": {
+    "image": "/assets/alumni/darius-elliott.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/darius-elliott.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=darius-elliott",
+    "image_alt_evidence": "Photo of Darius Elliott."
+  },
+  "emily-foote": {
+    "image": "/assets/alumni/emily-foote.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/emily-foote.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=emily-foote",
+    "image_alt_evidence": "Photo of Emily Foote."
+  },
+  "steven-gattman": {
+    "image": "/assets/alumni/steven-gattman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/steven-gattman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=steven-gattman",
+    "image_alt_evidence": "Photo of Steven Gattman."
+  },
+  "daniel-gillies": {
+    "image": "/assets/alumni/daniel-gillies.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/daniel-gillies.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=daniel-gillies",
+    "image_alt_evidence": "Photo of Daniel Gillies."
+  },
+  "krista-gumiela": {
+    "image": "/assets/alumni/krista-gumiela.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/krista-gumiela.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=krista-gumiela",
+    "image_alt_evidence": "Photo of Krista Gumiela."
+  },
+  "jonathan-hassler": {
+    "image": "/assets/alumni/jonathan-hassler.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/jonathan-hassler.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=jonathan-hassler",
+    "image_alt_evidence": "Photo of Jonathan Hassler."
+  },
+  "john-kremer": {
+    "image": "/assets/alumni/john-kremer.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/john-kremer.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=john-kremer",
+    "image_alt_evidence": "Photo of John Kremer."
+  },
+  "yang-lei": {
+    "image": "/assets/alumni/yang-lei.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/yang-lei.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=yang-lei",
+    "image_alt_evidence": "Photo of Yang Lei."
+  },
+  "abby-lemert": {
+    "image": "/assets/alumni/abby-lemert.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/abby-lemert.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=abby-lemert",
+    "image_alt_evidence": "Photo of Abby Lemert."
+  },
+  "kiernan-mccullough": {
+    "image": "/assets/alumni/kiernan-mccullough.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/kiernan-mccullough.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=kiernan-mccullough",
+    "image_alt_evidence": "Photo of Kiernan McCullough."
+  },
+  "becky-mueller": {
+    "image": "/assets/alumni/becky-mueller.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/becky-mueller.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=becky-mueller",
+    "image_alt_evidence": "Photo of Becky Mueller."
+  },
+  "priyadarshini-panda": {
+    "image": "/assets/alumni/priyadarshini-panda.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/priyadarshini-panda.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=priyadarshini-panda",
+    "image_alt_evidence": "Photo of Priyadarshini Panda."
+  },
+  "brent-rankin": {
+    "image": "/assets/alumni/brent-rankin.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/brent-rankin.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=brent-rankin",
+    "image_alt_evidence": "Photo of Brent Rankin."
+  },
+  "nikitha-sambamurthy": {
+    "image": "/assets/alumni/nikitha-sambamurthy.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/nikitha-sambamurthy.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=nikitha-sambamurthy",
+    "image_alt_evidence": "Photo of Nikitha Sambamurthy."
+  },
+  "abhronil-sengupta": {
+    "image": "/assets/alumni/abhronil-sengupta.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/abhronil-sengupta.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=abhronil-sengupta",
+    "image_alt_evidence": "Photo of Abhronil Sengupta."
+  },
+  "karan-shah": {
+    "image": "/assets/alumni/karan-shah.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/karan-shah.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=karan-shah",
+    "image_alt_evidence": "Photo of Karan Shah."
+  },
+  "matthew-sunday": {
+    "image": "/assets/alumni/matthew-sunday.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/matthew-sunday.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=matthew-sunday",
+    "image_alt_evidence": "Photo of Matthew Sunday."
+  },
+  "valerie-wiesner": {
+    "image": "/assets/alumni/valerie-wiesner.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2024/valerie-wiesner.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2024-recipients?r=valerie-wiesner",
+    "image_alt_evidence": "Photo of Valerie Wiesner."
+  },
+  "harsh-wardhan-aggarwal": {
+    "image": "/assets/alumni/harsh-wardhan-aggarwal.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/harsh-aggarwal.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=harsh-aggarwal",
+    "image_alt_evidence": "Photo of Harsh Wardhan Aggarwal."
+  },
+  "ghiya-al-haj-hasan": {
+    "image": "/assets/alumni/ghiya-al-haj-hasan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/ghiya-al-haj-hasan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=ghiya-al-haj-hasan",
+    "image_alt_evidence": "Photo of Ghiya Al-Haj-Hasan."
+  },
+  "catherine-berdanier": {
+    "image": "/assets/alumni/catherine-berdanier.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/catherine-berdanier.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=catherine-berdanier",
+    "image_alt_evidence": "Photo of Catherine Berdanier."
+  },
+  "alexander-cartagena-rivera": {
+    "image": "/assets/alumni/alexander-cartagena-rivera.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/alexander-cartagena-rivera.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=alexander-cartagena-rivera",
+    "image_alt_evidence": "Photo of Alexander Cartagena-Rivera."
+  },
+  "david-cronin": {
+    "image": "/assets/alumni/david-cronin.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/david-cronin.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=david-cronin",
+    "image_alt_evidence": "Photo of David Cronin."
+  },
+  "michael-dettloff": {
+    "image": "/assets/alumni/michael-dettloff.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/michael-dettloff.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=michael-dettloff",
+    "image_alt_evidence": "Photo of Michael Dettloff."
+  },
+  "abbey-donahue-lindlof": {
+    "image": "/assets/alumni/abbey-donahue-lindlof.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/abbey-lindlof.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=abbey-lindlof",
+    "image_alt_evidence": "Photo of Abbey Donahue Lindlof."
+  },
+  "thomas-grimes": {
+    "image": "/assets/alumni/thomas-grimes.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/thomas-grimes.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=thomas-grimes",
+    "image_alt_evidence": "Photo of Thomas Grimes."
+  },
+  "ricky-grogan": {
+    "image": "/assets/alumni/ricky-grogan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/ricky-grogan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=ricky-grogan",
+    "image_alt_evidence": "Photo of Ricky Grogan."
+  },
+  "david-hartmann": {
+    "image": "/assets/alumni/david-hartmann.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/david-hartmann.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=david-hartmann",
+    "image_alt_evidence": "Photo of David Hartmann."
+  },
+  "gusmantara-ekamukti-himawan": {
+    "image": "/assets/alumni/gusmantara-ekamukti-himawan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/gusmantara-himawan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=gusmantara-himawan",
+    "image_alt_evidence": "Photo of Gusmantara Ekamukti Himawan."
+  },
+  "lindsay-hirsch": {
+    "image": "/assets/alumni/lindsay-hirsch.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/lindsay-hirsch.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=lindsay-hirsch",
+    "image_alt_evidence": "Photo of Lindsay Hirsch."
+  },
+  "thomas-horan": {
+    "image": "/assets/alumni/thomas-horan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/thomas-horan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=thomas-horan",
+    "image_alt_evidence": "Photo of Thomas Horan."
+  },
+  "jeremiah-jones": {
+    "image": "/assets/alumni/jeremiah-jones.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/jeremiah-jones.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=jeremiah-jones",
+    "image_alt_evidence": "Photo of Jeremiah Jones."
+  },
+  "alex-jordan": {
+    "image": "/assets/alumni/alex-jordan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/alex-jordan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=alex-jordan",
+    "image_alt_evidence": "Photo of Alex Jordan."
+  },
+  "giovanni-malloy": {
+    "image": "/assets/alumni/giovanni-malloy.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/giovanni-malloy.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=giovanni-malloy",
+    "image_alt_evidence": "Photo of Giovanni Malloy."
+  },
+  "oscar-ojeda": {
+    "image": "/assets/alumni/oscar-ojeda.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/oscar-ojeda.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=oscar-ojeda",
+    "image_alt_evidence": "Photo of Oscar Ojeda."
+  },
+  "lisa-rueschhoff": {
+    "image": "/assets/alumni/lisa-rueschhoff.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/lisa-rueschhoff.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=lisa-rueschhoff",
+    "image_alt_evidence": "Photo of Lisa Rueschhoff."
+  },
+  "dylan-seesman": {
+    "image": "/assets/alumni/dylan-seesman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/dylan-seesman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=dylan-seesman",
+    "image_alt_evidence": "Photo of Dylan Seesman."
+  },
+  "rohini-sampoornam-swaminathan": {
+    "image": "/assets/alumni/rohini-sampoornam-swaminathan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/rohini-swaminathan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=rohini-swaminathan",
+    "image_alt_evidence": "Photo of Rohini Sampoornam Swaminathan."
+  },
+  "krista-toler": {
+    "image": "/assets/alumni/krista-toler.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/krista-toler.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=krista-toler",
+    "image_alt_evidence": "Photo of Krista Toler."
+  },
+  "ben-townsend": {
+    "image": "/assets/alumni/ben-townsend.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/ben-townsend.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=ben-townsend",
+    "image_alt_evidence": "Photo of Ben Townsend."
+  },
+  "lu-wang": {
+    "image": "/assets/alumni/lu-wang.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2025/lu-wang.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2025-recipients?r=lu-wang",
+    "image_alt_evidence": "Photo of Lu Wang."
+  },
+  "rohith-chandrasekar": {
+    "image": "/assets/alumni/rohith-chandrasekar.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/rohith-chandrasekar.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=rohith-chandrasekar",
+    "image_alt_evidence": "Photo of Rohith Chandrasekar."
+  },
+  "mathew-cherukara": {
+    "image": "/assets/alumni/mathew-cherukara.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/mathew-cherukara.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=mathew-cherukara",
+    "image_alt_evidence": "Photo of Mathew Cherukara."
+  },
+  "bassel-daher": {
+    "image": "/assets/alumni/bassel-daher.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/bassel-daher.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=bassel-daher",
+    "image_alt_evidence": "Photo of Bassel Daher."
+  },
+  "maithilee-das-lappin": {
+    "image": "/assets/alumni/maithilee-das-lappin.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/maithilee-lappin.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=maithilee-lappin",
+    "image_alt_evidence": "Photo of Maithilee Das Lappin."
+  },
+  "anshuman-didwania": {
+    "image": "/assets/alumni/anshuman-didwania.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/anshuman-didwania.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=anshuman-didwania",
+    "image_alt_evidence": "Photo of Anshuman Didwania."
+  },
+  "alexandra-dukes": {
+    "image": "/assets/alumni/alexandra-dukes.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/alexandra-dukes.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=alexandra-dukes",
+    "image_alt_evidence": "Photo of Alexandra Dukes."
+  },
+  "hoda-ehsan": {
+    "image": "/assets/alumni/hoda-ehsan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/hoda-ehsan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=hoda-ehsan",
+    "image_alt_evidence": "Photo of Hoda Ehsan."
+  },
+  "tianli-andy-feng": {
+    "image": "/assets/alumni/tianli-andy-feng.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/tianli-feng.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=tianli-feng",
+    "image_alt_evidence": "Photo of Tianli (Andy) Feng."
+  },
+  "nicholas-glavin": {
+    "image": "/assets/alumni/nicholas-glavin.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/nicholas-glavin.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=nicholas-glavin",
+    "image_alt_evidence": "Photo of Nicholas Glavin."
+  },
+  "kelsey-haury": {
+    "image": "/assets/alumni/kelsey-haury.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/kelsey-haury.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=kelsey-haury",
+    "image_alt_evidence": "Photo of Kelsey Haury."
+  },
+  "jennifer-hyman": {
+    "image": "/assets/alumni/jennifer-hyman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/jennifer-hyman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=jennifer-hyman",
+    "image_alt_evidence": "Photo of Jennifer Hyman."
+  },
+  "rohit-kandakatla": {
+    "image": "/assets/alumni/rohit-kandakatla.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/rohit-kandakatla.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=rohit-kandakatla",
+    "image_alt_evidence": "Photo of Rohit Kandakatla."
+  },
+  "shri-khadilkar": {
+    "image": "/assets/alumni/shri-khadilkar.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/shri-khadilkar.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=shri-khadilkar",
+    "image_alt_evidence": "Photo of Shri Khadilkar."
+  },
+  "greg-mckiernan": {
+    "image": "/assets/alumni/greg-mckiernan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/greg-mckiernan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=greg-mckiernan",
+    "image_alt_evidence": "Photo of Greg McKiernan."
+  },
+  "allissa-noffke": {
+    "image": "/assets/alumni/allissa-noffke.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/allissa-noffke.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=allissa-noffke",
+    "image_alt_evidence": "Photo of Allissa Noffke."
+  },
+  "tyler-novak": {
+    "image": "/assets/alumni/tyler-novak.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/tyler-novak.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=tyler-novak",
+    "image_alt_evidence": "Photo of Tyler Novak."
+  },
+  "anthony-orr": {
+    "image": "/assets/alumni/anthony-orr.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/anthony-orr.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=anthony-orr",
+    "image_alt_evidence": "Photo of Anthony Orr."
+  },
+  "emily-petersen": {
+    "image": "/assets/alumni/emily-petersen.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/emily-petersen.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=emily-petersen",
+    "image_alt_evidence": "Photo of Emily Petersen."
+  },
+  "k-ram-mohan-naidu": {
+    "image": "/assets/alumni/k-ram-mohan-naidu.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/k.-naidu.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=k.-naidu",
+    "image_alt_evidence": "Photo of K. Ram Mohan Naidu."
+  },
+  "kimberly-saviers": {
+    "image": "/assets/alumni/kimberly-saviers.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/kimberly-saviers.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=kimberly-saviers",
+    "image_alt_evidence": "Photo of Kimberly Saviers."
+  },
+  "rebecca-seligman": {
+    "image": "/assets/alumni/rebecca-seligman.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/rebecca-seligman.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=rebecca-seligman",
+    "image_alt_evidence": "Photo of Rebecca Seligman."
+  },
+  "antonia-susnjar": {
+    "image": "/assets/alumni/antonia-susnjar.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/antonia-susnjar.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=antonia-susnjar",
+    "image_alt_evidence": "Photo of Antonia Susnjar."
+  },
+  "sriram-vaidyanathan": {
+    "image": "/assets/alumni/sriram-vaidyanathan.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/sriram-vaidyanathan.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=sriram-vaidyanathan",
+    "image_alt_evidence": "Photo of Sriram Vaidyanathan."
+  },
+  "kevin-vargo": {
+    "image": "/assets/alumni/kevin-vargo.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/kevin-vargo.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=kevin-vargo",
+    "image_alt_evidence": "Photo of Kevin Vargo."
+  },
+  "swagath-venkataramani": {
+    "image": "/assets/alumni/swagath-venkataramani.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/swagath-venkataramani.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=swagath-venkataramani",
+    "image_alt_evidence": "Photo of Swagath Venkataramani."
+  },
+  "xiao-wang": {
+    "image": "/assets/alumni/xiao-wang.webp",
+    "image_source_url": "https://engineering.purdue.edu/38_38/recipients/images/2026/xiao-wang.jpg",
+    "image_page_url": "https://engineering.purdue.edu/38_38/recipients/2026-recipients?r=xiao-wang",
+    "image_alt_evidence": "Photo of Xiao Wang."
+  }
+}

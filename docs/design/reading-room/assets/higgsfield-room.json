@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-02T06:39:52.969928Z",
+  "display_name": "GPT Image 2",
+  "job_type": "gpt_image_2",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HmMK1FivbDnocLVioF1pcNPFc8/hf_20261002_063952_1a7c9067-8041-4a65-9e1c-080c1c854492.png",
+  "status": "completed",
+  "params": {
+    "prompt": "A cinematic high fidelity architectural photograph of a secret university archive in a slightly grim old basement at night. Straight-on symmetrical eye-level view, aged dark olive plaster and old limestone walls, low ceiling with heavy timber beams and a few iron heating pipes. The CENTER 45 percent of the image is a plain empty shadowy wall alcove from 20 percent to 80 percent image height: absolutely no furniture or shelves in that central area, reserved for a real interactive wooden bookcase to be overlaid. Left edge: a small high basement window with blue moonlight, cluttered piles of antique books and an old brass desk light on a small side table. Right edge: worn oxblood leather armchair with a small sleeping ginger cat on the seat, brass standing lamp throwing warm amber light, stacked archival boxes. Bottom: scuffed oak parquet, old faded Persian rug. Mood is intimate, scholarly, tactile, melancholic, cool hidden basement reading club. Genuine material detail, worn leather, walnut grain, fine dust in the light, subtle photographic film grain. Restrained warm practical lighting, readable midtones, dark corners. No people, no typography, no signage, no interface, no illustrations, no pixel art, no cartoon, no exaggerated fantasy. Wide landscape composition. Shot on medium format, fine photographic detail.",
+    "aspect_ratio": "16:9",
+    "resolution": "2k",
+    "quality": "high",
+    "width": 2688,
+    "height": 1520
+  }
+}

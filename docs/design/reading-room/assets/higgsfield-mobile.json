@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-02T06:45:53.305112Z",
+  "display_name": "GPT Image 2",
+  "job_type": "gpt_image_2",
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HmMK1FivbDnocLVioF1pcNPFc8/hf_20261002_064553_6ca62539-172f-4a3b-94cb-8a157727d480.png",
+  "status": "completed",
+  "params": {
+    "prompt": "Recompose this exact dim university basement archive as a vertical portrait photograph for a mobile interactive experience. Preserve the same cinematic photographic material fidelity, old timber beams, olive stone and plaster, and warm brass lighting. Camera farther back, tall portrait composition. Empty shadowy central wall area, reserve the CENTER from 29 percent to 78 percent image height for an overlaid bookcase. No furniture in that central rectangular area. Above that rectangle, at about 23 percent image height, show the blue moonlit upper basement window on the LEFT and a glowing antique brass wall sconce on the RIGHT, both clearly visible above the future bookcase. At bottom right, from 83 to 97 percent height, show the same sleeping ginger cat on the edge of the old oxblood leather armchair. Worn Persian rug at bottom center. Top 18 percent dark ceiling beams, suitable for interface text overlaid later. No people, no words, no signage, no bookcase in central reserved area, no cartoon or pixel art. Photographic, moody, understated warm light, beautifully detailed and genuinely old.",
+    "aspect_ratio": "9:16",
+    "resolution": "2k",
+    "quality": "high",
+    "width": 1520,
+    "height": 2688
+  }
+}
