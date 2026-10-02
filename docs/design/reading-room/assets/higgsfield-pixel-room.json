@@ -1,0 +1,13 @@
+{
+  "asset": "public/assets/library/reading-room.png",
+  "master": "docs/design/reading-room/assets/pixel-room-master.png",
+  "generated": "2026-10-02",
+  "tool": "Higgsfield CLI",
+  "model": "gpt_image_2",
+  "params": { "aspect_ratio": "16:9", "resolution": "2k", "quality": "high" },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3HmMK1FivbDnocLVioF1pcNPFc8/hf_20261002_163314_792071a1-6dcc-4a0b-b84b-dbe5a31a8143.png",
+  "likeness_reference": "A cropped photo of the site's author (only his own face), used as an image reference for the reader on the couch. Not stored in the repository.",
+  "rejected_alternative": "nano_banana_2 with the same prompt: angled bookshelf, harder to overlay interactive volumes.",
+  "pixelation": "python3 scripts/pixelate_room.py — 16:9 crop, box downscale to 320x180, contrast 1.05, 64-colour median cut with 3 k-means passes, no dithering. Reproduces the shipped PNG exactly.",
+  "prompt": "Cozy indie pixel art scene, 16:9, crisp 16-bit pixel art with big visible square pixels, like a 320x180 game screen scaled up. Limited mellow palette, no anti-aliasing, no text, no letters, no UI.\n\nA small cozy reading room at night, seen straight-on from the front like a side-view 2D game interior. Mellow lo-fi mood: dusky indigo and plum shadows with warm amber lamplight.\n\nLeft 40% of the frame: a tall built-in wooden bookshelf from floor to ceiling with three long horizontal shelves. The shelves are EMPTY, only a dark wood back panel, plus one tiny plant on the top.\n\nCenter-right: a large window with rain streaks showing a rainy night sky, soft distant city lights and a far-away clock tower silhouette. Under the window: a soft, slightly worn mustard-orange couch with cushions and a knitted blanket.\n\nOn the couch: the young man from the reference photo as a pixel art character, same curly black hair and skin tone, wearing round glasses, a black puffer jacket over a grey hoodie, dark pants, sitting cross-legged and calmly reading an open book held in both hands.\n\nNext to him on the couch: an orange tabby cat curled up asleep.\n\nRight side: a floor lamp with a warm glow, a small side table with a steaming mug, a potted monstera, string fairy lights along the top of the wall, a round woven rug on a wooden floor.\n\nStyle: Coffee Talk, Eastward, A Short Hike, lofi pixel art rooms. Clean readable silhouettes, dithered soft lighting, calm and cozy."
+}
