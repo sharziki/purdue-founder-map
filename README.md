@@ -72,7 +72,7 @@ Code and original writing: MIT. Names, trademarks, and linked content belong to 
 
 ## Reading room and MCP
 
-[The reading room](https://purdue-founder-map.vercel.app/library) is a single-screen basement archive, with original Higgsfield interiors, tactile book covers, readable paper pages, and real sourced headshots. Its 26 books hold every alumni record, ordered by surname. Click a spine, search by name/company/field, or open a person’s permalink. Arrow keys or the previous/next controls turn pages; Escape closes the book. Mobile uses a single-page view and an index button. Reduced motion freezes the room and skips book transitions.
+[The reading room](https://purdue-founder-map.vercel.app/library) is a single-screen pixel-art room on a rainy night: a 320×180 scene with someone reading on the couch, a sleeping cat, and a shelf of 26 volumes that hold every alumni record, ordered by surname. Click a spine, search by name/company/field, or open a person’s permalink; click the reader for a random page. Search knows the alumni tags: type "yc", "vc", "exits" or "bay area" to compile that set into its own book (`/library?book=y-combinator`), or bind any search into one (`/library?find=robotics`). Most of the room can be poked: the cat, the lamp (night mode), the window, a snow globe, an hourglass, a radio, the candle, a ball of yarn, the plant, and the tea. Arrow keys or the previous/next controls turn pages; Escape closes the book. On phones the room scrolls sideways and the book shows one page at a time. Reduced motion freezes the room and skips book transitions. The art's provenance and its reproducible pixelation step are in `docs/design/reading-room/VERIFICATION-V3.md`.
 
 The small **connect claude** control provides the public MCP address:
 
@@ -96,6 +96,6 @@ node scripts/serve.js
 node scripts/check_mcp.js
 ```
 
-The static generator adds the reading room to shared navigation. The handcrafted room files (`library.html`, `library.css`, `library.js`, `library-atmosphere.js`) are preserved when the generator runs. MCP implementation: `api/mcp.js`; transport requirements: [official MCP specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports).
+The static generator adds the reading room to shared navigation. The handcrafted room files (`library.html`, `library.css`, `library.js`, and the room art in `assets/library/`) are preserved when the generator runs. MCP implementation: `api/mcp.js`; transport requirements: [official MCP specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports).
 
-Reading room asset provenance and motion notes: [ASSETS-V2.md](docs/design/reading-room/ASSETS-V2.md). The optional WebGL atmosphere pauses when hidden or reading, and falls back to the still scene. Portrait source evidence lives in `data/alumni-portraits.json`; `python scripts/refresh_portraits.py` refreshes explicitly named public Purdue portraits, then `python scripts/build_data.py` publishes them to JSON and SQLite.
+Reading room art provenance, pixelation and motion notes: [VERIFICATION-V3.md](docs/design/reading-room/VERIFICATION-V3.md) and `docs/design/reading-room/assets/higgsfield-pixel-room.json`. The room animation pauses while the tab is hidden or a book is open, and stops entirely with reduced motion. Portrait source evidence lives in `data/alumni-portraits.json`; `python scripts/refresh_portraits.py` refreshes explicitly named public Purdue portraits, then `python scripts/build_data.py` publishes them to JSON and SQLite.
