@@ -206,7 +206,7 @@ kbd { font: 500 13px/1 var(--pixel); padding: 2px 5px 3px; background: rgba(243,
 .portrait .room-head h1 { font-size: 24px; }
 .portrait .room-sub { font-size: 18px; }
 .portrait .room-hint { display: none; }
-.portrait .catalog { left: 16px; right: 16px; width: auto; top: 104px; }
+.portrait .catalog { left: 16px; right: 16px; width: auto; top: 80px; }
 .portrait #q { height: 42px; font-size: 21px; }
 .portrait .mcp { right: 10px; bottom: 6px; }
 @media (max-width: 760px) {

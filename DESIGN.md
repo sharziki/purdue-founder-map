@@ -7,7 +7,7 @@ The whole site is one screen: the reading room. Visitors want to find a Purdue p
 - A 320×180, 64-colour pixel image (`public/assets/library/reading-room.png`) at a scale snapped to whole device pixels. Past its edges, the walls mirror, the ceiling and floorboards repeat, and everything fades to night.
 - Mellow lo-fi palette: indigo and plum shadows, amber lamplight. Nothing glows that wouldn't glow in the room.
 - The 26 volumes, the toys and every animation are drawn in code on the same pixel grid. The overlay coordinates (`SHELF`, `SPOTS`, `TOYS` in `library.js`) are tied to this exact image, so re-measure them if the art changes.
-- The title sits on the floor at bottom-left, search at top-right, and the tiny *unofficial · source · data · connect claude* line at bottom-right. Nothing may cover a spine or a toy; this is checked at 13 viewport sizes.
+- The title sits on the floor at bottom-left, search at top-right, and the tiny *unofficial · source · connect claude* line at bottom-right. Nothing may cover a spine or a toy; this is checked at 13 viewport sizes.
 
 ## Book
 

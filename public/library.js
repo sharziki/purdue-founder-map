@@ -1167,7 +1167,7 @@
   Promise.all([data, artReady]).then(([d]) => {
     if (art.naturalWidth) prepareArt();
     shelve(d.alumni || []);
-    $('room-sub').textContent = `${people.length.toLocaleString()} Purdue people, shelved by surname.`;
+    $('room-sub').textContent = `${people.length.toLocaleString()} Purdue people, A–Z.`;
     layout();
     const params = new URLSearchParams(location.search), id = params.get('person');
     const letter = location.hash.slice(1).toUpperCase();
