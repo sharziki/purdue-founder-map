@@ -6,3 +6,4 @@ desktop.png
 mobile.png
 .vercel
 .env*
+.claude/

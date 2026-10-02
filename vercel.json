@@ -1,1 +1,1 @@
-{"outputDirectory":"public","cleanUrls":true}
+{"outputDirectory":"public","cleanUrls":true,"rewrites":[{"source":"/mcp","destination":"/api/mcp"}]}

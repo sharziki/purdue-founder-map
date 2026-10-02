@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#211a28">
+<meta name="description" content="A cozy reading room holding every person on the Purdue Founder Map, shelved A to Z by surname. Search it, pull a volume, or connect it to Claude.">
+<title>The Reading Room · Purdue Founder Map</title>
+<link rel="icon" href="/assets/map-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/library.css">
+<link rel="preload" href="/alumni.json" as="fetch" crossorigin>
+<script src="/library.js" defer></script>
+</head>
+<body>
+<canvas id="room" aria-hidden="true"></canvas>
+<div class="spines" id="spines" role="group" aria-label="Bookshelf, volumes A to Z"></div>
+<button class="cat-spot" id="cat-spot" type="button" aria-label="Pet the sleeping cat" hidden></button>
+<div class="spine-tip" id="spine-tip" role="status" hidden></div>
+
+<header class="room-head">
+  <a class="room-back" href="/">← Founder Map</a>
+  <h1>The Reading Room</h1>
+  <p class="room-sub" id="room-sub">Opening the shelves… <a href="/alumni.html">Use the directory</a>.</p>
+</header>
+
+<div class="catalog" id="catalog">
+  <label class="sr-only" for="q">Search the library</label>
+  <input id="q" type="search" placeholder="Find a person, company, or field" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+  <kbd aria-hidden="true">/</kbd>
+  <div class="results" id="results" hidden>
+    <ul id="results-list" role="listbox" aria-label="Matching people"></ul>
+    <p class="results-foot" id="results-foot"></p>
+  </div>
+</div>
+
+<p class="room-hint" id="room-hint">Pull a volume off the shelf, or press <kbd>/</kbd> to search.</p>
+
+<div class="mcp" id="mcp">
+  <button class="mcp-tag" id="mcp-tag" type="button" aria-expanded="false" aria-controls="mcp-card"><span class="mcp-dot" aria-hidden="true"></span>connect claude</button>
+  <div class="mcp-card" id="mcp-card" hidden>
+    <p class="mcp-title">Read the library with Claude</p>
+    <p>Add this MCP server. Claude can search the shelves and open any entry.</p>
+    <div class="mcp-line"><code id="mcp-url">/mcp</code><button type="button" data-copy="mcp-url">copy</button></div>
+    <p class="mcp-how"><b>Claude.ai or Desktop:</b> Settings → Connectors → Add custom connector.</p>
+    <p class="mcp-how"><b>Claude Code:</b></p>
+    <div class="mcp-line"><code id="mcp-cli">claude mcp add --transport http purdue-founders /mcp</code><button type="button" data-copy="mcp-cli">copy</button></div>
+  </div>
+</div>
+
+<div class="reader" id="reader" hidden>
+  <div class="reader-scrim" id="reader-scrim"></div>
+  <div class="book" id="book" role="dialog" aria-modal="true" aria-labelledby="vol-title">
+    <div class="spread" id="spread">
+      <div class="boards" id="boards" aria-hidden="true"></div>
+      <section class="page page-left" id="page-left" aria-label="Index">
+        <header class="index-head">
+          <p class="vol-kicker">Volume</p>
+          <h2 id="vol-title">A</h2>
+          <p class="vol-range" id="vol-range"></p>
+        </header>
+        <ol class="index" id="index"></ol>
+      </section>
+      <section class="page page-right" id="page-right" aria-live="polite">
+        <div class="entry" id="entry"></div>
+      </section>
+    </div>
+    <div class="book-controls">
+      <button type="button" class="book-btn" id="to-index" hidden>← index</button>
+      <button type="button" class="book-btn" id="book-close" aria-label="Close the book">close <kbd>esc</kbd></button>
+    </div>
+  </div>
+</div>
+<div class="flyer" id="flyer" aria-hidden="true"></div>
+
+<noscript><p class="noscript">The reading room needs JavaScript. The same people are listed in the <a href="/alumni.html">alumni directory</a>.</p></noscript>
+</body>
+</html>

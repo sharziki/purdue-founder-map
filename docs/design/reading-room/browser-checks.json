@@ -1,0 +1,25 @@
+{
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      640
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "flows": "shelf, index, entry, close, search, keyboard, cat, connector",
+  "focus_and_inert": "passed",
+  "reduced_motion": "passed",
+  "overflow": false,
+  "errors": []
+}

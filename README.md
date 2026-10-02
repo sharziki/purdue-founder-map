@@ -69,3 +69,31 @@ Use the [contribution page](https://purdue-founder-map.vercel.app/contribute) to
 ## License
 
 Code and original writing: MIT. Names, trademarks, and linked content belong to their owners.
+
+## Reading room and MCP
+
+[The reading room](https://purdue-founder-map.vercel.app/library) is a single-screen pixel-art library. Its 26 books hold every alumni record, ordered by surname. Click a spine, search by name/company/field, or open a person’s permalink. Arrow keys turn pages; Escape closes the book. Mobile uses a single-page view and an index button. Reduced motion freezes the room and skips book transitions.
+
+The small **connect claude** control provides the public MCP address:
+
+```text
+https://purdue-founder-map.vercel.app/mcp
+```
+
+For Claude Code:
+
+```bash
+claude mcp add --transport http purdue-founders https://purdue-founder-map.vercel.app/mcp
+```
+
+Tools: `search_people`, `get_person`, and `browse_volume`. They read the same public `alumni.json`; no account data, writes, or private alumni roster. Responses retain sources and historical-role dates. The endpoint is stateless Streamable HTTP with JSON responses. GET returns 405 because it does not offer a server event stream.
+
+Run both the site and endpoint locally with Node 20+:
+
+```bash
+node scripts/serve.js
+# http://127.0.0.1:4320/library
+node scripts/check_mcp.js
+```
+
+The static generator adds the reading room to shared navigation. The handcrafted room files (`library.html`, `library.css`, `library.js`) are preserved when the generator runs. MCP implementation: `api/mcp.js`; transport requirements: [official MCP specification](https://modelcontextprotocol.io/specification/2025-11-25/basic/transports).
