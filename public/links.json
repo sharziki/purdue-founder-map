@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-02T06:44:18+00:00",
+  "generated_at": "2026-10-02T17:53:50+00:00",
   "links": [
     {
       "id": "hn-company-interviews",
@@ -2208,15 +2208,6 @@
       "stage_ids": [],
       "region": "Purdue",
       "source_url": "https://purdueinnovates.org/navigator/"
-    },
-    {
-      "id": "event:purdue-53667446527959",
-      "record_type": "event",
-      "title": "Executive Forum with Randy Haines, Founder for ScaleBridge LLC, and Matt Vuckov, Chief Executive Officer for TalentCraft",
-      "url": "https://events.purdue.edu/event/executive-forum-with-randy-haines-founder-for-scalebridge-llc-and-matt-vuckov-chief-executive-officer-for-talentcraft",
-      "starts_at": "2026-10-02T15:30:00+00:00",
-      "region": "West Lafayette",
-      "source_url": "https://events.purdue.edu/api/2/events"
     },
     {
       "id": "event:buildpurdue-2780c777-c9ab-4987-b53e-eba35c0f9608",
