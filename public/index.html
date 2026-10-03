@@ -6,23 +6,35 @@
 <meta name="theme-color" content="#0c070c">
 <meta name="description" content="Purdue Founder Map: an independent, open-source reading room of 2,130 Purdue founders, investors and operators, shelved A to Z, every entry sourced. Search it, compile a book (Y Combinator, VC, exits…), or connect it to Claude.">
 <title>Purdue Founder Map · The Reading Room</title>
+<link rel="canonical" href="https://thepalumni.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Purdue Founder Map">
+<meta property="og:url" content="https://thepalumni.vercel.app/">
+<meta property="og:title" content="The Reading Room · Purdue Founder Map">
+<meta property="og:description" content="2,130 Purdue founders, investors and operators on a cozy pixel bookshelf. Pull a book for YC, the Bay Area, Indiana or exits. Every entry sourced.">
+<meta property="og:image" content="https://thepalumni.vercel.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="A pixel-art reading room on a rainy night: a bookshelf of Purdue founders A to Z, someone reading on the couch, a sleeping orange cat.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Reading Room · Purdue Founder Map">
+<meta name="twitter:description" content="2,130 Purdue founders, investors and operators on a cozy pixel bookshelf. Every entry sourced.">
+<meta name="twitter:image" content="https://thepalumni.vercel.app/og.png">
 <link rel="icon" href="/assets/map-mark.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/library/reading-room.png" as="image">
 <link rel="preload" href="/alumni.json" as="fetch" crossorigin>
-<link rel="stylesheet" href="/library.css?v=pixel2">
-<script src="/library.js?v=pixel2" defer></script>
+<link rel="stylesheet" href="/library.css?v=pixel5">
+<script src="/library.js?v=pixel5" defer></script>
 </head>
 <body>
 <header class="room-head">
-  <p class="room-kicker">Purdue Founder Map</p>
   <h1>The Reading Room</h1>
   <p class="room-sub" id="room-sub">Opening the shelves…</p>
-  <p class="room-hint">Pull a volume off the shelf, poke around, or press <kbd>/</kbd> to search.</p>
 </header>
 
 <div class="catalog" id="catalog">
-  <label class="sr-only" for="q">Search the library</label>
-  <input id="q" type="search" placeholder="Search people, companies…" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
+  <label class="sr-only" for="q">Search</label>
+  <input id="q" type="search" placeholder="Search" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="results" aria-autocomplete="list">
   <kbd aria-hidden="true">/</kbd>
   <div class="results" id="results" hidden>
     <ul id="results-list" role="listbox" aria-label="Matching people"></ul>
@@ -33,6 +45,7 @@
 <div class="stage" id="stage">
   <canvas id="room" role="img" aria-label="A pixel-art reading room on a rainy night: a bookshelf of volumes A to Z, someone reading on the couch, and an orange cat asleep beside him."></canvas>
   <div class="spines" id="spines" role="group" aria-label="Bookshelf, volumes A to Z"></div>
+  <div class="spines" id="shelf-books" role="group" aria-label="Collections: YC, SF Bay, Indiana, New York, a16z, investors, founders, exits"></div>
   <div class="spines">
     <button class="hit cat-spot" id="cat-spot" type="button" aria-label="Poke the sleeping cat" hidden></button>
     <button class="hit reader-spot" id="reader-spot" type="button" aria-label="Peek at his page: open a random entry" hidden></button>
@@ -43,7 +56,7 @@
 <div class="tip" id="spine-tip" role="status" hidden></div>
 
 <div class="mcp" id="mcp">
-  <p class="room-meta">unofficial · <a href="https://github.com/sharziki/purdue-founder-map" target="_blank" rel="noopener noreferrer">source</a> · <a href="/alumni.json">data</a></p>
+  <p class="room-meta">unofficial · <a href="https://github.com/sharziki/purdue-founder-map" target="_blank" rel="noopener noreferrer">source</a></p>
   <button class="mcp-tag" id="mcp-tag" type="button" aria-expanded="false" aria-controls="mcp-card"><span class="mcp-dot" aria-hidden="true"></span>connect claude</button>
   <div class="mcp-card" id="mcp-card" hidden>
     <p class="mcp-title">Read the library with Claude</p>
