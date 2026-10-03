@@ -148,18 +148,26 @@
   /* ---------- compiled books: a tag or a search, bound into its own volume ---------- */
   const EXIT_TYPES = new Set(['acquisition', 'ipo', 'merger', 'exit', 'public_listing', 'majority_stake_sale']);
   const hasTag = name => p => (p.raw.tags || []).includes(name);
+  const placeOf = p => p.place ??= [p.raw.region, p.raw.location_city, p.raw.location_region, p.raw.company_location?.location, p.raw.location_detail].filter(Boolean).join(' ');
+  const storyOf = p => p.story ??= JSON.stringify([p.raw.organization, p.raw.role, p.raw.why_relevant, p.raw.affiliations, p.raw.funding, p.raw.capital_events, p.raw.highlights, p.raw.startup_profile, p.raw.company]);
+  const BAY = /Bay Area|San Francisco|Silicon Valley|Palo Alto|San Jose|Mountain View|Menlo Park|Oakland|Berkeley|Sunnyvale|Redwood City|Santa Clara|Cupertino/i;
+  const INDIANA = /Indiana|Indianapolis|West Lafayette|Fort Wayne|Carmel, IN|Bloomington, IN|Lafayette, IN|Evansville|South Bend|Fishers/i;
+  const NEW_YORK = /New York|NYC|Brooklyn|Manhattan/i;
+  // `code` puts a collection on the top shelf as its own book, lettered top to bottom.
   const COLLECTIONS = [
-    { slug: 'y-combinator', title: 'Y Combinator', tag: 'Y Combinator', c: '#c4572a', words: ['yc', 'y combinator', 'ycombinator', 'combinator'], test: hasTag('Y Combinator') },
+    { slug: 'y-combinator', title: 'Y Combinator', tag: 'Y Combinator', code: 'YC', c: '#c4572a', words: ['yc', 'y combinator', 'ycombinator', 'combinator'], test: hasTag('Y Combinator') },
+    { slug: 'bay-area', title: 'SF Bay Area', tag: 'Bay Area', code: 'SF', c: '#2f6b67', words: ['bay area', 'sf', 'sf bay', 'san francisco', 'silicon valley'], test: p => hasTag('Bay Area')(p) || BAY.test(placeOf(p)) },
+    { slug: 'indiana', title: 'Indiana', code: 'IND', c: '#b0702f', words: ['indiana', 'indy', 'indianapolis', 'hoosier'], test: p => INDIANA.test(placeOf(p)) || (p.raw.flags || []).includes('indiana') },
+    { slug: 'new-york', title: 'New York', tag: 'NYC', code: 'NYC', c: '#2e3d63', words: ['nyc', 'new york', 'ny'], test: p => hasTag('NYC')(p) || NEW_YORK.test(placeOf(p)) },
+    { slug: 'a16z', title: 'a16z', code: 'A16Z', c: '#7d2f38', words: ['a16z', 'andreessen', 'andreessen horowitz'], test: p => /andreessen|a16z/i.test(storyOf(p)) },
+    { slug: 'investors', title: 'Investors', tag: 'Investor', code: 'INV', c: '#5d6a34', words: ['investor', 'investors', 'angel', 'angels'], test: p => p.raw.kind === 'Investor' || hasTag('Investor')(p) },
+    { slug: 'founders', title: 'Founders', tag: 'Founder', code: 'FND', c: '#5a3a66', words: ['founder', 'founders'], test: p => p.raw.kind === 'Founder' || hasTag('Founder')(p) },
+    { slug: 'exits', title: 'Exits and IPOs', code: 'EXIT', c: '#8a3428', words: ['exit', 'exits', 'ipo', 'ipos', 'acquired', 'acquisition', 'merger'], test: p => (p.raw.capital_events || []).some(e => EXIT_TYPES.has(e.type)) },
+    { slug: 'vc-investors', title: 'VC investors', tag: 'VC investor', words: ['vc', 'vcs', 'venture capital', 'vc investor', 'vc investors'], test: hasTag('VC investor') },
     { slug: 'venture-backed', title: 'Venture-backed', tag: 'Venture-backed', words: ['venture backed', 'venture-backed', 'vc backed', 'vc-backed'], test: hasTag('Venture-backed') },
     { slug: 'funded-startups', title: 'Funded startups', tag: 'Funded startup', words: ['funded', 'funded startup', 'funded startups', 'funding', 'raised'], test: hasTag('Funded startup') },
-    { slug: 'exits', title: 'Exits and IPOs', words: ['exit', 'exits', 'ipo', 'ipos', 'acquired', 'acquisition', 'merger'], test: p => (p.raw.capital_events || []).some(e => EXIT_TYPES.has(e.type)) },
     { slug: 'accelerators', title: 'Accelerators', words: ['accelerator', 'accelerators', 'techstars'], test: p => hasTag('Y Combinator')(p) || (p.raw.capital_events || []).some(e => e.type === 'accelerator') },
-    { slug: 'vc-investors', title: 'VC investors', tag: 'VC investor', words: ['vc', 'vcs', 'venture capital', 'vc investor', 'vc investors'], test: hasTag('VC investor') },
-    { slug: 'investors', title: 'Investors', tag: 'Investor', words: ['investor', 'investors', 'angel', 'angels'], test: hasTag('Investor') },
-    { slug: 'founders', title: 'Founders', tag: 'Founder', words: ['founder', 'founders'], test: hasTag('Founder') },
     { slug: 'tech', title: 'Tech', tag: 'Tech', words: ['tech', 'software'], test: hasTag('Tech') },
-    { slug: 'bay-area', title: 'Bay Area', tag: 'Bay Area', words: ['bay area', 'sf', 'san francisco', 'silicon valley'], test: hasTag('Bay Area') },
-    { slug: 'new-york', title: 'New York', tag: 'NYC', words: ['nyc', 'new york', 'ny'], test: hasTag('NYC') },
   ];
   function matchCollections(value) {
     const q = fold(value).trim();
@@ -175,7 +183,14 @@
       kinds: shelf.reduce((k, p) => (k[p.raw.kind] = (k[p.raw.kind] || 0) + 1, k), {}),
     };
   }
-  const collectionBook = c => compileBook(c.title, people.filter(c.test), c.slug);
+  // Collections with a `code` stand on the top shelf as their own books.
+  const shelfBooks = COLLECTIONS.filter(c => c.code).map(c => {
+    const n = c.code.length;
+    return { c, code: c.code, w: Math.max(...[...c.code].map(ch => (GLYPH[ch] || GLYPH[' '])[0].length)) + 4, h: n === 4 ? 26 : n * 6 + 4, pad: n === 4 ? 1 : 2, x: 0, y: 0, lift: 0, out: false };
+  });
+  { let x = 47; for (const b of shelfBooks) { b.x = x; b.y = 30 - b.h; x += b.w; } }
+  let hoveredShelf = -1;
+  const collectionBook = c => Object.assign(compileBook(c.title, people.filter(c.test), c.slug), { shelf: shelfBooks.find(b => b.c === c) || null });
 
   /* ---------- layout: crisp scale, letterboxed with the room continuing outward ---------- */
   // Scale snaps to whole device pixels so the art stays crisp. Phones get a bigger room they can swipe across.
@@ -311,15 +326,12 @@
       SHELF.candle = { x: x - ox, y: y - 11 - oy }; // art coordinates; the flame is drawn per frame
       [[x + 6, '#4a5670', 13], [x + 7, '#7d2f38', 11]].forEach(([bx, c, bw], k) => { const by = y - 3 - k * 3; R(bx, by, bw, 3, C.ink); R(bx + 1, by + 1, bw - 2, 1, c); });
     }
-    // top shelf: two books lying beside the toys
-    [[ox + 92, '#5d6a34', 13], [ox + 93, '#2e3d63', 11]].forEach(([bx, c, bw], k) => { const y = oy + 30 - 3 - k * 3; R(bx, y, bw, 3, C.ink); R(bx + 1, y + 1, bw - 2, 1, c); R(bx + bw - 2, y + 1, 1, 1, '#e9dcbc'); });
-    // bottom row: lying stacks and a little crate of records
+    // bottom row: the trinkets (drawn per frame), a crate of records and a cactus
     const by = oy + SHELF.low.base;
-    [[ox + 7, '#2f5e5a', 22], [ox + 9, '#a8792e', 19], [ox + 8, '#5a3a66', 20]].forEach(([bx, c, bw], k) => { const y = by - 4 - k * 4; R(bx, y, bw, 4, C.ink); R(bx + 1, y + 1, bw - 2, 2, c); R(bx + 1, y + 1, bw - 2, 1, tint(c, 1.2)); R(bx + bw - 3, y + 1, 1, 2, '#e9dcbc'); });
-    const cx = ox + 40;
+    const cx = ox + 54;
     R(cx, by - 12, 26, 12, '#3a2414'); R(cx + 1, by - 11, 24, 10, '#6b4024'); R(cx + 1, by - 11, 24, 1, '#86532f'); R(cx + 3, by - 7, 20, 1, '#3a2414');
     for (let k = 0; k < 5; k++) R(cx + 3 + k * 4, by - 16 + (k % 2), 3, 5, k % 2 ? '#1c1418' : '#2a2026');
-    R(ox + 74, by - 7, 9, 7, '#9d4c2b'); R(ox + 74, by - 7, 9, 1, '#c06a3b'); R(ox + 76, by - 13, 5, 6, '#2e5a34'); P(ox + 75, by - 11, '#3f7a40'); P(ox + 81, by - 12, '#3f7a40'); P(ox + 78, by - 14, '#5f9e50');
+    R(ox + 86, by - 7, 9, 7, '#9d4c2b'); R(ox + 86, by - 7, 9, 1, '#c06a3b'); R(ox + 88, by - 13, 5, 6, '#2e5a34'); P(ox + 87, by - 11, '#3f7a40'); P(ox + 93, by - 12, '#3f7a40'); P(ox + 90, by - 14, '#5f9e50');
   }
 
   function drawVolumes() {
@@ -334,10 +346,25 @@
     }
   }
 
+  function drawShelfBooks() {
+    shelfBooks.forEach((b, i) => {
+      if (b.out) return;
+      b.lift += Math.sign((i === hoveredShelf ? 2 : 0) - b.lift);
+      const x = ax + b.x, y = ay + b.y - b.lift, base = b.c.c, body = i === hoveredShelf ? tint(base, 1.2) : base;
+      const [r, g, bl] = rgb(base), ink = 0.3 * r + 0.59 * g + 0.11 * bl > 120 ? '#2a1a12' : C.foil;
+      R(x, y, b.w, b.h, C.ink); R(x + 1, y + 1, b.w - 2, b.h - 1, body);
+      R(x + 1, y + 1, 1, b.h - 1, tint(body, 1.18)); R(x + b.w - 2, y + 1, 1, b.h - 1, tint(base, 0.7));
+      [...b.code].forEach((ch, k) => text(ch, x + ((b.w - glyphW(ch)) >> 1), y + b.pad + k * 6, ink));
+      for (let j = 0; j < 2; j++) for (let k = 0; k < b.w; k++) if (bayer(x + k, y + j) < 0.5 - j * 0.2) { X.fillStyle = 'rgba(10,4,10,.45)'; X.fillRect(x + k, y + j, 1, 1); }
+    });
+  }
+
   /* ---------- per-frame life ---------- */
   /* ---------- toys: the room's state ---------- */
   const fx = { cat: null, catPokes: 0, catLast: -1e9, lampOff: false, chain: -1e9, flash: -1e9, globe: -1e9, glass: -1e9, radio: false, yarn: -1e9, candleOut: false, candleT: -1e9, plant: -1e9, mug: -1e9 };
   const ago = t0 => performance.now() - t0;
+  const TRINKETS = { dx: -41, dy: 116 }; // the globe, hourglass and radio live on the bottom shelf
+  function onBottomShelf(fn) { ax += TRINKETS.dx; ay += TRINKETS.dy; try { fn(); } finally { ax -= TRINKETS.dx; ay -= TRINKETS.dy; } }
   const A = (x, y, c) => P(ax + x, ay + y, c);
   const RA = (x, y, w, h, c) => R(ax + x, ay + y, w, h, c);
 
@@ -482,8 +509,8 @@
     if (now - fx.plant < 700) X.drawImage(base, ax + 284, ay + 64, 36, 58, ax + 284 + (Math.floor(now / 70) % 2 ? 1 : -1), ay + 64, 36, 58);
     if (now - fx.chain < 260) X.drawImage(base, ax + 281, ay + 62, 4, 16, ax + 281, ay + 63, 4, 16);
     drawCat(now, t);
-    if (volumes.length) drawVolumes();
-    drawGlobe(now); drawHourglass(now); drawRadio(now);
+    if (volumes.length) { drawVolumes(); drawShelfBooks(); }
+    onBottomShelf(() => { drawGlobe(now); drawHourglass(now); drawRadio(now); });
     drawCandle(now);
     drawSteam(now, t);
     drawYarn(now);
@@ -502,7 +529,7 @@
     }
     drawZs(now, t);
     drawMoth(t);
-    drawNotes(now);
+    onBottomShelf(() => drawNotes(now));
     if (fx.lampOff) {
       // night mode: everything dims except what makes its own light
       X.fillStyle = 'rgba(8,6,24,.55)'; X.fillRect(0, 0, W, H);
@@ -512,7 +539,7 @@
       for (const b of bulbs) if (Math.sin(t * b.s + b.p) < -0.55) for (const [x, y, c] of b.px) A(x, y, c);
       drawLightning(now);
       drawCandle(now);
-      if (fx.radio) { RA(82, 24, 5, 3, '#ffd36b'); A(83 + Math.floor(now / 700) % 3, 25, '#7d2f38'); drawNotes(now); }
+      if (fx.radio) onBottomShelf(() => { RA(82, 24, 5, 3, '#ffd36b'); A(83 + Math.floor(now / 700) % 3, 25, '#7d2f38'); drawNotes(now); });
     }
   }
   let last = 0;
@@ -522,13 +549,17 @@
   }
 
   /* ---------- hit areas ---------- */
-  const spinesEl = $('spines'), tip = $('spine-tip'), catSpot = $('cat-spot'), readerSpot = $('reader-spot');
+  const spinesEl = $('spines'), shelfEl = $('shelf-books'), tip = $('spine-tip'), catSpot = $('cat-spot'), readerSpot = $('reader-spot');
   const place = (el, x, y, w, h) => Object.assign(el.style, { left: (ax + x) * S + 'px', top: (ay + y) * S + 'px', width: w * S + 'px', height: h * S + 'px' });
   function placeHits() {
     if (volumes.length && !spinesEl.children.length) {
       spinesEl.innerHTML = volumes.map(v => `<button type="button" class="hit spine-btn" data-vol="${v.i}" aria-label="Volume ${v.letter}, ${v.people.length} ${v.people.length === 1 ? 'person' : 'people'}"></button>`).join('');
     }
     for (const b of spinesEl.children) { const v = volumes[+b.dataset.vol]; place(b, v.x, v.y - 3, v.w, v.h + 3); }
+    if (volumes.length && !shelfEl.children.length) {
+      shelfEl.innerHTML = shelfBooks.map((b, i) => `<button type="button" class="hit shelf-btn" data-i="${i}" aria-label="${esc(b.c.title)} book, ${people.filter(b.c.test).length} people"></button>`).join('');
+    }
+    for (const el of shelfEl.children) { const b = shelfBooks[+el.dataset.i]; place(el, b.x, b.y - 3, b.w, b.h + 3); }
     const c = SPOTS.cat, r = SPOTS.reader;
     place(catSpot, c.x, c.y, c.w, c.h); catSpot.hidden = false;
     place(readerSpot, r.x, r.y, r.w, r.h); readerSpot.hidden = !volumes.length;
@@ -560,6 +591,12 @@
   spinesEl.addEventListener('focusin', e => { const b = e.target.closest('.spine-btn'); if (!b) return; hovered = +b.dataset.vol; volumeTip(volumes[hovered]); });
   spinesEl.addEventListener('focusout', () => { hovered = -1; hideTip(); });
   spinesEl.addEventListener('click', e => { const b = e.target.closest('.spine-btn'); if (b) openVolume(+b.dataset.vol); });
+  const shelfTip = i => { const b = shelfBooks[i]; showTip(`<b>${esc(b.code)}</b> ${esc(b.c.title)}<small>${people.filter(b.c.test).length} people</small>`, b.x + b.w / 2, b.y - 4); };
+  shelfEl.addEventListener('pointerover', e => { const el = e.target.closest('.shelf-btn'); if (!el || busy) return; hoveredShelf = +el.dataset.i; shelfTip(hoveredShelf); frame(); });
+  shelfEl.addEventListener('pointerout', e => { if (e.target.closest('.shelf-btn') && !e.relatedTarget?.closest?.('.shelf-btn')) { hoveredShelf = -1; hideTip(); } });
+  shelfEl.addEventListener('focusin', e => { const el = e.target.closest('.shelf-btn'); if (!el) return; hoveredShelf = +el.dataset.i; shelfTip(hoveredShelf); });
+  shelfEl.addEventListener('focusout', () => { hoveredShelf = -1; hideTip(); });
+  shelfEl.addEventListener('click', e => { const el = e.target.closest('.shelf-btn'); if (el) { hoveredShelf = -1; openBook(collectionBook(shelfBooks[+el.dataset.i].c), el); } });
   spinesEl.addEventListener('keydown', e => {
     const b = e.target.closest('.spine-btn'); if (!b) return;
     const d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
@@ -589,9 +626,9 @@
       poke: () => { fx.lampOff = !fx.lampOff; fx.chain = performance.now(); return fx.lampOff ? 'night mode.' : 'lamp on.'; } },
     { at: [197, 21, 62, 70], hint: () => 'tap the glass',
       poke: () => { fx.flash = performance.now(); setTimeout(() => { catReact('both', 1300, '!'); say('<b>rumble…</b>', 228, 20); }, 420); return ''; } },
-    { at: [49, 16, 11, 14], hint: () => 'shake the snow globe', poke: () => { fx.globe = performance.now(); return 'snow day.'; } },
-    { at: [61, 17, 9, 13], hint: () => 'flip the hourglass', poke: () => { fx.glass = performance.now(); return 'seven seconds.'; } },
-    { at: [73, 13, 18, 17], hint: () => fx.radio ? 'turn the radio off' : 'turn the radio on', toggle: () => fx.radio,
+    { at: [8, 132, 11, 14], hint: () => 'shake the snow globe', poke: () => { fx.globe = performance.now(); return 'snow day.'; } },
+    { at: [20, 133, 9, 13], hint: () => 'flip the hourglass', poke: () => { fx.glass = performance.now(); return 'seven seconds.'; } },
+    { at: [32, 129, 18, 17], hint: () => fx.radio ? 'turn the radio off' : 'turn the radio on', toggle: () => fx.radio,
       poke: () => { fx.radio = !fx.radio; return fx.radio ? 'lo-fi, very quietly.' : 'radio off.'; } },
     { at: () => SHELF.candle && [SHELF.candle.x - 4, SHELF.candle.y - 4, 9, 16], hint: () => fx.candleOut ? 'light the candle' : 'blow out the candle', toggle: () => !fx.candleOut,
       poke: () => { fx.candleOut = !fx.candleOut; fx.candleT = performance.now(); return fx.candleOut ? 'poof.' : 'there.'; } },
@@ -669,10 +706,10 @@
     q.setAttribute('aria-expanded', 'true');
     q.setAttribute('aria-activedescendant', items.length ? `opt-${active}` : '');
   }
-  async function openBook(v) {
+  async function openBook(v, from = q) {
     if (busy || !v.people.length) return;
     if (book.open) await closeBook();
-    await openVolume(v, null, q);
+    await openVolume(v, null, from);
   }
   function choose(it) {
     if (!it) return;
@@ -759,6 +796,9 @@
     X = prev;
     return c;
   }
+  // A book has a spine on the shelf if it is an A-Z volume or a shelved collection.
+  const onShelf = v => !v.custom || !!v.shelf;
+  const geo = v => (v.custom ? v.shelf : v);
   function spineCanvas(v) {
     const c = document.createElement('canvas'); c.width = v.w; c.height = v.h;
     c.getContext('2d').drawImage(room, ax + v.x, ay + v.y - v.lift, v.w, v.h, 0, 0, v.w, v.h);
@@ -771,8 +811,8 @@
     const rect = bookEl.getBoundingClientRect();
     const left = book.single ? rect.left : rect.left + m.pw / 2, top = rect.top - 3 * m.u;
     let rw, rh, rx, ry;
-    if (v.custom) { const r = q.getBoundingClientRect(); rw = 44; rh = 62; rx = r.left + r.width / 2 - rw / 2; ry = r.top + r.height / 2 - rh / 2; }
-    else { rw = v.w * S; rh = v.h * S; rx = (ax + v.x) * S - panX(); ry = (ay + v.y) * S; }
+    if (!onShelf(v)) { const r = q.getBoundingClientRect(); rw = 44; rh = 62; rx = r.left + r.width / 2 - rw / 2; ry = r.top + r.height / 2 - rh / 2; }
+    else { const g = geo(v); rw = g.w * S; rh = g.h * S; rx = (ax + g.x) * S - panX(); ry = (ay + g.y) * S; }
     const sx = rw / m.cw, sy = rh / m.ch, tx = rx + rw / 2 - (left + m.cw / 2), ty = ry + rh / 2 - (top + m.ch / 2);
     Object.assign(flyer.style, { width: m.cw + 'px', height: m.ch + 'px', left: left + 'px', top: top + 'px' });
     return { rh, start: [tx, ty, sx, sy], mid: [tx * 0.4, ty * 0.4 - 30, sx + (1 - sx) * 0.42, sy + (1 - sy) * 0.42] };
@@ -826,6 +866,30 @@
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const when = d => { const m = /^(\d{4})(?:-(\d{2}))?/.exec(String(d || '')); return !m ? esc(d || '') : m[2] ? `${MONTHS[+m[2] - 1]} ${m[1]}` : m[1]; };
   const human = s => String(s || '').replace(/_/g, ' ');
+  // Pixel icons for the link buttons (7x7, drawn with crisp SVG rects).
+  const pix = (bg, fg, d) => `<svg class="px-ico" viewBox="0 0 7 7" shape-rendering="crispEdges" aria-hidden="true"><rect width="7" height="7" fill="${bg}"/><path fill="${fg}" d="${d}"/></svg>`;
+  const ICON = {
+    li: pix('#f3e6c8', '#2a5d9e', 'M1 1h1v1H1zM1 3h1v3H1zM3 3h2v1H3zM3 4h1v2H3zM5 4h1v2H5z'),
+    web: pix('#f3e6c8', '#1b1220', 'M2 1h3v1H2zM1 2h1v3H1zM5 2h1v3H5zM2 5h3v1H2zM3 2h1v3H3zM2 3h3v1H2z'),
+    yc: pix('#f3e6c8', '#c4572a', 'M1 1h1v1H1zM5 1h1v1H5zM2 2h1v1H2zM4 2h1v1H4zM3 3h1v3H3z'),
+    x: pix('#f3e6c8', '#1b1220', 'M1 1h1v1H1zM5 1h1v1H5zM2 2h1v1H2zM4 2h1v1H4zM3 3h1v1H3zM2 4h1v1H2zM4 4h1v1H4zM1 5h1v1H1zM5 5h1v1H5z'),
+  };
+  // The company's own site: the verified field, else a cited source on a domain named for the company.
+  const NOT_COMPANY = new Set(['purdue.edu', 'linkedin.com', 'ycombinator.com', 'crunchbase.com', 'wikipedia.org', 'bloomberg.com', 'forbes.com', 'techcrunch.com', 'businesswire.com', 'prnewswire.com', 'reuters.com', 'medium.com', 'substack.com', 'twitter.com', 'x.com', 'github.com', 'youtube.com', 'nytimes.com', 'wsj.com', 'cnbc.com', 'indystar.com', 'insideindianabusiness.com', 'ibj.com', 'google.com', 'facebook.com', 'globenewswire.com', 'sec.gov', 'purdueforlife.org']);
+  const squash = t => fold(t).replace(/\b(inc|llc|corp|corporation|co|company|ltd|the|group|holdings|technologies|technology|labs)\b/g, '').replace(/[^a-z0-9]/g, '');
+  function companySite(r) {
+    const known = safeURL(r.company_website || r.startup_profile?.company_url);
+    if (known) return known;
+    const org = squash(r.company || r.organization || '');
+    if (org.length < 4) return '';
+    for (const u of JSON.stringify(r).match(/https?:\/\/[^"\s]+/g) || []) {
+      let host; try { host = new URL(u).hostname.replace(/^www\./, ''); } catch { continue; }
+      const parts = host.split('.'), root = parts.slice(-2).join('.'), label = squash(parts[parts.length - 2] || '');
+      if (NOT_COMPANY.has(root) || /\.(edu|gov)$/.test(host)) continue;
+      if (label && (label === org || (label.length >= 5 && (label.includes(org) || org.includes(label))))) return `https://${root}`;
+    }
+    return '';
+  }
   // Everything the database knows about a person, laid out as a readable page; each claim cites its source.
   function personPage(p) {
     const r = p.raw, v = volumes[p.vol], cited = [];
@@ -862,22 +926,26 @@
       ['Status', sp.exit_status && esc(human(sp.exit_status))],
       ...(r.funding || []).map(f => ['Funding', `${esc(f.amount)}${f.round ? `, ${esc(f.round)}` : ''}${f.date ? ` <span class="e-asof">· ${when(f.date)}</span>` : ''}${cite(f.source_url)}`]),
     ].filter(([, val]) => val);
-    const site = safeURL(r.company_website || sp.company_url);
+    const site = companySite(r);
     const career = (r.affiliations || []).map(a => `<li>${esc(a.role)}${a.organization ? `, <b>${esc(a.organization)}</b>` : ''} <span class="e-asof">· ${a.status === 'historical' ? 'earlier role' : 'current'}${a.as_of ? `, as of ${esc(a.as_of)}` : ''}</span>${cite(a.source_url)}</li>`).join('');
     const school = (r.education || []).map(e => `<li><b>${esc(e.institution || 'Purdue University')}</b>${[e.degree, e.field].filter(Boolean).length ? `, ${esc([e.degree, e.field].filter(Boolean).join(' in '))}` : ''}${e.graduation_year ? ` <span class="e-asof">· ${esc(e.graduation_year)}</span>` : ''}${e.completion_status === 'attended_no_degree' ? ' <span class="e-asof">attended, no degree</span>' : e.completion_status === 'attended_status_unknown' ? ' <span class="e-asof">attended</span>' : ''}${cite(e.source_url)}</li>`).join('');
     const notes = Object.values(r.flag_notes || {}).filter(Boolean);
-    const links = [[site, 'Website'], [r.x, 'X']].filter(([u]) => safeURL(u))
-      .map(([u, t]) => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${t}</a>`).join('');
-    // A verified profile links straight to it; otherwise the button is an honest LinkedIn people search.
-    const linkedin = safeURL(r.linkedin)
-      ? `<a class="li-btn" href="${esc(r.linkedin)}" target="_blank" rel="noopener noreferrer"><span class="li-in" aria-hidden="true">in</span>LinkedIn</a>`
-      : `<a class="li-btn li-search" href="https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent([r.name, r.organization].filter(Boolean).join(' '))}" target="_blank" rel="noopener noreferrer" title="Search LinkedIn for ${esc(r.name)}"><span class="li-in" aria-hidden="true">in</span>Find on LinkedIn</a>`;
+    const yc = (JSON.stringify(r).match(/https:\/\/www\.ycombinator\.com\/companies\/[a-z0-9-]+/) || [])[0];
+    const btn = (cls, href, icon, label, title = '') => `<a class="px-btn ${cls}" href="${esc(href)}" target="_blank" rel="noopener noreferrer"${title ? ` title="${esc(title)}"` : ''}>${icon}<span>${label}</span></a>`;
+    // LinkedIn: straight to a verified profile, otherwise an honest people search
+    const buttons = [
+      safeURL(r.linkedin) ? btn('px-li', r.linkedin, ICON.li, 'LinkedIn')
+        : btn('px-li px-find', `https://www.linkedin.com/search/results/people/?keywords=${encodeURIComponent([r.name, r.organization].filter(Boolean).join(' '))}`, ICON.li, 'Find on LinkedIn', `Search LinkedIn for ${r.name}`),
+      site && btn('px-site', site, ICON.web, esc(new URL(site).hostname.replace(/^www\./, ''))),
+      safeURL(yc) && btn('px-yc', yc, ICON.yc, 'YC page'),
+      safeURL(r.x) && btn('px-x', r.x, ICON.x, 'X'),
+    ].filter(Boolean).join('');
     const section = (title, body) => body ? `<section class="e-sec"><h3>${title}</h3>${body}</section>` : '';
     const dl = rows => `<dl class="facts">${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join('')}</dl>`;
     const sources = cited.map((u, i) => { let host = u; try { const x = new URL(u); host = x.hostname.replace(/^www\./, '') + (x.pathname.length > 1 ? x.pathname.replace(/\/$/, '').slice(0, 38) : ''); } catch {} return `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer"><span>${i + 1}</span>${esc(host)}</a></li>`; });
     return `<article class="person">
       <header class="e-top"><div class="stamp" data-img="${esc(r.image || '')}" aria-hidden="true"><span>${esc(initials)}</span></div>
-        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}${roleCite}</p>${linkedin}</div></header>
+        <div><h2 class="e-name">${esc(r.name)}</h2><p class="e-role">${esc(role)}${asOf}${roleCite}</p><nav class="e-btns" aria-label="Links for ${esc(r.name)}">${buttons}</nav></div></header>
       <p class="e-why">${lead}</p>
       ${dl(facts)}
       ${section('Milestones', milestones.length ? `<ul class="e-list">${milestones.map(m => `<li>${m.d ? `<span class="e-when">${when(m.d)}</span>` : ''}${m.html}</li>`).join('')}</ul>` : '')}
@@ -885,7 +953,6 @@
       ${section('Career', career && `<ul class="e-list">${career}</ul>`)}
       ${section('Education', school && `<ul class="e-list">${school}</ul>`)}
       ${notes.length ? `<p class="e-note">${notes.map(esc).join(' ')}</p>` : ''}
-      ${links ? `<nav class="e-links" aria-label="Links for ${esc(r.name)}">${links}</nav>` : ''}
       ${section('Sources', sources.length ? `<ol class="e-sources">${sources.join('')}</ol>` : '')}
       <footer class="e-foot"><span>${book.v && book.v.custom ? `${esc(book.v.title)}, p. ${book.person + 1} of ${book.v.people.length} · shelved in Vol. ${v.letter}` : `Vol. ${v.letter}, p. ${p.n + 1} of ${v.people.length}`}</span><span>Checked ${esc(r.verified_at || '')}</span></footer>
     </article>`;
@@ -939,7 +1006,7 @@
     if (busy || book.open) return;
     busy = true; hideTip(); hovered = -1;
     const v = typeof vi === 'number' ? volumes[vi] : vi, m = metrics();
-    returnFocus = from || (document.activeElement === q || v.custom ? q : spinesEl.children[v.i]);
+    returnFocus = from || (document.activeElement === q ? q : v.shelf ? shelfEl.children[shelfBooks.indexOf(v.shelf)] : v.custom ? q : spinesEl.children[v.i]);
     roomInert(true);
     book.v = v; book.vol = v.custom ? -1 : v.i; book.person = person ? v.people.indexOf(person) : -1;
     applyMetrics(m, v);
@@ -947,24 +1014,24 @@
     setView(book.single && person ? 'entry' : 'index');
     const cover = coverCanvas(v, m);
     frame();
-    book.spine = v.custom ? null : spineCanvas(v);
+    book.spine = onShelf(v) ? spineCanvas(geo(v)) : null;
     reader.hidden = false; bookEl.tabIndex = -1; bookEl.focus({ preventScroll: true }); spread.style.visibility = 'hidden'; bookEl.classList.remove('ready');
     const shift = book.single ? 0 : -m.pw / 2;
     spread.style.transform = `translateX(${shift}px)`;
     const f = flight(v, m);
-    const fc = face(cover), fs = v.custom ? null : face(book.spine);
+    const fc = face(cover), fs = onShelf(v) ? face(book.spine) : null;
     flyer.replaceChildren(...[fs, fc].filter(Boolean));
-    if (v.custom) { fc.style.transform = T(...f.start, -30); fc.style.opacity = '0'; }
+    if (!onShelf(v)) { fc.style.transform = T(...f.start, -30); fc.style.opacity = '0'; }
     else {
       fc.style.transform = T(0, 0, 1, 1, -89.5); // exactly 90deg is a degenerate matrix that Firefox paints flat
       fc.style.visibility = 'hidden';
       fs.style.transform = T(...f.start, 0);
     }
     flyer.hidden = false;
-    if (!v.custom) { v.out = true; frame(); }
+    if (onShelf(v)) { geo(v).out = true; frame(); }
     const motion = motionOK();
     scrim.animate([{ opacity: 0 }, { opacity: 1 }], { duration: motion ? 700 : 1, fill: 'forwards' });
-    if (motion && v.custom) {
+    if (motion && !onShelf(v)) {
       // a compiled book is bound out of the search box: it grows, tilts and settles
       await anim(fc, [
         { transform: T(...f.start, -30), opacity: 0 },
@@ -1016,7 +1083,7 @@
       spread.animate([{ transform: 'translateX(0)' }, { transform: `translateX(${shift}px)` }], { duration: 660, easing: 'cubic-bezier(.45,.05,.25,1)', fill: 'forwards' });
       await swing(h, false, 660);
       const f = flight(v, m);
-      if (v.custom) {
+      if (!onShelf(v)) {
         // compiled books go back where they came from: shrinking into the search box
         const fc = face(cover);
         fc.style.transform = T(0, 0, 1, 1, 0);
@@ -1026,7 +1093,7 @@
         scrim.animate([{ opacity: 1 }, { opacity: 0 }], { duration: 640, fill: 'forwards' });
         await anim(fc, [{ transform: T(0, 0, 1, 1, 0), opacity: 1 }, { transform: T(...f.mid, -14), opacity: 1, offset: 0.55 }, { transform: T(...f.start, -30), opacity: 0 }], { duration: 640, easing: 'cubic-bezier(.5,0,.75,.6)' });
       } else {
-      const fc = face(cover), fs = face(book.spine || spineCanvas(v));
+      const fc = face(cover), fs = face(book.spine || spineCanvas(geo(v)));
       fs.style.transform = T(...f.mid, 88);
       fc.style.transform = T(0, 0, 1, 1, 0);
       flyer.replaceChildren(fs, fc); flyer.hidden = false;
@@ -1043,7 +1110,7 @@
       ], { duration: 560, easing: 'cubic-bezier(.2,.6,.35,1)' });
       }
     }
-    if (!v.custom) { v.out = false; v.lift = 0; }
+    if (onShelf(v)) { geo(v).out = false; geo(v).lift = 0; }
     frame();
     flyer.hidden = true; flyer.replaceChildren();
     reader.hidden = true; spread.style.visibility = ''; pageL.style.visibility = ''; boards.style.clipPath = '';
