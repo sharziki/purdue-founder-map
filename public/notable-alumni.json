@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-14",
   "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
-  "count": 70,
+  "count": 71,
   "alumni": [
     {
       "id": "keith-j-krach",
@@ -4902,6 +4902,103 @@
         "Founder": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
         "Venture-backed": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php",
         "Funded startup": "https://www.business.purdue.edu/journal/25/f/stories/madison-long-clutch.php"
+      }
+    },
+    {
+      "id": "manav-bokinala",
+      "name": "Manav Bokinala",
+      "connection": "Attended Purdue University; dropped out without a degree",
+      "connection_source_url": "https://www.linkedin.com/in/mbokinala",
+      "role": "Founder",
+      "role_source_url": "https://www.ycombinator.com/companies/streamable",
+      "organization": "Streamable",
+      "region": "San Francisco Bay Area",
+      "kind": "Founder",
+      "why_relevant": "Purdue dropout building infrastructure for reliable IRL livestreaming. Previously co-founded vly.ai, an AI app builder in YC's Fall 2024 batch.",
+      "source_url": "https://www.mbokinala.com/",
+      "source_urls": [
+        "https://www.mbokinala.com/",
+        "https://www.ycombinator.com/companies/streamable",
+        "https://www.linkedin.com/in/mbokinala"
+      ],
+      "verified_at": "2026-10-14",
+      "role_as_of": "2026",
+      "linkedin": "https://www.linkedin.com/in/mbokinala",
+      "linkedin_source_url": "https://www.mbokinala.com/",
+      "x": "https://x.com/mbokinala_",
+      "x_source_url": "https://www.mbokinala.com/",
+      "location_city": "San Francisco",
+      "location_region": "California",
+      "location_country": "United States",
+      "location_source_url": "https://www.mbokinala.com/",
+      "location_as_of": "2026",
+      "company": "Streamable",
+      "company_website": "https://streamable.run/",
+      "company_website_source_url": "https://www.ycombinator.com/companies/streamable",
+      "company_product": "Cloud streaming servers that keep IRL broadcasts running through network drops, with remote production and camera switching.",
+      "company_product_source_url": "https://www.ycombinator.com/companies/streamable",
+      "company_sector": "Live streaming software",
+      "company_sector_source_url": "https://www.ycombinator.com/companies/streamable",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "completion_status": "attended_no_degree",
+          "source_url": "https://www.linkedin.com/in/mbokinala"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded vly.ai, an AI full-stack app builder and deployment platform accepted into YC Fall 2024.",
+          "date": "2024",
+          "source_url": "https://www.mbokinala.com/"
+        },
+        {
+          "claim": "Built Revoteen in high school to connect students with nonprofit volunteer opportunities.",
+          "source_url": "https://www.mbokinala.com/"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Streamable",
+          "role": "Founder",
+          "relationship": "founder",
+          "status": "current_as_of_source",
+          "as_of": "2026",
+          "source_url": "https://www.ycombinator.com/companies/streamable"
+        },
+        {
+          "organization": "vly.ai",
+          "role": "Co-founder",
+          "relationship": "co-founder",
+          "status": "historical",
+          "source_url": "https://www.mbokinala.com/"
+        },
+        {
+          "organization": "oneshot.ai",
+          "role": "Worked on AI outbound prospecting agents",
+          "relationship": "employee",
+          "status": "historical",
+          "source_url": "https://www.mbokinala.com/"
+        },
+        {
+          "organization": "Revoteen",
+          "role": "Founder",
+          "relationship": "founder",
+          "status": "historical",
+          "source_url": "https://www.mbokinala.com/"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Tech",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.mbokinala.com/",
+        "Y Combinator": "https://www.ycombinator.com/companies/streamable",
+        "Bay Area": "https://www.mbokinala.com/",
+        "Tech": "https://www.ycombinator.com/companies/streamable"
       }
     },
     {
