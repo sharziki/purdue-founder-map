@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-10-14",
   "selection": "Editorial set of Purdue-connected founders, investors, and builders with specific public milestones. Inclusion is not a ranking or an endorsement; each milestone links to its source.",
-  "count": 71,
+  "count": 72,
   "alumni": [
     {
       "id": "keith-j-krach",
@@ -3244,6 +3244,113 @@
       "tag_sources": {
         "Founder": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club",
         "Tech": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2024/2024-0709-ne-covert-defenses-venture-club"
+      }
+    },
+    {
+      "id": "aryan-singhal",
+      "name": "Aryan Singhal",
+      "connection": "Purdue Artificial Intelligence student since 2025",
+      "connection_source_url": "https://www.aisinghal.com/",
+      "role": "Co-founder and CEO",
+      "role_source_url": "https://www.ycombinator.com/companies/mirrors",
+      "organization": "Mirrors",
+      "region": "Not listed",
+      "kind": "Founder",
+      "why_relevant": "Purdue AI student co-founding Mirrors (YC F26), developer tools for improving AI agent behavior. Earlier ML research at UT Austin and UC Santa Barbara.",
+      "source_url": "https://www.aisinghal.com/",
+      "source_urls": [
+        "https://www.aisinghal.com/",
+        "https://www.ycombinator.com/companies/mirrors"
+      ],
+      "verified_at": "2026-10-14",
+      "role_as_of": "2026",
+      "linkedin": "https://www.linkedin.com/in/aisinghal/",
+      "linkedin_source_url": "https://www.aisinghal.com/",
+      "x": "https://twitter.com/ai_singhal",
+      "x_source_url": "https://www.aisinghal.com/",
+      "company": "Mirrors",
+      "company_website": "https://www.mirrors.dev/",
+      "company_website_source_url": "https://www.ycombinator.com/companies/mirrors",
+      "company_location": {
+        "location": "San Francisco, California",
+        "source_url": "https://www.ycombinator.com/companies/mirrors"
+      },
+      "company_product": "Finds patterns in past AI agent runs and delivers reviewed, situation-specific guidance during workflows to improve behavior.",
+      "company_product_source_url": "https://www.ycombinator.com/companies/mirrors",
+      "company_sector": "AI developer tools / SaaS",
+      "company_sector_source_url": "https://www.ycombinator.com/companies/mirrors",
+      "company_founded_year": "2026",
+      "company_founded_year_source_url": "https://www.ycombinator.com/companies/mirrors",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Artificial Intelligence",
+          "completion_status": "attended_status_unknown",
+          "source_url": "https://www.aisinghal.com/"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Mirrors joined Y Combinator's Fall 2026 batch.",
+          "date": "2026",
+          "source_url": "https://www.ycombinator.com/companies/mirrors"
+        },
+        {
+          "claim": "Research includes quantum vision models, multilingual fact-checking, and papers at NeurIPS and EMNLP workshops.",
+          "date": "2024",
+          "source_url": "https://www.aisinghal.com/"
+        },
+        {
+          "claim": "Previously built Profine, GPU profiling and optimization tools for PyTorch training.",
+          "date": "2026",
+          "source_url": "https://www.aisinghal.com/"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Mirrors",
+          "role": "Co-founder and CEO",
+          "relationship": "co-founder",
+          "status": "current_as_of_source",
+          "as_of": "2026",
+          "source_url": "https://www.ycombinator.com/companies/mirrors"
+        },
+        {
+          "organization": "The University of Texas at Austin",
+          "role": "ML research intern, 2024–2025",
+          "relationship": "employee",
+          "status": "historical",
+          "as_of": "2025",
+          "source_url": "https://www.aisinghal.com/"
+        },
+        {
+          "organization": "University of California, Santa Barbara",
+          "role": "ML research intern, 2024–2025",
+          "relationship": "employee",
+          "status": "historical",
+          "as_of": "2025",
+          "source_url": "https://www.aisinghal.com/"
+        },
+        {
+          "organization": "Q-Sight Labs",
+          "role": "Co-founder, 2023–2025",
+          "relationship": "co-founder",
+          "status": "historical",
+          "as_of": "2025",
+          "source_url": "https://www.aisinghal.com/"
+        }
+      ],
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Tech",
+        "Y Combinator"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.aisinghal.com/",
+        "Y Combinator": "https://www.ycombinator.com/companies/mirrors",
+        "Bay Area": "https://www.ycombinator.com/companies/mirrors",
+        "Tech": "https://www.ycombinator.com/companies/mirrors"
       }
     },
     {
