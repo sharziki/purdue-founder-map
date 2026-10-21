@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-21",
   "alumni": [
     {
       "id": "brian-feth",
@@ -36992,6 +36992,108 @@
       ],
       "tag_sources": {
         "Founder": "https://legacy.pharmacy.purdue.edu/alumni-friends/awards-recognition/distinguished-alumni/2024-nathan-gabhart"
+      }
+    },
+    {
+      "id": "aarav-garg",
+      "name": "Aarav Garg",
+      "connection": "Attended Purdue University studying robotics; dropped out without a degree",
+      "connection_source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+      "role": "Founder; former Omi co-founder and COO",
+      "role_source_url": "https://intro.co/aaravgarg",
+      "organization": "Omi / Tech Nuttiez",
+      "region": "San Francisco Bay Area",
+      "kind": "Founder",
+      "why_relevant": "Purdue dropout who helped build Omi's open-source AI wearable and founded Tech Nuttiez, a robotics-learning platform. Co-founded Purdue's Humanoid Robot Club and served as its first president.",
+      "source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+      "source_urls": [
+        "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+        "https://intro.co/aaravgarg",
+        "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2026/2026-0519-purdue-starkhacks-hardware-hackathon",
+        "https://www.technuttiez.com/team",
+        "https://www.omi.me/",
+        "https://aaravgarg.carrd.co/"
+      ],
+      "verified_at": "2026-10-21",
+      "role_as_of": "2026",
+      "linkedin": "https://www.linkedin.com/in/aaravgarg/",
+      "linkedin_source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+      "company": "Omi",
+      "company_website": "https://www.omi.me/",
+      "company_website_source_url": "https://www.omi.me/",
+      "company_location": {
+        "location": "San Francisco, California",
+        "source_url": "https://intro.co/aaravgarg"
+      },
+      "company_product": "Open-source AI wearables and software that turn conversations into transcripts, summaries, tasks and searchable memory.",
+      "company_product_source_url": "https://www.omi.me/",
+      "company_sector": "AI wearables / consumer hardware",
+      "company_sector_source_url": "https://www.omi.me/",
+      "education": [
+        {
+          "institution": "Purdue University",
+          "field": "Robotics",
+          "completion_status": "attended_no_degree",
+          "source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM"
+        }
+      ],
+      "highlights": [
+        {
+          "claim": "Co-founded the Humanoid Robot Club at Purdue and served as its first president; his outreach to AMD CEO Lisa Su helped connect the club with AMD.",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2026/2026-0519-purdue-starkhacks-hardware-hackathon"
+        },
+        {
+          "claim": "Founded Tech Nuttiez, a platform helping young people learn robotics and technology.",
+          "source_url": "https://aaravgarg.carrd.co/"
+        },
+        {
+          "claim": "Announced his departure from Omi in September 2026 after helping build its open-source AI wearable.",
+          "date": "2026",
+          "source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM"
+        }
+      ],
+      "affiliations": [
+        {
+          "organization": "Omi",
+          "role": "Former co-founder and COO",
+          "relationship": "co-founder",
+          "status": "historical",
+          "as_of": "2026",
+          "source_url": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM"
+        },
+        {
+          "organization": "Tech Nuttiez",
+          "role": "Founder and CEO",
+          "relationship": "founder",
+          "status": "current_as_of_source",
+          "source_url": "https://www.technuttiez.com/team"
+        },
+        {
+          "organization": "Humanoid Robot Club Purdue",
+          "role": "Co-founder and first president",
+          "relationship": "co-founder",
+          "status": "historical",
+          "as_of": "2026",
+          "source_url": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2026/2026-0519-purdue-starkhacks-hardware-hackathon"
+        }
+      ],
+      "flags": [
+        "historical-role",
+        "purdue-founder"
+      ],
+      "flag_sources": {
+        "historical-role": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+        "purdue-founder": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2026/2026-0519-purdue-starkhacks-hardware-hackathon"
+      },
+      "tags": [
+        "Bay Area",
+        "Founder",
+        "Tech"
+      ],
+      "tag_sources": {
+        "Founder": "https://www.linkedin.com/posts/aaravgarg_major-life-update-i-am-leaving-omi-past-activity-7504927496643960832-g_RM",
+        "Bay Area": "https://intro.co/aaravgarg",
+        "Tech": "https://www.omi.me/"
       }
     },
     {

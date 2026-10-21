@@ -6,7 +6,7 @@ An independent, open-source reading room of Purdue founders, investors and opera
 
 ## What it is
 
-One screen: a pixel-art room on a rainy night. Someone reads on the couch, a cat sleeps beside him, and a shelf of 26 volumes holds all 2,132 people, A to Z by surname (292 founders, 80 investors, 1,760 operators).
+One screen: a pixel-art room on a rainy night. Someone reads on the couch, a cat sleeps beside him, and a shelf of 26 volumes holds all 2,133 people, A to Z by surname (293 founders, 80 investors, 1,760 operators).
 
 - **Read.** Click a spine and the book flies off the shelf and opens to an index and one page per person. A page gathers everything the database knows about that person: role and Purdue connection, milestones and capital events, the company (product, sector, founding year, funding rounds), career, education, location, and tags. Every claim carries a numbered source. Historical roles are labelled with the year of their source.
 - **Search.** Search by name, company, field, place or tag. Searches for tags such as "yc", "vc", "exits", "bay area" or "new york" offer to **compile a book** of that set. Any search can also be **bound into a book**. Matching volumes get a red ribbon on the shelf.
@@ -14,7 +14,7 @@ One screen: a pixel-art room on a rainy night. Someone reads on the couch, a cat
 - **Poke around.** The cat, the lamp (night mode), the window, a snow globe, an hourglass, a radio, the candle, a ball of yarn, the plant, the tea. Click the reader for a random page.
 - **Connect Claude.** The small *connect claude* link gives the public MCP endpoint, `https://purdue-founder-map.vercel.app/mcp`. It has three read-only tools: `search_people`, `get_person` and `browse_volume`. Add it in Claude.ai or Desktop under Settings → Connectors → Add custom connector, or in Claude Code with `claude mcp add --transport http purdue-founders https://purdue-founder-map.vercel.app/mcp`.
 
-The database holds 1,908 sourced education entries across 1,624 people, 403 dated affiliations, 89 startup profiles, funding for 46 companies, 62 capital and exit milestones, and 620 source-linked tags. Missing profiles stay empty rather than guessed.
+The database holds 1,909 sourced education entries across 1,625 people, 406 dated affiliations, 89 startup profiles, funding for 46 companies, 62 capital and exit milestones, and 623 source-linked tags. Missing profiles stay empty rather than guessed.
 
 Reduced motion freezes the room and skips book transitions. On phones the room scrolls sideways and the book shows one page at a time.
 
